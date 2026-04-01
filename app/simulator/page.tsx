@@ -44,8 +44,8 @@ export default function SimulatorPage() {
             className="flex items-center gap-2 px-4 py-2 bg-blue-900/50 text-blue-400 border border-blue-800 rounded-lg hover:bg-blue-800/50 transition-colors"
           >
             <Dices className="h-4 w-4" />
-            <span className="hidden sm:inline">Simular Resultados</span>
-            <span className="sm:hidden">Simular</span>
+            <span className="hidden sm:inline">Preencher Automaticamente</span>
+            <span className="sm:hidden">Preencher</span>
           </button>
           <button 
             onClick={resetSimulation}

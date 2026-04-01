@@ -3,6 +3,12 @@
 import { useAppStore } from '@/lib/store';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'motion/react';
+import { useMemo } from 'react';
+
+const generateConfetti = () => [...Array(20)].map(() => ({
+  x: (Math.random() - 0.5) * 400,
+  y: (Math.random() - 0.5) * 400
+}));
 
 export function KnockoutBracket() {
   const { knockoutMatches, teams, selectKnockoutWinner, championId } = useAppStore();
@@ -15,19 +21,36 @@ export function KnockoutBracket() {
     { id: 'F', name: 'Final' }
   ];
 
+  const confetti = useMemo(() => generateConfetti(), []);
+
   return (
     <div className="overflow-x-auto pb-8 w-full">
       {championId && (
-        <div className="flex flex-col items-center justify-center mb-8 p-6 bg-gray-900/50 border border-green-500/50 rounded-2xl">
-          <h2 className="text-3xl font-bold text-white mb-4">Campeão da Copa 2026!</h2>
+        <div className="flex flex-col items-center justify-center mb-8 p-6 bg-gray-900/50 border border-green-500/50 rounded-2xl relative overflow-hidden">
+          {/* Confetti-like motion elements */}
+          {confetti.map((pos, i) => (
+            <motion.div
+              key={i}
+              className="absolute w-2 h-2 bg-green-500 rounded-full"
+              initial={{ x: 0, y: 0, opacity: 1 }}
+              animate={{ 
+                x: pos.x, 
+                y: pos.y, 
+                opacity: 0 
+              }}
+              transition={{ duration: 2, delay: 0.5 }}
+            />
+          ))}
+          <h2 className="text-3xl font-bold text-white mb-4 z-10">Campeão da Copa 2026!</h2>
           <motion.div
             initial={{ scale: 0, rotate: -180 }}
             animate={{ scale: 1, rotate: 0 }}
             transition={{ type: 'spring', stiffness: 260, damping: 20 }}
+            className="z-10"
           >
             <Image src={teams.find(t => t.id === championId)?.flagUrl || ''} alt="Campeão" width={200} height={120} className="rounded-lg shadow-2xl" referrerPolicy="no-referrer" />
           </motion.div>
-          <p className="text-xl font-bold text-green-400 mt-4">{teams.find(t => t.id === championId)?.name}</p>
+          <p className="text-xl font-bold text-green-400 mt-4 z-10">{teams.find(t => t.id === championId)?.name}</p>
         </div>
       )}
       <div className="flex min-w-max p-4">
