@@ -194,6 +194,7 @@ interface AppState {
   updateKnockoutScore: (matchId: string, homeScore: number | null, awayScore: number | null, homePenalties: number | null, awayPenalties: number | null) => void;
   generateKnockoutStage: () => void;
   resetSimulation: () => void;
+  randomizeGroupMatches: () => void;
   getGroupStats: (group: string) => TeamStats[];
 }
 
@@ -297,6 +298,14 @@ export const useAppStore = create<AppState>((set, get) => ({
     return { knockoutMatches: newKnockout };
   }),
   resetSimulation: () => set({ matches: generateInitialMatches(), knockoutMatches: generateInitialKnockout() }),
+  randomizeGroupMatches: () => set((state) => {
+    const newMatches = state.matches.map(m => ({
+      ...m,
+      homeScore: Math.floor(Math.random() * 4),
+      awayScore: Math.floor(Math.random() * 4)
+    }));
+    return { matches: newMatches };
+  }),
   getGroupStats: (group: string) => {
     const { teams, matches } = get();
     const groupTeams = teams.filter(t => t.group === group);

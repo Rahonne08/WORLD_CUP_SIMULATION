@@ -2,12 +2,12 @@
 
 import { useAppStore } from '@/lib/store';
 import Image from 'next/image';
-import { RefreshCw, Play } from 'lucide-react';
+import { RefreshCw, Play, Dices } from 'lucide-react';
 import { useState } from 'react';
 import { KnockoutBracket } from '@/components/KnockoutBracket';
 
 export default function SimulatorPage() {
-  const { matches, teams, updateMatchScore, resetSimulation, getGroupStats, generateKnockoutStage } = useAppStore();
+  const { matches, knockoutMatches, teams, updateMatchScore, resetSimulation, getGroupStats, generateKnockoutStage, randomizeGroupMatches } = useAppStore();
   const groups = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];
   const [activeTab, setActiveTab] = useState<'groups' | 'knockout'>('groups');
 
@@ -32,11 +32,19 @@ export default function SimulatorPage() {
         </div>
         <div className="flex items-center gap-3">
           <button 
+            onClick={randomizeGroupMatches}
+            className="flex items-center gap-2 px-4 py-2 bg-blue-900/50 text-blue-400 border border-blue-800 rounded-lg hover:bg-blue-800/50 transition-colors"
+          >
+            <Dices className="h-4 w-4" />
+            <span className="hidden sm:inline">Simular Resultados</span>
+            <span className="sm:hidden">Simular</span>
+          </button>
+          <button 
             onClick={resetSimulation}
             className="flex items-center gap-2 px-4 py-2 bg-red-900/50 text-red-400 border border-red-800 rounded-lg hover:bg-red-800/50 transition-colors"
           >
             <RefreshCw className="h-4 w-4" />
-            Resetar
+            <span className="hidden sm:inline">Resetar</span>
           </button>
           {activeTab === 'groups' && (
             <button 
@@ -47,7 +55,8 @@ export default function SimulatorPage() {
               className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white font-bold border border-green-500 rounded-lg hover:bg-green-500 transition-colors"
             >
               <Play className="h-4 w-4" />
-              Gerar Mata-Mata
+              <span className="hidden sm:inline">Gerar Mata-Mata</span>
+              <span className="sm:hidden">Mata-Mata</span>
             </button>
           )}
         </div>
@@ -61,7 +70,13 @@ export default function SimulatorPage() {
           Fase de Grupos
         </button>
         <button
-          onClick={() => setActiveTab('knockout')}
+          onClick={() => {
+            const r32_1 = knockoutMatches.find(m => m.id === 'R32-1');
+            if (!r32_1?.homeTeamId) {
+              generateKnockoutStage();
+            }
+            setActiveTab('knockout');
+          }}
           className={`flex-1 py-2 text-sm font-bold rounded-lg transition-colors ${activeTab === 'knockout' ? 'bg-gray-800 text-white shadow-sm' : 'text-gray-400 hover:text-gray-200'}`}
         >
           Mata-Mata

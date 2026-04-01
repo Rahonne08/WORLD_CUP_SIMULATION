@@ -16,15 +16,40 @@ export function KnockoutBracket() {
 
   return (
     <div className="overflow-x-auto pb-8 w-full">
-      <div className="flex min-w-max gap-8 p-4">
-        {rounds.map(round => (
-          <div key={round.id} className="flex flex-col gap-4 w-72 shrink-0 justify-around">
-            <h3 className="text-center font-bold text-green-400 mb-4 bg-gray-900/80 py-2 rounded-lg border border-gray-800">{round.name}</h3>
-            {knockoutMatches.filter(m => m.round === round.id).map(match => (
-              <MatchCard key={match.id} match={match} teams={teams} updateScore={updateKnockoutScore} />
-            ))}
-          </div>
-        ))}
+      <div className="flex min-w-max p-4">
+        {rounds.map((round, roundIndex) => {
+          const roundMatches = knockoutMatches.filter(m => m.round === round.id);
+          return (
+            <div key={round.id} className="flex flex-col w-80 shrink-0 relative">
+              <h3 className="text-center font-bold text-green-400 mb-8 bg-gray-900/80 py-2 rounded-lg border border-gray-800 mx-4 h-10 shrink-0 sticky left-0">
+                {round.name}
+              </h3>
+              <div className="flex flex-col flex-1">
+                {roundMatches.map((match, index) => (
+                  <div key={match.id} className="relative px-6 py-2 flex-1 flex flex-col justify-center min-h-[110px]">
+                    <MatchCard match={match} teams={teams} updateScore={updateKnockoutScore} />
+                    
+                    {/* Lines to the right (next round) */}
+                    {roundIndex < rounds.length - 1 && (
+                      <div className="absolute right-2 top-1/2 w-4 border-t-2 border-gray-700"></div>
+                    )}
+                    {roundIndex < rounds.length - 1 && index % 2 === 0 && (
+                      <div className="absolute right-2 top-1/2 h-[50%] border-r-2 border-gray-700 translate-y-[1px] rounded-tr-lg"></div>
+                    )}
+                    {roundIndex < rounds.length - 1 && index % 2 === 1 && (
+                      <div className="absolute right-2 bottom-1/2 h-[50%] border-r-2 border-gray-700 -translate-y-[1px] rounded-br-lg"></div>
+                    )}
+
+                    {/* Lines to the left (previous round) */}
+                    {roundIndex > 0 && (
+                      <div className="absolute left-2 top-1/2 w-4 border-t-2 border-gray-700"></div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
@@ -37,7 +62,7 @@ function MatchCard({ match, teams, updateScore }: any) {
   const isTied = match.homeScore !== null && match.awayScore !== null && match.homeScore === match.awayScore;
 
   return (
-    <div className="bg-gray-900/80 border border-gray-800 rounded-xl p-3 flex flex-col gap-2 shadow-lg hover:border-gray-700 transition-colors">
+    <div className="bg-gray-900/90 border border-gray-700 rounded-xl p-3 flex flex-col gap-2 shadow-lg hover:border-gray-500 transition-colors relative z-10">
       <div className="text-xs text-gray-500 text-center font-mono">{match.id}</div>
       
       {/* Home Team */}
@@ -68,7 +93,7 @@ function MatchCard({ match, teams, updateScore }: any) {
             type="number" min="0" max="99"
             value={match.homeScore !== null ? match.homeScore : ''}
             onChange={(e) => updateScore(match.id, e.target.value ? parseInt(e.target.value) : null, match.awayScore, match.homePenalties, match.awayPenalties)}
-            className="w-10 h-8 bg-gray-950 border border-gray-700 rounded text-center text-sm font-bold text-white focus:outline-none focus:border-green-500"
+            className="w-10 h-8 bg-gray-950 border border-gray-600 rounded text-center text-sm font-bold text-white focus:outline-none focus:border-green-500"
           />
         </div>
       </div>
@@ -101,7 +126,7 @@ function MatchCard({ match, teams, updateScore }: any) {
             type="number" min="0" max="99"
             value={match.awayScore !== null ? match.awayScore : ''}
             onChange={(e) => updateScore(match.id, match.homeScore, e.target.value ? parseInt(e.target.value) : null, match.homePenalties, match.awayPenalties)}
-            className="w-10 h-8 bg-gray-950 border border-gray-700 rounded text-center text-sm font-bold text-white focus:outline-none focus:border-green-500"
+            className="w-10 h-8 bg-gray-950 border border-gray-600 rounded text-center text-sm font-bold text-white focus:outline-none focus:border-green-500"
           />
         </div>
       </div>
