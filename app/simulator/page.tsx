@@ -3,13 +3,21 @@
 import { useAppStore } from '@/lib/store';
 import Image from 'next/image';
 import { RefreshCw, Play, Dices } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { KnockoutBracket } from '@/components/KnockoutBracket';
 
 export default function SimulatorPage() {
   const { matches, knockoutMatches, teams, updateMatchScore, resetSimulation, getGroupStats, generateKnockoutStage, randomizeGroupMatches } = useAppStore();
   const groups = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];
   const [activeTab, setActiveTab] = useState<'groups' | 'knockout'>('groups');
+
+  // Automatically generate knockout stage when all group matches are played
+  useEffect(() => {
+    const allMatchesPlayed = matches.every(m => m.homeScore !== null && m.awayScore !== null);
+    if (allMatchesPlayed) {
+      generateKnockoutStage();
+    }
+  }, [matches, generateKnockoutStage]);
 
   const handleScoreChange = (matchId: string, type: 'home' | 'away', value: string) => {
     const numValue = value === '' ? null : parseInt(value, 10);
