@@ -2,11 +2,14 @@
 
 import { useAppStore } from '@/lib/store';
 import Image from 'next/image';
-import { RefreshCw } from 'lucide-react';
+import { RefreshCw, Play } from 'lucide-react';
+import { useState } from 'react';
+import { KnockoutBracket } from '@/components/KnockoutBracket';
 
 export default function SimulatorPage() {
-  const { matches, teams, updateMatchScore, resetSimulation, getGroupStats } = useAppStore();
+  const { matches, teams, updateMatchScore, resetSimulation, getGroupStats, generateKnockoutStage } = useAppStore();
   const groups = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];
+  const [activeTab, setActiveTab] = useState<'groups' | 'knockout'>('groups');
 
   const handleScoreChange = (matchId: string, type: 'home' | 'away', value: string) => {
     const numValue = value === '' ? null : parseInt(value, 10);
@@ -27,17 +30,47 @@ export default function SimulatorPage() {
           <h1 className="text-3xl font-bold text-white mb-2">Simulador de Partidas</h1>
           <p className="text-gray-400">Insira os resultados e veja a tabela atualizar em tempo real.</p>
         </div>
-        <button 
-          onClick={resetSimulation}
-          className="flex items-center gap-2 px-4 py-2 bg-red-900/50 text-red-400 border border-red-800 rounded-lg hover:bg-red-800/50 transition-colors"
+        <div className="flex items-center gap-3">
+          <button 
+            onClick={resetSimulation}
+            className="flex items-center gap-2 px-4 py-2 bg-red-900/50 text-red-400 border border-red-800 rounded-lg hover:bg-red-800/50 transition-colors"
+          >
+            <RefreshCw className="h-4 w-4" />
+            Resetar
+          </button>
+          {activeTab === 'groups' && (
+            <button 
+              onClick={() => {
+                generateKnockoutStage();
+                setActiveTab('knockout');
+              }}
+              className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white font-bold border border-green-500 rounded-lg hover:bg-green-500 transition-colors"
+            >
+              <Play className="h-4 w-4" />
+              Gerar Mata-Mata
+            </button>
+          )}
+        </div>
+      </div>
+
+      <div className="flex bg-gray-900/50 p-1 rounded-xl border border-gray-800 w-full max-w-md mx-auto">
+        <button
+          onClick={() => setActiveTab('groups')}
+          className={`flex-1 py-2 text-sm font-bold rounded-lg transition-colors ${activeTab === 'groups' ? 'bg-gray-800 text-white shadow-sm' : 'text-gray-400 hover:text-gray-200'}`}
         >
-          <RefreshCw className="h-4 w-4" />
-          Resetar Simulação
+          Fase de Grupos
+        </button>
+        <button
+          onClick={() => setActiveTab('knockout')}
+          className={`flex-1 py-2 text-sm font-bold rounded-lg transition-colors ${activeTab === 'knockout' ? 'bg-gray-800 text-white shadow-sm' : 'text-gray-400 hover:text-gray-200'}`}
+        >
+          Mata-Mata
         </button>
       </div>
 
-      <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
-        {groups.map((group) => {
+      {activeTab === 'groups' ? (
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
+          {groups.map((group) => {
           const groupMatches = matches.filter(m => m.group === group);
           const stats = getGroupStats(group);
 
@@ -133,6 +166,11 @@ export default function SimulatorPage() {
           );
         })}
       </div>
+      ) : (
+        <div className="bg-gray-900/30 border border-gray-800 rounded-2xl p-6">
+          <KnockoutBracket />
+        </div>
+      )}
     </div>
   );
 }
