@@ -34,10 +34,7 @@ export interface KnockoutMatch {
   round: 'R32' | 'R16' | 'QF' | 'SF' | 'F';
   homeTeamId: string | null;
   awayTeamId: string | null;
-  homeScore: number | null;
-  awayScore: number | null;
-  homePenalties: number | null;
-  awayPenalties: number | null;
+  winnerId: string | null;
   nextMatchId: string | null;
   isHomeNext: boolean;
 }
@@ -134,8 +131,7 @@ export const generateInitialKnockout = (): KnockoutMatch[] => {
   for (let i = 1; i <= 16; i++) {
     matches.push({
       id: `R32-${i}`, round: 'R32',
-      homeTeamId: null, awayTeamId: null,
-      homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null,
+      homeTeamId: null, awayTeamId: null, winnerId: null,
       nextMatchId: `R16-${Math.ceil(i / 2)}`,
       isHomeNext: i % 2 !== 0
     });
@@ -145,8 +141,7 @@ export const generateInitialKnockout = (): KnockoutMatch[] => {
   for (let i = 1; i <= 8; i++) {
     matches.push({
       id: `R16-${i}`, round: 'R16',
-      homeTeamId: null, awayTeamId: null,
-      homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null,
+      homeTeamId: null, awayTeamId: null, winnerId: null,
       nextMatchId: `QF-${Math.ceil(i / 2)}`,
       isHomeNext: i % 2 !== 0
     });
@@ -156,8 +151,7 @@ export const generateInitialKnockout = (): KnockoutMatch[] => {
   for (let i = 1; i <= 4; i++) {
     matches.push({
       id: `QF-${i}`, round: 'QF',
-      homeTeamId: null, awayTeamId: null,
-      homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null,
+      homeTeamId: null, awayTeamId: null, winnerId: null,
       nextMatchId: `SF-${Math.ceil(i / 2)}`,
       isHomeNext: i % 2 !== 0
     });
@@ -167,8 +161,7 @@ export const generateInitialKnockout = (): KnockoutMatch[] => {
   for (let i = 1; i <= 2; i++) {
     matches.push({
       id: `SF-${i}`, round: 'SF',
-      homeTeamId: null, awayTeamId: null,
-      homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null,
+      homeTeamId: null, awayTeamId: null, winnerId: null,
       nextMatchId: `F-1`,
       isHomeNext: i % 2 !== 0
     });
@@ -177,8 +170,7 @@ export const generateInitialKnockout = (): KnockoutMatch[] => {
   // F (Final)
   matches.push({
     id: `F-1`, round: 'F',
-    homeTeamId: null, awayTeamId: null,
-    homeScore: null, awayScore: null, homePenalties: null, awayPenalties: null,
+    homeTeamId: null, awayTeamId: null, winnerId: null,
     nextMatchId: null,
     isHomeNext: false
   });
@@ -190,8 +182,9 @@ interface AppState {
   teams: Team[];
   matches: Match[];
   knockoutMatches: KnockoutMatch[];
+  championId: string | null;
   updateMatchScore: (matchId: string, homeScore: number | null, awayScore: number | null) => void;
-  updateKnockoutScore: (matchId: string, homeScore: number | null, awayScore: number | null, homePenalties: number | null, awayPenalties: number | null) => void;
+  selectKnockoutWinner: (matchId: string, winnerId: string) => void;
   generateKnockoutStage: () => void;
   resetSimulation: () => void;
   randomizeGroupMatches: () => void;
@@ -202,49 +195,34 @@ export const useAppStore = create<AppState>((set, get) => ({
   teams: initialTeams,
   matches: generateInitialMatches(),
   knockoutMatches: generateInitialKnockout(),
+  championId: null,
   updateMatchScore: (matchId, homeScore, awayScore) => set((state) => ({
     matches: state.matches.map(m => m.id === matchId ? { ...m, homeScore, awayScore } : m)
   })),
-  updateKnockoutScore: (matchId, homeScore, awayScore, homePenalties, awayPenalties) => set((state) => {
+  selectKnockoutWinner: (matchId, winnerId) => set((state) => {
     const newMatches = [...state.knockoutMatches];
     const matchIndex = newMatches.findIndex(m => m.id === matchId);
     if (matchIndex === -1) return state;
 
-    const match = { ...newMatches[matchIndex], homeScore, awayScore, homePenalties, awayPenalties };
+    const match = { ...newMatches[matchIndex], winnerId };
     newMatches[matchIndex] = match;
 
-    let winnerId: string | null = null;
-    if (homeScore !== null && awayScore !== null) {
-      if (homeScore > awayScore) winnerId = match.homeTeamId;
-      else if (awayScore > homeScore) winnerId = match.awayTeamId;
-      else if (homePenalties !== null && awayPenalties !== null) {
-        if (homePenalties > awayPenalties) winnerId = match.homeTeamId;
-        else if (awayPenalties > homePenalties) winnerId = match.awayTeamId;
-      }
-    }
+    let championId = state.championId;
 
     if (match.nextMatchId) {
       const nextMatchIndex = newMatches.findIndex(m => m.id === match.nextMatchId);
       if (nextMatchIndex !== -1) {
         const nextMatch = { ...newMatches[nextMatchIndex] };
-        const currentWinnerInNextMatch = match.isHomeNext ? nextMatch.homeTeamId : nextMatch.awayTeamId;
-        
-        if (currentWinnerInNextMatch !== winnerId) {
-          if (match.isHomeNext) {
-            nextMatch.homeTeamId = winnerId;
-          } else {
-            nextMatch.awayTeamId = winnerId;
-          }
-          nextMatch.homeScore = null;
-          nextMatch.awayScore = null;
-          nextMatch.homePenalties = null;
-          nextMatch.awayPenalties = null;
-          newMatches[nextMatchIndex] = nextMatch;
-        }
+        if (match.isHomeNext) nextMatch.homeTeamId = winnerId;
+        else nextMatch.awayTeamId = winnerId;
+        nextMatch.winnerId = null; // Reset next match winner if it was set
+        newMatches[nextMatchIndex] = nextMatch;
       }
+    } else if (match.round === 'F') {
+      championId = winnerId;
     }
 
-    return { knockoutMatches: newMatches };
+    return { knockoutMatches: newMatches, championId };
   }),
   generateKnockoutStage: () => set((state) => {
     const groups = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];
@@ -268,36 +246,30 @@ export const useAppStore = create<AppState>((set, get) => ({
       return a.team.name.localeCompare(b.team.name);
     });
 
-    const bestThirds = thirds.slice(0, 8).map(t => t.team.id);
+    const bestThirds = thirds.slice(0, 8);
+    
     const newKnockout = generateInitialKnockout();
+
+    const allTeams = [
+      ...Object.entries(firsts).map(([g, id]) => ({ id, group: g })),
+      ...Object.entries(seconds).map(([g, id]) => ({ id, group: g })),
+      ...bestThirds.map(t => ({ id: t.team.id, group: t.team.group }))
+    ];
 
     const setMatch = (id: string, home: string | null, away: string | null) => {
       const m = newKnockout.find(x => x.id === id);
       if (m) { m.homeTeamId = home; m.awayTeamId = away; }
     };
 
-    const getT = (arr: string[], idx: number) => arr[idx] || null;
+    for (let i = 0; i < 16; i++) {
+      const home = allTeams[i * 2];
+      const away = allTeams[i * 2 + 1];
+      setMatch(`R32-${i + 1}`, home?.id || null, away?.id || null);
+    }
 
-    setMatch('R32-1', firsts['A'], getT(bestThirds, 0));
-    setMatch('R32-2', seconds['B'], seconds['C']);
-    setMatch('R32-3', firsts['D'], getT(bestThirds, 1));
-    setMatch('R32-4', seconds['E'], seconds['F']);
-    setMatch('R32-5', firsts['G'], getT(bestThirds, 2));
-    setMatch('R32-6', seconds['H'], seconds['I']);
-    setMatch('R32-7', firsts['J'], getT(bestThirds, 3));
-    setMatch('R32-8', seconds['K'], seconds['L']);
-    setMatch('R32-9', firsts['B'], getT(bestThirds, 4));
-    setMatch('R32-10', firsts['C'], seconds['A']);
-    setMatch('R32-11', firsts['F'], getT(bestThirds, 5));
-    setMatch('R32-12', firsts['E'], seconds['D']);
-    setMatch('R32-13', firsts['H'], getT(bestThirds, 6));
-    setMatch('R32-14', firsts['I'], seconds['G']);
-    setMatch('R32-15', firsts['K'], getT(bestThirds, 7));
-    setMatch('R32-16', firsts['L'], seconds['J']);
-
-    return { knockoutMatches: newKnockout };
+    return { knockoutMatches: newKnockout, championId: null };
   }),
-  resetSimulation: () => set({ matches: generateInitialMatches(), knockoutMatches: generateInitialKnockout() }),
+  resetSimulation: () => set({ matches: generateInitialMatches(), knockoutMatches: generateInitialKnockout(), championId: null }),
   randomizeGroupMatches: () => set((state) => {
     const newMatches = state.matches.map(m => ({
       ...m,
