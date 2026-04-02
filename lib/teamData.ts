@@ -22,7 +22,21 @@ Primeira Copa do Mundo: 1998 (fase de grupos)
 Participações: 4 (1998, 2002, 2010, 2026)
 Sequência atual de classificações: 1
 País-sede: 2010 (fase de grupos)
-Histórico na Copa do Mundo: 9 J, 2 V, 4 E, 3 D, 11 GP, 16 GC`,
+Histórico na Copa do Mundo: 9 J, 2 V, 4 E, 3 D, 11 GP, 16 GC
+
+Jogos da África do Sul no Grupo A
+Rodada 1 
+11 de junho
+México x África do Sul 
+Local: Cidade do México, no México – 13h00 no horário local (16h00 em Brasília)
+Rodada 2 
+18 de junho
+República Tcheca x África do Sul 
+Local: Atlanta, nos EUA – 12h00 no horário local (13h00 em Brasília)
+Rodada 3
+ 24 de junho
+África do Sul x República da Coreia 
+Local: Monterrey, no México – 19h00 no horário local (22h00 em Brasília)`,
     qualification: `Como a África do Sul se classificou para 2026
 A África do Sul garantiu sua quarta participação em Copas do Mundo ao terminar na liderança do Grupo C das eliminatórias da CAF, com cinco vitórias, três empates e duas derrotas. A classificação veio após uma disputa acirrada com a Nigéria, potência continental, e com o surpreendente Benin, sendo decidida apenas nos minutos finais da última rodada.
 
@@ -121,7 +135,21 @@ Primeira Copa do Mundo: Uruguai 1930
 Participações: 18 (1930, 1950, 1954, 1958, 1962, 1966, 1970, 1978, 1986, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022, 2026)
 Sequência atual de classificações: 9 (de 1994 a 2026)
 Sede da Copa do Mundo: 1970 (quartas de final), 1986 (quartas), 2026
-Histórico na Copa do Mundo: 60 J, 17 V, 15 E, 28 D, 62 GP, 101 GC`,
+Histórico na Copa do Mundo: 60 J, 17 V, 15 E, 28 D, 62 GP, 101 GC
+
+Jogos do México no Grupo A
+Rodada 1
+ 11 de junho
+México x África do Sul 
+Local: Cidade do México, no México – 13h00 no horário local (16h00 em Brasília)
+Rodada 2 
+18 de junho
+México x República da Coreia 
+Local: Guadalajara, no México – 19h00 no horário local (22h00 em Brasília)
+Rodada 3
+ 24 de junho
+República Tcheca x México 
+Local: Cidade do México, no México – 19h00 no horário local (20h00 em Brasília)`,
     qualification: `🏆 Copa do Mundo de 2026 (anfitriã)
 
 O México será co-anfitrião da Copa do Mundo FIFA 2026, junto com:
@@ -179,6 +207,20 @@ O Canadá garantiu sua vaga como coanfitrião do torneio, ao lado dos Estados Un
   'KOR': {
     history: `República da Coreia se classificou para sua 11ª Copa do Mundo da FIFA seguida
 No Qatar 2022, sul-coreanos passaram da fase de grupos pela primeira vez em 12 anos
+
+Jogos da Coreia do Sul no Grupo A
+Rodada 1 
+11 de junho
+Coreia do Sul x República Tcheca 
+Local: Guadalajara – 20h00 no horário local (23h00 em Brasília)
+Rodada 2 
+18 de junho
+México x Coreia do Sul 
+Local: Guadalajara, no México – 19h00 no horário local (22h00 em Brasília)
+Rodada 3 
+24 de junho
+África do Sul x Coreia do Sul
+Local: Monterrey, no México – 19h00 no horário local (22h00 em Brasília)
 
 Histórico da Coreia do Sul na Copa do Mundo
 Confederação: AFC
