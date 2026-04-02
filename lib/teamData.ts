@@ -900,6 +900,148 @@ Agora, retorna ao Mundial com mais experiência e ambição! 💪🇧🇦`,
       { opponent: 'Romênia', result: 'W', score: '3-1' },
       { opponent: 'Malta', result: 'W', score: '4-1' },
     ]
+  },
+  'MAR': {
+    history: `## 🇲🇦 Marrocos na Copa do Mundo da FIFA: perfil e histórico da seleção
+
+---
+
+### 🌍 Destaques gerais
+
+* Em 2026, o Marrocos disputará sua **7ª Copa do Mundo da FIFA™**
+* Será a **3ª participação consecutiva**, algo inédito para o país
+* Melhor campanha: **4º lugar no Qatar 2022**
+* Primeira seleção africana a alcançar uma **semifinal de Copa do Mundo**
+
+O Marrocos chega à Copa de 2026 com o objetivo de provar que a campanha histórica de 2022 não foi acaso. A equipe segue como uma das maiores forças do futebol africano e mundial.
+
+---
+
+### 📅 Jogos do Marrocos – Grupo C
+
+**Rodada 1**
+📍 13 de junho
+Brasil x Marrocos
+Nova York/Nova Jersey (EUA)
+
+**Rodada 2**
+📍 19 de junho
+Escócia x Marrocos
+Boston (EUA)
+
+**Rodada 3**
+📍 24 de junho
+Marrocos x Haiti
+Atlanta (EUA)
+
+---
+
+### 🧠 Técnico do Marrocos
+
+O atual treinador é Mohamed Ouahbi, que assumiu a equipe pouco antes do Mundial de 2026.
+
+* Nascido na Bélgica
+* Ganhou destaque ao conquistar a **Copa do Mundo Sub-20 de 2025** com o Marrocos
+* Substituiu Walid Regragui, responsável pela campanha histórica de 2022
+
+---
+
+### 🛣️ Como o Marrocos se classificou para 2026
+
+O Marrocos garantiu vaga de forma dominante nas eliminatórias africanas:
+
+* Classificou-se em **5 de setembro de 2025**
+* Vitória marcante: **5 a 0 sobre o Níger**
+* Terminou como líder do Grupo E da CAF com ampla vantagem
+
+---
+
+### 📊 Histórico do Marrocos em Copas
+
+* **Participações:** 7 (1970, 1986, 1994, 1998, 2018, 2022, 2026)
+* **Melhor campanha:** Semifinal (2022)
+* **Jogos:** 23
+* **Vitórias:** 5
+* **Empates:** 7
+* **Derrotas:** 11
+* **Gols marcados:** 20
+* **Gols sofridos:** 27
+
+---
+
+### 🏁 Primeira participação – México 1970
+
+A estreia aconteceu na Copa de 1970, no México:
+
+* Derrota para a Alemanha Ocidental (2x1)
+* Derrota para o Peru (3x0)
+* Empate com a Bulgária (1x1)
+
+Mesmo sem avançar, o Marrocos deixou boa impressão como representante africano.
+
+---
+
+### ⭐ Última Copa – Qatar 2022 (Histórica)
+
+O auge da seleção marroquina aconteceu no Copa do Mundo FIFA Qatar 2022:
+
+* Empate com a Croácia (0x0)
+* Vitória sobre a Bélgica (2x0)
+* Vitória sobre o Canadá (2x1)
+
+**Fase eliminatória:**
+
+* Eliminou a Espanha (pênaltis)
+* Eliminou Portugal (1x0)
+* Caiu na semifinal para a França (2x0)
+
+➡️ Resultado final: **4º lugar (melhor campanha da história africana)**
+
+---
+
+### ⚽ Artilheiro do Marrocos em Copas
+
+O maior goleador é Youssef En-Nesyri:
+
+* **3 gols em Copas do Mundo**
+* Destaque para o gol histórico contra Portugal em 2022
+
+---
+
+### 🏃 Recordistas de jogos
+
+Achraf Hakimi e Hakim Ziyech são os jogadores com mais partidas:
+
+* **10 jogos cada**
+* Participações em 2018 e 2022
+
+---
+
+### 💥 Momentos inesquecíveis
+
+* **1986:** primeiro país africano a passar da fase de grupos
+* **2022:** primeira seleção africana a chegar à semifinal
+* **1998:** vitória por 3x0 sobre a Escócia (maior vitória em Copas)
+
+---
+
+### 🚀 Expectativas para 2026
+
+Com uma geração talentosa e embalada pelo sucesso recente, o Marrocos entra na Copa de 2026 como uma seleção perigosa e respeitada.
+
+Os Leões do Atlas querem mais do que repetir 2022: o sonho agora é chegar à final e continuar fazendo história no futebol mundial.`,
+    qualification: `O Marrocos garantiu vaga de forma dominante nas eliminatórias africanas:
+
+* Classificou-se em **5 de setembro de 2025**
+* Vitória marcante: **5 a 0 sobre o Níger**
+* Terminou como líder do Grupo E da CAF com ampla vantagem`,
+    lastMatches: [
+      { opponent: 'Paraguai', result: 'W', score: '2-1' },
+      { opponent: 'Equador', result: 'D', score: '1-1' },
+      { opponent: 'Senegal', result: 'W', score: '3-0' },
+      { opponent: 'Nigéria', result: 'W', score: '0(4)-0(2)' },
+      { opponent: 'Camarões', result: 'W', score: '2-0' },
+    ]
   }
 };
 
