@@ -1863,6 +1863,61 @@ A campanha rumo a 2026 foi avassaladora! Curaçau não deu chances aos rivais:
       { opponent: 'Bermudas', result: 'W', score: '7-0' },
       { opponent: 'Trinidad e Tobago', result: 'D', score: '1-1' },
     ]
+  },
+  'CIV': {
+    history: `## COSTA DO MARFIM: O RETORNO DOS ELEFANTES! ✨🇨🇮
+
+🎉 **A Volta da Potência Africana!**
+Após 12 anos de espera, a Costa do Marfim está de volta ao maior palco do futebol mundial! 🌍✈️ A última vez que vimos os "Elefantes" em ação foi no Brasil 2014, e agora eles desembarcam na América do Norte para a sua 4ª participação histórica.
+
+Atuais Campeões Africanos (2024) 🏆, os marfinenses chegam com uma missão clara: quebrar o tabu e avançar pela primeira vez para os mata-matas! O país está mobilizado para ver essa geração de ouro fazer história. 🇨🇮🔥
+
+🧠📋 **O Comandante: Emerse Faé**
+Emerse Faé assumiu o leme em janeiro de 2024 em um momento crítico e transformou a seleção! Sua chegada foi o combustível necessário para levar a equipe ao título continental e, agora, ao Mundial de 2026. 👔🔝
+
+---
+
+### 📅 AGENDA DA COSTA DO MARFIM – GRUPO E 🗓️
+Prepare a torcida, os Elefantes vão passar! 🐘⏰
+
+⚔️ **Rodada 1**
+* **Jogo:** 🇨🇮 Costa do Marfim x Equador 🇪🇨
+* 📍 **Local:** Filadélfia (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 14 de junho | 20h00 *(horário de Brasília)*
+
+⚔️ **Rodada 2**
+* **Jogo:** 🇩🇪 Alemanha x Costa do Marfim 🇨🇮
+* 📍 **Local:** Toronto (Canadá) 🇨🇦
+* 🕒 **Data/Hora:** 20 de junho | 17h00 *(horário de Brasília)*
+
+⚔️ **Rodada 3**
+* **Jogo:** 🇨🇼 Curaçau x Costa do Marfim 🇨🇮
+* 📍 **Local:** Filadélfia (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 25 de junho | 17h00 *(horário de Brasília)*
+
+---
+
+### 📜 HISTÓRICO NA COPA DO MUNDO 🏆
+Uma trajetória de garra no continente africano:
+
+* 🌍 **Confederação:** CAF (África)
+* ⭐ **Melhores Campanhas:** 2006, 2010, 2014 (Fase de Grupos)
+* 🔙 **Primeira Copa:** Alemanha 2006
+* 🔢 **Participações:** 4 (2006, 2010, 2014 e 2026)
+* 📊 **Estatísticas:** 9 Jogos | 3 Vitórias ✅ | 1 Empate 🤝 | 5 Derrotas ❌ | 13 Gols Pró ⚽`,
+    qualification: `### 🛣️ O Caminho Invencível até a Vaga
+
+A classificação veio com autoridade total! A Costa do Marfim garantiu sua vaga ao vencer o Quênia 🇰🇪 por 3 a 0 na última rodada das eliminatórias. Confira os destaques da campanha no Grupo F:
+
+* 🛡️ **Defesa de Ferro:** Terminaram a liderança invictos e sem sofrer um único gol! 🚫⚽
+* 🎯 **Artilharia Pesada:** O paredão do meio-campo Seko Fofana liderou com 3 gols, seguido de perto por nomes de peso como Franck Kessié, Simon Adingra e Sébastien Haller.`,
+    lastMatches: [
+      { opponent: 'Escócia', result: 'W', score: '1-0' },
+      { opponent: 'Coreia do Sul', result: 'W', score: '4-0' },
+      { opponent: 'Egito', result: 'L', score: '2-3' },
+      { opponent: 'Burkina Faso', result: 'W', score: '3-0' },
+      { opponent: 'Gabão', result: 'W', score: '3-2' },
+    ]
   }
 };
 
