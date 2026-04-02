@@ -1974,6 +1974,62 @@ O segredo do sucesso equatoriano rumo a 2026 foi o "ferrolho" lá atrás:
       { opponent: 'Canadá', result: 'D', score: '0-0' },
       { opponent: 'México', result: 'D', score: '1-1' },
     ]
+  },
+  'NED': {
+    history: `## 🇳🇱✨ HOLANDA: A BUSCA PELO TOPO DO MUNDO! ✨🇳🇱
+
+🎉 **A Tradição da Laranja Mecânica!**
+Os Países Baixos chegam à Copa do Mundo da FIFA 2026™ com um histórico que impõe respeito: em todas as edições que participaram desde 1974, nunca foram eliminados na primeira fase! 🤯🔥
+
+Com três vice-campeonatos na bagagem, a Holanda desembarca na América do Norte decidida a dar o passo final que falta para a consagração mundial. Após caírem nas quartas de final em 2022, os holandeses prometem futebol total para buscar o título inédito! 🏆🇳🇱
+
+🧠🎯 **O Comandante: Ronald Koeman**
+Ídolo como jogador e agora em sua segunda passagem como técnico, Ronald Koeman assumiu o comando em 2023. Com passagens por gigantes como Barcelona e Ajax, o ex-zagueiro artilheiro traz toda sua experiência para guiar a nova geração holandesa rumo à glória! 📋👨🏫
+
+---
+
+### 📅 AGENDA DA HOLANDA – GRUPO F 🗓️
+Prepare o seu manto laranja, os jogos prometem ser eletrizantes! ⏰
+
+⚔️ **Rodada 1**
+* **Jogo:** 🇳🇱 Holanda x Japão 🇯🇵
+* 📍 **Local:** Dallas (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 14 de junho | 17h00 *(horário de Brasília)*
+
+⚔️ **Rodada 2**
+* **Jogo:** 🇳🇱 Holanda x Suécia 🇸🇪
+* 📍 **Local:** Houston (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 20 de junho | 14h00 *(horário de Brasília)*
+
+⚔️ **Rodada 3**
+* **Jogo:** 🇹🇳 Tunísia x Holanda 🇳🇱
+* 📍 **Local:** Kansas City (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 25 de junho | 20h00 *(horário de Brasília)*
+
+---
+
+### 📜 HISTÓRICO NA COPA DO MUNDO 🏆
+Uma das camisas mais pesadas do futebol europeu:
+
+* 🌍 **Confederação:** UEFA
+* 🥈 **Melhores Campanhas:** Vice-campeã em 1974, 1978 e 2010
+* ⏪ **Última Copa:** Catar 2022 (Quartas de Final)
+* 🔢 **Participações:** 12 (1934, 1938, 1974, 1978, 1990, 1994, 1998, 2006, 2010, 2014, 2022, 2026)
+* 📊 **Estatísticas Gerais:** 55 Jogos | 30 Vitórias ✅ | 14 Empates 🤝 | 11 Derrotas ❌`,
+    qualification: `### 🛣️ O Caminho até a Vaga
+
+A classificação foi garantida com autoridade e emoção! A Holanda terminou as eliminatórias da UEFA de forma invicta no Grupo G:
+
+* 👊 **Goleada Final:** A vaga foi carimbada com um sonoro 4 a 0 sobre a Lituânia 🇱🇹.
+* 📊 **Domínio Total:** Em 6 jogos contra Finlândia, Malta e Lituânia, a equipe marcou impressionantes 25 gols e sofreu apenas 2! 🛡️⚽
+* 🤝 **Equilíbrio:** Os únicos pontos perdidos foram nos empates contra a forte seleção da Polônia 🇵🇱.`,
+    lastMatches: [
+      { opponent: 'Equador', result: 'D', score: '1-1' },
+      { opponent: 'Noruega', result: 'W', score: '2-1' },
+      { opponent: 'Lituânia', result: 'W', score: '4-0' },
+      { opponent: 'Polônia', result: 'D', score: '1-1' },
+      { opponent: 'Finlândia', result: 'W', score: '4-0' },
+    ]
   }
 };
 
