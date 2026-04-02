@@ -50,7 +50,10 @@ export default function TeamsPage() {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <span className="font-bold text-gray-100">{team.name}</span>
+                    <div className="flex items-center gap-2">
+                      <span className="text-xs font-bold text-green-500 bg-green-500/10 px-1.5 py-0.5 rounded border border-green-500/20">#{team.ranking}</span>
+                      <span className="font-bold text-gray-100">{team.name}</span>
+                    </div>
                     <span className="text-xs text-gray-500 font-mono">{team.code}</span>
                   </div>
                 </button>

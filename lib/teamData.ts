@@ -225,14 +225,58 @@ O Brasil garantiu sua vaga nas Eliminatórias Sul-Americanas, terminando entre o
     ]
   },
   'ESP': {
-    history: 'A Espanha conquistou o mundo em 2010 com seu famoso estilo "tiki-taka". Após um período de renovação, a La Roja voltou a figurar entre as principais forças da Europa, com uma geração jovem e muito técnica.',
-    qualification: 'A Espanha garantiu o primeiro lugar em seu grupo nas Eliminatórias Europeias, superando adversários difíceis com um futebol de muita posse de bola e controle.',
+    history: `## 🇪🇸✨ ESPANHA: A FURIA CHEGA COM SEDE DE BICAMPEONATO! ✨🇪🇸
+
+🎉 **Atual Campeã Europeia em Campo!**
+A Espanha desembarca na América do Norte para a sua 17ª Copa do Mundo com o moral no topo! 📈🏆 Após conquistar a Euro 2024, a seleção espanhola quer provar que a nova geração está pronta para repetir o feito histórico de 2010 e pintar o mundo de vermelho novamente.
+
+Sob o comando de Luis de la Fuente, a "Roja" busca apagar a eliminação precoce de 2022 e reafirmar seu estilo de jogo envolvente e dominante em solo americano, mexicano e canadense! 🌍✈️
+
+🧠📋 **O Comandante: Luis de la Fuente**
+Assumindo o desafio em dezembro de 2022, De la Fuente transformou a equipe. Com um perfil agregador e profundo conhecimento das categorias de base, ele conseguiu unir a experiência de veteranos com a explosão de jovens talentos, devolvendo à Espanha o posto de favorita em qualquer competição! 👔🔝
+
+---
+
+### 📅 AGENDA DA ESPANHA – GRUPO H 🗓️
+Não perca a estreia da atual campeã da Europa! ⏰
+
+⚔️ **Rodada 1**
+* **Jogo:** 🇪🇸 Espanha x Cabo Verde 🇨🇻
+* 📍 **Local:** Atlanta (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 15 de junho | 13h00 *(horário de Brasília)*
+
+⚔️ **Rodada 2**
+* **Jogo:** 🇪🇸 Espanha x Arábia Saudita 🇸🇦
+* 📍 **Local:** Guadalajara (México) 🇲🇽
+* 🕒 **Data/Hora:** 21 de junho | 21h00 *(horário de Brasília)*
+
+⚔️ **Rodada 3**
+* **Jogo:** 🇺🇾 Uruguai x Espanha 🇪🇸
+* 📍 **Local:** Guadalajara (México) 🇲🇽
+* 🕒 **Data/Hora:** 26 de junho | 22h00 *(horário de Brasília)*
+
+---
+
+### 📜 HISTÓRICO NA COPA DO MUNDO 🏆
+Uma das camisas mais tradicionais do futebol:
+
+* 🌍 **Confederação:** UEFA
+* 🥇 **Melhor Campanha:** Campeã (2010) 🏆
+* 🔙 **Primeira Copa:** Itália 1934
+* 🔢 **Participações:** 17 (Uma sequência incrível de 13 seguidas!)
+* 📊 **Estatísticas:** 67 Jogos | 31 Vitórias ✅ | 17 Empates 🤝 | 19 Derrotas ❌`,
+    qualification: `### 🛣️ O Caminho Impecável até a Vaga
+
+A classificação para 2026 foi um verdadeiro passeio! A Espanha dominou o Grupo E com uma campanha de quase 100% de aproveitamento:
+
+* 💥 **Ataque Demolidor:** Goleadas marcantes como o 6 a 0 sobre a Turquia 🇹🇷 e os massacres sobre Bulgária 🇧🇬 e Geórgia 🇬🇪.
+* 🛡️ **Solidez Total:** A equipe garantiu a vaga com muita antecedência, mostrando um equilíbrio perfeito entre posse de bola e eficiência defensiva.`,
     lastMatches: [
-      { opponent: 'França', result: 'D', score: '2-2' },
-      { opponent: 'Portugal', result: 'W', score: '1-0' },
-      { opponent: 'Itália', result: 'W', score: '2-1' },
-      { opponent: 'Croácia', result: 'W', score: '3-0' },
-      { opponent: 'Alemanha', result: 'D', score: '1-1' },
+      { opponent: 'Egito', result: 'D', score: '0-0' },
+      { opponent: 'Sérvia', result: 'W', score: '3-0' },
+      { opponent: 'Turquia', result: 'D', score: '2-2' },
+      { opponent: 'Geórgia', result: 'W', score: '4-0' },
+      { opponent: 'Bulgária', result: 'W', score: '4-0' },
     ]
   },
   'GER': {

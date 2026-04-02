@@ -6,6 +6,7 @@ export interface Team {
   code: string;
   group: string;
   flagUrl: string;
+  ranking: number;
 }
 
 export interface Match {
@@ -41,65 +42,65 @@ export interface KnockoutMatch {
 
 export const initialTeams: Team[] = [
   // Grupo A
-  { id: 'MEX', name: 'México', code: 'MEX', group: 'A', flagUrl: 'https://flagcdn.com/w80/mx.png' },
-  { id: 'RSA', name: 'África do Sul', code: 'RSA', group: 'A', flagUrl: 'https://flagcdn.com/w80/za.png' },
-  { id: 'KOR', name: 'Coreia do Sul', code: 'KOR', group: 'A', flagUrl: 'https://flagcdn.com/w80/kr.png' },
-  { id: 'CZE', name: 'República Tcheca', code: 'CZE', group: 'A', flagUrl: 'https://flagcdn.com/w80/cz.png' },
+  { id: 'MEX', name: 'México', code: 'MEX', group: 'A', flagUrl: 'https://flagcdn.com/w80/mx.png', ranking: 15 },
+  { id: 'RSA', name: 'África do Sul', code: 'RSA', group: 'A', flagUrl: 'https://flagcdn.com/w80/za.png', ranking: 60 },
+  { id: 'KOR', name: 'Coreia do Sul', code: 'KOR', group: 'A', flagUrl: 'https://flagcdn.com/w80/kr.png', ranking: 25 },
+  { id: 'CZE', name: 'República Tcheca', code: 'CZE', group: 'A', flagUrl: 'https://flagcdn.com/w80/cz.png', ranking: 41 },
   // Grupo B
-  { id: 'CAN', name: 'Canadá', code: 'CAN', group: 'B', flagUrl: 'https://flagcdn.com/w80/ca.png' },
-  { id: 'QAT', name: 'Catar', code: 'QAT', group: 'B', flagUrl: 'https://flagcdn.com/w80/qa.png' },
-  { id: 'SUI', name: 'Suíça', code: 'SUI', group: 'B', flagUrl: 'https://flagcdn.com/w80/ch.png' },
-  { id: 'BIH', name: 'Bósnia e Herzegovina', code: 'BIH', group: 'B', flagUrl: 'https://flagcdn.com/w80/ba.png' },
+  { id: 'CAN', name: 'Canadá', code: 'CAN', group: 'B', flagUrl: 'https://flagcdn.com/w80/ca.png', ranking: 30 },
+  { id: 'QAT', name: 'Catar', code: 'QAT', group: 'B', flagUrl: 'https://flagcdn.com/w80/qa.png', ranking: 55 },
+  { id: 'SUI', name: 'Suíça', code: 'SUI', group: 'B', flagUrl: 'https://flagcdn.com/w80/ch.png', ranking: 19 },
+  { id: 'BIH', name: 'Bósnia e Herzegovina', code: 'BIH', group: 'B', flagUrl: 'https://flagcdn.com/w80/ba.png', ranking: 60 },
   // Grupo C
-  { id: 'BRA', name: 'Brasil', code: 'BRA', group: 'C', flagUrl: 'https://flagcdn.com/w80/br.png' },
-  { id: 'MAR', name: 'Marrocos', code: 'MAR', group: 'C', flagUrl: 'https://flagcdn.com/w80/ma.png' },
-  { id: 'HAI', name: 'Haiti', code: 'HAI', group: 'C', flagUrl: 'https://flagcdn.com/w80/ht.png' },
-  { id: 'SCO', name: 'Escócia', code: 'SCO', group: 'C', flagUrl: 'https://flagcdn.com/w80/gb-sct.png' },
+  { id: 'BRA', name: 'Brasil', code: 'BRA', group: 'C', flagUrl: 'https://flagcdn.com/w80/br.png', ranking: 6 },
+  { id: 'MAR', name: 'Marrocos', code: 'MAR', group: 'C', flagUrl: 'https://flagcdn.com/w80/ma.png', ranking: 8 },
+  { id: 'HAI', name: 'Haiti', code: 'HAI', group: 'C', flagUrl: 'https://flagcdn.com/w80/ht.png', ranking: 83 },
+  { id: 'SCO', name: 'Escócia', code: 'SCO', group: 'C', flagUrl: 'https://flagcdn.com/w80/gb-sct.png', ranking: 43 },
   // Grupo D
-  { id: 'USA', name: 'EUA', code: 'USA', group: 'D', flagUrl: 'https://flagcdn.com/w80/us.png' },
-  { id: 'PAR', name: 'Paraguai', code: 'PAR', group: 'D', flagUrl: 'https://flagcdn.com/w80/py.png' },
-  { id: 'AUS', name: 'Austrália', code: 'AUS', group: 'D', flagUrl: 'https://flagcdn.com/w80/au.png' },
-  { id: 'TUR', name: 'Turquia', code: 'TUR', group: 'D', flagUrl: 'https://flagcdn.com/w80/tr.png' },
+  { id: 'USA', name: 'EUA', code: 'USA', group: 'D', flagUrl: 'https://flagcdn.com/w80/us.png', ranking: 16 },
+  { id: 'PAR', name: 'Paraguai', code: 'PAR', group: 'D', flagUrl: 'https://flagcdn.com/w80/py.png', ranking: 40 },
+  { id: 'AUS', name: 'Austrália', code: 'AUS', group: 'D', flagUrl: 'https://flagcdn.com/w80/au.png', ranking: 27 },
+  { id: 'TUR', name: 'Turquia', code: 'TUR', group: 'D', flagUrl: 'https://flagcdn.com/w80/tr.png', ranking: 22 },
   // Grupo E
-  { id: 'GER', name: 'Alemanha', code: 'GER', group: 'E', flagUrl: 'https://flagcdn.com/w80/de.png' },
-  { id: 'CUW', name: 'Curaçao', code: 'CUW', group: 'E', flagUrl: 'https://flagcdn.com/w80/cw.png' },
-  { id: 'CIV', name: 'Costa do Marfim', code: 'CIV', group: 'E', flagUrl: 'https://flagcdn.com/w80/ci.png' },
-  { id: 'ECU', name: 'Equador', code: 'ECU', group: 'E', flagUrl: 'https://flagcdn.com/w80/ec.png' },
+  { id: 'GER', name: 'Alemanha', code: 'GER', group: 'E', flagUrl: 'https://flagcdn.com/w80/de.png', ranking: 10 },
+  { id: 'CUW', name: 'Curaçao', code: 'CUW', group: 'E', flagUrl: 'https://flagcdn.com/w80/cw.png', ranking: 82 },
+  { id: 'CIV', name: 'Costa do Marfim', code: 'CIV', group: 'E', flagUrl: 'https://flagcdn.com/w80/ci.png', ranking: 34 },
+  { id: 'ECU', name: 'Equador', code: 'ECU', group: 'E', flagUrl: 'https://flagcdn.com/w80/ec.png', ranking: 23 },
   // Grupo F
-  { id: 'NED', name: 'Holanda', code: 'NED', group: 'F', flagUrl: 'https://flagcdn.com/w80/nl.png' },
-  { id: 'JPN', name: 'Japão', code: 'JPN', group: 'F', flagUrl: 'https://flagcdn.com/w80/jp.png' },
-  { id: 'TUN', name: 'Tunísia', code: 'TUN', group: 'F', flagUrl: 'https://flagcdn.com/w80/tn.png' },
-  { id: 'SWE', name: 'Suécia', code: 'SWE', group: 'F', flagUrl: 'https://flagcdn.com/w80/se.png' },
+  { id: 'NED', name: 'Holanda', code: 'NED', group: 'F', flagUrl: 'https://flagcdn.com/w80/nl.png', ranking: 7 },
+  { id: 'JPN', name: 'Japão', code: 'JPN', group: 'F', flagUrl: 'https://flagcdn.com/w80/jp.png', ranking: 18 },
+  { id: 'TUN', name: 'Tunísia', code: 'TUN', group: 'F', flagUrl: 'https://flagcdn.com/w80/tn.png', ranking: 44 },
+  { id: 'SWE', name: 'Suécia', code: 'SWE', group: 'F', flagUrl: 'https://flagcdn.com/w80/se.png', ranking: 38 },
   // Grupo G
-  { id: 'BEL', name: 'Bélgica', code: 'BEL', group: 'G', flagUrl: 'https://flagcdn.com/w80/be.png' },
-  { id: 'EGY', name: 'Egito', code: 'EGY', group: 'G', flagUrl: 'https://flagcdn.com/w80/eg.png' },
-  { id: 'IRN', name: 'Irã', code: 'IRN', group: 'G', flagUrl: 'https://flagcdn.com/w80/ir.png' },
-  { id: 'NZL', name: 'Nova Zelândia', code: 'NZL', group: 'G', flagUrl: 'https://flagcdn.com/w80/nz.png' },
+  { id: 'BEL', name: 'Bélgica', code: 'BEL', group: 'G', flagUrl: 'https://flagcdn.com/w80/be.png', ranking: 9 },
+  { id: 'EGY', name: 'Egito', code: 'EGY', group: 'G', flagUrl: 'https://flagcdn.com/w80/eg.png', ranking: 29 },
+  { id: 'IRN', name: 'Irã', code: 'IRN', group: 'G', flagUrl: 'https://flagcdn.com/w80/ir.png', ranking: 21 },
+  { id: 'NZL', name: 'Nova Zelândia', code: 'NZL', group: 'G', flagUrl: 'https://flagcdn.com/w80/nz.png', ranking: 85 },
   // Grupo H
-  { id: 'ESP', name: 'Espanha', code: 'ESP', group: 'H', flagUrl: 'https://flagcdn.com/w80/es.png' },
-  { id: 'CPV', name: 'Cabo Verde', code: 'CPV', group: 'H', flagUrl: 'https://flagcdn.com/w80/cv.png' },
-  { id: 'KSA', name: 'Arábia Saudita', code: 'KSA', group: 'H', flagUrl: 'https://flagcdn.com/w80/sa.png' },
-  { id: 'URU', name: 'Uruguai', code: 'URU', group: 'H', flagUrl: 'https://flagcdn.com/w80/uy.png' },
+  { id: 'ESP', name: 'Espanha', code: 'ESP', group: 'H', flagUrl: 'https://flagcdn.com/w80/es.png', ranking: 3 },
+  { id: 'CPV', name: 'Cabo Verde', code: 'CPV', group: 'H', flagUrl: 'https://flagcdn.com/w80/cv.png', ranking: 65 },
+  { id: 'KSA', name: 'Arábia Saudita', code: 'KSA', group: 'H', flagUrl: 'https://flagcdn.com/w80/sa.png', ranking: 56 },
+  { id: 'URU', name: 'Uruguai', code: 'URU', group: 'H', flagUrl: 'https://flagcdn.com/w80/uy.png', ranking: 11 },
   // Grupo I
-  { id: 'FRA', name: 'França', code: 'FRA', group: 'I', flagUrl: 'https://flagcdn.com/w80/fr.png' },
-  { id: 'IRQ', name: 'Iraque', code: 'IRQ', group: 'I', flagUrl: 'https://flagcdn.com/w80/iq.png' },
-  { id: 'SEN', name: 'Senegal', code: 'SEN', group: 'I', flagUrl: 'https://flagcdn.com/w80/sn.png' },
-  { id: 'NOR', name: 'Noruega', code: 'NOR', group: 'I', flagUrl: 'https://flagcdn.com/w80/no.png' },
+  { id: 'FRA', name: 'França', code: 'FRA', group: 'I', flagUrl: 'https://flagcdn.com/w80/fr.png', ranking: 1 },
+  { id: 'IRQ', name: 'Iraque', code: 'IRQ', group: 'I', flagUrl: 'https://flagcdn.com/w80/iq.png', ranking: 57 },
+  { id: 'SEN', name: 'Senegal', code: 'SEN', group: 'I', flagUrl: 'https://flagcdn.com/w80/sn.png', ranking: 14 },
+  { id: 'NOR', name: 'Noruega', code: 'NOR', group: 'I', flagUrl: 'https://flagcdn.com/w80/no.png', ranking: 31 },
   // Grupo J
-  { id: 'ARG', name: 'Argentina', code: 'ARG', group: 'J', flagUrl: 'https://flagcdn.com/w80/ar.png' },
-  { id: 'ALG', name: 'Argélia', code: 'ALG', group: 'J', flagUrl: 'https://flagcdn.com/w80/dz.png' },
-  { id: 'AUT', name: 'Áustria', code: 'AUT', group: 'J', flagUrl: 'https://flagcdn.com/w80/at.png' },
-  { id: 'JOR', name: 'Jordânia', code: 'JOR', group: 'J', flagUrl: 'https://flagcdn.com/w80/jo.png' },
+  { id: 'ARG', name: 'Argentina', code: 'ARG', group: 'J', flagUrl: 'https://flagcdn.com/w80/ar.png', ranking: 3 },
+  { id: 'ALG', name: 'Argélia', code: 'ALG', group: 'J', flagUrl: 'https://flagcdn.com/w80/dz.png', ranking: 28 },
+  { id: 'AUT', name: 'Áustria', code: 'AUT', group: 'J', flagUrl: 'https://flagcdn.com/w80/at.png', ranking: 24 },
+  { id: 'JOR', name: 'Jordânia', code: 'JOR', group: 'J', flagUrl: 'https://flagcdn.com/w80/jo.png', ranking: 63 },
   // Grupo K
-  { id: 'COD', name: 'RD Congo', code: 'COD', group: 'K', flagUrl: 'https://flagcdn.com/w80/cd.png' },
-  { id: 'POR', name: 'Portugal', code: 'POR', group: 'K', flagUrl: 'https://flagcdn.com/w80/pt.png' },
-  { id: 'UZB', name: 'Uzbequistão', code: 'UZB', group: 'K', flagUrl: 'https://flagcdn.com/w80/uz.png' },
-  { id: 'COL', name: 'Colômbia', code: 'COL', group: 'K', flagUrl: 'https://flagcdn.com/w80/co.png' },
+  { id: 'COD', name: 'RD Congo', code: 'COD', group: 'K', flagUrl: 'https://flagcdn.com/w80/cd.png', ranking: 46 },
+  { id: 'POR', name: 'Portugal', code: 'POR', group: 'K', flagUrl: 'https://flagcdn.com/w80/pt.png', ranking: 5 },
+  { id: 'UZB', name: 'Uzbequistão', code: 'UZB', group: 'K', flagUrl: 'https://flagcdn.com/w80/uz.png', ranking: 50 },
+  { id: 'COL', name: 'Colômbia', code: 'COL', group: 'K', flagUrl: 'https://flagcdn.com/w80/co.png', ranking: 13 },
   // Grupo L
-  { id: 'ENG', name: 'Inglaterra', code: 'ENG', group: 'L', flagUrl: 'https://flagcdn.com/w80/gb-eng.png' },
-  { id: 'CRO', name: 'Croácia', code: 'CRO', group: 'L', flagUrl: 'https://flagcdn.com/w80/hr.png' },
-  { id: 'GHA', name: 'Gana', code: 'GHA', group: 'L', flagUrl: 'https://flagcdn.com/w80/gh.png' },
-  { id: 'PAN', name: 'Panamá', code: 'PAN', group: 'L', flagUrl: 'https://flagcdn.com/w80/pa.png' },
+  { id: 'ENG', name: 'Inglaterra', code: 'ENG', group: 'L', flagUrl: 'https://flagcdn.com/w80/gb-eng.png', ranking: 4 },
+  { id: 'CRO', name: 'Croácia', code: 'CRO', group: 'L', flagUrl: 'https://flagcdn.com/w80/hr.png', ranking: 11 },
+  { id: 'GHA', name: 'Gana', code: 'GHA', group: 'L', flagUrl: 'https://flagcdn.com/w80/gh.png', ranking: 74 },
+  { id: 'PAN', name: 'Panamá', code: 'PAN', group: 'L', flagUrl: 'https://flagcdn.com/w80/pa.png', ranking: 33 },
 ];
 
 export const generateInitialMatches = (): Match[] => {

@@ -51,8 +51,11 @@ export default function GroupsPage() {
                               referrerPolicy="no-referrer"
                             />
                           </div>
-                          <span className="hidden sm:inline">{stat.team.name}</span>
-                          <span className="sm:hidden">{stat.team.code}</span>
+                          <div className="flex items-center gap-2">
+                            <span className="text-[10px] font-bold text-green-500/70 bg-green-500/5 px-1 rounded border border-green-500/10">#{stat.team.ranking}</span>
+                            <span className="hidden sm:inline">{stat.team.name}</span>
+                            <span className="sm:hidden">{stat.team.code}</span>
+                          </div>
                         </td>
                         <td className="px-2 py-3 text-center font-bold text-green-400">{stat.points}</td>
                         <td className="px-2 py-3 text-center">{stat.played}</td>

@@ -104,10 +104,13 @@ function FeaturedGroup({ group }: { group: string }) {
       <h3 className="text-xl font-bold text-green-400 mb-4 border-b border-gray-800 pb-2">Grupo {group}</h3>
       <ul className="flex flex-col gap-3">
         {stats.map((stat: any, index: number) => (
-          <li key={stat.team.id} className="flex items-center justify-between text-gray-300">
+          <li key={stat.team.id} className="flex items-center justify-between text-gray-300 group/item">
             <div className="flex items-center gap-3">
-              <span className="text-gray-600 text-sm font-mono w-4">{index + 1}</span>
-              <span className="font-medium text-sm">{stat.team.name}</span>
+              <span className="text-gray-600 text-xs font-mono w-4">{index + 1}</span>
+              <div className="flex items-center gap-2">
+                <span className="text-[10px] font-bold text-green-500/70 bg-green-500/5 px-1 rounded border border-green-500/10">#{stat.team.ranking}</span>
+                <span className="font-medium text-sm group-hover/item:text-white transition-colors">{stat.team.name}</span>
+              </div>
             </div>
             <span className="text-xs font-bold text-green-500">{stat.points} pts</span>
           </li>
