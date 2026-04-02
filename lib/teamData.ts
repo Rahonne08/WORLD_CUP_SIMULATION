@@ -12,35 +12,89 @@ export interface TeamDetails {
 
 const specificData: Record<string, Partial<TeamDetails>> = {
   'RSA': {
-    history: `O jejum terminou. Depois de ficar fora das três últimas edições, a África do Sul está de volta à Copa do Mundo da FIFA™ pela primeira vez desde que recebeu o torneio e as melhores seleções do planeta em 2010.
+    history: `## 🇿🇦 África do Sul na Copa do Mundo 2026
 
-Histórico da África do Sul na Copa do Mundo
-Confederação: CAF
-Melhores Copas do Mundo: 1998, 2002, 2010 (fase de grupos)
-Última Copa do Mundo: 2010 (fase de grupos)
-Primeira Copa do Mundo: 1998 (fase de grupos)
-Participações: 4 (1998, 2002, 2010, 2026)
-Sequência atual de classificações: 1
-País-sede: 2010 (fase de grupos)
-Histórico na Copa do Mundo: 9 J, 2 V, 4 E, 3 D, 11 GP, 16 GC
+A África do Sul está de volta ao maior palco do futebol mundial! 🌍⚽
+Depois de ficar fora das últimas edições, os **Bafana Bafana** encerraram o jejum e garantiram presença na Copa do Mundo FIFA 2026! 🔥🙌
 
-Jogos da África do Sul no Grupo A
-Rodada 1 
-11 de junho
-México x África do Sul 
-Local: Cidade do México, no México – 13h00 no horário local (16h00 em Brasília)
-Rodada 2 
-18 de junho
-República Tcheca x África do Sul 
-Local: Atlanta, nos EUA – 12h00 no horário local (13h00 em Brasília)
-Rodada 3
- 24 de junho
-África do Sul x República da Coreia 
-Local: Monterrey, no México – 19h00 no horário local (22h00 em Brasília)`,
-    qualification: `Como a África do Sul se classificou para 2026
-A África do Sul garantiu sua quarta participação em Copas do Mundo ao terminar na liderança do Grupo C das eliminatórias da CAF, com cinco vitórias, três empates e duas derrotas. A classificação veio após uma disputa acirrada com a Nigéria, potência continental, e com o surpreendente Benin, sendo decidida apenas nos minutos finais da última rodada.
+---
 
-Os Bafana Bafana chegaram à rodada decisiva em segundo lugar e precisavam vencer Ruanda em casa para seguir sonhando. Com uma convincente vitória por 3 a 0, as atenções se voltaram para o duelo entre Nigéria e o então líder Benin. A goleada por 4 a 0 dos nigerianos permitiu que os sul-africanos terminassem na primeira colocação e garantissem a vaga no Mundial.`,
+## 🌟 História em Copas
+
+* 🏁 Primeira participação: 1998
+* 🔢 Participações: 4 (1998, 2002, 2010, 2026)
+* 🏆 Melhor resultado: Fase de grupos
+* 🏟️ País-sede: 2010
+
+📌 Destaque:
+A última participação foi justamente em 2010, quando sediou a Copa e encantou o mundo com sua energia e torcida! 🎺🌍
+
+---
+
+## 📅 Jogos da África do Sul – Grupo A
+
+### 🥇 Rodada 1
+
+📍 Cidade do México (México)
+🗓️ 11 de junho
+⏰ 16h (Brasília)
+⚔️ México 🇲🇽 x 🇿🇦 África do Sul
+
+### 🥈 Rodada 2
+
+📍 Atlanta (EUA)
+🗓️ 18 de junho
+⏰ 13h (Brasília)
+⚔️ 🇨🇿 República Tcheca x 🇿🇦 África do Sul
+
+### 🥉 Rodada 3
+
+📍 Monterrey (México)
+🗓️ 24 de junho
+⏰ 22h (Brasília)
+⚔️ 🇿🇦 África do Sul x Coreia do Sul 🇰🇷
+
+---
+
+## 📊 Histórico em Copas
+
+* 🌍 Confederação: CAF
+* 🏆 Melhor campanha: Fase de grupos
+* ⏱️ Última Copa: 2010
+* 🔢 Participações: 4
+* 🔄 Sequência atual: 1
+
+📈 Números gerais:
+
+* ⚽ Jogos: 9
+* ✅ Vitórias: 2
+* 🤝 Empates: 4
+* ❌ Derrotas: 3
+* 🥅 Gols marcados: 11
+* 🚫 Gols sofridos: 16
+
+---
+
+## 🌟 Fique de olho!
+
+A África do Sul chega com espírito de superação e muita energia ⚡🔥
+Após anos fora do Mundial, quer mostrar que voltou para competir de verdade!
+
+👉 Será que os Bafana Bafana vão conquistar sua **primeira classificação ao mata-mata**? 🏆🇿🇦🔥`,
+    qualification: `## 🚀 Caminho até a Copa 2026
+
+A classificação foi emocionante até o último minuto! 😮🔥🔥
+
+* 🥇 Liderou o Grupo C das eliminatórias africanas
+* 📊 Campanha: **5 vitórias, 3 empates, 2 derrotas**
+* ⚔️ Disputa intensa com a Nigéria
+* 👀 Surpresa do grupo: Benin
+
+### 💥 Momento decisivo:
+
+* 🇿🇦 Vitória por **3x0 sobre Ruanda**
+* 🇳🇬 Goleada da Nigéria por **4x0 sobre Benin**
+  👉 Resultado: África do Sul assume a liderança e garante a vaga! 🏆🔥`,
     lastMatches: [
       { opponent: 'Panamá', result: 'L', score: '1-2' },
       { opponent: 'Panamá', result: 'D', score: '1-1' },
@@ -127,42 +181,85 @@ Os Bafana Bafana chegaram à rodada decisiva em segundo lugar e precisavam vence
     ]
   },
   'MEX': {
-    history: `HISTORIA EM COPAS: 
-Confederação: Concacaf
-Melhores Copas do Mundo: 1970 e 1986 (quartas de final)
-Última Copa do Mundo: Catar 2022 (fase de grupos)
-Primeira Copa do Mundo: Uruguai 1930
-Participações: 18 (1930, 1950, 1954, 1958, 1962, 1966, 1970, 1978, 1986, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022, 2026)
-Sequência atual de classificações: 9 (de 1994 a 2026)
-Sede da Copa do Mundo: 1970 (quartas de final), 1986 (quartas), 2026
-Histórico na Copa do Mundo: 60 J, 17 V, 15 E, 28 D, 62 GP, 101 GC
+    history: `## 🇲🇽 México na Copa do Mundo 2026
 
-Jogos do México no Grupo A
-Rodada 1
- 11 de junho
-México x África do Sul 
-Local: Cidade do México, no México – 13h00 no horário local (16h00 em Brasília)
-Rodada 2 
-18 de junho
-México x República da Coreia 
-Local: Guadalajara, no México – 19h00 no horário local (22h00 em Brasília)
-Rodada 3
- 24 de junho
-República Tcheca x México 
-Local: Cidade do México, no México – 19h00 no horário local (20h00 em Brasília)`,
-    qualification: `🏆 Copa do Mundo de 2026 (anfitriã)
+O México se prepara para um momento histórico! 🌍⚽
+Como um dos **países-sede** da Copa do Mundo FIFA 2026, a seleção mexicana fará história ao ser o primeiro país a receber o torneio pela **terceira vez** (1970, 1986 e 2026)! 🏟️🔥
 
-O México será co-anfitrião da Copa do Mundo FIFA 2026, junto com:
-Estados Unidos
-Canadá
+---
 
-🔥 Destaque histórico:
-O México será o primeiro país a sediar três Copas do Mundo (1970, 1986 e 2026).
+## 🌟 História em Copas
 
-🎯 Expectativa:
-Jogando em casa, a pressão é grande para:
-Quebrar a “maldição das oitavas”
-Chegar finalmente a uma semifinal histórica`,
+* 🏁 Primeira participação: 1930
+* 🔢 Participações: 18
+* 🏆 Melhor resultado: **Quartas de final (1970 e 1986)**
+* 🏟️ País-sede: 1970, 1986 e 2026
+
+📌 Destaque:
+O México é uma das seleções mais tradicionais do mundo, com uma torcida apaixonada que promete transformar os estádios em verdadeiros caldeirões! 🇲🇽🔥
+
+---
+
+## 📅 Jogos do México – Grupo B
+
+### 🥇 Rodada 1
+
+📍 Cidade do México (México)
+🗓️ 11 de junho
+⏰ 16h (Brasília)
+⚔️ 🇲🇽 México x 🇿🇦 África do Sul
+
+### 🥈 Rodada 2
+
+📍 Guadalajara (México)
+🗓️ 18 de junho
+⏰ 22h (Brasília)
+⚔️ 🇲🇽 México x 🇰🇷 Coreia do Sul
+
+### 🥉 Rodada 3
+
+📍 Cidade do México (México)
+🗓️ 24 de junho
+⏰ 20h (Brasília)
+⚔️ 🇨🇿 República Tcheca x 🇲🇽 México
+
+---
+
+## 📊 Histórico em Copas
+
+* 🌍 Confederação: Concacaf
+* 🏆 Melhor campanha: Quartas de final
+* ⏱️ Última Copa: 2022
+* 🔢 Participações: 18
+* 🔄 Sequência atual: 9 Copas seguidas
+
+📈 Números gerais:
+
+* ⚽ Jogos: 60
+* ✅ Vitórias: 17
+* 🤝 Empates: 15
+* ❌ Derrotas: 28
+* 🥅 Gols marcados: 62
+* 🚫 Gols sofridos: 101
+
+---
+
+## 🌟 Fique de olho!
+
+O México combina experiência internacional com o fator casa ⚡🔥
+Com o apoio massivo de sua torcida, a seleção mexicana entra no torneio com a ambição de fazer sua melhor campanha da história!
+
+👉 Será que 2026 será o ano do México brilhar no cenário mundial? 🏆🇲🇽🔥`,
+    qualification: `## 🚀 Caminho até a Copa 2026
+
+Como um dos anfitriões, o México garantiu sua vaga **automaticamente**! 🏟️✨
+
+* 🤝 Classificado direto como país-sede
+* 🌍 Co-anfitrião com EUA e Canadá
+* 🔥 Oportunidade única de jogar diante de sua torcida fanática
+
+### 🎯 Expectativa:
+A meta é clara: superar a "maldição das oitavas" e buscar uma semifinal inédita em casa! 💪🇲🇽`,
     lastMatches: [
       { opponent: 'Bélgica', result: 'D', score: '1-1' },
       { opponent: 'Portugal', result: 'D', score: '0-0' },
@@ -251,35 +348,92 @@ Diferente de outras seleções, o Canadá garantiu vaga automaticamente por ser 
     ]
   },
   'KOR': {
-    history: `República da Coreia se classificou para sua 11ª Copa do Mundo da FIFA seguida
-No Qatar 2022, sul-coreanos passaram da fase de grupos pela primeira vez em 12 anos
+    history: `## 🇰🇷 Coreia do Sul na Copa do Mundo 2026
 
-Jogos da Coreia do Sul no Grupo A
-Rodada 1 
-11 de junho
-Coreia do Sul x República Tcheca 
-Local: Guadalajara – 20h00 no horário local (23h00 em Brasília)
-Rodada 2 
-18 de junho
-México x Coreia do Sul 
-Local: Guadalajara, no México – 19h00 no horário local (22h00 em Brasília)
-Rodada 3 
-24 de junho
-África do Sul x Coreia do Sul
-Local: Monterrey, no México – 19h00 no horário local (22h00 em Brasília)
+A Coreia do Sul chega com moral para a Copa do Mundo FIFA 2026! 🌍⚽
+A seleção asiática garantiu sua **11ª participação consecutiva**, mostrando uma impressionante consistência no cenário mundial! 🔥📈
 
-Histórico da Coreia do Sul na Copa do Mundo
-Confederação: AFC
-Melhor Copa do Mundo: 2002 (quarto lugar)
-Última Copa do Mundo: Qatar 2022 (Oitavas de final)
-Primeira Copa do Mundo: Suíça 1954
-Participações: 12 (1954, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022, 2026)
-Sequência atual de classificação: 11
-Sede da Copa do Mundo: 2002
-Histórico na Copa do Mundo: 38 J, 7 V, 10 E, 21 D, 39 GP, 78 GC`,
-    qualification: `Como a Coreia do Sul se classificou para 2026
-Apesar de duas trocas de treinador após o Qatar 2022, a Coreia do Sul garantiu vaga para 2026 com tranquilidade, terminando a campanha nas eliminatórias asiáticas de forma invicta. Na segunda fase, em grupo com China, Tailândia e Singapura, acumulou cinco vitórias e apenas um empate — com os tailandeses, em 1 a 1.
-Já na fase final, enfrentou Jordânia, Iraque, Omã, Palestina e Kuwait pelo Grupo B, terminando na liderança após seis vitórias e quatro empates e assegurando um lugar no primeiro Mundial com 48 seleções. De quebra, foi o único representante asiático a se classificar para 2026 sem derrotas.`,
+---
+
+## 🌟 Destaques recentes
+
+* 🔁 **11 Copas seguidas disputadas**
+* 🚀 Classificação às oitavas na Copa do Mundo FIFA 2022
+* 💪 Retorno ao mata-mata após 12 anos
+
+A Coreia do Sul segue sendo uma das maiores potências do futebol asiático! 🏆⚡
+
+---
+
+## 📅 Jogos da Coreia do Sul – Grupo A
+
+### 🥇 Rodada 1
+
+📍 Guadalajara (México)
+🗓️ 11 de junho
+⏰ 23h (Brasília)
+⚔️ 🇰🇷 Coreia do Sul x 🇨🇿 República Tcheca
+
+### 🥈 Rodada 2
+
+📍 Guadalajara (México)
+🗓️ 18 de junho
+⏰ 22h (Brasília)
+⚔️ México 🇲🇽 x 🇰🇷 Coreia do Sul
+
+### 🥉 Rodada 3
+
+📍 Monterrey (México)
+🗓️ 24 de junho
+⏰ 22h (Brasília)
+⚔️ África do Sul 🇿🇦 x 🇰🇷 Coreia do Sul
+
+---
+
+## 📊 Histórico em Copas
+
+* 🌍 Confederação: AFC
+* 🏆 Melhor campanha: **4º lugar (2002)**
+* 🏁 Primeira Copa: 1954
+* ⏱️ Última Copa: 2022 (oitavas de final)
+* 🔢 Participações: 12
+* 🔄 Sequência atual: 11 Copas seguidas
+* 🏟️ País-sede: 2002
+
+📈 Números gerais:
+
+* ⚽ Jogos: 38
+* ✅ Vitórias: 7
+* 🤝 Empates: 10
+* ❌ Derrotas: 21
+* 🥅 Gols marcados: 39
+* 🚫 Gols sofridos: 78
+
+---
+
+## 🌟 Fique de olho!
+
+A Coreia do Sul combina **velocidade, disciplina e talento** ⚡🧠
+Com tradição recente e confiança em alta, chega forte para buscar mais uma campanha histórica!
+
+👉 Será que os sul-coreanos podem repetir — ou superar — o feito de 2002? 🏆🇰🇷🔥`,
+    qualification: `## 🚀 Caminho até a Copa 2026
+
+A campanha da Coreia do Sul foi simplesmente **impecável**! 😮🔥
+
+### 🔹 Segunda fase:
+
+* 🥇 Grupo com China, Tailândia e Singapura
+* 📊 **5 vitórias e 1 empate**
+
+### 🔹 Fase final:
+
+* ⚔️ Enfrentou Jordânia, Iraque, Omã, Palestina e Kuwait
+* 🏆 Terminou em **1º lugar do grupo**
+* 📈 **6 vitórias e 4 empates**
+
+💥 Destaque:
+👉 Única seleção asiática a se classificar **invicta** para 2026! 🧱🔥`,
     lastMatches: [
       { opponent: 'Áustria', result: 'L', score: '0-1' },
       { opponent: 'Costa do Marfim', result: 'L', score: '0-4' },
