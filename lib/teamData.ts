@@ -177,6 +177,24 @@ Já na fase final, enfrentou Jordânia, Iraque, Omã, Palestina e Kuwait pelo Gr
       { opponent: 'Bolívia', result: 'W', score: '2-0' },
       { opponent: 'Paraguai', result: 'W', score: '2-0' },
     ]
+  },
+  'CZE': {
+    history: `A República Tcheca se classificou para a Copa do Mundo da FIFA 2026™ após dramática vitória nos pênaltis sobre a Dinamarca, garantindo seu primeiro retorno ao torneio mundial desde a Alemanha 2006.
+A recompensa para a República Tcheca é uma vaga no Grupo A do torneio, no qual vai enfrentar a Coreia do Sul em Guadalajara, a África do Sul em Atlanta e o México, um dos países-sede, na Cidade do México.
+
+República Tcheca na Copa do Mundo
+Primeira participação: Itália 1934
+Participações: 10 (1934, 1938, 1954, 1958, 1962, 1970, 1982, 1990, 2006, 2026)
+Melhor campanha: vice-campeã (1934 e 1962)
+A República Tcheca competiu em Copas do Mundo como Tchhecoslováquia de 1930 a 1994 e como República Tcheca de 1998 a 2014.`,
+    qualification: `A equipe de Miroslav Koubek se classificou na repescagem europeia depois de inicialmente superar a República da Irlanda nos pênaltis em sua semifinal. No jogo decisivo, demonstrou mais uma vez que consegue manter a calma na marca dos 11 metros com um triunfo por 3 a 1 contra os dinamarqueses, após um empate em 2 a 2 em 120 minutos de tirar o fôlego em Praga.`,
+    lastMatches: [
+      { opponent: 'Dinamarca', result: 'W', score: '2(3)-(1)2' },
+      { opponent: 'Irlanda', result: 'W', score: '2(4)-(3)2' },
+      { opponent: 'Gibraltar', result: 'W', score: '6-0' },
+      { opponent: 'San Marino', result: 'W', score: '1-0' },
+      { opponent: 'Ilhas Faroe', result: 'L', score: '1-2' },
+    ]
   }
 };
 
