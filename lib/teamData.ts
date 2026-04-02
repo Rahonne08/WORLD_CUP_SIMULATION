@@ -1572,6 +1572,131 @@ Destaques:
       { opponent: 'EUA', result: 'L', score: '1-2' },
       { opponent: 'Coreia do Sul', result: 'L', score: '0-2' },
     ]
+  },
+  'AUS': {
+    history: `## 🇦🇺 Austrália na Copa do Mundo da FIFA: perfil e histórico da seleção
+
+A **Austrália** chega à Copa do Mundo da FIFA 2026™ pronta para disputar sua **7ª participação** e consolidar sua sequência impressionante no cenário mundial. Desde 2006, os “Socceroos” não ficam fora de um Mundial.
+
+---
+
+### 🌍 Destaques gerais
+
+* **7ª participação** em Copas do Mundo
+* **6ª consecutiva (2006–2026)**
+* Melhor campanha: **oitavas de final (2006 e 2022)**
+* Seleção em evolução constante
+
+A meta agora é clara: **ir além das oitavas** e alcançar um feito inédito.
+
+---
+
+### 📅 Jogos da Austrália – Grupo D
+
+**Rodada 1**
+📍 13 de junho
+Austrália x Turquia
+Vancouver (Canadá) – 1h00 (14/06 em Brasília)
+
+**Rodada 2**
+📍 19 de junho
+Estados Unidos x Austrália
+Seattle (EUA) – 16h00 (Brasília)
+
+**Rodada 3**
+📍 25 de junho
+Paraguai x Austrália
+Santa Clara (EUA) – 23h00 (Brasília)
+
+---
+
+### 🧠 Técnico da Austrália
+
+O treinador é Tony Popovic:
+
+* Ex-zagueiro da seleção, com mais de **50 jogos internacionais**
+* Participou da Copa de 2006 como jogador
+* Assumiu a seleção em 2024
+* Conhecido por disciplina tática e organização defensiva
+
+Após se aposentar, iniciou rapidamente a carreira como técnico, conquistando títulos no futebol australiano e asiático. ([Wikipedia][1])
+
+---
+
+### 📊 Histórico da Austrália em Copas
+
+* **Participações:** 7 (1974, 2006, 2010, 2014, 2018, 2022, 2026)
+* **Melhor campanha:** oitavas de final (2006 e 2022)
+* **Jogos:** 20
+* **Vitórias:** 4
+* **Empates:** 4
+* **Derrotas:** 12
+* **Gols marcados:** 17
+* **Gols sofridos:** 37
+
+---
+
+### ⭐ Melhores campanhas
+
+#### 🏆 Alemanha 2006
+
+* Primeira vez nas oitavas
+* Eliminada pela Itália (futura campeã)
+
+#### 🏆 Qatar 2022
+
+* Classificação histórica para o mata-mata
+* Eliminada pela Argentina (campeã)
+
+➡️ Mostra da evolução da seleção ao longo dos anos
+
+---
+
+### 🏁 Primeira Copa – 1974
+
+A estreia aconteceu na Alemanha Ocidental:
+
+* Eliminada na fase de grupos
+* Primeira experiência internacional da seleção
+
+---
+
+### 🚀 Expectativas para 2026
+
+A Austrália chega com uma equipe equilibrada e acostumada a competir em alto nível. A experiência recente em Copas e a consistência nas classificações colocam os Socceroos como uma seleção perigosa.
+
+O objetivo é claro:
+👉 **superar as oitavas de final e alcançar um feito inédito na história do país.**`,
+    qualification: `## 🛣️ Como a Austrália se classificou para 2026
+
+A campanha teve dois momentos distintos:
+
+**Fase inicial:**
+
+* 6 vitórias em 6 jogos
+* Nenhum gol sofrido
+
+**Fase decisiva:**
+
+* Derrota para o Bahrein na estreia
+* Empate com a Indonésia
+* Troca de treinador → entrada de Popovic
+
+A partir daí, a equipe reagiu:
+
+* Vitória sobre a China
+* Empate fora contra o Japão
+* Vitória sobre o Japão
+* Vitória decisiva por **2x1 sobre a Arábia Saudita**
+
+➡️ Classificação garantida com vaga direta para a Copa ([Wikipedia][2])`,
+    lastMatches: [
+      { opponent: 'Curaçao', result: 'W', score: '5-1' },
+      { opponent: 'Camarões', result: 'W', score: '1-0' },
+      { opponent: 'Colômbia', result: 'L', score: '0-3' },
+      { opponent: 'Venezuela', result: 'L', score: '0-1' },
+      { opponent: 'EUA', result: 'L', score: '1-2' },
+    ]
   }
 };
 
