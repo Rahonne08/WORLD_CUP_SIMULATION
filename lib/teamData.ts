@@ -1802,6 +1802,67 @@ Mas Montella não deixou a peteca cair! O comandante conduziu sua equipe com suc
       { opponent: 'Bulgária', result: 'W', score: '2-0' },
       { opponent: 'Geórgia', result: 'W', score: '4-1' },
     ]
+  },
+  'CUW': {
+    history: `## 🇨🇼✨ CURAÇAU: A HISTÓRICA ESTREIA DA "ONDA AZUL"! ✨🇨🇼
+
+🎉 **O Menor Gigante do Mundo!**
+Preparem os corações! Curaçau garantiu sua classificação histórica para a Copa do Mundo da FIFA 2026™ e acaba de se tornar o menor país da história (com apenas 150 mil habitantes e 443 km²) a disputar o maior evento esportivo do planeta! 🏝️⚽
+
+A vaga veio de forma simbólica em novembro de 2025, após um empate heroico em 0 a 0 contra a Jamaica 🇯🇲, em Kingston. A "Onda Azul" terminou na liderança do Grupo B das eliminatórias da Concacaf e provou que o tamanho do território não define o tamanho do futebol! 🌊💙
+
+🧠🇳🇱 **Comando Holandês: Dick Advocaat**
+Para elevar o nível da equipe, a federação trouxe o renomado e experiente técnico holandês Dick Advocaat em 2024. Com bagagem de Copas do Mundo no currículo, ele assumiu o legado deixado por Remko Bicentini para guiar esses heróis em solo norte-americano! 📋👨🏫
+
+---
+
+### 📅 AGENDA DE CURAÇAU – GRUPO E 🗓️
+Hora de torcer pela maior surpresa do torneio! ⏰
+
+⚔️ **Rodada 1**
+* **Jogo:** 🇩🇪 Alemanha x Curaçau 🇨🇼
+* 📍 **Local:** Houston (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 14 de junho | 14h00 *(horário de Brasília)*
+
+⚔️ **Rodada 2**
+* **Jogo:** 🇪🇨 Equador x Curaçau 🇨🇼
+* 📍 **Local:** Kansas City (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 20 de junho | 21h00 *(horário de Brasília)*
+
+⚔️ **Rodada 3**
+* **Jogo:** 🇨🇼 Curaçau x Costa do Marfim 🇨🇮
+* 📍 **Local:** Filadélfia (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 25 de junho | 17h00 *(horário de Brasília)*
+
+---
+
+### 📜 HISTÓRICO NA COPA DO MUNDO 🏆
+Uma história que começa a ser escrita AGORA:
+
+* 🌍 **Confederação:** Concacaf
+* 🆕 **Primeira Copa do Mundo:** 2026 (EUA/Canadá/México)
+* 🔢 **Participações:** 1 (Estreante absoluta!) 🌟
+
+---
+
+### 🚀 Expectativas para 2026
+Será que Curaçau consegue surpreender a poderosa Alemanha na estreia? A torcida está pronta para ver a "Onda Azul" em ação no maior palco do mundo!`,
+    qualification: `### 🛣️ O Caminho até a Glória
+
+A campanha rumo a 2026 foi avassaladora! Curaçau não deu chances aos rivais:
+
+* 👊 Goleou Barbados por 4 a 1 (com hat-trick de Rangelo Janga!)
+* ✈️ Venceu o clássico contra Aruba por 2 a 0 fora de casa.
+* 🔥 Massacrou Santa Lúcia por 4 a 0 (brilho de Gervane Kastaneer!).
+* 💥 Aplicou uma goleada histórica de 5 a 1 sobre o Haiti!
+* 🤝 Jamaica 0 x 0 Curaçau 🇯🇲 (O jogo da classificação!) 🎊`,
+    lastMatches: [
+      { opponent: 'Austrália', result: 'L', score: '1-5' },
+      { opponent: 'China', result: 'L', score: '0-2' },
+      { opponent: 'Jamaica', result: 'D', score: '0-0' },
+      { opponent: 'Bermudas', result: 'W', score: '7-0' },
+      { opponent: 'Trinidad e Tobago', result: 'D', score: '1-1' },
+    ]
   }
 };
 
