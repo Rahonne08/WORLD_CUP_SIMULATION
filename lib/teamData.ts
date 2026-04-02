@@ -1697,6 +1697,67 @@ A partir daí, a equipe reagiu:
       { opponent: 'Venezuela', result: 'L', score: '0-1' },
       { opponent: 'EUA', result: 'L', score: '1-2' },
     ]
+  },
+  'TUR': {
+    history: `## 🇹🇷 Turquia na Copa do Mundo 2026: O Fim do Jejum!
+
+A Turquia garantiu seu passaporte para a Copa do Mundo da FIFA 2026™! Sob a liderança tática do técnico **Vincenzo Montella** 🧠👔, a equipe mostrou sua força e venceu seus dois jogos decisivos na temida repescagem europeia. ✈️🌍
+
+Graças a uma vitória suada e apertada por 1 a 0 sobre os kosovares 🇽🇰 na terça-feira (31/03) — selada com um gol super oportunista do artilheiro **Kerem Akturkoglu** ⚽🔥 —, os turcos carimbaram a sua terceira participação geral em Copas do Mundo!
+
+É a primeira vez que a seleção turca disputa o Mundial desde a inesquecível campanha de 2002 (Coreia/Japão), quando surpreenderam o planeta e terminaram em um histórico **3º lugar** 🥉 (sendo parados apenas na semifinal pelo Brasil 🇧🇷).
+
+---
+
+### 📅 Agenda da Turquia – Grupo D
+
+**Rodada 1**
+📍 Vancouver (Canadá) 🇨🇦
+🗓️ 13 de junho
+⏰ 1h00 (14/06 no horário de Brasília)
+⚔️ 🇦🇺 Austrália x 🇹🇷 Turquia
+
+**Rodada 2**
+📍 Santa Clara (EUA) 🇺🇸
+🗓️ 19 de junho
+⏰ 1h00 (horário de Brasília)
+⚔️ 🇹🇷 Turquia x 🇵🇾 Paraguai
+
+**Rodada 3**
+📍 Los Angeles (EUA) 🇺🇸
+🗓️ 25 de junho
+⏰ 23h00 (horário de Brasília)
+⚔️ 🇹🇷 Turquia x 🇺🇸 Estados Unidos
+
+---
+
+### 📜 Histórico em Copas do Mundo 🏆
+
+#### 🕰️ Copa do Mundo de 1954 (Suíça)
+Na sua estreia em mundiais, a Turquia foi eliminada na primeira fase após disputar três partidas intensas:
+* ❌ Derrota para a Alemanha por 4 x 1 🇩🇪
+* ✅ Vitória esmagadora sobre a Coreia do Sul por 7 x 0 🇰🇷
+* ❌ Derrota no jogo de desempate para a Alemanha por 7 x 2 🇩🇪
+
+#### 🥉 Copa do Mundo de 2002 (Coreia/Japão)
+* **Melhor campanha:** 3º lugar
+* Eliminada na semifinal pelo Brasil (1x0)
+* Venceu a Coreia do Sul na disputa do 3º lugar (3x2)
+
+#### 🚀 Copa do Mundo de 2026 (EUA/Canadá/México)
+Em 31 de março de 2026, a Turquia celebrou seu retorno à Copa após 24 anos de espera. Agora, a missão é no Grupo D, lutando por uma vaga nos mata-matas. O sonho está mais vivo do que nunca! 🌟`,
+    qualification: `### 🛣️ O Caminho até a Vaga
+
+Nas eliminatórias da UEFA, a Turquia terminou na 2ª posição do seu grupo, logo atrás da Espanha 🇪🇸. Esse cenário já estava praticamente desenhado após um duro tropeço por 6 a 0 em casa para os ibéricos na segunda rodada. 🤕
+
+Mas Montella não deixou a peteca cair! O comandante conduziu sua equipe com sucesso na repescagem continental, garantindo a vaga com vitórias cirúrgicas sobre a **Romênia** 🇷🇴 e o **Kosovo** 🇽🇰. 💪`,
+    lastMatches: [
+      { opponent: 'Kosovo', result: 'W', score: '1-0' },
+      { opponent: 'Romênia', result: 'W', score: '1-0' },
+      { opponent: 'Espanha', result: 'D', score: '2-2' },
+      { opponent: 'Bulgária', result: 'W', score: '2-0' },
+      { opponent: 'Geórgia', result: 'W', score: '4-1' },
+    ]
   }
 };
 
