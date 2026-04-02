@@ -11,6 +11,30 @@ export interface TeamDetails {
 }
 
 const specificData: Record<string, Partial<TeamDetails>> = {
+  'RSA': {
+    history: `O jejum terminou. Depois de ficar fora das três últimas edições, a África do Sul está de volta à Copa do Mundo da FIFA™ pela primeira vez desde que recebeu o torneio e as melhores seleções do planeta em 2010.
+
+Histórico da África do Sul na Copa do Mundo
+Confederação: CAF
+Melhores Copas do Mundo: 1998, 2002, 2010 (fase de grupos)
+Última Copa do Mundo: 2010 (fase de grupos)
+Primeira Copa do Mundo: 1998 (fase de grupos)
+Participações: 4 (1998, 2002, 2010, 2026)
+Sequência atual de classificações: 1
+País-sede: 2010 (fase de grupos)
+Histórico na Copa do Mundo: 9 J, 2 V, 4 E, 3 D, 11 GP, 16 GC`,
+    qualification: `Como a África do Sul se classificou para 2026
+A África do Sul garantiu sua quarta participação em Copas do Mundo ao terminar na liderança do Grupo C das eliminatórias da CAF, com cinco vitórias, três empates e duas derrotas. A classificação veio após uma disputa acirrada com a Nigéria, potência continental, e com o surpreendente Benin, sendo decidida apenas nos minutos finais da última rodada.
+
+Os Bafana Bafana chegaram à rodada decisiva em segundo lugar e precisavam vencer Ruanda em casa para seguir sonhando. Com uma convincente vitória por 3 a 0, as atenções se voltaram para o duelo entre Nigéria e o então líder Benin. A goleada por 4 a 0 dos nigerianos permitiu que os sul-africanos terminassem na primeira colocação e garantissem a vaga no Mundial.`,
+    lastMatches: [
+      { opponent: 'Panamá', result: 'L', score: '1-2' },
+      { opponent: 'Panamá', result: 'D', score: '1-1' },
+      { opponent: 'Camarões', result: 'L', score: '1-2' },
+      { opponent: 'Zimbábue', result: 'W', score: '3-2' },
+      { opponent: 'Egito', result: 'L', score: '0-1' },
+    ]
+  },
   'BRA': {
     history: 'O Brasil é a única seleção a participar de todas as edições da Copa do Mundo e a maior vencedora do torneio, com 5 títulos (1958, 1962, 1970, 1994 e 2002). Conhecida pelo "futebol arte", a seleção canarinho sempre entra como uma das favoritas.',
     qualification: 'O Brasil garantiu sua vaga nas Eliminatórias Sul-Americanas, terminando entre os primeiros colocados após uma campanha sólida, apesar de alguns tropeços no início do ciclo sob novo comando técnico.',
@@ -89,31 +113,15 @@ const specificData: Record<string, Partial<TeamDetails>> = {
     ]
   },
   'MEX': {
-    history: `🇲🇽 História do México nas Copas do Mundo
-
-O México é uma das seleções mais tradicionais do futebol mundial e uma das que mais participou da Copa do Mundo FIFA. Sua estreia foi na primeira edição, em 1930, no Uruguai.
-
-🔥 Anos como anfitrião
-O México já sediou a Copa duas vezes:
-1970 – considerada uma das melhores da história, vencida pelo Brasil de Pelé
-1986 – marcada pela atuação lendária de Diego Maradona
-Em ambas, o México chegou até as quartas de final, seu melhor desempenho até hoje.
-
-📊 Desempenho geral
-Participações: mais de 15 edições
-Melhor resultado: quartas de final (1970 e 1986)
-Marca registrada: cair nas oitavas de final repetidamente (o famoso “quarto jogo”)
-Entre 1994 e 2018, o México foi eliminado 7 vezes seguidas nas oitavas, criando uma espécie de “maldição”.
-
-🇲🇽 Copa do Mundo de 2022 (última participação)
-Na Copa do Mundo FIFA 2022, o México teve uma campanha decepcionante:
-Eliminado ainda na fase de grupos
-Ficou atrás de Argentina e Polônia
-Vitória apenas contra a Arábia Saudita
-Isso marcou o fim da sequência de classificações às oitavas.
-
-🌟 Conclusão
-O México é uma seleção gigante em tradição e torcida, mas ainda busca dar o salto definitivo nas Copas. A Copa do Mundo FIFA 2026 representa uma oportunidade histórica para mudar sua trajetória e escrever o capítulo mais importante de sua história no futebol.`,
+    history: `HISTORIA EM COPAS: 
+Confederação: Concacaf
+Melhores Copas do Mundo: 1970 e 1986 (quartas de final)
+Última Copa do Mundo: Catar 2022 (fase de grupos)
+Primeira Copa do Mundo: Uruguai 1930
+Participações: 18 (1930, 1950, 1954, 1958, 1962, 1966, 1970, 1978, 1986, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022, 2026)
+Sequência atual de classificações: 9 (de 1994 a 2026)
+Sede da Copa do Mundo: 1970 (quartas de final), 1986 (quartas), 2026
+Histórico na Copa do Mundo: 60 J, 17 V, 15 E, 28 D, 62 GP, 101 GC`,
     qualification: `🏆 Copa do Mundo de 2026 (anfitriã)
 
 O México será co-anfitrião da Copa do Mundo FIFA 2026, junto com:
@@ -128,11 +136,11 @@ Jogando em casa, a pressão é grande para:
 Quebrar a “maldição das oitavas”
 Chegar finalmente a uma semifinal histórica`,
     lastMatches: [
-      { opponent: 'Arábia Saudita', result: 'W', score: '2-0' },
-      { opponent: 'Argentina', result: 'L', score: '0-2' },
-      { opponent: 'Polônia', result: 'D', score: '0-0' },
-      { opponent: 'Alemanha', result: 'D', score: '2-2' },
-      { opponent: 'Colômbia', result: 'L', score: '0-1' },
+      { opponent: 'Bélgica', result: 'D', score: '1-1' },
+      { opponent: 'Portugal', result: 'D', score: '0-0' },
+      { opponent: 'Islândia', result: 'W', score: '4-0' },
+      { opponent: 'Bolívia', result: 'W', score: '1-0' },
+      { opponent: 'Panamá', result: 'W', score: '1-0' },
     ]
   },
   'CAN': {
@@ -144,6 +152,30 @@ Chegar finalmente a uma semifinal histórica`,
       { opponent: 'Japão', result: 'L', score: '1-4' },
       { opponent: 'Croácia', result: 'L', score: '0-2' },
       { opponent: 'Panamá', result: 'W', score: '1-0' },
+    ]
+  },
+  'KOR': {
+    history: `República da Coreia se classificou para sua 11ª Copa do Mundo da FIFA seguida
+No Qatar 2022, sul-coreanos passaram da fase de grupos pela primeira vez em 12 anos
+
+Histórico da Coreia do Sul na Copa do Mundo
+Confederação: AFC
+Melhor Copa do Mundo: 2002 (quarto lugar)
+Última Copa do Mundo: Qatar 2022 (Oitavas de final)
+Primeira Copa do Mundo: Suíça 1954
+Participações: 12 (1954, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022, 2026)
+Sequência atual de classificação: 11
+Sede da Copa do Mundo: 2002
+Histórico na Copa do Mundo: 38 J, 7 V, 10 E, 21 D, 39 GP, 78 GC`,
+    qualification: `Como a Coreia do Sul se classificou para 2026
+Apesar de duas trocas de treinador após o Qatar 2022, a Coreia do Sul garantiu vaga para 2026 com tranquilidade, terminando a campanha nas eliminatórias asiáticas de forma invicta. Na segunda fase, em grupo com China, Tailândia e Singapura, acumulou cinco vitórias e apenas um empate — com os tailandeses, em 1 a 1.
+Já na fase final, enfrentou Jordânia, Iraque, Omã, Palestina e Kuwait pelo Grupo B, terminando na liderança após seis vitórias e quatro empates e assegurando um lugar no primeiro Mundial com 48 seleções. De quebra, foi o único representante asiático a se classificar para 2026 sem derrotas.`,
+    lastMatches: [
+      { opponent: 'Áustria', result: 'L', score: '0-1' },
+      { opponent: 'Costa do Marfim', result: 'L', score: '0-4' },
+      { opponent: 'Gana', result: 'W', score: '1-0' },
+      { opponent: 'Bolívia', result: 'W', score: '2-0' },
+      { opponent: 'Paraguai', result: 'W', score: '2-0' },
     ]
   }
 };
