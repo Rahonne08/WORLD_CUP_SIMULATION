@@ -144,14 +144,28 @@ Chegar finalmente a uma semifinal histórica`,
     ]
   },
   'CAN': {
-    history: 'O Canadá fará sua terceira participação em Copas do Mundo (1986, 2022 e 2026). O futebol no país tem crescido exponencialmente, liderado por uma nova geração de jogadores atuando na Europa.',
-    qualification: 'Como país-sede, o Canadá obteve a vaga automática para 2026, utilizando o período para ganhar experiência contra seleções de outros continentes.',
+    history: `O Canadá vai disputar a Copa do Mundo da FIFA 26™ como coanfitrião, ao lado dos Estados Unidos e do México. Essa será sua terceira participação no maior torneio do futebol.
+O Canadá foi colocado no Grupo B para o torneio de 2026
+No Catar 2022, a seleção canadense caiu na fase de grupos
+Os canadenses jogaram dois torneios antes: o México 1986 e o Catar 2022. Sob o comando do técnico Jesse Marsch e com apoio da torcida, a seleção está ansiosa para finalmente passar da fase de grupos, e talvez sonhar com algo ainda maior.
+
+Histórico do Canadá na Copa do Mundo
+Confederação: Concacaf
+Melhores Copas do Mundo: 1986 e 2022 (fase de grupos)
+Última Copa do Mundo: Catar 2022 (fase de grupos)
+Primeira Copa do Mundo: México 1986
+Participações: 3 (1986, 2022 e 2026)
+Sequência atual de classificações: 2 (2022 e 2026)
+Sede da Copa do Mundo: 2026
+Histórico na Copa do Mundo: 6 J, 0 V, 0 E, 6 D, 2 GP, 12 GC`,
+    qualification: `Como o Canadá se classificou para 2026
+O Canadá garantiu sua vaga como coanfitrião do torneio, ao lado dos Estados Unidos e do México. A edição de 2026 será a maior até hoje, com um formato ampliado para 48 seleções.`,
     lastMatches: [
-      { opponent: 'EUA', result: 'D', score: '1-1' },
-      { opponent: 'Jamaica', result: 'W', score: '2-1' },
-      { opponent: 'Japão', result: 'L', score: '1-4' },
-      { opponent: 'Croácia', result: 'L', score: '0-2' },
-      { opponent: 'Panamá', result: 'W', score: '1-0' },
+      { opponent: 'Tunísia', result: 'D', score: '0-0' },
+      { opponent: 'Islândia', result: 'D', score: '2-2' },
+      { opponent: 'Guatemala', result: 'W', score: '1-0' },
+      { opponent: 'Venezuela', result: 'W', score: '2-0' },
+      { opponent: 'Equador', result: 'D', score: '0-0' },
     ]
   },
   'KOR': {
