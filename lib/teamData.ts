@@ -701,6 +701,100 @@ Uma seleção equilibrada, sólida e pronta para surpreender! 💪🇨🇭`,
       { opponent: 'Suécia', result: 'W', score: '4-1' },
       { opponent: 'Eslovênia', result: 'D', score: '0-0' },
     ]
+  },
+  'BIH': {
+    history: `## 🇧🇦 Bósnia e Herzegovina na Copa do Mundo 2026
+
+A Bósnia e Herzegovina segue construindo sua história no futebol mundial! 🌍⚽
+Ainda jovem como nação independente, a seleção busca crescer e surpreender na Copa do Mundo FIFA 2026! 🚀🔥
+
+---
+
+## 🌟 História em Copas
+
+* 🏁 Primeira participação: **2014 (Brasil)**
+* 🔢 Participações: 2 (2014 e 2026)
+* 🏆 Melhor resultado: Fase de grupos
+
+📌 Curiosidade:
+Antes da independência em 1992, jogadores bósnios atuavam pela antiga Iugoslávia, que teve forte presença em Copas! 🇪🇺⚽
+
+---
+
+## 🏆 Destaque histórico
+
+Na Copa do Mundo FIFA 2014, a Bósnia fez sua estreia:
+
+* ⚔️ Derrota para a Argentina (1x2)
+* ❌ Derrota para a Nigéria (0x1)
+* ✅ Vitória histórica sobre o Irã (3x1)
+
+👉 Mesmo eliminada, deixou boa impressão em sua primeira Copa! 👀🔥
+
+---
+
+## 📅 Jogos da Bósnia – Copa 2026 (Grupo B)
+
+* 🇨🇦 Canadá x 🇧🇦 Bósnia e Herzegovina
+* 🇨🇭 Suíça x 🇧🇦 Bósnia e Herzegovina
+* 🇧🇦 Bósnia e Herzegovina x 🇶🇦 Catar
+
+⚔️ Grupo equilibrado, com chances reais de classificação! 💪
+
+---
+
+## 📊 Histórico em Copas
+
+* 🌍 Confederação: UEFA
+* 🏆 Melhor campanha: Fase de grupos
+* ⏱️ Última Copa: 2014
+* 🔢 Participações: 2
+
+📈 Números gerais:
+
+* ⚽ Jogos: 3
+* ✅ Vitórias: 1
+* ❌ Derrotas: 2
+* 🤝 Empates: 0
+* 🥅 Gols marcados: 4
+* 🚫 Gols sofridos: 4
+
+---
+
+## 🌟 Ídolos e destaques
+
+Alguns dos principais nomes da história recente:
+
+* ⭐ Edin Džeko
+* 🎯 Miralem Pjanić
+* ⚡ Vedad Ibišević
+
+👉 Todos marcaram gols históricos na Copa de 2014! ⚽🔥
+
+---
+
+## 🌟 Fique de olho!
+
+A Bósnia e Herzegovina é uma seleção **técnica e perigosa** 👀⚠️
+Mesmo com pouca experiência em Copas, pode surpreender e buscar sua **primeira classificação ao mata-mata**!
+
+👉 Será que 2026 marcará um novo capítulo histórico? 🏆🔥`,
+    qualification: `## 🚀 Caminho e evolução
+
+Desde a independência, a Bósnia tem mostrado crescimento constante:
+
+* ⚔️ Disputou eliminatórias competitivas
+* 🔥 Chegou a playoffs em 2010
+* 🥇 Classificou-se em 1º lugar do grupo europeu em 2014
+
+Agora, retorna ao Mundial com mais experiência e ambição! 💪🇧🇦`,
+    lastMatches: [
+      { opponent: 'Itália', result: 'W', score: '1(4)-1(1)' },
+      { opponent: 'País de Gales', result: 'W', score: '1(4)-1(2)' },
+      { opponent: 'Áustria', result: 'D', score: '1-1' },
+      { opponent: 'Romênia', result: 'W', score: '3-1' },
+      { opponent: 'Malta', result: 'W', score: '4-1' },
+    ]
   }
 };
 
