@@ -1918,6 +1918,62 @@ A classificação veio com autoridade total! A Costa do Marfim garantiu sua vaga
       { opponent: 'Burkina Faso', result: 'W', score: '3-0' },
       { opponent: 'Gabão', result: 'W', score: '3-2' },
     ]
+  },
+  'ECU': {
+    history: `## 🇪🇨✨ EQUADOR: A ASCENSÃO DA "LA TRI"! ✨🇪🇨
+
+🎉 **A Geração de Ouro Sul-Americana!**
+O Equador carimbou o passaporte para a sua 5ª Copa do Mundo da FIFA™! Pela segunda vez consecutiva, a "La Tri" chega ao Mundial ostentando uma geração brilhante que atua na elite do futebol europeu. 🌍✈️
+
+Com uma campanha histórica nas eliminatórias da CONMEBOL, os equatorianos terminaram em 2º lugar, ficando atrás apenas da atual campeã Argentina 🇦🇷. O objetivo agora é superar o recorde de 2006 e avançar além das oitavas de final! 🚀🔥
+
+🧠🇦🇷 **O Comandante: Sebastián Beccacece**
+O técnico argentino assumiu o desafio após a Copa América e devolveu a personalidade ao time! Sob sua liderança, o Equador se tornou uma equipe extremamente resiliente e competitiva, perdendo apenas na estreia contra o Brasil 🇧🇷 e seguindo invicto desde então. 📋👔
+
+---
+
+### 📅 AGENDA DO EQUADOR – GRUPO E 🗓️
+Anote para não perder os lances da La Tri! ⏰
+
+⚔️ **Rodada 1**
+* **Jogo:** 🇨🇮 Costa do Marfim x Equador 🇪🇨
+* 📍 **Local:** Filadélfia (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 14 de junho | 20h00 *(horário de Brasília)*
+
+⚔️ **Rodada 2**
+* **Jogo:** 🇪🇨 Equador x Curaçau 🇨🇼
+* 📍 **Local:** Kansas City (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 20 de junho | 21h00 *(horário de Brasília)*
+
+⚔️ **Rodada 3**
+* **Jogo:** 🇪🇨 Equador x Alemanha 🇩🇪
+* 📍 **Local:** Nova York/Nova Jersey (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 25 de junho | 17h00 *(horário de Brasília)*
+
+---
+
+### 📜 HISTÓRICO NA COPA DO MUNDO 🏆
+O Equador já é figura carimbada no cenário mundial:
+
+* 🌍 **Confederação:** CONMEBOL
+* ⭐ **Melhor Campanha:** 2006 (Oitavas de Final) 🇩🇪
+* 🔙 **Primeira Copa:** Coreia/Japão 2002 🇰🇷🇯🇵
+* 🔢 **Participações:** 5 (2002, 2006, 2014, 2022 e 2026)
+* 📊 **Estatísticas:** 13 Jogos | 5 Vitórias ✅ | 2 Empates 🤝 | 6 Derrotas ❌`,
+    qualification: `### 🛡️ Uma Defesa Quase Invencível
+
+O segredo do sucesso equatoriano rumo a 2026 foi o "ferrolho" lá atrás:
+
+* 🧱 **Muralha:** A defesa sofreu apenas 2 gols em 12 jogos! 🚫⚽
+* 💎 **Jovens Estrelas:** Nomes como Moisés Caicedo e William Pacho são os pilares dessa equipe que promete fazer história na América do Norte.
+* 🎯 **Matador:** O veterano Enner Valencia continua sendo a referência no ataque, tendo marcado 6 gols na caminhada classificatória.`,
+    lastMatches: [
+      { opponent: 'Holanda', result: 'D', score: '1-1' },
+      { opponent: 'Marrocos', result: 'D', score: '1-1' },
+      { opponent: 'Nova Zelândia', result: 'W', score: '2-0' },
+      { opponent: 'Canadá', result: 'D', score: '0-0' },
+      { opponent: 'México', result: 'D', score: '1-1' },
+    ]
   }
 };
 
