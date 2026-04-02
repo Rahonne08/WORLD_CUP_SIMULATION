@@ -149,6 +149,14 @@ O Canadá foi colocado no Grupo B para o torneio de 2026
 No Catar 2022, a seleção canadense caiu na fase de grupos
 Os canadenses jogaram dois torneios antes: o México 1986 e o Catar 2022. Sob o comando do técnico Jesse Marsch e com apoio da torcida, a seleção está ansiosa para finalmente passar da fase de grupos, e talvez sonhar com algo ainda maior.
 
+Jogos do Canadá no Grupo B
+• Rodada 1 12 de junho
+Canadá x Bósnia e Herzegovina Toronto, no Canadá – 15h00 no horário local (16h00 em Brasília)
+• Rodada 2 18 de junho
+Canadá x Catar Vancouver, no Canadá – 15h00 no horário local (16h00 em Brasília)
+• Rodada 3 24 de junho
+Suíça x Canadá Vancouver, no Canadá – 12h00 no horário local (16h00 em Brasília)
+
 Histórico do Canadá na Copa do Mundo
 Confederação: Concacaf
 Melhores Copas do Mundo: 1986 e 2022 (fase de grupos)
@@ -216,12 +224,18 @@ O Catar agora se prepara para disputar sua segunda Copa do Mundo da FIFA™
 O país chega embalado pela primeira grande campanha nas eliminatórias asiáticas
 
 Jogos do Catar no Grupo B
-• Rodada 1 13 de junho
-Catar x Suíça Santa Clara (região da Baía de San Francisco), nos EUA – 12h00 no horário local (16h00 em Brasília)
-• Rodada 2 18 de junho
-Canadá x Catar Vancouver, no Canadá – 15h00 no horário local (19h00 em Brasília)
-• Rodada 3 24 de junho
-Bósnia e Herzegovina x Catar Seattle, nos Estados Unidos – 12h00 no horário local (16h00 em Brasília)
+• Rodada 1
+13 de junho
+Catar x Suíça 
+LOCAL: Santa Clara (região da Baía de San Francisco), nos EUA – 12h00 no horário local (16h00 em Brasília)
+• Rodada 2 
+18 de junho
+Canadá x Catar 
+LOCAL: Vancouver, no Canadá – 15h00 no horário local (19h00 em Brasília)
+• Rodada 3 
+24 de junho
+Bósnia e Herzegovina x Catar 
+LOCAL: Seattle, nos Estados Unidos – 12h00 no horário local (16h00 em Brasília)
 
 Histórico do Catar na Copa do Mundo
 Confederação: AFC
