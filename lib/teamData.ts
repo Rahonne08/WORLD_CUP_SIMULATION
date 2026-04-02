@@ -236,14 +236,58 @@ O Brasil garantiu sua vaga nas Eliminatórias Sul-Americanas, terminando entre o
     ]
   },
   'GER': {
-    history: 'A Alemanha é tetracampeã mundial (1954, 1974, 1990 e 2014). Conhecida por sua eficiência e força tática, a equipe busca se redimir após campanhas decepcionantes nas últimas duas Copas.',
-    qualification: 'A Alemanha fez uma campanha segura nas Eliminatórias Europeias, mostrando evolução sob o comando de Julian Nagelsmann e garantindo a vaga direta.',
+    history: `## 🇩🇪✨ **A MÁQUINA ALEMÃ NA COPA DO MUNDO 2026!** ✨🇩🇪
+
+🎉 **Em Busca da Redenção!**
+A Alemanha desembarca na Copa do Mundo da FIFA 2026™ de cara nova! Disputando seu primeiro Mundial sob a batuta tática do técnico **Julian Nagelsmann** 🧠👔, a gigante europeia vai para o seu **19º Mundial consecutivo** (o 21º em toda a sua história). 
+
+A missão da **tetracampeã** 🏆🏆🏆🏆 no torneio sediado por Canadá, México e EUA é muito clara: colocar um ponto final na sequência amarga de eliminações na fase de grupos (2018 e 2022) e mostrar ao mundo o poder do seu forte processo de reconstrução iniciado em 2024! 🔄🚀
+
+🧠👔 **O Comandante: Julian Nagelsmann**
+Nagelsmann assumiu o leme em setembro de 2023. Mesmo com pouco tempo para preparar a equipe para a Euro 2024 disputada em casa, o trabalho convenceu a Federação Alemã (DFB), que renovou seu contrato antes mesmo do torneio, garantindo o comandante até o fim da Copa de 2026! ✍️📋
+
+---
+
+### 📅 **AGENDA DA ALEMANHA – GRUPO E** 🗓️
+
+*Fique de olho nos horários para não perder a tetracampeã em campo!* ⏰
+
+⚔️ **Rodada 1**
+* **Jogo:** 🇩🇪 Alemanha x Curaçau 🇨🇼
+* 📍 **Local:** Houston (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 14 de junho | 14h00 *(horário de Brasília)*
+
+⚔️ **Rodada 2**
+* **Jogo:** 🇩🇪 Alemanha x Costa do Marfim 🇨🇮
+* 📍 **Local:** Toronto (Canadá) 🇨🇦
+* 🕒 **Data/Hora:** 20 de junho | 17h00 *(horário de Brasília)*
+
+⚔️ **Rodada 3**
+* **Jogo:** 🇪🇨 Equador x Alemanha 🇩🇪
+* 📍 **Local:** Nova York/Nova Jersey (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 25 de junho | 17h00 *(horário de Brasília)*
+
+---
+
+### 📜 **HISTÓRICO DE PESO EM COPAS DO MUNDO** 🏆
+
+Uma verdadeira realeza do futebol mundial:
+* 🌍 **Confederação:** UEFA
+* 🥇 **Títulos (Tetracampeã):** 1954, 1974, 1990 e 2014
+* ⏪ **Última Copa:** Catar 2022 *(Fase de grupos)*
+* 🔙 **Primeira Copa:** Itália 1934 *(4º lugar)*
+* 🔢 **Participações:** 21
+* 📊 **Estatísticas Gerais:** 112 Jogos | 68 Vitórias ✅ | 21 Empates 🤝 | 23 Derrotas ❌ | 232 Gols Pró ⚽ | 130 Gols Contra 🥅`,
+    qualification: `🛣️ **O Caminho até a Vaga**
+A vaga foi carimbada com estilo em novembro de 2025! A Alemanha dominou e venceu o **Grupo A** das eliminatórias: foram **5 vitórias em 6 partidas**, com um saldo impressionante de 16 gols marcados e apenas 3 sofridos. ⚽🔥
+
+A campanha teve emoção: após uma derrota surpreendente por 2 a 0 na estreia contra a Eslováquia, os alemães se recuperaram de forma espetacular, fechando as eliminatórias com uma goleada avassaladora de 6 a 0 sobre os próprios eslovacos! 🌪️ Tudo isso superando os desfalques de estrelas como Jamal Musiala, Kai Havertz, Antonio Rüdiger e Marc-André ter Stegen, que lidaram com lesões durante a jornada. 🏥💪`,
     lastMatches: [
-      { opponent: 'Inglaterra', result: 'D', score: '1-1' },
-      { opponent: 'França', result: 'W', score: '2-1' },
-      { opponent: 'Espanha', result: 'D', score: '1-1' },
-      { opponent: 'Holanda', result: 'W', score: '3-2' },
-      { opponent: 'Bélgica', result: 'L', score: '0-1' },
+      { opponent: 'Gana', result: 'W', score: '2-1' },
+      { opponent: 'Suíça', result: 'W', score: '4-3' },
+      { opponent: 'Eslováquia', result: 'W', score: '6-0' },
+      { opponent: 'Luxemburgo', result: 'W', score: '2-0' },
+      { opponent: 'Irlanda do Norte', result: 'W', score: '1-0' },
     ]
   },
   'ENG': {
