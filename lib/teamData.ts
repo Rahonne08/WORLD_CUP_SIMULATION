@@ -172,30 +172,76 @@ Chegar finalmente a uma semifinal histórica`,
     ]
   },
   'CAN': {
-    history: `O Canadá vai disputar a Copa do Mundo da FIFA 26™ como coanfitrião, ao lado dos Estados Unidos e do México. Essa será sua terceira participação no maior torneio do futebol.
-O Canadá foi colocado no Grupo B para o torneio de 2026
-No Catar 2022, a seleção canadense caiu na fase de grupos
-Os canadenses jogaram dois torneios antes: o México 1986 e o Catar 2022. Sob o comando do técnico Jesse Marsch e com apoio da torcida, a seleção está ansiosa para finalmente passar da fase de grupos, e talvez sonhar com algo ainda maior.
+    history: `## 🇨🇦 Canadá na Copa do Mundo 2026
 
-Jogos do Canadá no Grupo B
-• Rodada 1 12 de junho
-Canadá x Bósnia e Herzegovina Toronto, no Canadá – 15h00 no horário local (16h00 em Brasília)
-• Rodada 2 18 de junho
-Canadá x Catar Vancouver, no Canadá – 15h00 no horário local (16h00 em Brasília)
-• Rodada 3 24 de junho
-Suíça x Canadá Vancouver, no Canadá – 12h00 no horário local (16h00 em Brasília)
+O Canadá chega para fazer história na Copa do Mundo FIFA 2026! 🌍⚽
+Como **coanfitrião**, ao lado de Estados Unidos e México, a seleção disputará sua **3ª Copa do Mundo** — e promete ir além! 🚀🔥
 
-Histórico do Canadá na Copa do Mundo
-Confederação: Concacaf
-Melhores Copas do Mundo: 1986 e 2022 (fase de grupos)
-Última Copa do Mundo: Catar 2022 (fase de grupos)
-Primeira Copa do Mundo: México 1986
-Participações: 3 (1986, 2022 e 2026)
-Sequência atual de classificações: 2 (2022 e 2026)
-Sede da Copa do Mundo: 2026
-Histórico na Copa do Mundo: 6 J, 0 V, 0 E, 6 D, 2 GP, 12 GC`,
-    qualification: `Como o Canadá se classificou para 2026
-O Canadá garantiu sua vaga como coanfitrião do torneio, ao lado dos Estados Unidos e do México. A edição de 2026 será a maior até hoje, com um formato ampliado para 48 seleções.`,
+---
+
+## 🌟 Destaques e expectativa
+
+* 🏟️ País-sede da Copa 2026
+* 🔢 3ª participação em Copas (1986, 2022, 2026)
+* 🎯 Busca **classificação inédita ao mata-mata**
+* 👨‍🏫 Treinador: Jesse Marsch
+
+Após cair na fase de grupos na Copa do Mundo FIFA 2022, o Canadá quer aproveitar o fator casa para surpreender! 💪🇨🇦
+
+---
+
+## 📅 Jogos do Canadá – Grupo B
+
+### 🥇 Rodada 1
+
+📍 Toronto (Canadá)
+🗓️ 12 de junho
+⏰ 16h (Brasília)
+⚔️ 🇨🇦 Canadá x 🇧🇦 Bósnia e Herzegovina
+
+### 🥈 Rodada 2
+
+📍 Vancouver (Canadá)
+🗓️ 18 de junho
+⏰ 16h (Brasília)
+⚔️ 🇨🇦 Canadá x 🇶🇦 Catar
+
+### 🥉 Rodada 3
+
+📍 Vancouver (Canadá)
+🗓️ 24 de junho
+⏰ 16h (Brasília)
+⚔️ 🇨🇭 Suíça x 🇨🇦 Canadá
+
+---
+
+## 📊 Histórico em Copas
+
+* 🌍 Confederação: Concacaf
+* 🏆 Melhor resultado: Fase de grupos (1986 e 2022)
+* ⏱️ Última Copa: 2022
+* 🏁 Primeira Copa: 1986
+* 🔢 Participações: 3
+* 🔄 Sequência atual: 2 Copas seguidas
+* 🏟️ País-sede: 2026
+
+📈 Números gerais:
+
+* ⚽ Jogos: 6
+* ❌ Vitórias: 0
+* 🤝 Empates: 0
+* 🔻 Derrotas: 6
+* 🥅 Gols marcados: 2
+* 🚫 Gols sofridos: 12
+
+👉 Curiosidade: o Canadá ainda busca sua **primeira vitória em Copas do Mundo** 👀🔥`,
+    qualification: `## 🚀 Caminho até a Copa 2026
+
+Diferente de outras seleções, o Canadá garantiu vaga automaticamente por ser **país-sede** 🏟️✨
+
+* 🤝 Classificado direto (sem eliminatórias)
+* 🌍 Torneio com **48 seleções** — o maior da história
+* 🔥 Grande oportunidade de crescimento no futebol mundial`,
     lastMatches: [
       { opponent: 'Tunísia', result: 'D', score: '0-0' },
       { opponent: 'Islândia', result: 'D', score: '2-2' },
@@ -243,15 +289,77 @@ Já na fase final, enfrentou Jordânia, Iraque, Omã, Palestina e Kuwait pelo Gr
     ]
   },
   'CZE': {
-    history: `A República Tcheca se classificou para a Copa do Mundo da FIFA 2026™ após dramática vitória nos pênaltis sobre a Dinamarca, garantindo seu primeiro retorno ao torneio mundial desde a Alemanha 2006.
-A recompensa para a República Tcheca é uma vaga no Grupo A do torneio, no qual vai enfrentar a Coreia do Sul em Guadalajara, a África do Sul em Atlanta e o México, um dos países-sede, na Cidade do México.
+    history: `## 🇨🇿 República Tcheca na Copa do Mundo 2026
 
-República Tcheca na Copa do Mundo
-Primeira participação: Itália 1934
-Participações: 10 (1934, 1938, 1954, 1958, 1962, 1970, 1982, 1990, 2006, 2026)
-Melhor campanha: vice-campeã (1934 e 1962)
-A República Tcheca competiu em Copas do Mundo como Tchhecoslováquia de 1930 a 1994 e como República Tcheca de 1998 a 2014.`,
-    qualification: `A equipe de Miroslav Koubek se classificou na repescagem europeia depois de inicialmente superar a República da Irlanda nos pênaltis em sua semifinal. No jogo decisivo, demonstrou mais uma vez que consegue manter a calma na marca dos 11 metros com um triunfo por 3 a 1 contra os dinamarqueses, após um empate em 2 a 2 em 120 minutos de tirar o fôlego em Praga.`,
+A República Tcheca está de volta ao maior palco do futebol mundial! 🌍⚽
+Após uma classificação emocionante, a equipe retorna à Copa do Mundo FIFA 2026 depois de **20 anos** longe do torneio! 😱🔥
+
+---
+
+## 🌟 História em Copas
+
+* 🏁 Primeira participação: 1934
+* 🔢 Participações: 10
+* 🥈 Melhor campanha: **Vice-campeã (1934 e 1962)**
+
+📌 Curiosidade:
+A seleção já disputou Copas como **Tchecoslováquia**, entre 1930 e 1994, sendo uma das mais tradicionais da Europa! 🇪🇺⚽
+
+---
+
+## 🏆 Destaque atual
+
+A classificação para 2026 veio com muita emoção! 💥
+
+* ⚔️ Vitória nos pênaltis contra a Dinamarca
+* 🧠 Sangue frio e precisão nas cobranças
+* 🔥 Retorno histórico desde a Copa de 2006
+
+Uma seleção que mistura tradição com espírito competitivo! 💪🇨🇿
+
+---
+
+## 📅 Jogos da República Tcheca – Grupo A
+
+### 🥇 Rodada 1
+
+📍 Guadalajara (México)
+🗓️ 11 de junho
+⏰ 23h (Brasília)
+⚔️ Coreia do Sul 🇰🇷 x 🇨🇿 República Tcheca
+
+### 🥈 Rodada 2
+
+📍 Atlanta (EUA)
+🗓️ 18 de junho
+⏰ 13h (Brasília)
+⚔️ 🇨🇿 República Tcheca x África do Sul 🇿🇦
+
+### 🥉 Rodada 3
+
+📍 Cidade do México (México)
+🗓️ 24 de junho
+⏰ 20h (Brasília)
+⚔️ 🇨🇿 República Tcheca x México 🇲🇽
+
+---
+
+## 🌟 Fique de olho!
+
+A República Tcheca chega como uma seleção **tradicional e perigosa** 👀⚠️
+Com histórico forte e confiança renovada, pode surpreender no grupo!
+
+👉 Será que vem aí mais uma campanha histórica rumo a uma final? 🏆🇨🇿🔥`,
+    qualification: `## 🚀 Caminho até a Copa 2026
+
+A jornada até a Copa foi marcada por **emoção e nervos de aço** 😮🔥
+
+* ⚔️ Eliminou a Irlanda nos pênaltis
+* 🔥 Empate épico por 2x2 com a Dinamarca
+* 🎯 Vitória por **3x1 nos pênaltis** no jogo decisivo
+* 🧠 Destaque para o controle emocional nos momentos críticos
+
+👉 Uma classificação digna de seleção grande! 🏆`,
     lastMatches: [
       { opponent: 'Dinamarca', result: 'W', score: '2(3)-(1)2' },
       { opponent: 'Irlanda', result: 'W', score: '2(4)-(3)2' },
@@ -261,42 +369,183 @@ A República Tcheca competiu em Copas do Mundo como Tchhecoslováquia de 1930 a 
     ]
   },
   'QAT': {
-    history: `O Catar foi a sede a Copa do Mundo da FIFA 2022™, combinando organização meticulosa com hospitalidade excepcional para oferecer um torneio extraordinário que destacou a região do Golfo no cenário mundial. Fazendo sua estreia no maior evento global, os anfitriões ganharam experiência inestimável ao enfrentar equipes diante de sua própria torcida.
-O Catar agora se prepara para disputar sua segunda Copa do Mundo da FIFA™
-O país chega embalado pela primeira grande campanha nas eliminatórias asiáticas
+    history: `## 🇶🇦 Catar na Copa do Mundo 2026
 
-Jogos do Catar no Grupo B
-• Rodada 1
-13 de junho
-Catar x Suíça 
-LOCAL: Santa Clara (região da Baía de San Francisco), nos EUA – 12h00 no horário local (16h00 em Brasília)
-• Rodada 2 
-18 de junho
-Canadá x Catar 
-LOCAL: Vancouver, no Canadá – 15h00 no horário local (19h00 em Brasília)
-• Rodada 3 
-24 de junho
-Bósnia e Herzegovina x Catar 
-LOCAL: Seattle, nos Estados Unidos – 12h00 no horário local (16h00 em Brasília)
+O Catar segue escrevendo sua história no futebol mundial! 🌍⚽
+Após sediar a incrível Copa do Mundo FIFA 2022, o país retorna agora para sua **segunda participação**, buscando evolução e protagonismo. 🚀🔥
 
-Histórico do Catar na Copa do Mundo
-Confederação: AFC
-Melhor Copa do Mundo: 2022 (fase de grupos)
-Última Copa do Mundo: Catar 2022
-Primeira Copa do Mundo: Catar 2022
-Participações: 2 (2022, 2026)
-Sequência atual de classificações: 2
-País-sede: 2022
-Histórico na Copa do Mundo: 3 J, 0 V, 0 E, 3 D, 1 GP, 7 GC`,
-    qualification: `Como o Catar se classificou para 2026
-O Catar garantiu vaga direta para a Copa do Mundo da FIFA 26™ com uma vitória por 2 a 1 sobre os Emirados Árabes Unidos, em Doha, no dia 14 de outubro, em duelo válido pela quarta fase das eliminatórias asiáticas.
-Desde o início das eliminatórias, a seleção apresentou atuações consistentes e convincentes, liderando seu grupo na segunda fase com 16 pontos (cinco vitórias, um empate e uma derrota). Na terceira fase, manteve o bom desempenho, mas terminou em quarto lugar, atrás de Irã e Uzbequistão - que ficaram com as vagas diretas -, sendo obrigada a seguir para a quarta fase.`,
+### 🌟 Destaque recente
+
+Em 2022, o Catar fez sua **estreia em Copas do Mundo**, proporcionando:
+
+* 🏟️ Organização impecável
+* 🤝 Hospitalidade de alto nível
+* 🌍 Grande visibilidade para o Oriente Médio
+
+Agora, a missão é diferente: **competir e surpreender dentro de campo!** 💪⚽
+
+---
+
+## 📅 Jogos do Catar – Grupo B
+
+### 🥇 Rodada 1
+
+📍 Santa Clara (EUA)
+🗓️ 13 de junho
+⏰ 16h (Brasília)
+⚔️ 🇶🇦 Catar x 🇨🇭 Suíça
+
+### 🥈 Rodada 2
+
+📍 Vancouver (Canadá)
+🗓️ 18 de junho
+⏰ 19h (Brasília)
+⚔️ 🇨🇦 Canadá x 🇶🇦 Catar
+
+### 🥉 Rodada 3
+
+📍 Seattle (EUA)
+🗓️ 24 de junho
+⏰ 16h (Brasília)
+⚔️ 🇧🇦 Bósnia e Herzegovina x 🇶🇦 Catar
+
+---
+
+## 📊 Histórico em Copas
+
+* 🌍 Confederação: AFC
+* 🏆 Melhor resultado: Fase de grupos (2022)
+* 🏁 Primeira Copa: 2022
+* ⏱️ Última Copa: 2022
+* 🔢 Participações: 2 (2022, 2026)
+* 🔄 Sequência atual: 2 Copas seguidas
+* 🏟️ País-sede: 2022
+
+📈 Números gerais:
+
+* ⚽ Jogos: 3
+* ❌ Vitórias: 0
+* 🤝 Empates: 0
+* 🔻 Derrotas: 3
+* 🥅 Gols marcados: 1
+* 🚫 Gols sofridos: 7
+
+---
+
+## 🌟 Fique de olho!
+
+O Catar chega como uma seleção em **construção**, mas com grande ambição 👀🔥
+Com experiência recente em alto nível e evolução constante, pode surpreender no grupo!
+
+👉 Será que o Catar vai conquistar sua **primeira vitória em Copas do Mundo** em 2026? 🏆⚽`,
+    qualification: `## 🚀 Caminho até a Copa 2026
+
+A classificação do Catar foi marcada por **persistência e superação**! 🔥👏
+
+* 🥇 Liderou seu grupo na 2ª fase com **16 pontos**
+* 📊 Campanha: **5 vitórias, 1 empate, 1 derrota**
+* ⚔️ Enfrentou dificuldades na 3ª fase
+* 🎯 Garantiu vaga na 4ª fase com vitória decisiva
+
+🏆 Jogo chave:
+👉 Vitória por **2x1 sobre os Emirados Árabes Unidos** selou a classificação! 🇦🇪❌
+
+Mesmo sem classificação direta, o Catar mostrou **força mental e evolução competitiva** 💥`,
     lastMatches: [
       { opponent: 'Tunísia', result: 'L', score: '0-3' },
       { opponent: 'Síria', result: 'D', score: '1-1' },
       { opponent: 'Palestina', result: 'L', score: '0-1' },
       { opponent: 'Zimbábue', result: 'L', score: '1-2' },
       { opponent: 'Emirados Árabes Unidos', result: 'W', score: '2-1' },
+    ]
+  },
+  'SUI': {
+    history: `## Suíça na Copa do Mundo 2026
+
+A Suíça chega com força total para a Copa do Mundo FIFA 2026! 🌍⚽
+Será a **13ª participação** da equipe no torneio — e a **6ª consecutiva**, mostrando consistência e evolução ao longo dos anos. 📈
+
+### 🏆 Destaques históricos
+
+* 🔝 Chegou às **quartas de final** em 1934, 1938 e 1954
+* 💪 Desde 1994, avançou às **oitavas em 5 de 6 Copas**
+* 🔥 Nas últimas Euros, alcançou **quartas de final consecutivas**
+
+A Suíça é conhecida por ser uma seleção **difícil de bater**, sempre competitiva e organizada taticamente! 🧠⚔️
+
+---
+
+## 📅 Jogos da Suíça – Grupo B
+
+### 🥇 Rodada 1
+
+📍 Santa Clara (EUA)
+🗓️ 13 de junho
+⏰ 16h (Brasília)
+⚔️ Catar 🇶🇦 x 🇨🇭 Suíça
+
+### 🥈 Rodada 2
+
+📍 Los Angeles (EUA)
+🗓️ 18 de junho
+⏰ 16h (Brasília)
+⚔️ 🇨🇭 Suíça x Bósnia e Herzegovina 🇧🇦
+
+### 🥉 Rodada 3
+
+📍 Vancouver (Canadá)
+🗓️ 24 de junho
+⏰ 16h (Brasília)
+⚔️ 🇨🇭 Suíça x Canadá 🇨🇦
+
+---
+
+## 📊 Histórico em Copas
+
+* 🌍 Confederação: UEFA
+* 🥇 Melhor resultado: Quartas de final (1934, 1938, 1954)
+* ⏱️ Última Copa: 2022 (oitavas de final)
+* 🏁 Primeira Copa: 1934
+* 🔢 Participações: 13
+
+📈 Números gerais:
+
+* ⚽ Jogos: 41
+* ✅ Vitórias: 14
+* 🤝 Empates: 8
+* ❌ Derrotas: 19
+* 🥅 Gols marcados: 55
+* 🚫 Gols sofridos: 73
+
+---
+
+## 🌟 Fique de olho!
+
+A Suíça chega como uma seleção **subestimada, mas extremamente perigosa** 👀⚠️
+Com disciplina tática e jogadores decisivos, pode ser uma das surpresas da Copa!`,
+    qualification: `## 🚀 Caminho até a Copa 2026
+
+A campanha nas eliminatórias europeias foi simplesmente **impecável**! 😮🔥
+
+* ✅ Vitória por **4x0** sobre Kosovo
+* ✅ **3x0** contra a Eslovênia
+* ✅ **2x0** diante da Suécia
+* 🔁 Empates estratégicos fora de casa
+* 💥 Nova goleada: **4x1 sobre a Suécia**
+
+📊 Resultado final:
+
+* 🟢 **Invicta**
+* ⚽ **14 gols marcados**
+* 🛡️ **Apenas 2 gols sofridos**
+
+Uma seleção equilibrada, sólida e pronta para surpreender! 💪🇨🇭`,
+    lastMatches: [
+      { opponent: 'Noruega', result: 'D', score: '0-0' },
+      { opponent: 'Alemanha', result: 'L', score: '3-4' },
+      { opponent: 'Kosovo', result: 'D', score: '1-1' },
+      { opponent: 'Suécia', result: 'W', score: '4-1' },
+      { opponent: 'Eslovênia', result: 'D', score: '0-0' },
     ]
   }
 };
