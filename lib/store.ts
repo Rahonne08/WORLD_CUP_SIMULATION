@@ -50,7 +50,7 @@ export const initialTeams: Team[] = [
   { id: 'CAN', name: 'Canadá', code: 'CAN', group: 'B', flagUrl: 'https://flagcdn.com/w80/ca.png', ranking: 30 },
   { id: 'QAT', name: 'Catar', code: 'QAT', group: 'B', flagUrl: 'https://flagcdn.com/w80/qa.png', ranking: 55 },
   { id: 'SUI', name: 'Suíça', code: 'SUI', group: 'B', flagUrl: 'https://flagcdn.com/w80/ch.png', ranking: 19 },
-  { id: 'BIH', name: 'Bósnia e Herzegovina', code: 'BIH', group: 'B', flagUrl: 'https://flagcdn.com/w80/ba.png', ranking: 60 },
+  { id: 'BIH', name: 'Bósnia e Herzegovina', code: 'BIH', group: 'B', flagUrl: 'https://flagcdn.com/w80/ba.png', ranking: 64 },
   // Grupo C
   { id: 'BRA', name: 'Brasil', code: 'BRA', group: 'C', flagUrl: 'https://flagcdn.com/w80/br.png', ranking: 6 },
   { id: 'MAR', name: 'Marrocos', code: 'MAR', group: 'C', flagUrl: 'https://flagcdn.com/w80/ma.png', ranking: 8 },
