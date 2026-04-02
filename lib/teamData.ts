@@ -2142,6 +2142,62 @@ A jornada para 2026 foi um verdadeiro teste para o coração dos torcedores:
       { opponent: 'Suíça', result: 'L', score: '4-1' },
       { opponent: 'Kosovo', result: 'L', score: '0-1' },
     ]
+  },
+  'TUN': {
+    history: `## 🇹🇳✨ TUNÍSIA: AS ÁGUIAS DO CARTAGO QUEREM VOAR ALTO! ✨🇹🇳
+
+🎉 **Presença Confirmada no Cenário Global!**
+A Tunísia carimbou seu passaporte para a sua 7ª Copa do Mundo da FIFA™! ✈️🌍 Sendo a terceira participação consecutiva das Águias, a seleção africana mostra uma maturidade impressionante: neste século, eles estiveram presentes em 5 das 7 edições do torneio.
+
+Agora, em 2026, o objetivo é um só: usar toda essa experiência acumulada para quebrar a barreira da primeira fase e avançar, pela primeira vez na história, para os mata-matas! 🚀🔥
+
+🧠📋 **O Comando de Sami Trabelsi**
+A chegada de Sami Trabelsi deu o impulso final que a equipe precisava. Com um trabalho focado em organização e disciplina tática, o técnico transformou a Tunísia em uma equipe extremamente difícil de ser batida, unindo o talento individual a um sistema coletivo sólido. 🛡️👔
+
+---
+
+### 📅 AGENDA DA TUNÍSIA – GRUPO F 🗓️
+Olho no lance! As Águias estreiam em solo mexicano! ⏰
+
+⚔️ **Rodada 1**
+* **Jogo:** 🇸🇪 Suécia x Tunísia 🇹🇳
+* 📍 **Local:** Monterrey (México) 🇲🇽
+* 🕒 **Data/Hora:** 14 de junho | 22h00 *(horário de Brasília)*
+
+⚔️ **Rodada 2**
+* **Jogo:** 🇹🇳 Tunísia x Japão 🇯🇵
+* 📍 **Local:** Monterrey (México) 🇲🇽
+* 🕒 **Data/Hora:** 20 de junho | 23h00 *(horário de Brasília)*
+
+⚔️ **Rodada 3**
+* **Jogo:** 🇹🇳 Tunísia x Holanda 🇳🇱
+* 📍 **Local:** Kansas City (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 25 de junho | 20h00 *(horário de Brasília)*
+
+---
+
+### 📜 HISTÓRICO NA COPA DO MUNDO 🏆
+Uma trajetória de persistência e evolução:
+
+* 🌍 **Confederação:** CAF (África)
+* ⭐ **Melhores Campanhas:** Fase de Grupos (Sempre competitivos!)
+* 🔙 **Primeira Copa:** Argentina 1978
+* 🔢 **Participações:** 7 (1978, 1998, 2002, 2006, 2018, 2022, 2026)
+* 📊 **Estatísticas:** 18 Jogos | 3 Vitórias ✅ | 5 Empates 🤝 | 10 Derrotas ❌`,
+    qualification: `### 🛣️ O Caminho Perfeito até a Vaga
+
+A campanha nas eliminatórias africanas foi simplesmente impecável:
+
+* 🧱 **Muralha Inabalável:** As Águias do Cartago terminaram a competição com um feito histórico: não sofreram um único gol em 10 partidas! 🚫⚽
+* 📊 **Domínio Absoluto:** Somaram 28 dos 30 pontos possíveis, terminando muito à frente da Namíbia 🇳🇦.
+* 🎯 **O Gol da Glória:** A vaga foi selada oficialmente com um gol heroico de Mohamed Ali Ben Romdhane nos minutos finais contra a Guiné Equatorial 🇬🇶. 🎊🙌`,
+    lastMatches: [
+      { opponent: 'Canadá', result: 'D', score: '0-0' },
+      { opponent: 'Haiti', result: 'W', score: '1-0' },
+      { opponent: 'Mali', result: 'D', score: '1-1' },
+      { opponent: 'Tanzânia', result: 'D', score: '1-1' },
+      { opponent: 'Nigéria', result: 'L', score: '3-2' },
+    ]
   }
 };
 
