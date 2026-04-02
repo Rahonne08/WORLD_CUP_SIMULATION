@@ -209,6 +209,39 @@ A República Tcheca competiu em Copas do Mundo como Tchhecoslováquia de 1930 a 
       { opponent: 'San Marino', result: 'W', score: '1-0' },
       { opponent: 'Ilhas Faroe', result: 'L', score: '1-2' },
     ]
+  },
+  'QAT': {
+    history: `O Catar foi a sede a Copa do Mundo da FIFA 2022™, combinando organização meticulosa com hospitalidade excepcional para oferecer um torneio extraordinário que destacou a região do Golfo no cenário mundial. Fazendo sua estreia no maior evento global, os anfitriões ganharam experiência inestimável ao enfrentar equipes diante de sua própria torcida.
+O Catar agora se prepara para disputar sua segunda Copa do Mundo da FIFA™
+O país chega embalado pela primeira grande campanha nas eliminatórias asiáticas
+
+Jogos do Catar no Grupo B
+• Rodada 1 13 de junho
+Catar x Suíça Santa Clara (região da Baía de San Francisco), nos EUA – 12h00 no horário local (16h00 em Brasília)
+• Rodada 2 18 de junho
+Canadá x Catar Vancouver, no Canadá – 15h00 no horário local (19h00 em Brasília)
+• Rodada 3 24 de junho
+Bósnia e Herzegovina x Catar Seattle, nos Estados Unidos – 12h00 no horário local (16h00 em Brasília)
+
+Histórico do Catar na Copa do Mundo
+Confederação: AFC
+Melhor Copa do Mundo: 2022 (fase de grupos)
+Última Copa do Mundo: Catar 2022
+Primeira Copa do Mundo: Catar 2022
+Participações: 2 (2022, 2026)
+Sequência atual de classificações: 2
+País-sede: 2022
+Histórico na Copa do Mundo: 3 J, 0 V, 0 E, 3 D, 1 GP, 7 GC`,
+    qualification: `Como o Catar se classificou para 2026
+O Catar garantiu vaga direta para a Copa do Mundo da FIFA 26™ com uma vitória por 2 a 1 sobre os Emirados Árabes Unidos, em Doha, no dia 14 de outubro, em duelo válido pela quarta fase das eliminatórias asiáticas.
+Desde o início das eliminatórias, a seleção apresentou atuações consistentes e convincentes, liderando seu grupo na segunda fase com 16 pontos (cinco vitórias, um empate e uma derrota). Na terceira fase, manteve o bom desempenho, mas terminou em quarto lugar, atrás de Irã e Uzbequistão - que ficaram com as vagas diretas -, sendo obrigada a seguir para a quarta fase.`,
+    lastMatches: [
+      { opponent: 'Tunísia', result: 'L', score: '0-3' },
+      { opponent: 'Síria', result: 'D', score: '1-1' },
+      { opponent: 'Palestina', result: 'L', score: '0-1' },
+      { opponent: 'Zimbábue', result: 'L', score: '1-2' },
+      { opponent: 'Emirados Árabes Unidos', result: 'W', score: '2-1' },
+    ]
   }
 };
 
