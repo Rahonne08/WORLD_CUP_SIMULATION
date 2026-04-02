@@ -1454,6 +1454,124 @@ Gols de:
       { opponent: 'Grécia', result: 'L', score: '2-3' },
       { opponent: 'Belarus', result: 'W', score: '2-1' },
     ]
+  },
+  'PAR': {
+    history: `## 🇵🇾 Paraguai na Copa do Mundo da FIFA: perfil e histórico da seleção
+
+Depois de **16 anos de ausência**, o **Paraguai** está de volta à Copa do Mundo da FIFA™. A seleção alvirrubra retorna ao maior palco do futebol com o objetivo de reviver seus melhores momentos e escrever um novo capítulo em sua história.
+
+A última lembrança em Mundiais ainda dói: a eliminação nas quartas de final em 2010, com derrota por 1 a 0 para a Espanha, que viria a ser campeã.
+
+---
+
+### 🌍 Destaques gerais
+
+* Retorno após ausência desde **2010**
+* **9ª participação** em Copas do Mundo
+* Melhor campanha: **quartas de final (2010)**
+* Volta impulsionada pelo novo formato com 48 seleções
+
+O Paraguai chega motivado, com uma geração que quer recolocar o país entre os protagonistas da América do Sul.
+
+---
+
+### 📅 Jogos do Paraguai – Grupo D
+
+**Rodada 1**
+📍 12 de junho
+Estados Unidos x Paraguai
+Los Angeles – 22h00 (Brasília)
+
+**Rodada 2**
+📍 19 de junho
+Turquia x Paraguai
+Santa Clara (EUA) – 1h00 (Brasília)
+
+**Rodada 3**
+📍 25 de junho
+Paraguai x Austrália
+Santa Clara (EUA) – 23h00 (Brasília)
+
+---
+
+### 🧠 Técnico do Paraguai
+
+O comandante é Gustavo Alfaro:
+
+* Assumiu em 2024 em momento delicado
+* Recuperou a equipe nas eliminatórias
+* Conhecido por seu estilo tático organizado e competitivo
+
+---
+
+### 📊 Histórico do Paraguai em Copas
+
+* **Participações:** 9
+* **Melhor campanha:** quartas de final (2010)
+* **Jogos:** 27
+* **Vitórias:** 7
+* **Empates:** 10
+* **Derrotas:** 10
+* **Gols marcados:** 30
+* **Gols sofridos:** 38
+
+---
+
+### ⭐ Melhor campanha – 2010
+
+Na Copa do Mundo FIFA 2010:
+
+* Chegou às quartas de final pela primeira vez
+* Eliminou o Japão nas oitavas (pênaltis)
+* Caiu para a Espanha por 1x0
+
+➡️ Campanha histórica, por pouco não alcançando a semifinal.
+
+---
+
+### 🕰️ Última participação – 2010
+
+A mesma campanha na África do Sul também foi a última presença do Paraguai em Copas até agora.
+
+* Time competitivo
+* Defesa sólida
+* Eliminado pela futura campeã
+
+---
+
+### 🏁 Primeira Copa – 1930
+
+Na Copa do Mundo FIFA 1930:
+
+* Participação na edição inaugural
+* Eliminado na fase de grupos
+
+---
+
+### 🚀 Expectativas para 2026
+
+O Paraguai chega com sede de protagonismo após anos fora da Copa. Com uma equipe organizada e competitiva, a meta inicial é avançar da fase de grupos.
+
+Mas o sonho vai além: repetir — ou até superar — a histórica campanha de 2010 e voltar a figurar entre as grandes seleções do mundo.`,
+    qualification: `A classificação veio pelas eliminatórias da CONMEBOL:
+
+* Terminou na **6ª colocação**
+* Beneficiado pelo aumento de vagas para a Copa
+* Campanha marcada por vitórias importantes
+
+Destaques:
+
+* Vitória por **1x0 sobre o Brasil**
+* Vitória por **2x1 sobre a Argentina**
+
+➡️ Garantiu vaga direta no Mundial de 2026`,
+    lastMatches: [
+      { opponent: 'Marrocos', result: 'L', score: '1-2' },
+      { opponent: 'Grécia', result: 'W', score: '1-0' },
+      { opponent: 'México', result: 'W', score: '2-1' },
+      { opponent: 'EUA', result: 'L', score: '1-2' },
+      { opponent: 'Coreia do Sul', result: 'L', score: '0-2' },
+    ]
   }
 };
 
