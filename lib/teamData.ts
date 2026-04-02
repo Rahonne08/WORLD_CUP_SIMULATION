@@ -1182,6 +1182,171 @@ A classificação veio após:
       { opponent: 'Costa Rica', result: 'W', score: '1-0' },
       { opponent: 'Honduras', result: 'L', score: '0-3' },
     ]
+  },
+  'SCO': {
+    history: `## 🏴 Escócia na Copa do Mundo da FIFA: perfil e histórico da seleção
+
+A **Escócia** está de volta à Copa do Mundo da FIFA™ após **28 anos de ausência**, encerrando um longo período fora do maior palco do futebol mundial. A classificação veio de forma dramática e emocionante, reacendendo a esperança dos torcedores escoceses.
+
+---
+
+### 🌍 Destaques gerais
+
+* Retorno à Copa após ausência desde **1998**
+* **9ª participação** em Copas do Mundo
+* Nunca passou da fase de grupos
+* Classificação heroica com vitória por 4x2 sobre a Dinamarca
+
+Depois de décadas como presença constante (principalmente entre os anos 70 e 90), a Escócia busca agora recuperar seu espaço no cenário mundial.
+
+---
+
+### 📅 Jogos da Escócia – Grupo C
+
+**Rodada 1**
+📍 13 de junho
+Haiti x Escócia
+⏰ 22h (Brasília)
+Boston (EUA)
+
+**Rodada 2**
+📍 19 de junho
+Escócia x Marrocos
+⏰ 19h (Brasília)
+Boston (EUA)
+
+**Rodada 3**
+📍 24 de junho
+Escócia x Brasil
+⏰ 19h (Brasília)
+Miami (EUA)
+
+---
+
+### 🧠 Técnico da Escócia
+
+O treinador é Steve Clarke:
+
+* No comando desde 2019
+* Responsável por levar a seleção a **3 grandes torneios**
+* Considerado um dos maiores técnicos da história do país
+* Estilo pragmático e foco na consistência
+
+Clarke pode encerrar seu ciclo após a Copa de 2026, deixando um legado importante para o futebol escocês.
+
+---
+
+### 📊 Histórico da Escócia em Copas
+
+* **Participações:** 9 (1954–1998, 2026)
+* **Melhor resultado:** fase de grupos
+* **Jogos:** 23
+* **Vitórias:** 4
+* **Empates:** 7
+* **Derrotas:** 12
+* **Gols marcados:** 25
+* **Gols sofridos:** 41
+
+---
+
+### ⭐ Melhor campanha – 1974
+
+Na Copa do Mundo FIFA 1974:
+
+* Terminou **invicta**
+* Empates com Brasil e Iugoslávia
+* Vitória sobre o Zaire
+
+⚠️ Mesmo invicta, foi eliminada por saldo de gols — um dos episódios mais marcantes (e frustrantes) da história da seleção.
+
+---
+
+### 🕰️ Última Copa – França 1998
+
+Na Copa do Mundo FIFA 1998:
+
+* Derrota para o Brasil (2x1)
+* Empate com a Noruega (1x1)
+* Derrota para o Marrocos (3x0)
+
+➡️ Eliminada na fase de grupos mais uma vez.
+
+---
+
+### 🏁 Primeira Copa – Suíça 1954
+
+A estreia foi difícil:
+
+* Derrota para a Áustria (1x0)
+* Goleada sofrida para o Uruguai (7x0)
+
+➡️ Até hoje, a maior derrota da história da seleção.
+
+---
+
+### ⚽ Artilheiro da Escócia em Copas
+
+O maior goleador é Joe Jordan:
+
+* **4 gols em Copas do Mundo**
+* Marcou em três edições (1974, 1978 e 1982)
+
+Um feito raro, comparável a grandes nomes do futebol mundial.
+
+---
+
+### 🧤 Recordista de jogos
+
+O jogador com mais partidas é Jim Leighton:
+
+* **9 jogos em Copas do Mundo**
+* Participações entre 1982 e 1990
+
+---
+
+### 💥 Momentos inesquecíveis
+
+* Gol histórico de Archie Gemmill contra a Holanda em 1978
+* Gol de David Narey contra o Brasil em 1982
+* Campanha invicta de 1974 (mesmo com eliminação)
+
+➡️ A história da Escócia é marcada por grandes momentos… quase sempre com finais amargos.
+
+---
+
+### 🚀 Expectativas para 2026
+
+A Escócia chega motivada após uma classificação dramática e com um elenco competitivo. O grande objetivo é finalmente quebrar o tabu e **avançar pela primeira vez para o mata-mata**.
+
+Depois de quase três décadas fora da Copa, os escoceses querem mais do que participar — querem fazer história.`,
+    qualification: `### 🛣️ Como a Escócia se classificou para 2026
+
+A campanha foi marcada por altos e baixos, mas terminou de forma épica:
+
+* Empate fora com a Dinamarca
+* Vitórias pouco convincentes contra Grécia e Belarus
+* Derrota para a Grécia fora de casa
+
+➡️ Tudo parecia perdido… até o improvável acontecer:
+
+* Empate surpreendente de Belarus contra a Dinamarca
+* Vitória decisiva por **4x2 sobre a Dinamarca**
+
+Gols de:
+
+* Scott McTominay
+* Lawrence Shankland
+* Kieran Tierney
+* Kenny McLean
+
+👉 Dois gols saíram nos acréscimos, garantindo uma classificação histórica.`,
+    lastMatches: [
+      { opponent: 'Costa do Marfim', result: 'L', score: '0-1' },
+      { opponent: 'Japão', result: 'L', score: '0-1' },
+      { opponent: 'Dinamarca', result: 'W', score: '4-2' },
+      { opponent: 'Grécia', result: 'L', score: '2-3' },
+      { opponent: 'Belarus', result: 'W', score: '2-1' },
+    ]
   }
 };
 
