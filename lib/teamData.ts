@@ -104,14 +104,102 @@ A classificação foi emocionante até o último minuto! 😮🔥🔥
     ]
   },
   'BRA': {
-    history: 'O Brasil é a única seleção a participar de todas as edições da Copa do Mundo e a maior vencedora do torneio, com 5 títulos (1958, 1962, 1970, 1994 e 2002). Conhecida pelo "futebol arte", a seleção canarinho sempre entra como uma das favoritas.',
-    qualification: 'O Brasil garantiu sua vaga nas Eliminatórias Sul-Americanas, terminando entre os primeiros colocados após uma campanha sólida, apesar de alguns tropeços no início do ciclo sob novo comando técnico.',
+    history: `## 🇧🇷 Brasil na Copa do Mundo 2026
+
+A Brasil é simplesmente a maior potência da história do futebol mundial! 🌍⚽
+Única seleção presente em **todas as edições** da Copa do Mundo FIFA, o Brasil chega para 2026 com o peso da tradição e o sonho do hexa! ⭐⭐⭐⭐⭐🔥
+
+---
+
+## 🏆 História gloriosa
+
+* 🥇 **5 títulos mundiais** (1958, 1962, 1970, 1994, 2002)
+* 🌍 Única seleção em **todas as Copas**
+* 🏟️ Sede em **1950 e 2014**
+* 🔥 Todos os títulos conquistados **fora de casa e invictos**
+
+👉 O Brasil é sinônimo de futebol arte! 🎨⚽
+
+---
+
+## 📅 Jogos do Brasil – Grupo C
+
+### 🥇 Rodada 1
+
+📍 Nova York/Nova Jersey (EUA)
+🗓️ 13 de junho
+⏰ 19h (Brasília)
+⚔️ 🇧🇷 Brasil x 🇲🇦 Marrocos
+
+### 🥈 Rodada 2
+
+📍 Filadélfia (EUA)
+🗓️ 19 de junho
+⏰ 21h30 (Brasília)
+⚔️ 🇧🇷 Brasil x 🇭🇹 Haiti
+
+### 🥉 Rodada 3
+
+📍 Miami (EUA)
+🗓️ 24 de junho
+⏰ 19h (Brasília)
+⚔️ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escócia x 🇧🇷 Brasil
+
+---
+
+## 📊 Desempenho geral
+
+* ⚽ Jogos: 109
+* ✅ Vitórias: 73
+* 🤝 Empates: 18
+* ❌ Derrotas: 18
+* 🥅 Gols marcados: 237
+* 🚫 Gols sofridos: 108
+
+📈 Uma campanha simplesmente lendária! 🐐
+
+---
+
+## 🌟 Grandes ídolos
+
+* 👑 Pelé
+* ⚡ Ronaldo (maior artilheiro do Brasil em Copas)
+* 🎩 Zico
+* 🧠 Rivaldo
+* 🔥 Neymar
+
+---
+
+## 🚀 Brasil rumo a 2026
+
+Após campanhas recentes chegando até as quartas (2018 e 2022), o Brasil chega com um único objetivo:
+👉 **Conquistar o HEXA!** 🏆🔥
+
+Com uma nova geração talentosa e tradição incomparável, a Seleção Brasileira entra sempre como favorita! 💛💚
+
+---
+
+## 🌟 Fique de olho!
+
+O Brasil é mais do que uma seleção… é uma paixão mundial ❤️🌍
+
+👉 Será que 2026 será o ano do tão esperado **6º título**? 🏆🇧🇷🔥`,
+    qualification: `## 🚀 Caminho até a Copa 2026
+
+A Seleção Brasileira garantiu sua vaga na Copa do Mundo da FIFA 2026™ ao terminar na quinta colocação das Eliminatórias da CONMEBOL.
+
+O formato da competição sul-americana foi disputado em pontos corridos, com jogos de ida e volta entre todas as seleções participantes. Ao final da campanha, a CONMEBOL distribuiu seis vagas diretas para o Mundial, além de uma vaga para a repescagem.
+
+---
+
+### 📊 Resumo da Campanha:
+O Brasil garantiu sua vaga nas Eliminatórias Sul-Americanas, terminando entre os primeiros colocados após uma campanha sólida, apesar de alguns tropeços no início do ciclo sob novo comando técnico.`,
     lastMatches: [
-      { opponent: 'Argentina', result: 'D', score: '1-1' },
-      { opponent: 'Colômbia', result: 'W', score: '2-0' },
-      { opponent: 'Uruguai', result: 'L', score: '0-1' },
-      { opponent: 'Peru', result: 'W', score: '3-0' },
-      { opponent: 'Chile', result: 'W', score: '4-0' },
+      { opponent: 'Croácia', result: 'W', score: '3-1' },
+      { opponent: 'França', result: 'L', score: '1-2' },
+      { opponent: 'Tunísia', result: 'D', score: '1-1' },
+      { opponent: 'Senegal', result: 'W', score: '2-0' },
+      { opponent: 'Japão', result: 'L', score: '2-3' },
     ]
   },
   'ARG': {
@@ -735,9 +823,26 @@ Na Copa do Mundo FIFA 2014, a Bósnia fez sua estreia:
 
 ## 📅 Jogos da Bósnia – Copa 2026 (Grupo B)
 
-* 🇨🇦 Canadá x 🇧🇦 Bósnia e Herzegovina
-* 🇨🇭 Suíça x 🇧🇦 Bósnia e Herzegovina
-* 🇧🇦 Bósnia e Herzegovina x 🇶🇦 Catar
+🥇 Rodada 1
+
+📍 Toronto (Canadá)
+🗓️ 12 de junho
+⏰ 16h (Brasília)
+⚔️ 🇨🇦 Canadá x 🇧🇦 Bósnia e Herzegovina
+
+🥈 Rodada 2
+
+📍 Los Angeles (EUA)
+🗓️ 18 de junho
+⏰ 16h (Brasília)
+⚔️ 🇨🇭 Suíça x Bósnia e Herzegovina 🇧🇦
+
+Rodada 3
+
+📍 Seattle (EUA)
+🗓️ 24 de junho
+⏰ 16h (Brasília)
+⚔️ 🇧🇦 Bósnia e Herzegovina x 🇶🇦 Catar
 
 ⚔️ Grupo equilibrado, com chances reais de classificação! 💪
 
