@@ -2085,6 +2085,63 @@ A campanha nas eliminatórias asiáticas foi digna de um filme de ação:
       { opponent: 'Gana', result: 'W', score: '2-0' },
       { opponent: 'Brasil', result: 'W', score: '3-2' },
     ]
+  },
+  'SWE': {
+    history: `## 🇸🇪✨ SUÉCIA: A FORÇA VIKING ESTÁ DE VOLTA! ✨🇸🇪
+
+🎉 **Uma Tradição que se Renova!**
+A Suécia está de volta ao palco principal! Com a vaga garantida para a Copa de 2026, os suecos somam agora 13 participações históricas. Conhecida por surpreender gigantes, a seleção amarela e azul chega com uma missão: honrar o passado de glórias (como o vice-campeonato de 1958 e o 3º lugar em 1994) e mostrar a força de sua nova geração! 🛡️🌊
+
+Após ficar de fora em 2022, a Suécia aposta em um futebol coletivo e dinâmico. Esqueça a dependência de um só craque; agora o jogo é no conjunto, na velocidade e na pressão! ⚡💪
+
+🧠🏴 **A "Era Graham Potter"**
+O arquiteto da reconstrução é o inglês Graham Potter! Contratado em outubro de 2025 sob desconfiança, ele organizou a casa em tempo recorde. A confiança no projeto é tanta que seu contrato já foi estendido até 2030! Potter segue os passos de George Raynor, o único outro inglês a comandar os suecos (e que os levou à final contra o Brasil em 58). 👀📋
+
+---
+
+### 📅 AGENDA DA SUÉCIA – GRUPO F 🗓️
+Prepare-se para batalhas épicas no grupo da morte! ⏰
+
+⚔️ **Rodada 1**
+* **Jogo:** 🇸🇪 Suécia x Tunísia 🇹🇳
+* 📍 **Local:** Monterrey (México) 🇲🇽
+* 🕒 **Data/Hora:** 14 de junho | 23h00 *(horário de Brasília)*
+
+⚔️ **Rodada 2**
+* **Jogo:** 🇳🇱 Holanda x Suécia 🇸🇪
+* 📍 **Local:** Houston (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 20 de junho | 14h00 *(horário de Brasília)*
+
+⚔️ **Rodada 3**
+* **Jogo:** 🇯🇵 Japão x Suécia 🇸🇪
+* 📍 **Local:** Dallas (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 25 de junho | 20h00 *(horário de Brasília)*
+
+---
+
+### 📜 HISTÓRICO DE PESO EM COPAS 🏆
+Uma das seleções europeias mais consistentes:
+
+* 🌍 **Confederação:** UEFA
+* 🥈 **Melhor Campanha:** Vice-campeã (1958)
+* 🥉 **Pódios:** 3º lugar em 1950 e 1994
+* 🔙 **Primeira Copa:** Itália 1934
+* 🔢 **Participações:** 13 (1934, 1938, 1950, 1958, 1970, 1974, 1978, 1990, 1994, 2002, 2006, 2018, 2026)`,
+    qualification: `### 🛣️ O Caminho Dramático até a Vaga
+
+A jornada para 2026 foi um verdadeiro teste para o coração dos torcedores:
+
+* 🎢 **Turbulência:** Após uma fase de grupos ruim, a vaga parecia perdida.
+* 🎟️ **A Chance de Ouro:** Graças ao desempenho na Nations League, o time ganhou uma vida extra na repescagem.
+* 🔥 **O Nome da Classificação:** Viktor Gyökeres! O artilheiro do Arsenal foi monstruoso, marcando 4 gols nos dois jogos decisivos.
+* ✅ **Vaga Carimbada:** Vitórias épicas sobre a Ucrânia 🇺🇦 (3x1) e Polônia 🇵🇱 (3x2) garantiram o passaporte em março de 2026!`,
+    lastMatches: [
+      { opponent: 'Polônia', result: 'W', score: '3-2' },
+      { opponent: 'Ucrânia', result: 'W', score: '3-1' },
+      { opponent: 'Eslovênia', result: 'D', score: '1-1' },
+      { opponent: 'Suíça', result: 'L', score: '4-1' },
+      { opponent: 'Kosovo', result: 'L', score: '0-1' },
+    ]
   }
 };
 
