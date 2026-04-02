@@ -1042,6 +1042,146 @@ Os Leões do Atlas querem mais do que repetir 2022: o sonho agora é chegar à f
       { opponent: 'Nigéria', result: 'W', score: '0(4)-0(2)' },
       { opponent: 'Camarões', result: 'W', score: '2-0' },
     ]
+  },
+  'HAI': {
+    history: `## 🇭🇹 Haiti na Copa do Mundo da FIFA: perfil e histórico da seleção
+
+---
+
+### 🌍 Destaques gerais
+
+* O Haiti voltará a disputar uma Copa após **52 anos**
+* Última participação: **1974**
+* Copa de 2026 será a **2ª da história**
+* Classificação conquistada em um grupo difícil da Concacaf
+
+O retorno à Copa do Mundo marca um momento histórico para o futebol haitiano, que busca escrever um novo capítulo no cenário internacional.
+
+---
+
+### 📅 Jogos do Haiti – Grupo C
+
+**Rodada 1**
+📍 13 de junho
+Haiti x Escócia
+Boston (EUA)
+
+**Rodada 2**
+📍 19 de junho
+Brasil x Haiti
+Filadélfia (EUA)
+
+**Rodada 3**
+📍 24 de junho
+Marrocos x Haiti
+Atlanta (EUA)
+
+---
+
+### 🧠 Técnico do Haiti
+
+O comandante da seleção é Sébastien Migné:
+
+* Assumiu o Haiti em 2024
+* Liderou toda a campanha de classificação
+* Já treinou seleções como Quênia e Guiné Equatorial
+* Foi auxiliar de Rigobert Song em Camarões
+
+---
+
+### 📊 Histórico do Haiti em Copas
+
+* **Participações:** 2 (1974 e 2026)
+* **Melhor campanha:** fase de grupos (1974)
+* **Jogos:** 3
+* **Vitórias:** 0
+* **Empates:** 0
+* **Derrotas:** 3
+* **Gols marcados:** 2
+* **Gols sofridos:** 14
+
+---
+
+### 🏁 Primeira participação – Alemanha 1974
+
+A única participação do Haiti aconteceu na Copa do Mundo FIFA 1974:
+
+* Derrota para a Itália (3x1)
+* Derrota para a Polônia (7x0)
+* Derrota para a Argentina (4x1)
+
+Mesmo com resultados difíceis, a equipe fez história ao representar o país no maior palco do futebol mundial.
+
+---
+
+### ⚽ Artilheiro do Haiti em Copas
+
+O maior destaque histórico é Emmanuel Sanon:
+
+* **2 gols em Copas do Mundo**
+* Autor de todos os gols do Haiti no torneio
+
+Momento marcante:
+
+* Gol contra a Itália, quebrando uma longa sequência sem sofrer gols do goleiro Dino Zoff
+
+---
+
+### 🏃 Recordistas de jogos
+
+Sete jogadores dividem o recorde de partidas (3 jogos cada):
+
+* Eddy Antoine
+* Pierre Bayonne
+* Jean-Claude Désir
+* Henry Francillon
+* Emmanuel Sanon
+* Philippe Vorbe
+* Wilner Nazaire
+
+Todos participaram da campanha de 1974.
+
+---
+
+### 💥 Momentos marcantes
+
+* **1973:** título da Concacaf que garantiu vaga na Copa
+* **1974:** estreia histórica em Mundiais
+* **2026:** retorno após mais de meio século
+
+---
+
+### 🚀 Expectativas para 2026
+
+O Haiti chega como uma das seleções menos tradicionais do torneio, mas com muita motivação. A equipe aposta na organização tática e no espírito coletivo para tentar surpreender no Grupo C.
+
+Após 52 anos de espera, os Granadeiros querem mostrar evolução e buscar seus **primeiros pontos — e quem sabe a primeira vitória — em Copas do Mundo**.`,
+    qualification: `A campanha haitiana foi sólida e surpreendente:
+
+**Segunda fase:**
+
+* 2º lugar no grupo
+* 3 vitórias e 1 derrota
+
+**Terceira fase (decisiva):**
+
+* Grupo com Costa Rica, Honduras e Nicarágua
+* Apenas 1 derrota
+* Empates e vitórias importantes contra adversários diretos
+
+A classificação veio após:
+
+* Vitória por 2x0 sobre a Nicarágua
+* Empate entre Costa Rica e Honduras
+
+➡️ Resultado: **1º lugar do grupo e vaga garantida na Copa**`,
+    lastMatches: [
+      { opponent: 'Islândia', result: 'D', score: '1-1' },
+      { opponent: 'Tunísia', result: 'L', score: '0-1' },
+      { opponent: 'Nicarágua', result: 'W', score: '2-0' },
+      { opponent: 'Costa Rica', result: 'W', score: '1-0' },
+      { opponent: 'Honduras', result: 'L', score: '0-3' },
+    ]
   }
 };
 
