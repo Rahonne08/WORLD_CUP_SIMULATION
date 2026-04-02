@@ -2030,6 +2030,61 @@ A classificação foi garantida com autoridade e emoção! A Holanda terminou as
       { opponent: 'Polônia', result: 'D', score: '1-1' },
       { opponent: 'Finlândia', result: 'W', score: '4-0' },
     ]
+  },
+  'JPN': {
+    history: `## 🇯🇵✨ JAPÃO: OS SAMURAIS AZUIS EM BUSCA DA HISTÓRIA! ✨🇯🇵
+
+🎉 **Classificação em Tempo Recorde!**
+O Japão não apenas garantiu sua vaga, ele atropelou o caminho até ela! ⚡ Com exceção dos anfitriões, os japoneses foram os primeiros do mundo a assegurar o passaporte para a Copa de 2026. Esta será a 8ª participação consecutiva da seleção, uma sequência impecável que começou em 1998. 🌏✈️
+
+Depois de chocar o planeta no Catar 2022 ao vencer as gigantes Espanha 🇪🇸 e Alemanha 🇩🇪, o Japão chega à América do Norte com um objetivo claro: ir além das oitavas de final pela primeira vez na história! 📈🔥
+
+🧠📋 **O Comandante: Hajime Moriyasu**
+Moriyasu fez história ao se tornar o primeiro técnico do Japão a ter o contrato renovado após um Mundial. Reconhecido por sua inteligência tática e gestão de elenco, ele equilibra como ninguém a experiência dos veteranos com a energia da nova geração. 👔🔝
+
+---
+
+### 📅 AGENDA DO JAPÃO – GRUPO F 🗓️
+Preparem os despertadores para acompanhar os Samurais! ⏰
+
+⚔️ **Rodada 1**
+* **Jogo:** 🇳🇱 Holanda x Japão 🇯🇵
+* 📍 **Local:** Dallas (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 14 de junho | 17h00 *(horário de Brasília)*
+
+⚔️ **Rodada 2**
+* **Jogo:** 🇹🇳 Tunísia x Japão 🇯🇵
+* 📍 **Local:** Monterrey (México) 🇲🇽
+* 🕒 **Data/Hora:** 20 de junho | 23h00 *(horário de Brasília)*
+
+⚔️ **Rodada 3**
+* **Jogo:** 🇯🇵 Japão x Suécia 🇸🇪
+* 📍 **Local:** Dallas (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 25 de junho | 20h00 *(horário de Brasília)*
+
+---
+
+### 📜 HISTÓRICO NA COPA DO MUNDO 🏆
+Uma evolução constante no cenário mundial:
+
+* 🌍 **Confederação:** AFC (Ásia)
+* ⭐ **Melhores Campanhas:** 2002, 2010, 2018 e 2022 (Oitavas de Final)
+* 🔙 **Primeira Copa:** França 1998
+* 🔢 **Participações:** 8 (1998, 2002, 2006, 2010, 2014, 2018, 2022 e 2026)
+* 📊 **Estatísticas:** 25 Jogos | 7 Vitórias ✅ | 6 Empates 🤝 | 12 Derrotas ❌`,
+    qualification: `### 🛣️ O Caminho Avassalador até a Vaga
+
+A campanha nas eliminatórias asiáticas foi digna de um filme de ação:
+
+* 🛡️ **Defesa Impenetrável:** Na segunda fase, foram 6 vitórias em 6 jogos, com 24 gols marcados e ZERO sofridos! 🚫🥅
+* 🚀 **Velocidade Máxima:** Na fase final, superou potências como a Arábia Saudita 🇸🇦 e carimbou a vaga com três rodadas de antecedência. Foi a classificação mais rápida da história do futebol japonês! 🎌💨`,
+    lastMatches: [
+      { opponent: 'Inglaterra', result: 'W', score: '1-0' },
+      { opponent: 'Escócia', result: 'W', score: '1-0' },
+      { opponent: 'Bolívia', result: 'W', score: '3-0' },
+      { opponent: 'Gana', result: 'W', score: '2-0' },
+      { opponent: 'Brasil', result: 'W', score: '3-2' },
+    ]
   }
 };
 
