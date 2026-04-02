@@ -258,14 +258,121 @@ O Brasil garantiu sua vaga nas Eliminatórias Sul-Americanas, terminando entre o
     ]
   },
   'USA': {
-    history: 'Os Estados Unidos têm crescido consistentemente no cenário mundial. Sua melhor campanha foi o 3º lugar na primeira edição em 1930. Como um dos países-sede em 2026, a expectativa é enorme.',
-    qualification: 'Como país-sede, os Estados Unidos já estavam automaticamente classificados para a Copa do Mundo de 2026, aproveitando o ciclo para disputar amistosos e a Liga das Nações da CONCACAF.',
+    history: `## 🇺🇸 Estados Unidos na Copa do Mundo da FIFA: perfil e histórico da seleção
+
+Os **Estados Unidos** chegam à Copa do Mundo de 2026 como um dos protagonistas, não apenas dentro de campo, mas também como **coanfitriões** do torneio ao lado de Canadá e México.
+
+Após cair nas oitavas de final no Copa do Mundo FIFA Qatar 2022, a seleção americana quer dar um passo além jogando em casa.
+
+---
+
+### 🌍 Destaques gerais
+
+* **12ª participação** em Copas do Mundo
+* País-sede em **1994 e 2026**
+* Melhor campanha: **semifinal em 1930**
+* Eliminado nas oitavas em 2022
+
+A edição de 2026 será histórica, com **48 seleções**, e os EUA querem aproveitar o fator casa para fazer uma campanha marcante. ([LOS40][1])
+
+---
+
+### 📅 Jogos dos EUA – Grupo D
+
+O Grupo D conta com Estados Unidos, Paraguai, Austrália e outra seleção europeia via repescagem. ([Wikipedia][2])
+
+**Rodada 1**
+📍 12 de junho
+Estados Unidos x Paraguai
+Los Angeles – 22h00 (Brasília)
+
+**Rodada 2**
+📍 19 de junho
+Estados Unidos x Austrália
+Seattle – 16h00 (Brasília)
+
+**Rodada 3**
+📍 25 de junho
+Turquia x Estados Unidos
+Los Angeles – 23h00 (Brasília)
+
+---
+
+### 🧠 Técnico dos EUA
+
+O treinador é Mauricio Pochettino:
+
+* Assumiu a seleção em 2024
+* Ex-técnico de clubes como PSG, Chelsea e Tottenham
+* Primeira experiência comandando uma seleção
+* Missão: levar os EUA ao melhor resultado em décadas
+
+Pochettino aposta em uma geração talentosa liderada por jogadores como Christian Pulisic. ([ge][3])
+
+---
+
+### 📊 Histórico dos EUA em Copas
+
+* **Participações:** 12
+* **Melhor campanha:** 3º lugar (1930)
+* **Jogos:** 37
+* **Vitórias:** 9
+* **Empates:** 8
+* **Derrotas:** 20
+* **Gols marcados:** 40
+* **Gols sofridos:** 66
+
+---
+
+### ⭐ Melhor campanha – 1930
+
+Na Copa do Mundo FIFA 1930:
+
+* Vitória sobre Paraguai (3x0)
+* Vitória sobre Bélgica (3x0)
+* Chegada às semifinais
+
+➡️ Acabou eliminado pela Argentina (6x1), mas garantiu seu melhor resultado da história.
+
+---
+
+### 🕰️ Última Copa – Qatar 2022
+
+* Empate com País de Gales (1x1)
+* Empate com Inglaterra (0x0)
+* Vitória sobre Irã (1x0)
+
+Classificação invicta para o mata-mata, com gol decisivo de Christian Pulisic.
+
+➡️ Eliminado nas oitavas pela Holanda (3x1)
+
+---
+
+### ⚽ Artilheiro dos EUA em Copas
+
+O maior goleador é Landon Donovan:
+
+* **5 gols em Copas do Mundo**
+* Destaque nas edições de 2002 e 2010
+
+---
+
+### 🚀 Expectativas para 2026
+
+Jogando em casa e com uma geração promissora, os Estados Unidos chegam com ambição alta. A meta é clara: **superar as oitavas de final e buscar uma campanha histórica**.
+
+Com o apoio da torcida e a liderança de Pochettino, os americanos querem transformar o Mundial de 2026 em um marco definitivo para o futebol no país.`,
+    qualification: `Os Estados Unidos não precisaram disputar eliminatórias:
+
+* Classificação automática por serem **país-sede**
+* Organização conjunta com Canadá e México
+* Retorno ao papel de anfitrião após 1994`,
     lastMatches: [
-      { opponent: 'México', result: 'W', score: '2-0' },
-      { opponent: 'Canadá', result: 'D', score: '1-1' },
-      { opponent: 'Alemanha', result: 'L', score: '1-3' },
-      { opponent: 'Gana', result: 'W', score: '4-0' },
-      { opponent: 'Colômbia', result: 'L', score: '1-2' },
+      { opponent: 'Portugal', result: 'L', score: '0-2' },
+      { opponent: 'Bélgica', result: 'L', score: '2-5' },
+      { opponent: 'Uruguai', result: 'W', score: '5-1' },
+      { opponent: 'Paraguai', result: 'W', score: '2-1' },
+      { opponent: 'Austrália', result: 'W', score: '2-1' },
     ]
   },
   'MEX': {
