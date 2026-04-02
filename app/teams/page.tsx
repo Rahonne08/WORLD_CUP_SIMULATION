@@ -1,10 +1,13 @@
 'use client';
 
-import { useAppStore } from '@/lib/store';
+import { useAppStore, Team } from '@/lib/store';
 import Image from 'next/image';
+import { useState } from 'react';
+import { TeamModal } from '@/components/TeamModal';
 
 export default function TeamsPage() {
   const teams = useAppStore((state) => state.teams);
+  const [selectedTeam, setSelectedTeam] = useState<Team | null>(null);
 
   // Group teams by their group letter for better display
   const groupedTeams = teams.reduce((acc, team) => {
@@ -17,6 +20,8 @@ export default function TeamsPage() {
 
   return (
     <div className="flex flex-col gap-8">
+      <TeamModal team={selectedTeam} onClose={() => setSelectedTeam(null)} />
+      
       <div>
         <h1 className="text-3xl font-bold text-white mb-2">Seleções Participantes</h1>
         <p className="text-gray-400">Conheça as 48 seleções que disputarão a Copa do Mundo 2026.</p>
@@ -30,11 +35,12 @@ export default function TeamsPage() {
             </h2>
             <div className="flex flex-col gap-3">
               {groupTeams.map((team) => (
-                <div 
+                <button 
                   key={team.id} 
-                  className="flex items-center gap-4 bg-gray-900/50 border border-gray-800 rounded-xl p-4 hover:bg-gray-800 transition-colors"
+                  onClick={() => setSelectedTeam(team)}
+                  className="flex items-center gap-4 bg-gray-900/50 border border-gray-800 rounded-xl p-4 hover:bg-gray-800 hover:border-green-500/50 transition-all text-left"
                 >
-                  <div className="relative w-12 h-8 rounded overflow-hidden shadow-sm">
+                  <div className="relative w-12 h-8 rounded overflow-hidden shadow-sm shrink-0">
                     <Image 
                       src={team.flagUrl} 
                       alt={`Bandeira ${team.name}`} 
@@ -47,7 +53,7 @@ export default function TeamsPage() {
                     <span className="font-bold text-gray-100">{team.name}</span>
                     <span className="text-xs text-gray-500 font-mono">{team.code}</span>
                   </div>
-                </div>
+                </button>
               ))}
             </div>
           </div>
