@@ -2198,6 +2198,229 @@ A campanha nas eliminatórias africanas foi simplesmente impecável:
       { opponent: 'Tanzânia', result: 'D', score: '1-1' },
       { opponent: 'Nigéria', result: 'L', score: '3-2' },
     ]
+  },
+  'BEL': {
+    history: `## 🇧🇪✨ BÉLGICA: OS DIABOS VERMELHOS EM BUSCA DA REDENÇÃO! ✨🇧🇪
+
+🎉 **Rumo à 15ª Participação Histórica!**
+A Bélgica carimbou seu passaporte para a América do Norte e disputará sua 4ª Copa do Mundo consecutiva! ✈️🌍 Com um histórico de peso, os belgas querem apagar a imagem amarga do Catar 2022 e provar que ainda são uma das maiores potências do futebol mundial.
+
+O grande objetivo? Repetir ou superar a campanha mágica de 2018, quando encantaram o mundo e conquistaram o honroso 3º lugar na Rússia! 🥉🔥
+
+🧠🇫🇷 **O Comandante: Rudi Garcia**
+Rudi Garcia assumiu o leme em janeiro de 2025 com uma missão clara: trazer estabilidade e reerguer a moral da equipe. Com passagens por grandes clubes europeus, o técnico francês busca extrair o melhor do talento belga para brilhar no primeiro Mundial com 48 seleções! 📋👔
+
+---
+
+### 📅 AGENDA DA BÉLGICA – GRUPO G 🗓️
+Prepare sua torcida, os Diabos Vermelhos vêm com tudo! ⏰
+
+⚔️ **Rodada 1**
+* **Jogo:** 🇧🇪 Bélgica x Egito 🇪🇬
+* 📍 **Local:** Seattle (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 15 de junho | 16h00 *(horário de Brasília)*
+
+⚔️ **Rodada 2**
+* **Jogo:** 🇧🇪 Bélgica x Irã 🇮🇷
+* 📍 **Local:** Los Angeles (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 21 de junho | 16h00 *(horário de Brasília)*
+
+⚔️ **Rodada 3**
+* **Jogo:** 🇳🇿 Nova Zelândia x Bélgica 🇧🇪
+* 📍 **Local:** Vancouver (Canadá) 🇨🇦
+* 🕒 **Data/Hora:** 26 de junho | 0h00 *(madrugada de 27/06 em Brasília)*
+
+---
+
+### 📜 HISTÓRICO NA COPA DO MUNDO 🏆
+Uma trajetória de tradição e grandes talentos:
+
+* 🌍 **Confederação:** UEFA
+* ⭐ **Melhor Campanha:** 2018 (3º lugar) 🥉
+* 🔙 **Primeira Copa:** Uruguai 1930
+* 🔢 **Participações:** 15 (1930, 1934, 1938, 1954, 1970, 1982, 1986, 1990, 1994, 1998, 2002, 2014, 2018, 2022, 2026)
+* 📊 **Estatísticas:** 51 Jogos | 21 Vitórias ✅ | 10 Empates 🤝 | 20 Derrotas ❌`,
+    qualification: `### 🛣️ O Caminho até a Vaga
+
+A classificação foi selada com autoridade nas eliminatórias europeias:
+
+* 🥇 **Líder do Grupo J:** A Bélgica dominou seu grupo com 5 vitórias fundamentais.
+* 💥 **Goleada de Respeito:** A vaga foi confirmada com chave de ouro na última rodada: um massacre de 7 a 0 sobre Liechtenstein! ⚽🌪️
+* 🛡️ **Superação:** O time mostrou resiliência após um período de transição, garantindo presença em solo norte-americano com méritos totais.`,
+    lastMatches: [
+      { opponent: 'México', result: 'D', score: '1-1' },
+      { opponent: 'EUA', result: 'W', score: '5-2' },
+      { opponent: 'Liechtenstein', result: 'W', score: '7-0' },
+      { opponent: 'Cazaquistão', result: 'D', score: '1-1' },
+      { opponent: 'País de Gales', result: 'W', score: '3-2' },
+    ]
+  },
+  'EGY': {
+    history: `## 🇪🇬✨ EGITO: OS FARAÓS BUSCAM A PRIMEIRA VITÓRIA! ✨🇪🇬
+
+🎉 **O Retorno Triunfal!**
+O Egito se prepara para disputar sua quarta Copa do Mundo da FIFA™. Após ficar fora da última edição, os Faraós voltaram com força total e garantiram vaga para sua quarta participação no torneio. O objetivo agora é histórico: buscar a primeira vitória no maior palco do futebol mundial! 🇪🇬⚽
+
+Os Faraós dominaram seu grupo nas eliminatórias africanas, encerrando a campanha invictos diante de adversários de peso, graças a uma defesa sólida e às boas atuações de seus principais nomes, como o astro Mohamed Salah. 🏹🔥
+
+🧠📋 **O Comandante: Hossam Hassan**
+Após uma carreira brilhante como jogador, Hossam Hassan consolidou seu nome não apenas como um dos maiores artilheiros da história do futebol egípcio, mas também como um dos principais treinadores do país. Pela seleção, ele segue como o maior artilheiro da história do país e agora busca levar o Egito a um novo patamar como técnico. 👔🔝
+
+---
+
+### 📅 AGENDA DO EGITO – GRUPO G 🗓️
+Fique ligado nos horários dos Faraós! ⏰
+
+⚔️ **Rodada 1**
+* **Jogo:** 🇧🇪 Bélgica x Egito 🇪🇬
+* 📍 **Local:** Seattle (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 15 de junho | 16h00 *(horário de Brasília)*
+
+⚔️ **Rodada 2**
+* **Jogo:** 🇳🇿 Nova Zelândia x Egito 🇪🇬
+* 📍 **Local:** Vancouver (Canadá) 🇨🇦
+* 🕒 **Data/Hora:** 21 de junho | 22h00 *(horário de Brasília)*
+
+⚔️ **Rodada 3**
+* **Jogo:** 🇪🇬 Egito x Irã 🇮🇷
+* 📍 **Local:** Seattle (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 26 de junho | 0h00 *(madrugada de 27/06 em Brasília)*
+
+---
+
+### 📜 HISTÓRICO NA COPA DO MUNDO 🏆
+Uma trajetória de persistência no cenário mundial:
+
+* 🌍 **Confederação:** CAF (África)
+* ⭐ **Melhores Campanhas:** 1934, 1990, 2018 (Fase de Grupos)
+* 🔙 **Primeira Copa:** Itália 1934
+* 🔢 **Participações:** 4 (1934, 1990, 2018, 2026)
+* 📊 **Estatísticas:** 7 Jogos | 0 Vitórias ✅ | 2 Empates 🤝 | 5 Derrotas ❌`,
+    qualification: `### 🛣️ Como o Egito se classificou para 2026
+
+O Egito assegurou sua vaga ao terminar na liderança do Grupo A das eliminatórias africanas, à frente de Burkina Faso, Serra Leoa, Guiné-Bissau, Etiópia e Djibuti.
+
+* 📈 **Campanha Invicta:** Foram 8 vitórias e 2 empates, totalizando 26 pontos em 30 possíveis.
+* ⚽ **Ataque e Defesa:** A equipe marcou 20 gols — nove deles do astro Mohamed Salah — e sofreu apenas dois, simbolizando a retomada do Egito rumo à elite do futebol mundial. 🛡️🌪️`,
+    lastMatches: [
+      { opponent: 'Espanha', result: 'D', score: '0-0' },
+      { opponent: 'Arábia Saudita', result: 'W', score: '4-0' },
+      { opponent: 'Nigéria', result: 'D', score: '0-0' },
+      { opponent: 'Senegal', result: 'L', score: '0-1' },
+      { opponent: 'Costa do Marfim', result: 'W', score: '3-2' },
+    ]
+  },
+  'IRN': {
+    history: `## 🇮🇷✨ IRÃ: O "GENERAL" E A BUSCA PELO MATA-MATA INÉDITO! ✨🇮🇷
+
+🎉 **Sétima Sinfonia Persa!**
+O Irã vai para sua sétima Copa do Mundo da FIFA™ com um objetivo claro: chegar ao mata-mata pela primeira vez na história! 🚀🔥 Três vezes campeã continental, a seleção iraniana é uma das potências do futebol asiático, mas ainda busca reeditar esse sucesso no cenário mundial.
+
+Classificada sem dificuldades e contando com uma geração de talentos já firmados na Europa, a seleção chega para o Mundial com condições reais de fazer uma grande campanha em solo norte-americano. 🌏✈️
+
+🧠📋 **O Comandante: Amir Ghalenoei**
+Em sua segunda passagem pelo comando, o experiente Ghalenoei é um dos treinadores mais conceituados de seu país. Conhecido como "General" nos tempos de jogador, ele trouxe disciplina e uma mentalidade vencedora para o elenco. 👔🔝
+
+---
+
+### 📅 AGENDA DO IRÃ – GRUPO G 🗓️
+Acompanhe os horários da seleção iraniana! ⏰
+
+⚔️ **Rodada 1**
+* **Jogo:** 🇮🇷 Irã x Nova Zelândia 🇳🇿
+* 📍 **Local:** Los Angeles (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 15 de junho | 22h00 *(horário de Brasília)*
+
+⚔️ **Rodada 2**
+* **Jogo:** 🇧🇪 Bélgica x Irã 🇮🇷
+* 📍 **Local:** Los Angeles (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 21 de junho | 16h00 *(horário de Brasília)*
+
+⚔️ **Rodada 3**
+* **Jogo:** 🇪🇬 Egito x Irã 🇮🇷
+* 📍 **Local:** Seattle (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 26 de junho | 0h00 *(madrugada de 27/06 em Brasília)*
+
+---
+
+### 📜 HISTÓRICO NA COPA DO MUNDO 🏆
+Uma trajetória de consistência na Ásia:
+
+* 🌍 **Confederação:** AFC (Ásia)
+* ⭐ **Melhores Campanhas:** Fase de Grupos (1978, 1998, 2006, 2014, 2018, 2022)
+* 🔙 **Primeira Copa:** Argentina 1978
+* 🔢 **Participações:** 7 (1978, 1998, 2006, 2014, 2018, 2022, 2026)
+* 📊 **Estatísticas:** 18 Jogos | 3 Vitórias ✅ | 4 Empates 🤝 | 11 Derrotas ❌`,
+    qualification: `### 🛣️ Como o Irã se classificou para 2026
+
+A campanha foi marcada pelo domínio técnico e tático:
+
+* 🚀 **Passeio na Ásia:** Após empates estratégicos com o Uzbequistão, o Irã atropelou Turcomenistão e Hong Kong com goleadas.
+* 🎯 **Astro em Campo:** Mehdi Taremi foi o nome da classificação, garantindo a vaga com dois gols no empate decisivo contra os uzbeques no Estádio Azadi.
+* 📈 **Domínio:** Vencendo seis dos seus primeiros oito jogos na terceira fase, confirmou a vaga com antecedência. 🛡️🌪️`,
+    lastMatches: [
+      { opponent: 'Costa Rica', result: 'W', score: '5-0' },
+      { opponent: 'Nigéria', result: 'L', score: '1-2' },
+      { opponent: 'Uzbequistão', result: 'D', score: '0-0' },
+      { opponent: 'Cabo Verde', result: 'W', score: '0-0' },
+      { opponent: 'Tanzânia', result: 'W', score: '2-0' },
+    ]
+  },
+  'NZL': {
+    history: `## 🇳🇿✨ NOVA ZELÂNDIA: OS ALL WHITES EM BUSCA DA PRIMEIRA VITÓRIA! ✨🇳🇿
+
+🎉 **A Terceira Aventura Mundial!**
+Pela terceira vez na história, a Nova Zelândia vai disputar a Copa do Mundo da FIFA™. Após uma estreia difícil em 1982, os neozelandeses surpreenderam o mundo em 2010, quando terminaram a fase de grupos invictos (com empates contra Itália, Paraguai e Eslováquia), embora não tenham avançado. 🇳🇿⚽
+
+Agora, em 2026, o objetivo é claro: conquistar a inédita primeira vitória e buscar uma classificação histórica para o mata-mata! 🚀🔥
+
+🧠📋 **O Comandante: Darren Bazeley**
+Darren Bazeley, ex-jogador com longa trajetória no futebol inglês e neozelandês, assumiu o desafio de liderar esta geração. Com um conhecimento profundo do futebol local e experiência internacional, ele moldou uma equipe competitiva e pronta para causar impacto na América do Norte. 👔🔝
+
+---
+
+### 📅 AGENDA DA NOVA ZELÂNDIA – GRUPO G 🗓️
+Acompanhe os All Whites no Grupo G! ⏰
+
+⚔️ **Rodada 1**
+* **Jogo:** 🇮🇷 Irã x Nova Zelândia 🇳🇿
+* 📍 **Local:** Los Angeles (EUA) 🇺🇸
+* 🕒 **Data/Hora:** 15 de junho | 22h00 *(horário de Brasília)*
+
+⚔️ **Rodada 2**
+* **Jogo:** 🇳🇿 Nova Zelândia x Egito 🇪🇬
+* 📍 **Local:** Vancouver (Canadá) 🇨🇦
+* 🕒 **Data/Hora:** 21 de junho | 22h00 *(horário de Brasília)*
+
+⚔️ **Rodada 3**
+* **Jogo:** 🇳🇿 Nova Zelândia x Bélgica 🇧🇪
+* 📍 **Local:** Vancouver (Canadá) 🇨🇦
+* 🕒 **Data/Hora:** 26 de junho | 0h00 *(madrugada de 27/06 em Brasília)*
+
+---
+
+### 📜 HISTÓRICO NA COPA DO MUNDO 🏆
+A força da Oceania no cenário global:
+
+* 🌍 **Confederação:** OFC (Oceania)
+* ⭐ **Melhores Campanhas:** 1982, 2010 (Fase de Grupos)
+* 🔙 **Primeira Copa:** Espanha 1982
+* 🔢 **Participações:** 3 (1982, 2010, 2026)
+* 📊 **Estatísticas:** 6 Jogos | 0 Vitórias ✅ | 3 Empates 🤝 | 3 Derrotas ❌`,
+    qualification: `### 🛣️ Como a Nova Zelândia se classificou para 2026
+
+Pela primeira vez, a OFC contou com uma vaga direta para a Copa do Mundo, e a Nova Zelândia não deu chances aos adversários:
+
+* 🌪️ **Domínio Total:** Vitórias expressivas sobre Taiti (3x0), Vanuatu (8x1) e Samoa (8x0).
+* ✅ **Vaga Carimbada:** A classificação foi confirmada com uma goleada de 7x0 sobre Fiji e uma vitória sólida de 3x0 sobre a Nova Caledônia em Auckland.
+* 🛡️ **Favoritismo Confirmado:** A equipe mostrou que era o time a ser batido na região, garantindo a primeira vaga direta da história da Oceania. 🇳🇿💪`,
+    lastMatches: [
+      { opponent: 'Chile', result: 'W', score: '4-1' },
+      { opponent: 'Finlândia', result: 'L', score: '0-2' },
+      { opponent: 'Equador', result: 'L', score: '0-2' },
+      { opponent: 'Colômbia', result: 'L', score: '1-2' },
+      { opponent: 'Noruega', result: 'D', score: '1-1' },
+    ]
   }
 };
 
