@@ -103,6 +103,218 @@ A classificação foi emocionante até o último minuto! 😮🔥🔥
       { opponent: 'Egito', result: 'L', score: '0-1' },
     ]
   },
+  'CPV': {
+    history: `## Cabo Verde na Copa do Mundo da FIFA: perfil e histórico da seleção
+
+A classificação de Cabo Verde para a Copa do Mundo da FIFA 2026™ é um feito histórico. Um país pequeno em território e população, mas gigante em paixão pelo futebol, chega pela primeira vez ao maior torneio do planeta.
+
+🌍 Destaques gerais
+Estreia em Copas do Mundo (2026)
+Projeto consolidado ao longo de décadas
+Forte ligação entre o país e sua diáspora
+Seleção conhecida como Tubarões Azuis
+
+A campanha representa mais do que futebol: é um símbolo de identidade nacional.
+
+📅 Jogos de Cabo Verde – Grupo H
+
+Rodada 1
+📍 15 de junho
+Espanha x Cabo Verde
+Atlanta (EUA) – 14h00 (Brasília)
+
+Rodada 2
+📍 21 de junho
+Uruguai x Cabo Verde
+Miami (EUA) – 21h00 (Brasília)
+
+Rodada 3
+📍 26 de junho
+Cabo Verde x Arábia Saudita
+Houston (EUA) – 21h00 (Brasília)
+
+🧠 Técnico de Cabo Verde
+
+O comandante é Bubista:
+
+Ex-capitão da seleção
+Símbolo de liderança e superação
+Construiu uma equipe equilibrada e competitiva
+🛣️ Como Cabo Verde se classificou
+Campanha impecável em casa: 5 vitórias em 5 jogos
+Nenhum gol sofrido como mandante
+Liderou grupo difícil, superando seleções como Camarões e Angola
+Classificação confirmada com vitória por 3x0 sobre Essuatíni
+
+➡️ Primeira Copa garantida com autoridade
+
+📊 Histórico em Copas
+Participações: 1 (2026)
+Melhor campanha: estreia
+Confederação: CAF
+📈 Últimos jogos
+⚖️ Cabo Verde 1 (4) x (2) 1 Finlândia
+❌ Chile 4x2 Cabo Verde
+🤝 Egito 1x1 Cabo Verde
+⚖️ Cabo Verde 0 (4) x (5) 0 Irã
+✅ Cabo Verde 3x0 Essuatíni
+🚀 Expectativas
+
+Cabo Verde chega como grande surpresa do torneio. Com organização tática e espírito coletivo forte, pode ser uma das zebras da Copa.`,
+    qualification: `Campanha impecável em casa: 5 vitórias em 5 jogos. Nenhum gol sofrido como mandante. Liderou grupo difícil, superando seleções como Camarões e Angola. Classificação confirmada com vitória por 3x0 sobre Essuatíni.`,
+    lastMatches: [
+      { opponent: 'Finlândia', result: 'D', score: '1-1' },
+      { opponent: 'Chile', result: 'L', score: '2-4' },
+      { opponent: 'Egito', result: 'D', score: '1-1' },
+      { opponent: 'Irã', result: 'D', score: '0-0' },
+      { opponent: 'Essuatíni', result: 'W', score: '3-0' },
+    ]
+  },
+  'KSA': {
+    history: `## Arábia Saudita na Copa do Mundo da FIFA: perfil e histórico da seleção
+
+A Arábia Saudita disputará sua 7ª Copa do Mundo, consolidando-se como uma das seleções mais constantes da Ásia no torneio.
+
+🌍 Destaques gerais
+7ª participação em Copas
+Melhor campanha: oitavas de final (1994)
+Presença frequente desde os anos 90
+
+📅 Jogos da Arábia Saudita – Grupo H
+
+Rodada 1
+📍 15 de junho
+Arábia Saudita x Uruguai
+Miami (EUA) – 19h00 (Brasília)
+
+Rodada 2
+📍 21 de junho
+Espanha x Arábia Saudita
+Atlanta (EUA) – 13h00 (Brasília)
+
+Rodada 3
+📍 26 de junho
+Cabo Verde x Arábia Saudita
+Houston (EUA) – 21h00 (Brasília)
+
+🧠 Técnico da Arábia Saudita
+
+O treinador é Hervé Renard:
+
+Experiência internacional na África e Ásia
+Conhecido por organizar equipes competitivas
+Especialista em torneios curtos
+🛣️ Como a Arábia Saudita se classificou
+
+Campanha longa e desafiadora:
+Avançou como vice na fase inicial
+Caiu em grupo difícil com Japão e Austrália
+Foi para a fase final de repescagem asiática
+
+Na fase decisiva:
+Vitória sobre Indonésia (3x2)
+Empate com Iraque (0x0)
+Classificação garantida no saldo de gols
+
+📊 Histórico em Copas
+Participações: 7
+Melhor campanha: oitavas (1994)
+Jogos: 19
+Vitórias: 4
+Empates: 2
+Derrotas: 13
+📈 Últimos jogos
+❌ Sérvia 2x1 Arábia Saudita
+❌ Arábia Saudita 0x4 Egito
+❌ Arábia Saudita 0x1 Jordânia
+✅ Palestina 1x2 Arábia Saudita
+❌ Marrocos 1x0 Arábia Saudita
+🚀 Expectativas
+
+A meta é clara: voltar ao mata-mata, algo que não acontece desde 1994.`,
+    qualification: `Campanha longa e desafiadora: avançou como vice na fase inicial, caiu em grupo difícil com Japão e Austrália, foi para a fase final de repescagem asiática. Na fase decisiva: vitória sobre Indonésia (3x2), empate com Iraque (0x0), classificação garantida no saldo de gols.`,
+    lastMatches: [
+      { opponent: 'Sérvia', result: 'L', score: '1-2' },
+      { opponent: 'Egito', result: 'L', score: '0-4' },
+      { opponent: 'Jordânia', result: 'L', score: '0-1' },
+      { opponent: 'Palestina', result: 'W', score: '2-1' },
+      { opponent: 'Marrocos', result: 'L', score: '0-1' },
+    ]
+  },
+  'URU': {
+    history: `## Uruguai na Copa do Mundo da FIFA: perfil e histórico da seleção
+
+O Uruguai chega para disputar sua 15ª Copa do Mundo, carregando o peso de uma das camisas mais tradicionais do futebol mundial.
+
+🌍 Destaques gerais
+Bicampeão mundial (1930 e 1950)
+15 participações
+5ª Copa consecutiva
+
+A “Celeste” segue sendo uma das seleções mais respeitadas do planeta.
+
+📅 Jogos do Uruguai – Grupo H
+
+Rodada 1
+📍 15 de junho
+Arábia Saudita x Uruguai
+Miami (EUA) – 19h00 (Brasília)
+
+Rodada 2
+📍 21 de junho
+Uruguai x Cabo Verde
+Miami (EUA) – 19h00 (Brasília)
+
+Rodada 3
+📍 26 de junho
+Uruguai x Espanha
+Guadalajara (México) – 21h00 (Brasília)
+
+🧠 Técnico do Uruguai
+
+O treinador é Marcelo Bielsa:
+
+Um dos técnicos mais influentes do futebol moderno
+Estilo ofensivo e intenso
+Conhecido por desenvolver jovens talentos
+🛣️ Como o Uruguai se classificou
+
+Terminou em 4º nas eliminatórias sul-americanas
+28 pontos conquistados
+Vitórias marcantes contra Brasil e Argentina
+➡️ Garantiu vaga direta na Copa
+
+📊 Histórico em Copas
+Participações: 15
+Títulos: 2 (1930 e 1950)
+Jogos: 59
+Vitórias: 25
+Empates: 13
+Derrotas: 21
+Gols marcados: 89
+⭐ Momentos históricos
+🏆 Campeão da Copa do Mundo FIFA 1930
+🏆 Campeão da Copa do Mundo FIFA 1950 (Maracanazo)
+📈 Últimos jogos
+➖ Argélia 0x0 Uruguai
+➖ Inglaterra 1x1 Uruguai
+❌ EUA 5x1 Uruguai
+➖ México 0x0 Uruguai
+✅ Uzbequistão 1x2 Uruguai
+🚀 Expectativas
+
+Mesmo em renovação, o Uruguai chega forte. Com jovens talentos e um treinador de elite, a seleção sonha em voltar às fases finais e brigar por algo grande.
+
+👉 Uma equipe que mistura tradição, raça e ambição.`,
+    qualification: `Terminou em 4º nas eliminatórias sul-americanas, 28 pontos conquistados, vitórias marcantes contra Brasil e Argentina. Garantiu vaga direta na Copa.`,
+    lastMatches: [
+      { opponent: 'Argélia', result: 'D', score: '0-0' },
+      { opponent: 'Inglaterra', result: 'D', score: '1-1' },
+      { opponent: 'EUA', result: 'L', score: '1-5' },
+      { opponent: 'México', result: 'D', score: '0-0' },
+      { opponent: 'Uzbequistão', result: 'W', score: '2-1' },
+    ]
+  },
   'BRA': {
     history: `## 🇧🇷 Brasil na Copa do Mundo 2026
 
