@@ -428,7 +428,7 @@ O Brasil garantiu sua vaga nas Eliminatórias Sul-Americanas, terminando entre o
   'FRA': {
     history: `## 🇫🇷 França na Copa do Mundo da FIFA: perfil e histórico da seleção
 
-A **França** chega à Copa do Mundo da FIFA 2026™ como uma das grandes favoritas. Os Bleus disputarão sua **8ª Copa consecutiva** e a **17ª no total**, consolidando-se como uma potência mundial.
+A **França** chega à Copa do Mundo da FIFA 2026™ como uma das grandes favoritas. Os Blues disputarão sua **8ª Copa consecutiva** e a **17ª no total**, consolidando-se como uma potência mundial.
 
 ---
 
