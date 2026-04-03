@@ -1401,14 +1401,14 @@ A campanha da Coreia do Sul foi marcada por consistência e força no cenário a
     history: `## 🇨🇿 República Tcheca na Copa do Mundo 2026
 
 A República Tcheca está de volta ao maior palco do futebol mundial! 🌍⚽
-Após uma classificação emocionante, a equipe retorna à Copa do Mundo FIFA 2026 depois de **20 anos** longe do torneio! 😱🔥
+Após uma classificação emocionante, a equipe retorna à Copa do Mundo FIFA 2026! 😱🔥
 
 ---
 
 ## 🌟 História em Copas
 
-* 🏁 Primeira participação: 1934
-* 🔢 Participações: 10
+* 🏁 Primeira participação: 1934 (como Tchecoslováquia)
+* 🔢 Participações: 10 (2 como República Tcheca, 8 como Tchecoslováquia)
 * 🥈 Melhor campanha: **Vice-campeã (1934 e 1962)**
 
 📌 Curiosidade:
@@ -1416,40 +1416,43 @@ A seleção já disputou Copas como **Tchecoslováquia**, entre 1930 e 1994, sen
 
 ---
 
-## 🏆 Destaque atual
-
-A classificação para 2026 veio com muita emoção! 💥
-
-* ⚔️ Vitória nos pênaltis contra a Dinamarca
-* 🧠 Sangue frio e precisão nas cobranças
-* 🔥 Retorno histórico desde a Copa de 2006
-
-Uma seleção que mistura tradição com espírito competitivo! 💪🇨🇿
-
----
-
 ## 📅 Jogos da República Tcheca – Grupo A
 
 ### 🥇 Rodada 1
-
 📍 Guadalajara (México)
 🗓️ 11 de junho
 ⏰ 23h (Brasília)
-⚔️ Coreia do Sul 🇰🇷 x 🇨🇿 República Tcheca
+⚔️ 🇰🇷 Coreia do Sul x 🇨🇿 República Tcheca
 
 ### 🥈 Rodada 2
-
 📍 Atlanta (EUA)
 🗓️ 18 de junho
 ⏰ 13h (Brasília)
-⚔️ 🇨🇿 República Tcheca x África do Sul 🇿🇦
+⚔️ 🇨🇿 República Tcheca x 🇿🇦 África do Sul
 
 ### 🥉 Rodada 3
-
 📍 Cidade do México (México)
 🗓️ 24 de junho
-⏰ 20h (Brasília)
-⚔️ 🇨🇿 República Tcheca x México 🇲🇽
+⏰ 22h (Brasília)
+⚔️ 🇨🇿 República Tcheca x 🇲🇽 México
+
+---
+
+## 📊 Histórico em Copas
+
+* 🌍 Confederação: UEFA
+* 🏆 Melhor campanha: Vice-campeã (1934, 1962)
+* ⏱️ Última Copa: 2006
+* 🔢 Participações: 10
+
+📈 Números gerais:
+
+* ⚽ Jogos: 33
+* ✅ Vitórias: 12
+* 🤝 Empates: 5
+* ❌ Derrotas: 16
+* 🥅 Gols marcados: 47
+* 🚫 Gols sofridos: 49
 
 ---
 
@@ -1461,21 +1464,40 @@ Com histórico forte e confiança renovada, pode surpreender no grupo!
 👉 Será que vem aí mais uma campanha histórica rumo a uma final? 🏆🇨🇿🔥`,
     qualification: `## 🚀 Caminho até a Copa 2026
 
-A jornada até a Copa foi marcada por **emoção e nervos de aço** 😮🔥
-
-* ⚔️ Eliminou a Irlanda nos pênaltis
-* 🔥 Empate épico por 2x2 com a Dinamarca
-* 🎯 Vitória por **3x1 nos pênaltis** no jogo decisivo
-* 🧠 Destaque para o controle emocional nos momentos críticos
-
-👉 Uma classificação digna de seleção grande! 🏆`,
+A jornada até a Copa foi marcada por **emoção e nervos de aço** 😮🔥`,
     lastMatches: [
       { opponent: 'Dinamarca', result: 'W', score: '2(3)-(1)2' },
       { opponent: 'Irlanda', result: 'W', score: '2(4)-(3)2' },
       { opponent: 'Gibraltar', result: 'W', score: '6-0' },
       { opponent: 'San Marino', result: 'W', score: '1-0' },
       { opponent: 'Ilhas Faroe', result: 'L', score: '1-2' },
-    ]
+    ],
+    coach: {
+      name: 'Miroslav Koubek',
+      nationality: 'Checo',
+      age: 74,
+      tenure: '07 meses',
+      description: 'Experiente treinador checo, assumiu o desafio de comandar a seleção na Copa do Mundo.'
+    },
+    players: [
+      { name: 'Patrik Schick', position: 'Atacante', club: 'Bayer Leverkusen', highlight: 'Destaque ofensivo' },
+      { name: 'Tomáš Souček', position: 'Meio-campista', club: 'West Ham', highlight: 'Líder e motor do meio-campo' }
+    ],
+    historyStats: {
+      participations: 10,
+      totalMatches: 33,
+      wins: 12,
+      losses: 16,
+      draws: 5,
+      titles: 0,
+      bestCampaign: 'Vice-campeã (1934, 1962)'
+    },
+    groupMatches: [
+      { opponent: 'Coreia do Sul', date: '11 de junho', time: '23h00', stadium: 'Guadalajara', country: 'México' },
+      { opponent: 'África do Sul', date: '18 de junho', time: '13h00', stadium: 'Atlanta', country: 'EUA' },
+      { opponent: 'México', date: '24 de junho', time: '22h00', stadium: 'Cidade do México', country: 'México' }
+    ],
+    tacticalAnalysis: 'A República Tcheca aposta em um jogo coletivo, com forte presença física e transições rápidas, liderada pela qualidade técnica de seus principais jogadores.'
   },
   'QAT': {
     history: `## 🇶🇦 Catar na Copa do Mundo 2026
