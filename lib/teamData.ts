@@ -8,6 +8,8 @@ export interface TeamDetails {
   history: string;
   qualification: string;
   lastMatches: MatchResult[];
+  technicalStaff: string;
+  tacticalAnalysis: string;
 }
 
 const specificData: Record<string, Partial<TeamDetails>> = {
@@ -3055,14 +3057,18 @@ export function getTeamDetails(teamId: string, teamName: string): TeamDetails {
     return {
       history: data.history || `A seleção de ${teamName} tem uma história de muita luta e paixão no futebol mundial. A equipe busca surpreender e fazer uma campanha histórica nesta edição do torneio.`,
       qualification: data.qualification || `A equipe de ${teamName} garantiu sua vaga após uma campanha consistente em suas eliminatórias continentais, mostrando força coletiva e superando adversários difíceis.`,
-      lastMatches: data.lastMatches || generateRandomMatches()
+      lastMatches: data.lastMatches || generateRandomMatches(),
+      technicalStaff: data.technicalStaff || 'Informações da comissão técnica em breve.',
+      tacticalAnalysis: data.tacticalAnalysis || 'Análise tática em breve.',
     };
   }
 
   return {
     history: `A seleção de ${teamName} tem uma trajetória de muita dedicação no cenário internacional. Com jogadores atuando em ligas competitivas, a equipe chega à Copa do Mundo de 2026 com o objetivo de avançar de fase e fazer história para o seu país.`,
     qualification: `${teamName} assegurou sua classificação nas eliminatórias de sua confederação após uma série de jogos disputados. A equipe demonstrou resiliência, garantindo pontos cruciais nas rodadas finais para carimbar o passaporte para a América do Norte.`,
-    lastMatches: generateRandomMatches()
+    lastMatches: generateRandomMatches(),
+    technicalStaff: 'Informações da comissão técnica em breve.',
+    tacticalAnalysis: 'Análise tática em breve.',
   };
 }
 

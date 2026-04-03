@@ -96,6 +96,28 @@ export function TeamModal({ team, onClose }: TeamModalProps) {
                   ))}
                 </div>
               </section>
+
+              {/* Technical Staff */}
+              <section>
+                <h3 className="text-lg font-bold text-purple-400 mb-3 flex items-center gap-2">
+                  <span className="w-1.5 h-6 bg-purple-500 rounded-full"></span>
+                  Comissão Técnica
+                </h3>
+                <div className="text-gray-300 leading-relaxed text-sm md:text-base whitespace-pre-wrap markdown-body">
+                  <ReactMarkdown>{details.technicalStaff}</ReactMarkdown>
+                </div>
+              </section>
+
+              {/* Tactical Analysis */}
+              <section>
+                <h3 className="text-lg font-bold text-orange-400 mb-3 flex items-center gap-2">
+                  <span className="w-1.5 h-6 bg-orange-500 rounded-full"></span>
+                  Análise Tática
+                </h3>
+                <div className="text-gray-300 leading-relaxed text-sm md:text-base whitespace-pre-wrap markdown-body">
+                  <ReactMarkdown>{details.tacticalAnalysis}</ReactMarkdown>
+                </div>
+              </section>
             </>
           </div>
         </motion.div>
