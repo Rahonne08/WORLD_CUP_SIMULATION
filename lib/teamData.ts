@@ -4,11 +4,47 @@ export interface MatchResult {
   score: string;
 }
 
+export interface Player {
+  name: string;
+  position: string;
+  club: string;
+  highlight: string;
+}
+
+export interface Coach {
+  name: string;
+  nationality: string;
+  age: number;
+  tenure: string;
+  description: string;
+}
+
+export interface WorldCupHistory {
+  participations: number;
+  totalMatches: number;
+  wins: number;
+  losses: number;
+  draws: number;
+  titles: number;
+  bestCampaign: string;
+}
+
+export interface Match {
+  opponent: string;
+  date: string;
+  time: string;
+  stadium: string;
+  country: string;
+}
+
 export interface TeamDetails {
   history: string;
   qualification: string;
   lastMatches: MatchResult[];
-  technicalStaff: string;
+  coach: Coach;
+  players: Player[];
+  historyStats: WorldCupHistory;
+  groupMatches: Match[];
   tacticalAnalysis: string;
 }
 
@@ -3052,23 +3088,16 @@ Pela primeira vez, a OFC contou com uma vaga direta para a Copa do Mundo, e a No
 const genericOpponents = ['Sérvia', 'Nigéria', 'Japão', 'Coreia do Sul', 'Austrália', 'Gana', 'Camarões', 'Costa Rica', 'Peru', 'Chile', 'Suécia', 'Polônia'];
 
 export function getTeamDetails(teamId: string, teamName: string): TeamDetails {
-  if (specificData[teamId]) {
-    const data = specificData[teamId];
-    return {
-      history: data.history || `A seleção de ${teamName} tem uma história de muita luta e paixão no futebol mundial. A equipe busca surpreender e fazer uma campanha histórica nesta edição do torneio.`,
-      qualification: data.qualification || `A equipe de ${teamName} garantiu sua vaga após uma campanha consistente em suas eliminatórias continentais, mostrando força coletiva e superando adversários difíceis.`,
-      lastMatches: data.lastMatches || generateRandomMatches(),
-      technicalStaff: data.technicalStaff || 'Informações da comissão técnica em breve.',
-      tacticalAnalysis: data.tacticalAnalysis || 'Análise tática em breve.',
-    };
-  }
-
+  const data = specificData[teamId] || {};
   return {
-    history: `A seleção de ${teamName} tem uma trajetória de muita dedicação no cenário internacional. Com jogadores atuando em ligas competitivas, a equipe chega à Copa do Mundo de 2026 com o objetivo de avançar de fase e fazer história para o seu país.`,
-    qualification: `${teamName} assegurou sua classificação nas eliminatórias de sua confederação após uma série de jogos disputados. A equipe demonstrou resiliência, garantindo pontos cruciais nas rodadas finais para carimbar o passaporte para a América do Norte.`,
-    lastMatches: generateRandomMatches(),
-    technicalStaff: 'Informações da comissão técnica em breve.',
-    tacticalAnalysis: 'Análise tática em breve.',
+    history: data.history || `A seleção de ${teamName} tem uma história de muita luta e paixão no futebol mundial. A equipe busca surpreender e fazer uma campanha histórica nesta edição do torneio.`,
+    qualification: data.qualification || `A equipe de ${teamName} garantiu sua vaga após uma campanha consistente em suas eliminatórias continentais, mostrando força coletiva e superando adversários difíceis.`,
+    lastMatches: data.lastMatches || generateRandomMatches(),
+    coach: data.coach || { name: 'A definir', nationality: 'N/A', age: 0, tenure: 'N/A', description: 'Informações em breve.' },
+    players: data.players || [],
+    historyStats: data.historyStats || { participations: 0, totalMatches: 0, wins: 0, losses: 0, draws: 0, titles: 0, bestCampaign: 'N/A' },
+    groupMatches: data.groupMatches || [],
+    tacticalAnalysis: data.tacticalAnalysis || 'Análise tática em breve.',
   };
 }
 

@@ -28,7 +28,7 @@ export function TeamModal({ team, onClose }: TeamModalProps) {
           initial={{ opacity: 0, scale: 0.95, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.95, y: 20 }}
-          className="relative w-full max-w-2xl bg-gray-900 border border-gray-700 rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]"
+          className="relative w-full max-w-4xl bg-gray-900 border border-gray-700 rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]"
         >
           {/* Header */}
           <div className="flex items-center justify-between p-6 bg-gray-800 border-b border-gray-700">
@@ -50,75 +50,78 @@ export function TeamModal({ team, onClose }: TeamModalProps) {
           </div>
 
           {/* Content */}
-          <div className="p-6 overflow-y-auto flex flex-col gap-8">
-            <>
-              {/* History */}
-              <section>
-                <h3 className="text-lg font-bold text-green-400 mb-3 flex items-center gap-2">
-                  <span className="w-1.5 h-6 bg-green-500 rounded-full"></span>
-                  História em Copas
-                </h3>
-                <div className="text-gray-300 leading-relaxed text-sm md:text-base whitespace-pre-wrap markdown-body">
-                  <ReactMarkdown>{details.history}</ReactMarkdown>
-                </div>
-              </section>
+          <div className="p-6 overflow-y-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* 1. Técnico */}
+            <div className="bg-gray-800 p-4 rounded-xl border border-gray-700">
+              <h3 className="text-lg font-bold text-purple-400 mb-3 flex items-center gap-2">🧑🏫 Técnico</h3>
+              <p className="text-white font-bold">{details.coach.name}</p>
+              <p className="text-gray-400 text-sm">{details.coach.nationality} • {details.coach.age} anos • {details.coach.tenure}</p>
+              <p className="text-gray-300 text-sm mt-2">{details.coach.description}</p>
+            </div>
 
-              {/* Qualification */}
-              <section>
-                <h3 className="text-lg font-bold text-blue-400 mb-3 flex items-center gap-2">
-                  <span className="w-1.5 h-6 bg-blue-500 rounded-full"></span>
-                  Caminho para 2026
-                </h3>
-                <div className="text-gray-300 leading-relaxed text-sm md:text-base whitespace-pre-wrap markdown-body">
-                  <ReactMarkdown>{details.qualification}</ReactMarkdown>
-                </div>
-              </section>
+            {/* 2. Melhores Jogadores */}
+            <div className="bg-gray-800 p-4 rounded-xl border border-gray-700">
+              <h3 className="text-lg font-bold text-yellow-400 mb-3 flex items-center gap-2">⭐ Melhores Jogadores</h3>
+              {details.players.length > 0 ? (
+                <ul className="space-y-2">
+                  {details.players.map((player, idx) => (
+                    <li key={idx} className="text-sm text-gray-300">
+                      <span className="font-bold text-white">{player.name}</span> ({player.position}) - {player.club} - <span className="text-yellow-500">{player.highlight}</span>
+                    </li>
+                  ))}
+                </ul>
+              ) : <p className="text-gray-500 text-sm">Informações em breve.</p>}
+            </div>
 
-              {/* Last Matches */}
-              <section>
-                <h3 className="text-lg font-bold text-yellow-400 mb-4 flex items-center gap-2">
-                  <span className="w-1.5 h-6 bg-yellow-500 rounded-full"></span>
-                  Últimos 5 Jogos
-                </h3>
-                <div className="grid grid-cols-1 sm:grid-cols-5 gap-3">
-                  {details.lastMatches.map((match: any, idx: number) => (
-                    <div key={idx} className="bg-gray-800 border border-gray-700 rounded-lg p-3 flex flex-col items-center justify-center gap-2">
-                      <div className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm ${
-                        match.result === 'W' ? 'bg-green-900/50 text-green-400 border border-green-500/30' :
-                        match.result === 'L' ? 'bg-red-900/50 text-red-400 border border-red-500/30' :
-                        'bg-gray-700 text-gray-300 border border-gray-600'
-                      }`}>
-                        {match.result === 'W' ? 'V' : match.result === 'L' ? 'D' : 'E'}
-                      </div>
-                      <span className="text-xs text-gray-400 text-center truncate w-full">{match.opponent}</span>
-                      <span className="font-mono font-bold text-white">{match.score}</span>
+            {/* 3. Histórico em Copas */}
+            <div className="bg-gray-800 p-4 rounded-xl border border-gray-700">
+              <h3 className="text-lg font-bold text-blue-400 mb-3 flex items-center gap-2">📊 Histórico em Copas</h3>
+              <div className="grid grid-cols-2 gap-2 text-sm text-gray-300">
+                <p>Participações: <span className="text-white">{details.historyStats.participations}</span></p>
+                <p>Jogos: <span className="text-white">{details.historyStats.totalMatches}</span></p>
+                <p>Vitórias: <span className="text-white">{details.historyStats.wins}</span></p>
+                <p>Derrotas: <span className="text-white">{details.historyStats.losses}</span></p>
+                <p>Empates: <span className="text-white">{details.historyStats.draws}</span></p>
+                <p>Títulos: <span className="text-white">{details.historyStats.titles}</span></p>
+                <p className="col-span-2">Melhor campanha: <span className="text-white">{details.historyStats.bestCampaign}</span></p>
+              </div>
+            </div>
+
+            {/* 4. Jogos na Copa 2026 */}
+            <div className="bg-gray-800 p-4 rounded-xl border border-gray-700 md:col-span-2">
+              <h3 className="text-lg font-bold text-green-400 mb-3 flex items-center gap-2">🗓️ Jogos na Copa 2026</h3>
+              {details.groupMatches.length > 0 ? (
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  {details.groupMatches.map((match, idx) => (
+                    <div key={idx} className="bg-gray-700 p-3 rounded-lg text-sm text-gray-300">
+                      <p className="font-bold text-white">{match.opponent}</p>
+                      <p>{match.date} - {match.time}</p>
+                      <p>{match.stadium}, {match.country}</p>
                     </div>
                   ))}
                 </div>
-              </section>
+              ) : <p className="text-gray-500 text-sm">Informações em breve.</p>}
+            </div>
 
-              {/* Technical Staff */}
-              <section>
-                <h3 className="text-lg font-bold text-purple-400 mb-3 flex items-center gap-2">
-                  <span className="w-1.5 h-6 bg-purple-500 rounded-full"></span>
-                  Comissão Técnica
-                </h3>
-                <div className="text-gray-300 leading-relaxed text-sm md:text-base whitespace-pre-wrap markdown-body">
-                  <ReactMarkdown>{details.technicalStaff}</ReactMarkdown>
-                </div>
-              </section>
-
-              {/* Tactical Analysis */}
-              <section>
-                <h3 className="text-lg font-bold text-orange-400 mb-3 flex items-center gap-2">
-                  <span className="w-1.5 h-6 bg-orange-500 rounded-full"></span>
-                  Análise Tática
-                </h3>
-                <div className="text-gray-300 leading-relaxed text-sm md:text-base whitespace-pre-wrap markdown-body">
-                  <ReactMarkdown>{details.tacticalAnalysis}</ReactMarkdown>
-                </div>
-              </section>
-            </>
+            {/* 5. Últimos 5 Jogos */}
+            <div className="bg-gray-800 p-4 rounded-xl border border-gray-700 md:col-span-2">
+              <h3 className="text-lg font-bold text-red-400 mb-4 flex items-center gap-2">🔥 Últimos 5 Jogos</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-5 gap-3">
+                {details.lastMatches.map((match: any, idx: number) => (
+                  <div key={idx} className="bg-gray-700 border border-gray-600 rounded-lg p-3 flex flex-col items-center justify-center gap-2">
+                    <div className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm ${
+                      match.result === 'W' ? 'bg-green-900/50 text-green-400 border border-green-500/30' :
+                      match.result === 'L' ? 'bg-red-900/50 text-red-400 border border-red-500/30' :
+                      'bg-gray-600 text-gray-300 border border-gray-500'
+                    }`}>
+                      {match.result === 'W' ? 'V' : match.result === 'L' ? 'D' : 'E'}
+                    </div>
+                    <span className="text-xs text-gray-400 text-center truncate w-full">{match.opponent}</span>
+                    <span className="font-mono font-bold text-white">{match.score}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>
