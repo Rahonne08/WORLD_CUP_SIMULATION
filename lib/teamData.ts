@@ -1302,50 +1302,45 @@ A seleção asiática garantiu sua **11ª participação consecutiva**, mostrand
 
 ---
 
-## 🌟 Destaques recentes
+## 🌟 História em Copas
 
-* 🔁 **11 Copas seguidas disputadas**
-* 🚀 Classificação às oitavas na Copa do Mundo FIFA 2022
-* 💪 Retorno ao mata-mata após 12 anos
+* 🏁 Primeira participação: 1954
+* 🔢 Participações: 12
+* 🏆 Melhor resultado: **4º lugar (2002)**
 
-A Coreia do Sul segue sendo uma das maiores potências do futebol asiático! 🏆⚡
+📌 Destaque:
+A Coreia do Sul segue sendo uma das maiores potências do futebol asiático, com uma tradição de times aguerridos e disciplinados! 🏆⚡
 
 ---
 
 ## 📅 Jogos da Coreia do Sul – Grupo A
 
 ### 🥇 Rodada 1
-
 📍 Guadalajara (México)
 🗓️ 11 de junho
 ⏰ 23h (Brasília)
 ⚔️ 🇰🇷 Coreia do Sul x 🇨🇿 República Tcheca
 
 ### 🥈 Rodada 2
-
 📍 Guadalajara (México)
 🗓️ 18 de junho
 ⏰ 22h (Brasília)
-⚔️ México 🇲🇽 x 🇰🇷 Coreia do Sul
+⚔️ 🇲🇽 México x 🇰🇷 Coreia do Sul
 
 ### 🥉 Rodada 3
-
 📍 Monterrey (México)
 🗓️ 24 de junho
 ⏰ 22h (Brasília)
-⚔️ África do Sul 🇿🇦 x 🇰🇷 Coreia do Sul
+⚔️ 🇿🇦 África do Sul x 🇰🇷 Coreia do Sul
 
 ---
 
 ## 📊 Histórico em Copas
 
 * 🌍 Confederação: AFC
-* 🏆 Melhor campanha: **4º lugar (2002)**
-* 🏁 Primeira Copa: 1954
-* ⏱️ Última Copa: 2022 (oitavas de final)
+* 🏆 Melhor campanha: 4º lugar (2002)
+* ⏱️ Última Copa: 2022
 * 🔢 Participações: 12
-* 🔄 Sequência atual: 11 Copas seguidas
-* 🏟️ País-sede: 2002
 
 📈 Números gerais:
 
@@ -1366,28 +1361,41 @@ Com tradição recente e confiança em alta, chega forte para buscar mais uma ca
 👉 Será que os sul-coreanos podem repetir — ou superar — o feito de 2002? 🏆🇰🇷🔥`,
     qualification: `## 🚀 Caminho até a Copa 2026
 
-A campanha da Coreia do Sul foi simplesmente **impecável**! 😮🔥
-
-### 🔹 Segunda fase:
-
-* 🥇 Grupo com China, Tailândia e Singapura
-* 📊 **5 vitórias e 1 empate**
-
-### 🔹 Fase final:
-
-* ⚔️ Enfrentou Jordânia, Iraque, Omã, Palestina e Kuwait
-* 🏆 Terminou em **1º lugar do grupo**
-* 📈 **6 vitórias e 4 empates**
-
-💥 Destaque:
-👉 Única seleção asiática a se classificar **invicta** para 2026! 🧱🔥`,
+A campanha da Coreia do Sul foi marcada por consistência e força no cenário asiático, garantindo sua vaga com autoridade! 💪🇰🇷`,
     lastMatches: [
       { opponent: 'Áustria', result: 'L', score: '0-1' },
       { opponent: 'Costa do Marfim', result: 'L', score: '0-4' },
       { opponent: 'Gana', result: 'W', score: '1-0' },
       { opponent: 'Bolívia', result: 'W', score: '2-0' },
       { opponent: 'Paraguai', result: 'W', score: '2-0' },
-    ]
+    ],
+    coach: {
+      name: 'Hong Myung-Bo',
+      nationality: 'Sul-Coreano',
+      age: 57,
+      tenure: '2 anos',
+      description: 'Ídolo nacional, busca implementar um futebol organizado e competitivo.'
+    },
+    players: [
+      { name: 'Son Heung-min', position: 'Atacante', club: 'Los Angeles FC', highlight: 'Frequentemente eleito o melhor da Ásia' },
+      { name: 'Kim Min-jae', position: 'Zagueiro', club: 'Bayern de Munique', highlight: 'Pilar defensivo' },
+      { name: 'Lee Kang-in', position: 'Meia', club: 'PSG', highlight: 'Criatividade' }
+    ],
+    historyStats: {
+      participations: 12,
+      totalMatches: 38,
+      wins: 7,
+      losses: 21,
+      draws: 10,
+      titles: 0,
+      bestCampaign: '4º lugar (2002)'
+    },
+    groupMatches: [
+      { opponent: 'República Tcheca', date: '11 de junho', time: '23h00', stadium: 'Guadalajara', country: 'México' },
+      { opponent: 'México', date: '18 de junho', time: '22h00', stadium: 'Guadalajara', country: 'México' },
+      { opponent: 'África do Sul', date: '24 de junho', time: '22h00', stadium: 'Monterrey', country: 'México' }
+    ],
+    tacticalAnalysis: 'A Coreia do Sul aposta em um jogo de transição rápida, alta intensidade física e a genialidade de seus talentos individuais no ataque.'
   },
   'CZE': {
     history: `## 🇨🇿 República Tcheca na Copa do Mundo 2026
