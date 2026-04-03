@@ -72,21 +72,18 @@ A última participação foi justamente em 2010, quando sediou a Copa e encantou
 ## 📅 Jogos da África do Sul – Grupo A
 
 ### 🥇 Rodada 1
-
 📍 Cidade do México (México)
 🗓️ 11 de junho
 ⏰ 16h (Brasília)
 ⚔️ México 🇲🇽 x 🇿🇦 África do Sul
 
 ### 🥈 Rodada 2
-
 📍 Atlanta (EUA)
 🗓️ 18 de junho
 ⏰ 13h (Brasília)
 ⚔️ 🇨🇿 República Tcheca x 🇿🇦 África do Sul
 
 ### 🥉 Rodada 3
-
 📍 Monterrey (México)
 🗓️ 24 de junho
 ⏰ 22h (Brasília)
@@ -139,7 +136,34 @@ A classificação foi emocionante até o último minuto! 😮🔥🔥
       { opponent: 'Camarões', result: 'L', score: '1-2' },
       { opponent: 'Zimbábue', result: 'W', score: '3-2' },
       { opponent: 'Egito', result: 'L', score: '0-1' },
-    ]
+    ],
+    coach: {
+      name: 'Hugo Broos',
+      nationality: 'Belga',
+      age: 73,
+      tenure: '5 anos',
+      description: 'Experiente treinador belga, com passagens por diversas seleções e clubes, focado em organização e disciplina tática.'
+    },
+    players: [
+      { name: 'Julián Quiñones', position: 'Atacante', club: 'Al-Qadsiah', highlight: 'Destaque ofensivo' },
+      { name: 'Santiago Giménez', position: 'Atacante', club: 'Feyenoord', highlight: 'Artilheiro' },
+      { name: 'Guillermo Ochoa', position: 'Goleiro', club: 'Livre', highlight: 'Líder e experiente' }
+    ],
+    historyStats: {
+      participations: 4,
+      totalMatches: 9,
+      wins: 2,
+      losses: 3,
+      draws: 4,
+      titles: 0,
+      bestCampaign: 'Fase de grupos'
+    },
+    groupMatches: [
+      { opponent: 'México', date: '11 de junho', time: '16h00', stadium: 'Cidade do México', country: 'México' },
+      { opponent: 'República Tcheca', date: '18 de junho', time: '13h00', stadium: 'Atlanta', country: 'EUA' },
+      { opponent: 'República da Coreia', date: '24 de junho', time: '22h00', stadium: 'Monterrey', country: 'México' }
+    ],
+    tacticalAnalysis: 'A África do Sul sob Hugo Broos tem demonstrado um estilo de jogo disciplinado, priorizando a solidez defensiva e contra-ataques rápidos.'
   },
   'CPV': {
     history: `## Cabo Verde na Copa do Mundo da FIFA: perfil e histórico da seleção
