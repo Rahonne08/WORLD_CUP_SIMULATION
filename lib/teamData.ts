@@ -415,14 +415,75 @@ O Brasil garantiu sua vaga nas Eliminatórias Sul-Americanas, terminando entre o
     ]
   },
   'ARG': {
-    history: 'A Argentina é tricampeã mundial (1978, 1986 e 2022). Atual defensora do título, a equipe albiceleste tem uma rica história de craques, desde Maradona até Lionel Messi, que liderou a equipe na conquista no Catar.',
-    qualification: 'A Argentina sobrou nas Eliminatórias Sul-Americanas, classificando-se com antecedência e liderando a tabela na maior parte da competição, mantendo a base campeã do mundo.',
+    history: `## 🇦🇷 Argentina na Copa do Mundo da FIFA 2026
+
+A Argentina chega como **atual campeã mundial** e uma das grandes favoritas ao título. Sob o comando de **Lionel Scaloni**, a equipe vive um dos melhores momentos de sua história recente, embalada pela conquista da Copa do Mundo de 2022 e da Copa América 2024. A seleção busca repetir um feito raro: conquistar o bicampeonato consecutivo, algo que não acontece desde o Brasil em 1958 e 1962.
+
+### 🧠 Comissão Técnica
+**Técnico:** Lionel Scaloni
+* **Background:** Ex-jogador com passagens por clubes como Lazio e West Ham, iniciou sua trajetória na seleção como auxiliar antes de assumir o comando definitivo em 2018.
+* **Principais Conquistas:** Campeão da Copa América (2021, 2024), Finalissima (2022) e Copa do Mundo (2022).`,
+    qualification: 'Dominou as eliminatórias sul-americanas e garantiu a vaga com antecedência, terminando em 1º lugar com ampla vantagem.',
     lastMatches: [
-      { opponent: 'Brasil', result: 'D', score: '1-1' },
-      { opponent: 'Uruguai', result: 'W', score: '2-1' },
-      { opponent: 'Equador', result: 'W', score: '1-0' },
-      { opponent: 'Bolívia', result: 'W', score: '3-0' },
-      { opponent: 'Paraguai', result: 'D', score: '0-0' },
+      { opponent: 'Zâmbia', result: 'W', score: '5-0' },
+      { opponent: 'Mauritânia', result: 'W', score: '2-1' },
+      { opponent: 'Angola', result: 'W', score: '2-0' },
+      { opponent: 'Porto Rico', result: 'W', score: '6-0' },
+      { opponent: 'Venezuela', result: 'W', score: '1-0' },
+    ]
+  },
+  'ALG': {
+    history: `## 🇩🇿 Argélia na Copa do Mundo da FIFA 2026
+
+A Argélia retorna à Copa após 12 anos e chega com ambição. Conhecida como **“Raposas do Deserto”**, a equipe quer repetir — ou superar — a histórica campanha de 2014.
+
+### 🧠 Comissão Técnica
+**Técnico:** Vladimir Petković
+* **Background:** Treinador experiente de origem bósnio-suíça, com passagens marcantes pela Lazio e pela seleção da Suíça.
+* **Principais Conquistas:** Conduziu a Suíça a campanhas sólidas em Eurocopas e Copas do Mundo, sendo reconhecido por sua organização tática.`,
+    qualification: 'Terminou a fase africana com campanha sólida: 8 vitórias, 1 empate, 1 derrota. Destaque para Mohamed Amoura, artilheiro com 10 gols.',
+    lastMatches: [
+      { opponent: 'Uruguai', result: 'D', score: '0-0' },
+      { opponent: 'Guatemala', result: 'W', score: '7-0' },
+      { opponent: 'Nigéria', result: 'L', score: '0-2' },
+      { opponent: 'RD Congo', result: 'L', score: '0-2' },
+      { opponent: 'Guiné Equatorial', result: 'W', score: '3-1' },
+    ]
+  },
+  'AUT': {
+    history: `## 🇦🇹 Áustria na Copa do Mundo da FIFA 2026
+
+A Áustria volta ao Mundial após **28 anos de ausência** e quer escrever um novo capítulo em sua história.
+
+### 🧠 Comissão Técnica
+**Técnico:** Ralf Rangnick
+* **Background:** Conhecido como o "Professor" do futebol moderno, foi o arquiteto do projeto da Red Bull no futebol e passou por clubes como Schalke e Manchester United.
+* **Principais Conquistas:** Pioneiro do *Gegenpressing*, influenciou gerações de treinadores alemães e transformou o estilo de jogo da Áustria com intensidade e pressão alta.`,
+    qualification: 'Terminou em 1º lugar no grupo europeu. Destaque: goleada histórica de **10x0 sobre San Marino**. Classificação garantida na última rodada.',
+    lastMatches: [
+      { opponent: 'Coreia do Sul', result: 'W', score: '1-0' },
+      { opponent: 'Gana', result: 'W', score: '5-1' },
+      { opponent: 'Bósnia', result: 'D', score: '1-1' },
+      { opponent: 'Chipre', result: 'W', score: '2-0' },
+      { opponent: 'Romênia', result: 'L', score: '0-1' },
+    ]
+  },
+  'JOR': {
+    history: `## 🇯🇴 Jordânia na Copa do Mundo da FIFA 2026
+
+A Jordânia fará sua **estreia histórica em Copas do Mundo**, após anos de tentativas frustradas.
+
+### 🧠 Comissão Técnica
+**Técnico:** Jamal Sellami
+* **Background:** Ex-jogador da seleção marroquina, construiu uma carreira sólida como treinador em clubes de elite do Marrocos.
+* **Principais Conquistas:** Vencedor do CHAN (Campeonato das Nações Africanas) com o Marrocos, é elogiado por sua disciplina tática e capacidade de extrair o máximo de seus elencos.`,
+    qualification: 'Reagiu após início difícil, sequência de 4 vitórias seguidas, classificação confirmada com ajuda de resultados paralelos.',
+    lastMatches: [
+      { opponent: 'Nigéria', result: 'D', score: '2-2' },
+      { opponent: 'Costa Rica', result: 'D', score: '2-2' },
+      { opponent: 'Marrocos', result: 'L', score: '2-3' },
+      { opponent: 'Arábia Saudita', result: 'W', score: '1-0' },
+      { opponent: 'Iraque', result: 'W', score: '1-0' },
     ]
   },
   'FRA': {
