@@ -1103,21 +1103,18 @@ O México é uma das seleções mais tradicionais do mundo, com uma torcida apai
 ## 📅 Jogos do México – Grupo B
 
 ### 🥇 Rodada 1
-
 📍 Cidade do México (México)
 🗓️ 11 de junho
 ⏰ 16h (Brasília)
 ⚔️ 🇲🇽 México x 🇿🇦 África do Sul
 
 ### 🥈 Rodada 2
-
 📍 Guadalajara (México)
 🗓️ 18 de junho
 ⏰ 22h (Brasília)
 ⚔️ 🇲🇽 México x 🇰🇷 Coreia do Sul
 
 ### 🥉 Rodada 3
-
 📍 Cidade do México (México)
 🗓️ 24 de junho
 ⏰ 20h (Brasília)
@@ -1134,7 +1131,6 @@ O México é uma das seleções mais tradicionais do mundo, com uma torcida apai
 * 🔄 Sequência atual: 9 Copas seguidas
 
 📈 Números gerais:
-
 * ⚽ Jogos: 60
 * ✅ Vitórias: 17
 * 🤝 Empates: 15
@@ -1166,7 +1162,34 @@ A meta é clara: superar a "maldição das oitavas" e buscar uma semifinal inéd
       { opponent: 'Islândia', result: 'W', score: '4-0' },
       { opponent: 'Bolívia', result: 'W', score: '1-0' },
       { opponent: 'Panamá', result: 'W', score: '1-0' },
-    ]
+    ],
+    coach: {
+      name: 'Javier Aguirre',
+      nationality: 'Mexicano',
+      age: 67,
+      tenure: '2 anos',
+      description: 'Experiente treinador, conhecido por sua garra e conhecimento tático, busca levar o México ao topo em casa.'
+    },
+    players: [
+      { name: 'Julián Quiñones', position: 'Atacante', club: 'Al-Qadsiah', highlight: 'Destaque ofensivo' },
+      { name: 'Santiago Giménez', position: 'Atacante', club: 'Feyenoord', highlight: 'Artilheiro' },
+      { name: 'Guillermo Ochoa', position: 'Goleiro', club: 'Livre', highlight: 'Líder e experiente' }
+    ],
+    historyStats: {
+      participations: 18,
+      totalMatches: 60,
+      wins: 17,
+      losses: 28,
+      draws: 15,
+      titles: 0,
+      bestCampaign: 'Quartas de final'
+    },
+    groupMatches: [
+      { opponent: 'África do Sul', date: '11 de junho', time: '16h00', stadium: 'Cidade do México', country: 'México' },
+      { opponent: 'Coreia do Sul', date: '18 de junho', time: '22h00', stadium: 'Guadalajara', country: 'México' },
+      { opponent: 'República Tcheca', date: '24 de junho', time: '20h00', stadium: 'Cidade do México', country: 'México' }
+    ],
+    tacticalAnalysis: 'O México sob Javier Aguirre tem focado em uma defesa sólida e transições rápidas, aproveitando a velocidade de seus atacantes e a experiência de seu goleiro.'
   },
   'CAN': {
     history: `## 🇨🇦 Canadá na Copa do Mundo 2026
