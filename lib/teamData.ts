@@ -145,9 +145,9 @@ A classificação foi emocionante até o último minuto! 😮🔥🔥
       description: 'Experiente treinador belga, com passagens por diversas seleções e clubes, focado em organização e disciplina tática.'
     },
     players: [
-      { name: 'Julián Quiñones', position: 'Atacante', club: 'Al-Qadsiah', highlight: 'Destaque ofensivo' },
-      { name: 'Santiago Giménez', position: 'Atacante', club: 'Feyenoord', highlight: 'Artilheiro' },
-      { name: 'Guillermo Ochoa', position: 'Goleiro', club: 'Livre', highlight: 'Líder e experiente' }
+      { name: 'Ronwen Williams', position: 'Goleiro', club: 'Mamelodi Sundowns', highlight: 'Destaque da Copa Africana 2024' },
+      { name: 'Teboho Mokoena', position: 'Meio-campista', club: 'Mamelodi Sundowns', highlight: 'Destaque do time' },
+      { name: 'Lyle Foster', position: 'Atacante', club: 'Burnley', highlight: 'Destaque do time' }
     ],
     historyStats: {
       participations: 4,
