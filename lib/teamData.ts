@@ -426,14 +426,320 @@ O Brasil garantiu sua vaga nas Eliminatórias Sul-Americanas, terminando entre o
     ]
   },
   'FRA': {
-    history: 'A França possui dois títulos mundiais (1998 e 2018) e chegou à final em 2006 e 2022. Com uma das gerações mais talentosas de sua história, os Les Bleus são uma potência dominante no futebol moderno.',
-    qualification: 'A França dominou seu grupo nas Eliminatórias Europeias, classificando-se de forma invicta e demonstrando um poder ofensivo avassalador.',
+    history: `## 🇫🇷 França na Copa do Mundo da FIFA: perfil e histórico da seleção
+
+A **França** chega à Copa do Mundo da FIFA 2026™ como uma das grandes favoritas. Os Bleus disputarão sua **8ª Copa consecutiva** e a **17ª no total**, consolidando-se como uma potência mundial.
+
+---
+
+### 🌍 Destaques gerais
+
+* **Bicampeã mundial** (1998 e 2018)
+* Vice-campeã em 2022
+* **8 participações consecutivas**
+* Busca a 3ª final seguida
+
+A equipe quer apagar a dolorosa derrota na final para a Argentina em 2022 e voltar ao topo.
+
+---
+
+### 📅 Jogos da França – Grupo I
+
+**Rodada 1**
+📍 16 de junho
+França x Senegal
+Nova York/Nova Jersey – 16h00
+
+**Rodada 2**
+📍 22 de junho
+França x Iraque
+Filadélfia – 18h00
+
+**Rodada 3**
+📍 26 de junho
+Noruega x França
+Boston – 16h00
+
+---
+
+### 🧠 Técnico da França
+
+O comandante é Didier Deschamps:
+
+* Campeão do mundo como jogador (1998)
+* Campeão como treinador (2018)
+* Um dos maiores técnicos da história da seleção
+
+---
+
+### 🛣️ Como se classificou
+
+* Campanha **invicta** nas eliminatórias
+* Vitória decisiva por 4x0 sobre a Ucrânia
+* Destaque para Kylian Mbappé (5 gols)
+
+➡️ Melhor ataque e defesa do grupo
+
+---
+
+### 📊 Histórico em Copas
+
+* **Participações:** 17
+* **Títulos:** 2
+* **Jogos:** 73
+* **Vitórias:** 39
+
+---
+
+### 🚀 Expectativas
+
+A França chega como candidata ao título e quer fazer história com mais uma final.`,
+    qualification: `Campanha invicta nas eliminatórias, vitória decisiva por 4x0 sobre a Ucrânia, destaque para Kylian Mbappé (5 gols). Melhor ataque e defesa do grupo.`,
     lastMatches: [
       { opponent: 'Espanha', result: 'D', score: '2-2' },
       { opponent: 'Inglaterra', result: 'W', score: '3-1' },
       { opponent: 'Alemanha', result: 'L', score: '1-2' },
       { opponent: 'Itália', result: 'W', score: '2-0' },
       { opponent: 'Holanda', result: 'W', score: '4-0' },
+    ]
+  },
+  'IRQ': {
+    history: `## 🇮🇶 Iraque na Copa do Mundo da FIFA: perfil e histórico da seleção
+
+O **Iraque** está de volta à Copa do Mundo após **40 anos**, em um dos retornos mais emocionantes do torneio.
+
+---
+
+### 🌍 Destaques gerais
+
+* Retorno após última participação em **1986**
+* Seleção tradicional do Oriente Médio
+* Classificação histórica e emocionante
+
+---
+
+### 📅 Jogos do Iraque – Grupo I
+
+**Rodada 1**
+📍 16 de junho
+Iraque x Noruega
+Boston – 19h00
+
+**Rodada 2**
+📍 22 de junho
+França x Iraque
+Filadélfia – 18h00
+
+**Rodada 3**
+📍 26 de junho
+Senegal x Iraque
+Toronto – 16h00
+
+---
+
+### 🧠 Técnico do Iraque
+
+O treinador é Graham Arnold:
+
+* Assumiu pouco antes da classificação
+* Liderou campanha épica
+
+---
+
+### 🛣️ Como se classificou
+
+* Vitória por **2x1 sobre a Bolívia** na repescagem
+* Gols de Aymen Hussein e Ali Al-Hamadi
+
+➡️ Garantiu retorno histórico à Copa
+
+---
+
+### 📊 Histórico em Copas
+
+* **Participações:** 2 (1986 e 2026)
+* Melhor resultado: fase de grupos
+
+---
+
+### 📈 Últimos jogos
+
+* ✅ Iraque 2x1 Bolívia
+* ❌ Jordânia 1x0 Iraque
+* ❌ Argélia 2x0 Iraque
+* ✅ Sudão 0x2 Iraque
+* ✅ Iraque 2x1 Bahrein
+
+---
+
+### 🚀 Expectativas
+
+O Iraque chega como azarão, mas com espírito de luta forte para surpreender.`,
+    qualification: `Vitória por 2x1 sobre a Bolívia na repescagem, gols de Aymen Hussein e Ali Al-Hamadi. Garantiu retorno histórico à Copa.`,
+    lastMatches: [
+      { opponent: 'Bolívia', result: 'W', score: '2-1' },
+      { opponent: 'Jordânia', result: 'L', score: '0-1' },
+      { opponent: 'Argélia', result: 'L', score: '0-2' },
+      { opponent: 'Sudão', result: 'W', score: '2-0' },
+      { opponent: 'Bahrein', result: 'W', score: '2-1' },
+    ]
+  },
+  'SEN': {
+    history: `## 🇸🇳 Senegal na Copa do Mundo da FIFA: perfil e histórico da seleção
+
+O **Senegal** disputará sua **3ª Copa consecutiva** e chega como uma das principais forças africanas.
+
+---
+
+### 🌍 Destaques gerais
+
+* Melhor campanha: **quartas de final (2002)**
+* Seleção forte e experiente
+* Ataque eficiente e defesa sólida
+
+---
+
+### 📅 Jogos do Senegal – Grupo I
+
+**Rodada 1**
+📍 16 de junho
+França x Senegal
+
+**Rodada 2**
+📍 22 de junho
+Noruega x Senegal
+
+**Rodada 3**
+📍 26 de junho
+Senegal x Iraque
+
+---
+
+### 🧠 Técnico do Senegal
+
+O treinador é Pape Thiaw:
+
+* Ex-jogador da campanha de 2002
+* Assume com experiência dentro da seleção
+
+---
+
+### 🛣️ Como se classificou
+
+* Campanha **invicta**
+* Vitória decisiva por 4x0 sobre a Mauritânia
+* Destaque para Sadio Mané
+
+---
+
+### 📊 Histórico em Copas
+
+* **Participações:** 4
+* **Jogos:** 12
+* **Vitórias:** 5
+
+---
+
+### 📈 Últimos jogos
+
+* ✅ Senegal 3x1 Gâmbia
+* ✅ Senegal 2x0 Peru
+* ❌ Senegal 0x3 Marrocos
+* ✅ Senegal 1x0 Egito
+* ❌ Mali 1x0 Senegal
+
+---
+
+### 🚀 Expectativas
+
+Senegal chega forte para brigar por vaga no mata-mata e repetir 2002.`,
+    qualification: `Campanha invicta, vitória decisiva por 4x0 sobre a Mauritânia, destaque para Sadio Mané.`,
+    lastMatches: [
+      { opponent: 'Gâmbia', result: 'W', score: '3-1' },
+      { opponent: 'Peru', result: 'W', score: '2-0' },
+      { opponent: 'Marrocos', result: 'L', score: '0-3' },
+      { opponent: 'Egito', result: 'W', score: '1-0' },
+      { opponent: 'Mali', result: 'L', score: '0-1' },
+    ]
+  },
+  'NOR': {
+    history: `## 🇳🇴 Noruega na Copa do Mundo da FIFA: perfil e histórico da seleção
+
+A **Noruega** está de volta à Copa após **28 anos**, embalada por uma geração talentosa.
+
+---
+
+### 🌍 Destaques gerais
+
+* Retorno desde 1998
+* Campanha perfeita nas eliminatórias
+* Geração liderada por estrelas internacionais
+
+---
+
+### 📅 Jogos da Noruega – Grupo I
+
+**Rodada 1**
+📍 16 de junho
+Iraque x Noruega
+
+**Rodada 2**
+📍 22 de junho
+Noruega x Senegal
+
+**Rodada 3**
+📍 26 de junho
+Noruega x França
+
+---
+
+### 🧠 Técnico da Noruega
+
+O treinador é Ståle Solbakken:
+
+* Ex-jogador da seleção
+* Liderou campanha perfeita
+
+---
+
+### 🛣️ Como se classificou
+
+* **100% de aproveitamento**
+* 8 vitórias em 8 jogos
+* Destaque para Erling Haaland (artilheiro)
+* Apoio criativo de Martin Ødegaard
+
+---
+
+### 📊 Histórico em Copas
+
+* **Participações:** 4
+* Melhor resultado: oitavas de final
+
+---
+
+### 📈 Últimos jogos
+
+* 🤝 Noruega 0x0 Suíça
+* ❌ Holanda 2x1 Noruega
+* ✅ Itália 1x4 Noruega
+* ✅ Noruega 4x1 Estônia
+* 🤝 Noruega 1x1 Nova Zelândia
+
+---
+
+### 🚀 Expectativas
+
+Com uma “geração de ouro”, a Noruega chega como uma das seleções mais perigosas do grupo.
+
+👉 Objetivo: avançar e fazer sua melhor campanha da história.`,
+    qualification: `100% de aproveitamento, 8 vitórias em 8 jogos, destaque para Erling Haaland (artilheiro) e apoio criativo de Martin Ødegaard.`,
+    lastMatches: [
+      { opponent: 'Suíça', result: 'D', score: '0-0' },
+      { opponent: 'Holanda', result: 'L', score: '1-2' },
+      { opponent: 'Itália', result: 'W', score: '4-1' },
+      { opponent: 'Estônia', result: 'W', score: '4-1' },
+      { opponent: 'Nova Zelândia', result: 'D', score: '1-1' },
     ]
   },
   'ESP': {
