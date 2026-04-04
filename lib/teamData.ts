@@ -3467,7 +3467,7 @@ Prepare sua torcida, os Diabos Vermelhos vêm com tudo! ⏰
 ⚔️ **Rodada 3**
 * **Jogo:** 🇳🇿 Nova Zelândia x Bélgica 🇧🇪
 * 📍 **Local:** Vancouver (Canadá) 🇨🇦
-* 🕒 **Data/Hora:** 26 de junho | 0h00 *(madrugada de 27/06 em Brasília)*
+* 🕒 **Data/Hora:** 27 de junho | 0h00 *(horário de Brasília)*
 
 ---
 
@@ -3478,7 +3478,7 @@ Uma trajetória de tradição e grandes talentos:
 * ⭐ **Melhor Campanha:** 2018 (3º lugar) 🥉
 * 🔙 **Primeira Copa:** Uruguai 1930
 * 🔢 **Participações:** 15 (1930, 1934, 1938, 1954, 1970, 1982, 1986, 1990, 1994, 1998, 2002, 2014, 2018, 2022, 2026)
-* 📊 **Estatísticas:** 51 Jogos | 21 Vitórias ✅ | 10 Empates 🤝 | 20 Derrotas ❌`,
+* 📊 **Estatísticas:** 51 Jogos | 21 Vitórias ✅ | 10 Empates 🤝 | 20 Derrotas ❌ | 69 Gols Feitos | 74 Gols Sofridos`,
     qualification: `### 🛣️ O Caminho até a Vaga
 
 A classificação foi selada com autoridade nas eliminatórias europeias:
@@ -3492,7 +3492,34 @@ A classificação foi selada com autoridade nas eliminatórias europeias:
       { opponent: 'Liechtenstein', result: 'W', score: '7-0' },
       { opponent: 'Cazaquistão', result: 'D', score: '1-1' },
       { opponent: 'País de Gales', result: 'W', score: '3-2' },
-    ]
+    ],
+    coach: {
+      name: 'Rudi Garcia',
+      nationality: 'Francês',
+      age: 62,
+      tenure: '01 ano',
+      description: 'Rudi Garcia assumiu o leme em janeiro de 2025 com uma missão clara: trazer estabilidade e reerguer a moral da equipe. Com passagens por grandes clubes europeus, o técnico francês busca extrair o melhor do talento belga.'
+    },
+    players: [
+      { name: 'Kevin De Bruyne', position: 'Meia', club: 'Manchester City', highlight: 'Continua sendo o maestro da equipe e líder em campo, definindo o ritmo ofensivo.' },
+      { name: 'Romelu Lukaku', position: 'Atacante', club: 'Napoli', highlight: 'Maior artilheiro da história da seleção, segue como referência no ataque.' },
+      { name: 'Youri Tielemans', position: 'Meia', club: 'Aston Villa', highlight: 'Assumiu um papel de liderança, sendo apontado como um dos capitães na caminhada para o Mundial.' }
+    ],
+    historyStats: {
+      participations: 15,
+      totalMatches: 51,
+      wins: 21,
+      losses: 20,
+      draws: 10,
+      titles: 0,
+      bestCampaign: '2018 (terceiro lugar)'
+    },
+    groupMatches: [
+      { opponent: 'Egito', date: '15 de junho', time: '16h00', stadium: 'Seattle', country: 'EUA' },
+      { opponent: 'Irã', date: '21 de junho', time: '16h00', stadium: 'Los Angeles', country: 'EUA' },
+      { opponent: 'Nova Zelândia', date: '27 de junho', time: '00h00', stadium: 'Vancouver', country: 'Canadá' }
+    ],
+    tacticalAnalysis: 'A Bélgica de Rudi Garcia busca um equilíbrio entre a experiência de seus veteranos e a energia de novos talentos, mantendo um estilo de jogo ofensivo e técnico.'
   },
   'EGY': {
     history: `## 🇪🇬✨ EGITO: OS FARAÓS BUSCAM A PRIMEIRA VITÓRIA! ✨🇪🇬
