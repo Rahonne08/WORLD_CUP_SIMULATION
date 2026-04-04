@@ -3157,7 +3157,35 @@ A classificação foi garantida com autoridade e emoção! A Holanda terminou as
       { opponent: 'Lituânia', result: 'W', score: '4-0' },
       { opponent: 'Polônia', result: 'D', score: '1-1' },
       { opponent: 'Finlândia', result: 'W', score: '4-0' },
-    ]
+    ],
+    coach: {
+      name: 'Ronald Koeman',
+      nationality: 'Holandês',
+      age: 63,
+      tenure: '04 anos',
+      description: 'Ídolo como jogador e agora em sua segunda passagem como técnico, Ronald Koeman assumiu o comando em 2023. Com passagens por gigantes como Barcelona e Ajax, o ex-zagueiro artilheiro traz toda sua experiência para guiar a nova geração holandesa rumo à glória!'
+    },
+    players: [
+      { name: 'Xavi Simons', position: 'Meia/Atacante', club: 'RB Leipzig', highlight: 'Jovem talento extremamente criativo e versátil, peça central na renovação da seleção.' },
+      { name: 'Cody Gakpo', position: 'Atacante', club: 'Liverpool', highlight: 'Destaque ofensivo com grande capacidade de finalização e drible.' },
+      { name: 'Ryan Gravenberch', position: 'Meio-campista', club: 'Liverpool', highlight: 'Motor do meio-campo com excelente visão de jogo e passe.' },
+      { name: 'Tijjani Reijnders', position: 'Meio-campista', club: 'AC Milan', highlight: 'Meio-campista dinâmico com grande capacidade de condução e chute de fora da área.' }
+    ],
+    historyStats: {
+      participations: 12,
+      totalMatches: 55,
+      wins: 30,
+      losses: 11,
+      draws: 14,
+      titles: 0,
+      bestCampaign: '1974, 1978, 2010 (vice-campeã)'
+    },
+    groupMatches: [
+      { opponent: 'Japão', date: '14 de junho', time: '17h00', stadium: 'Dallas', country: 'EUA' },
+      { opponent: 'Suécia', date: '20 de junho', time: '14h00', stadium: 'Houston', country: 'EUA' },
+      { opponent: 'Tunísia', date: '25 de junho', time: '20h00', stadium: 'Kansas City', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Holanda de Ronald Koeman mantém a tradição do futebol ofensivo, mas com uma organização tática moderna, focando na posse de bola e na criatividade de seus jovens talentos no meio e no ataque.'
   },
   'JPN': {
     history: `## 🇯🇵✨ JAPÃO: OS SAMURAIS AZUIS EM BUSCA DA HISTÓRIA! ✨🇯🇵
