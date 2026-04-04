@@ -1772,56 +1772,39 @@ Ainda jovem como nação independente, a seleção busca crescer e surpreender n
 
 * 🏁 Primeira participação: **2014 (Brasil)**
 * 🔢 Participações: 2 (2014 e 2026)
-* 🏆 Melhor resultado: Fase de grupos
+* 🏆 Melhor resultado: Fase de grupos (2014)
 
 📌 Curiosidade:
 Antes da independência em 1992, jogadores bósnios atuavam pela antiga Iugoslávia, que teve forte presença em Copas! 🇪🇺⚽
 
 ---
 
-## 🏆 Destaque histórico
-
-Na Copa do Mundo FIFA 2014, a Bósnia fez sua estreia:
-
-* ⚔️ Derrota para a Argentina (1x2)
-* ❌ Derrota para a Nigéria (0x1)
-* ✅ Vitória histórica sobre o Irã (3x1)
-
-👉 Mesmo eliminada, deixou boa impressão em sua primeira Copa! 👀🔥
-
----
-
 ## 📅 Jogos da Bósnia – Copa 2026 (Grupo B)
 
-🥇 Rodada 1
-
+### 🥇 Rodada 1
 📍 Toronto (Canadá)
 🗓️ 12 de junho
 ⏰ 16h (Brasília)
 ⚔️ 🇨🇦 Canadá x 🇧🇦 Bósnia e Herzegovina
 
-🥈 Rodada 2
-
+### 🥈 Rodada 2
 📍 Los Angeles (EUA)
 🗓️ 18 de junho
 ⏰ 16h (Brasília)
-⚔️ 🇨🇭 Suíça x Bósnia e Herzegovina 🇧🇦
+⚔️ 🇨🇭 Suíça x 🇧🇦 Bósnia e Herzegovina
 
-Rodada 3
-
+### 🥉 Rodada 3
 📍 Seattle (EUA)
 🗓️ 24 de junho
 ⏰ 16h (Brasília)
 ⚔️ 🇧🇦 Bósnia e Herzegovina x 🇶🇦 Catar
-
-⚔️ Grupo equilibrado, com chances reais de classificação! 💪
 
 ---
 
 ## 📊 Histórico em Copas
 
 * 🌍 Confederação: UEFA
-* 🏆 Melhor campanha: Fase de grupos
+* 🏆 Melhor campanha: Fase de grupos (2014)
 * ⏱️ Última Copa: 2014
 * 🔢 Participações: 2
 
@@ -1836,22 +1819,10 @@ Rodada 3
 
 ---
 
-## 🌟 Ídolos e destaques
-
-Alguns dos principais nomes da história recente:
-
-* ⭐ Edin Džeko
-* 🎯 Miralem Pjanić
-* ⚡ Vedad Ibišević
-
-👉 Todos marcaram gols históricos na Copa de 2014! ⚽🔥
-
----
-
 ## 🌟 Fique de olho!
 
 A Bósnia e Herzegovina é uma seleção **técnica e perigosa** 👀⚠️
-Mesmo com pouca experiência em Copas, pode surpreender e buscar sua **primeira classificação ao mata-mata**!
+Com a liderança de Edin Džeko e novos talentos, pode surpreender e buscar sua **primeira classificação ao mata-mata**!
 
 👉 Será que 2026 marcará um novo capítulo histórico? 🏆🔥`,
     qualification: `## 🚀 Caminho e evolução
@@ -1861,6 +1832,7 @@ Desde a independência, a Bósnia tem mostrado crescimento constante:
 * ⚔️ Disputou eliminatórias competitivas
 * 🔥 Chegou a playoffs em 2010
 * 🥇 Classificou-se em 1º lugar do grupo europeu em 2014
+* 🎯 Decisiva na classificação para 2026 com jovens talentos como Esmir Bajraktarevic.
 
 Agora, retorna ao Mundial com mais experiência e ambição! 💪🇧🇦`,
     lastMatches: [
@@ -1869,7 +1841,34 @@ Agora, retorna ao Mundial com mais experiência e ambição! 💪🇧🇦`,
       { opponent: 'Áustria', result: 'D', score: '1-1' },
       { opponent: 'Romênia', result: 'W', score: '3-1' },
       { opponent: 'Malta', result: 'W', score: '4-1' },
-    ]
+    ],
+    coach: {
+      name: 'Sergej Barbarez',
+      nationality: 'Bósnio',
+      age: 54,
+      tenure: '02 anos',
+      description: 'Ídolo nacional e agora treinador, Barbarez busca levar a Bósnia a um novo patamar competitivo.'
+    },
+    players: [
+      { name: 'Edin Džeko', position: 'Atacante', club: 'Schalke 04 (2026)', highlight: 'Líder técnico e referência' },
+      { name: 'Esmir Bajraktarevic', position: 'Atacante', club: 'PSV / MLS', highlight: 'Jovem talento decisivo' },
+      { name: 'Ermedin Demirović', position: 'Atacante', club: 'Stuttgart', highlight: 'Peça chave no ataque' }
+    ],
+    historyStats: {
+      participations: 2,
+      totalMatches: 3,
+      wins: 1,
+      losses: 2,
+      draws: 0,
+      titles: 0,
+      bestCampaign: 'Fase de grupos (2014)'
+    },
+    groupMatches: [
+      { opponent: 'Canadá', date: '12 de junho', time: '16h00', stadium: 'Toronto', country: 'Canadá' },
+      { opponent: 'Suíça', date: '18 de junho', time: '16h00', stadium: 'Los Angeles', country: 'EUA' },
+      { opponent: 'Catar', date: '24 de junho', time: '16h00', stadium: 'Seattle', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Bósnia aposta em um ataque experiente liderado por Džeko, complementado pela velocidade e criatividade de jovens talentos, buscando um jogo ofensivo e eficiente.'
   },
   'MAR': {
     history: `## 🇲🇦 Marrocos na Copa do Mundo da FIFA: perfil e histórico da seleção
