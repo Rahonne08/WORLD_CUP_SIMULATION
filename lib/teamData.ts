@@ -986,33 +986,47 @@ Nagelsmann assumiu o leme em setembro de 2023. Mesmo com pouco tempo para prepar
 
 Uma verdadeira realeza do futebol mundial:
 * 🌍 **Confederação:** UEFA
-* 🥇 **Títulos (Tetracampeã):** 1954, 1974, 1990 e 2014
-* ⏪ **Última Copa:** Catar 2022 *(Fase de grupos)*
-* 🔙 **Primeira Copa:** Itália 1934 *(4º lugar)*
-* 🔢 **Participações:** 21
-* 📊 **Estatísticas Gerais:** 112 Jogos | 68 Vitórias ✅ | 21 Empates 🤝 | 23 Derrotas ❌ | 232 Gols Pró ⚽ | 130 Gols Contra 🥅`,
-    qualification: `🛣️ **O Caminho até a Vaga**
-A vaga foi carimbada com estilo em novembro de 2025! A Alemanha dominou e venceu o **Grupo A** das eliminatórias: foram **5 vitórias em 6 partidas**, com um saldo impressionante de 16 gols marcados e apenas 3 sofridos. ⚽🔥
+* 🥇 **Títulos (Tetracampeã):** 1954, 1974, 1990, 2014
+* 🔢 **Participações:** 21 (incluindo 2026)
+* 🏟️ **Sede:** 1974 e 2006
 
-A campanha teve emoção: após uma derrota surpreendente por 2 a 0 na estreia contra a Eslováquia, os alemães se recuperaram de forma espetacular, fechando as eliminatórias com uma goleada avassaladora de 6 a 0 sobre os próprios eslovacos! 🌪️ Tudo isso superando os desfalques de estrelas como Jamal Musiala, Kai Havertz, Antonio Rüdiger e Marc-André ter Stegen, que lidaram com lesões durante a jornada. 🏥💪`,
+A Alemanha busca apagar as últimas decepções e voltar ao topo do mundo com um futebol ofensivo e renovado!`,
+    qualification: `A Alemanha garantiu sua vaga de forma soberana nas eliminatórias da UEFA, terminando na liderança de seu grupo com uma campanha quase perfeita, demonstrando que o trabalho de Nagelsmann está no caminho certo.`,
     lastMatches: [
-      { opponent: 'Gana', result: 'W', score: '2-1' },
-      { opponent: 'Suíça', result: 'W', score: '4-3' },
-      { opponent: 'Eslováquia', result: 'W', score: '6-0' },
-      { opponent: 'Luxemburgo', result: 'W', score: '2-0' },
-      { opponent: 'Irlanda do Norte', result: 'W', score: '1-0' },
-    ]
-  },
-  'ENG': {
-    history: 'A Inglaterra, inventora do futebol, possui um título mundial conquistado em casa em 1966. Nas últimas edições, a equipe tem chegado longe, impulsionada por uma geração talentosa da Premier League.',
-    qualification: 'A Inglaterra passou sem sustos pelas Eliminatórias Europeias, terminando invicta e com um dos melhores ataques do continente.',
-    lastMatches: [
-      { opponent: 'Alemanha', result: 'D', score: '1-1' },
-      { opponent: 'França', result: 'L', score: '1-3' },
-      { opponent: 'Itália', result: 'W', score: '2-0' },
-      { opponent: 'Espanha', result: 'D', score: '0-0' },
-      { opponent: 'Portugal', result: 'W', score: '2-1' },
-    ]
+      { opponent: 'França', result: 'W', score: '2-1' },
+      { opponent: 'Holanda', result: 'W', score: '2-1' },
+      { opponent: 'Espanha', result: 'D', score: '1-1' },
+      { opponent: 'Áustria', result: 'L', score: '0-2' },
+      { opponent: 'Turquia', result: 'L', score: '2-3' },
+    ],
+    coach: {
+      name: 'Julian Nagelsmann',
+      nationality: 'Alemão',
+      age: 38,
+      tenure: '02 anos',
+      description: 'Um dos técnicos mais promissores do mundo, Nagelsmann trouxe modernidade e intensidade para a Nationalmannschaft.'
+    },
+    players: [
+      { name: 'Jamal Musiala', position: 'Meia', club: 'Bayern de Munique', highlight: 'Talento puro e drible' },
+      { name: 'Florian Wirtz', position: 'Meia', club: 'Bayer Leverkusen', highlight: 'Visão de jogo e criatividade' },
+      { name: 'Kai Havertz', position: 'Atacante', club: 'Arsenal', highlight: 'Versatilidade ofensiva' },
+      { name: 'Joshua Kimmich', position: 'Meio-campista', club: 'Bayern de Munique', highlight: 'Liderança e polivalência' }
+    ],
+    historyStats: {
+      participations: 21,
+      totalMatches: 112,
+      wins: 68,
+      losses: 23,
+      draws: 21,
+      titles: 4,
+      bestCampaign: 'Campeã (1954, 1974, 1990, 2014)'
+    },
+    groupMatches: [
+      { opponent: 'Curaçau', date: '14 de junho', time: '14h00', stadium: 'Houston', country: 'EUA' },
+      { opponent: 'Costa do Marfim', date: '20 de junho', time: '17h00', stadium: 'Toronto', country: 'Canadá' },
+      { opponent: 'Equador', date: '25 de junho', time: '17h00', stadium: 'Nova York/Nova Jersey', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'Sob o comando de Nagelsmann, a Alemanha busca um futebol moderno, com pressão alta e transições rápidas, focando na criatividade de seus jovens talentos.'
   },
   'USA': {
     history: `## 🇺🇸 Estados Unidos na Copa do Mundo da FIFA: perfil e histórico da seleção
@@ -1030,28 +1044,28 @@ Após cair nas oitavas de final no Copa do Mundo FIFA Qatar 2022, a seleção am
 * Melhor campanha: **semifinal em 1930**
 * Eliminado nas oitavas em 2022
 
-A edição de 2026 será histórica, com **48 seleções**, e os EUA querem aproveitar o fator casa para fazer uma campanha marcante. ([LOS40][1])
+A edição de 2026 será histórica, com **48 seleções**, e os EUA querem aproveitar o fator casa para fazer uma campanha marcante.
 
 ---
 
 ### 📅 Jogos dos EUA – Grupo D
 
-O Grupo D conta com Estados Unidos, Paraguai, Austrália e outra seleção europeia via repescagem. ([Wikipedia][2])
+O Grupo D conta com Estados Unidos, Paraguai, Austrália e Turquia.
 
 **Rodada 1**
-📍 12 de junho
+📍 12 de junho – 22h00
 Estados Unidos x Paraguai
-Los Angeles – 22h00 (Brasília)
+Los Angeles (EUA)
 
 **Rodada 2**
-📍 19 de junho
+📍 19 de junho – 16h00
 Estados Unidos x Austrália
-Seattle – 16h00 (Brasília)
+Seattle (EUA)
 
 **Rodada 3**
-📍 25 de junho
+📍 25 de junho – 23h00
 Turquia x Estados Unidos
-Los Angeles – 23h00 (Brasília)
+Los Angeles (EUA)
 
 ---
 
@@ -1059,12 +1073,12 @@ Los Angeles – 23h00 (Brasília)
 
 O treinador é Mauricio Pochettino:
 
-* Assumiu a seleção em 2024
+* Assumiu a seleção em 2024 (02 anos no cargo)
 * Ex-técnico de clubes como PSG, Chelsea e Tottenham
 * Primeira experiência comandando uma seleção
 * Missão: levar os EUA ao melhor resultado em décadas
 
-Pochettino aposta em uma geração talentosa liderada por jogadores como Christian Pulisic. ([ge][3])
+Pochettino aposta em uma geração talentosa liderada por jogadores como Christian Pulisic.
 
 ---
 
@@ -1130,7 +1144,34 @@ Com o apoio da torcida e a liderança de Pochettino, os americanos querem transf
       { opponent: 'Uruguai', result: 'W', score: '5-1' },
       { opponent: 'Paraguai', result: 'W', score: '2-1' },
       { opponent: 'Austrália', result: 'W', score: '2-1' },
-    ]
+    ],
+    coach: {
+      name: 'Mauricio Pochettino',
+      nationality: 'Argentino',
+      age: 54,
+      tenure: '02 anos',
+      description: 'Treinador de renome internacional com passagens por grandes clubes europeus, focado em desenvolver a talentosa geração americana.'
+    },
+    players: [
+      { name: 'Christian Pulisic', position: 'Atacante', club: 'AC Milan', highlight: 'Referência técnica e principal nome do ataque' },
+      { name: 'Gio Reyna', position: 'Meia-atacante', club: 'Borussia Dortmund/Nottingham Forest', highlight: 'Criativo e decisivo na Liga das Nações' },
+      { name: 'Weston McKennie', position: 'Meio-campista', club: 'Juventus', highlight: 'Motor do meio-campo com presença física' }
+    ],
+    historyStats: {
+      participations: 12,
+      totalMatches: 37,
+      wins: 9,
+      losses: 20,
+      draws: 8,
+      titles: 0,
+      bestCampaign: '1930 (semifinais)'
+    },
+    groupMatches: [
+      { opponent: 'Paraguai', date: '12 de junho', time: '22h00', stadium: 'Los Angeles', country: 'EUA' },
+      { opponent: 'Austrália', date: '19 de junho', time: '16h00', stadium: 'Seattle', country: 'EUA' },
+      { opponent: 'Turquia', date: '25 de junho', time: '23h00', stadium: 'Los Angeles', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'Sob o comando de Pochettino, os EUA buscam um jogo de alta intensidade, pressão agressiva e transições rápidas, aproveitando a velocidade de seus atacantes.'
   },
   'MEX': {
     history: `## 🇲🇽 México na Copa do Mundo 2026
@@ -2453,9 +2494,9 @@ Estados Unidos x Paraguai
 Los Angeles – 22h00 (Brasília)
 
 **Rodada 2**
-📍 19 de junho
+📍 20 de junho
 Turquia x Paraguai
-Santa Clara (EUA) – 1h00 (Brasília)
+Santa Clara (EUA) – 00h00 (Brasília)
 
 **Rodada 3**
 📍 25 de junho
@@ -2541,7 +2582,34 @@ Destaques:
       { opponent: 'México', result: 'W', score: '2-1' },
       { opponent: 'EUA', result: 'L', score: '1-2' },
       { opponent: 'Coreia do Sul', result: 'L', score: '0-2' },
-    ]
+    ],
+    coach: {
+      name: 'Gustavo Alfaro',
+      nationality: 'Argentino',
+      age: 63,
+      tenure: '02 anos',
+      description: 'Assumiu em 2024 em momento delicado, recuperou a equipe nas eliminatórias e é conhecido por seu estilo tático organizado e competitivo.'
+    },
+    players: [
+      { name: 'Miguel Almirón', position: 'Atacante', club: 'Newcastle', highlight: 'Principal nome ofensivo e criativo.' },
+      { name: 'Julio Enciso', position: 'Atacante', club: 'Brighton', highlight: 'Jovem promessa com grande capacidade técnica.' },
+      { name: 'Gustavo Gómez', position: 'Zagueiro', club: 'Palmeiras', highlight: 'Liderança e segurança na zaga, pilar da defesa.' }
+    ],
+    historyStats: {
+      participations: 9,
+      totalMatches: 27,
+      wins: 7,
+      losses: 10,
+      draws: 10,
+      titles: 0,
+      bestCampaign: '2010 (quartas de final)'
+    },
+    groupMatches: [
+      { opponent: 'Estados Unidos', date: '12 de junho', time: '22h00', stadium: 'Los Angeles', country: 'EUA' },
+      { opponent: 'Turquia', date: '20 de junho', time: '00h00', stadium: 'Santa Clara', country: 'EUA' },
+      { opponent: 'Austrália', date: '25 de junho', time: '23h00', stadium: 'Santa Clara', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'O Paraguai sob Gustavo Alfaro foca em uma defesa sólida liderada por Gustavo Gómez e transições rápidas explorando a velocidade de Almirón e a técnica de Enciso.'
   },
   'AUS': {
     history: `## 🇦🇺 Austrália na Copa do Mundo da FIFA: perfil e histórico da seleção
