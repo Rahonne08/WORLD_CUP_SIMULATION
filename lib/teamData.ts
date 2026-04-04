@@ -2256,21 +2256,18 @@ Depois de décadas como presença constante (principalmente entre os anos 70 e 9
 ### 📅 Jogos da Escócia – Grupo C
 
 **Rodada 1**
-📍 13 de junho
+📍 13 de junho – 22h00
 Haiti x Escócia
-⏰ 22h (Brasília)
 Boston (EUA)
 
 **Rodada 2**
-📍 19 de junho
+📍 19 de junho – 19h00
 Escócia x Marrocos
-⏰ 19h (Brasília)
 Boston (EUA)
 
 **Rodada 3**
-📍 24 de junho
+📍 24 de junho – 19h00
 Escócia x Brasil
-⏰ 19h (Brasília)
 Miami (EUA)
 
 ---
@@ -2279,7 +2276,7 @@ Miami (EUA)
 
 O treinador é Steve Clarke:
 
-* No comando desde 2019
+* No comando desde 2019 (07 anos)
 * Responsável por levar a seleção a **3 grandes torneios**
 * Considerado um dos maiores técnicos da história do país
 * Estilo pragmático e foco na consistência
@@ -2398,7 +2395,35 @@ Gols de:
       { opponent: 'Dinamarca', result: 'W', score: '4-2' },
       { opponent: 'Grécia', result: 'L', score: '2-3' },
       { opponent: 'Belarus', result: 'W', score: '2-1' },
-    ]
+    ],
+    coach: {
+      name: 'Steve Clarke',
+      nationality: 'Escocês',
+      age: 62,
+      tenure: '07 anos',
+      description: 'Responsável por levar a seleção a 3 grandes torneios, considerado um dos maiores técnicos da história do país.'
+    },
+    players: [
+      { name: 'Andrew Robertson', position: 'Lateral-esquerdo', club: 'Liverpool', highlight: 'Líder da equipe e um dos melhores da Europa' },
+      { name: 'Scott McTominay', position: 'Meio-campista', club: 'Napoli', highlight: 'Principal goleador e motor do meio-campo' },
+      { name: 'John McGinn', position: 'Meio-campista', club: 'Aston Villa', highlight: 'Intensidade e criatividade nas transições' },
+      { name: 'Kieran Tierney', position: 'Zagueiro/Ala', club: 'Arsenal', highlight: 'Versatilidade defensiva' }
+    ],
+    historyStats: {
+      participations: 9,
+      totalMatches: 23,
+      wins: 4,
+      losses: 12,
+      draws: 7,
+      titles: 0,
+      bestCampaign: '1954, 1958, 1974, 1978, 1982, 1986, 1990, 1998, 2026 (fase de grupos)'
+    },
+    groupMatches: [
+      { opponent: 'Haiti', date: '13 de junho', time: '22h00', stadium: 'Boston', country: 'EUA' },
+      { opponent: 'Marrocos', date: '19 de junho', time: '19h00', stadium: 'Boston', country: 'EUA' },
+      { opponent: 'Brasil', date: '24 de junho', time: '19h00', stadium: 'Miami', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Escócia sob Steve Clarke prioriza a organização defensiva e transições rápidas, aproveitando a qualidade de seus alas e a força física de seu meio-campo.'
   },
   'PAR': {
     history: `## 🇵🇾 Paraguai na Copa do Mundo da FIFA: perfil e histórico da seleção
