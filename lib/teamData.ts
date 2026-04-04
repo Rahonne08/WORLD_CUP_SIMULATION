@@ -1273,8 +1273,8 @@ Após cair na fase de grupos na Copa do Mundo FIFA 2022, o Canadá quer aproveit
 
 * ⚽ Jogos: 6
 * ✅ Vitórias: 0
-* 🤝 Empates: 6
-* ❌ Derrotas: 0
+* 🤝 Empates: 0
+* ❌ Derrotas: 6
 * 🥅 Gols marcados: 2
 * 🚫 Gols sofridos: 12
 
@@ -1308,8 +1308,8 @@ Diferente de outras seleções, o Canadá garantiu vaga automaticamente por ser 
       participations: 3,
       totalMatches: 6,
       wins: 0,
-      losses: 0,
-      draws: 6,
+      losses: 6,
+      draws: 0,
       titles: 0,
       bestCampaign: 'Fase de grupos'
     },
@@ -1614,7 +1614,35 @@ Mesmo sem classificação direta, o Catar mostrou **força mental e evolução c
       { opponent: 'Palestina', result: 'L', score: '0-1' },
       { opponent: 'Zimbábue', result: 'L', score: '1-2' },
       { opponent: 'Emirados Árabes Unidos', result: 'W', score: '2-1' },
-    ]
+    ],
+    coach: {
+      name: 'Julen Lopetegui',
+      nationality: 'Espanhol',
+      age: 59,
+      tenure: '01 ano',
+      description: 'Experiente treinador espanhol, traz bagagem tática europeia para elevar o nível competitivo da seleção.'
+    },
+    players: [
+      { name: 'Almoez Ali', position: 'Atacante', club: 'Al-Duhail SC', highlight: 'Um dos maiores artilheiros da história da seleção' },
+      { name: 'Akram Afif', position: 'Atacante', club: 'Al-Sadd SC', highlight: 'Atacante decisivo e criativo' },
+      { name: 'Hasan Al-Haydos', position: 'Meio-campista', club: 'Al-Sadd SC', highlight: 'Veterano e líder' },
+      { name: 'Sebastián Soria', position: 'Atacante', club: 'Qatar SC', highlight: 'Experiente e relevante' }
+    ],
+    historyStats: {
+      participations: 2,
+      totalMatches: 3,
+      wins: 0,
+      losses: 3,
+      draws: 0,
+      titles: 0,
+      bestCampaign: 'Fase de grupos'
+    },
+    groupMatches: [
+      { opponent: 'Suíça', date: '13 de junho', time: '16h00', stadium: 'Santa Clara', country: 'EUA' },
+      { opponent: 'Canadá', date: '18 de junho', time: '19h00', stadium: 'Vancouver', country: 'Canadá' },
+      { opponent: 'Bósnia e Herzegovina', date: '24 de junho', time: '16h00', stadium: 'Seattle', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'O Catar busca um futebol organizado, com foco na solidez defensiva e na criatividade de seus talentos ofensivos para surpreender os adversários.'
   },
   'SUI': {
     history: `## Suíça na Copa do Mundo 2026
