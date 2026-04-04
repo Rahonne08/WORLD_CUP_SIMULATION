@@ -3632,7 +3632,7 @@ Acompanhe os horários da seleção iraniana! ⏰
 ⚔️ **Rodada 3**
 * **Jogo:** 🇪🇬 Egito x Irã 🇮🇷
 * 📍 **Local:** Seattle (EUA) 🇺🇸
-* 🕒 **Data/Hora:** 26 de junho | 0h00 *(madrugada de 27/06 em Brasília)*
+* 🕒 **Data/Hora:** 27 de junho | 0h00 *(horário de Brasília)*
 
 ---
 
@@ -3643,7 +3643,7 @@ Uma trajetória de consistência na Ásia:
 * ⭐ **Melhores Campanhas:** Fase de Grupos (1978, 1998, 2006, 2014, 2018, 2022)
 * 🔙 **Primeira Copa:** Argentina 1978
 * 🔢 **Participações:** 7 (1978, 1998, 2006, 2014, 2018, 2022, 2026)
-* 📊 **Estatísticas:** 18 Jogos | 3 Vitórias ✅ | 4 Empates 🤝 | 11 Derrotas ❌`,
+* 📊 **Estatísticas:** 18 Jogos | 3 Vitórias ✅ | 4 Empates 🤝 | 11 Derrotas ❌ | 13 Gols Feitos | 31 Gols Sofridos`,
     qualification: `### 🛣️ Como o Irã se classificou para 2026
 
 A campanha foi marcada pelo domínio técnico e tático:
@@ -3657,7 +3657,34 @@ A campanha foi marcada pelo domínio técnico e tático:
       { opponent: 'Uzbequistão', result: 'D', score: '0-0' },
       { opponent: 'Cabo Verde', result: 'W', score: '0-0' },
       { opponent: 'Tanzânia', result: 'W', score: '2-0' },
-    ]
+    ],
+    coach: {
+      name: 'Amir Ghalenoei',
+      nationality: 'Iraniano',
+      age: 62,
+      tenure: '03 anos',
+      description: 'Em sua segunda passagem pelo comando, o experiente Ghalenoei é um dos treinadores mais conceituados de seu país. Conhecido como "General" nos tempos de jogador.'
+    },
+    players: [
+      { name: 'Sardar Azmoun', position: 'Atacante', club: 'Shabab Al-Ahli Club', highlight: 'Um dos principais artilheiros da história da seleção, referência no ataque.' },
+      { name: 'Mehdi Taremi', position: 'Atacante', club: 'Olympiacos', highlight: 'Atacante experiente e um dos maiores goleadores do país, mantendo alto nível na Europa.' },
+      { name: '"Novo Messi" Iraniano', position: 'Meio-campista', club: 'Vários', highlight: 'Citado como um dos grandes talentos da nova geração iraniana.' }
+    ],
+    historyStats: {
+      participations: 7,
+      totalMatches: 18,
+      wins: 3,
+      losses: 11,
+      draws: 4,
+      titles: 0,
+      bestCampaign: 'Fase de grupos (1978, 1998, 2006, 2014, 2018, 2022)'
+    },
+    groupMatches: [
+      { opponent: 'Nova Zelândia', date: '15 de junho', time: '22h00', stadium: 'Los Angeles', country: 'EUA' },
+      { opponent: 'Bélgica', date: '21 de junho', time: '16h00', stadium: 'Los Angeles', country: 'EUA' },
+      { opponent: 'Egito', date: '27 de junho', time: '00h00', stadium: 'Seattle', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'O Irã de Ghalenoei foca em uma defesa disciplinada e transições rápidas, aproveitando o faro de gol de seus atacantes de elite que atuam na Europa.'
   },
   'NZL': {
     history: `## 🇳🇿✨ NOVA ZELÂNDIA: OS ALL WHITES EM BUSCA DA PRIMEIRA VITÓRIA! ✨🇳🇿
