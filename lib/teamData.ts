@@ -2634,17 +2634,17 @@ A meta agora é clara: **ir além das oitavas** e alcançar um feito inédito.
 **Rodada 1**
 📍 13 de junho
 Austrália x Turquia
-Vancouver (Canadá) – 1h00 (14/06 em Brasília)
+01h00 (Brasília)
 
 **Rodada 2**
 📍 19 de junho
 Estados Unidos x Austrália
-Seattle (EUA) – 16h00 (Brasília)
+16h00 (Brasília)
 
 **Rodada 3**
 📍 25 de junho
 Paraguai x Austrália
-Santa Clara (EUA) – 23h00 (Brasília)
+23h00 (Brasília)
 
 ---
 
@@ -2656,8 +2656,6 @@ O treinador é Tony Popovic:
 * Participou da Copa de 2006 como jogador
 * Assumiu a seleção em 2024
 * Conhecido por disciplina tática e organização defensiva
-
-Após se aposentar, iniciou rapidamente a carreira como técnico, conquistando títulos no futebol australiano e asiático. ([Wikipedia][1])
 
 ---
 
@@ -2727,14 +2725,41 @@ A partir daí, a equipe reagiu:
 * Vitória sobre o Japão
 * Vitória decisiva por **2x1 sobre a Arábia Saudita**
 
-➡️ Classificação garantida com vaga direta para a Copa ([Wikipedia][2])`,
+➡️ Classificação garantida com vaga direta para a Copa`,
     lastMatches: [
       { opponent: 'Curaçao', result: 'W', score: '5-1' },
       { opponent: 'Camarões', result: 'W', score: '1-0' },
       { opponent: 'Colômbia', result: 'L', score: '0-3' },
       { opponent: 'Venezuela', result: 'L', score: '0-1' },
       { opponent: 'EUA', result: 'L', score: '1-2' },
-    ]
+    ],
+    coach: {
+      name: 'Tony Popovic',
+      nationality: 'Australiano',
+      age: 52,
+      tenure: '02 anos',
+      description: 'Ex-zagueiro da seleção com mais de 50 jogos internacionais. Assumiu em 2024 e é conhecido por sua disciplina tática e organização defensiva.'
+    },
+    players: [
+      { name: 'Nestory Irankunda', position: 'Atacante', club: 'Bayern de Munique', highlight: 'Considerado uma das maiores promessas do futebol australiano, destaca-se por sua velocidade e capacidade de finalização.' },
+      { name: 'Jackson Irvine', position: 'Meio-campista', club: 'St. Pauli', highlight: 'Um pilar no meio-campo, reconhecido por sua liderança e capacidade física.' },
+      { name: 'Mathew Ryan', position: 'Goleiro', club: 'Roma', highlight: 'Experiente goleiro e capitão, continua sendo uma figura central de segurança defensiva.' }
+    ],
+    historyStats: {
+      participations: 7,
+      totalMatches: 20,
+      wins: 4,
+      losses: 12,
+      draws: 4,
+      titles: 0,
+      bestCampaign: '2006 e 2022 (oitavas de final)'
+    },
+    groupMatches: [
+      { opponent: 'Turquia', date: '13 de junho', time: '01h00', stadium: 'Vancouver', country: 'Canadá' },
+      { opponent: 'Estados Unidos', date: '19 de junho', time: '16h00', stadium: 'Seattle', country: 'EUA' },
+      { opponent: 'Paraguai', date: '25 de junho', time: '23h00', stadium: 'Santa Clara', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Austrália sob Tony Popovic prioriza a organização defensiva e a disciplina tática, buscando transições rápidas e explorando a velocidade de jovens talentos como Irankunda.'
   },
   'TUR': {
     history: `## 🇹🇷 Turquia na Copa do Mundo 2026: O Fim do Jejum!
