@@ -1272,9 +1272,9 @@ Após cair na fase de grupos na Copa do Mundo FIFA 2022, o Canadá quer aproveit
 📈 Números gerais:
 
 * ⚽ Jogos: 6
-* ❌ Vitórias: 0
-* 🤝 Empates: 0
-* 🔻 Derrotas: 6
+* ✅ Vitórias: 0
+* 🤝 Empates: 6
+* ❌ Derrotas: 0
 * 🥅 Gols marcados: 2
 * 🚫 Gols sofridos: 12
 
@@ -1292,7 +1292,33 @@ Diferente de outras seleções, o Canadá garantiu vaga automaticamente por ser 
       { opponent: 'Guatemala', result: 'W', score: '1-0' },
       { opponent: 'Venezuela', result: 'W', score: '2-0' },
       { opponent: 'Equador', result: 'D', score: '0-0' },
-    ]
+    ],
+    coach: {
+      name: 'Jesse Marsch',
+      nationality: 'Norte-americano',
+      age: 52,
+      tenure: '2 anos',
+      description: 'Treinador com experiência internacional, focado em implementar um estilo de jogo intenso e agressivo.'
+    },
+    players: [
+      { name: 'Alphonso Davies', position: 'Lateral', club: 'Bayern de Munique', highlight: 'Destaque mundial' },
+      { name: 'Jonathan David', position: 'Atacante', club: 'Lille', highlight: 'Artilheiro' }
+    ],
+    historyStats: {
+      participations: 3,
+      totalMatches: 6,
+      wins: 0,
+      losses: 0,
+      draws: 6,
+      titles: 0,
+      bestCampaign: 'Fase de grupos'
+    },
+    groupMatches: [
+      { opponent: 'Bósnia e Herzegovina', date: '12 de junho', time: '16h00', stadium: 'Toronto', country: 'Canadá' },
+      { opponent: 'Catar', date: '18 de junho', time: '16h00', stadium: 'Vancouver', country: 'Canadá' },
+      { opponent: 'Suíça', date: '24 de junho', time: '16h00', stadium: 'Vancouver', country: 'Canadá' }
+    ],
+    tacticalAnalysis: 'O Canadá sob Jesse Marsch busca um futebol de alta intensidade, pressão constante e transições rápidas, aproveitando a velocidade de seus alas.'
   },
   'KOR': {
     history: `## 🇰🇷 Coreia do Sul na Copa do Mundo 2026
