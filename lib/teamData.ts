@@ -2857,8 +2857,8 @@ Preparem os corações! Curaçau garantiu sua classificação histórica para a 
 
 A vaga veio de forma simbólica em novembro de 2025, após um empate heroico em 0 a 0 contra a Jamaica 🇯🇲, em Kingston. A "Onda Azul" terminou na liderança do Grupo B das eliminatórias da Concacaf e provou que o tamanho do território não define o tamanho do futebol! 🌊💙
 
-🧠🇳🇱 **Comando Holandês: Dick Advocaat**
-Para elevar o nível da equipe, a federação trouxe o renomado e experiente técnico holandês Dick Advocaat em 2024. Com bagagem de Copas do Mundo no currículo, ele assumiu o legado deixado por Remko Bicentini para guiar esses heróis em solo norte-americano! 📋👨🏫
+🧠🇳🇱 **Comando Holandês: Fred Rutten**
+Para elevar o nível da equipe na fase final, a federação trouxe o experiente técnico holandês Fred Rutten. Com passagens por grandes clubes europeus, ele assumiu o comando para guiar esses heróis em sua primeira experiência em solo mundialista! 📋👨‍🏫
 
 ---
 
@@ -2908,7 +2908,34 @@ A campanha rumo a 2026 foi avassaladora! Curaçau não deu chances aos rivais:
       { opponent: 'Jamaica', result: 'D', score: '0-0' },
       { opponent: 'Bermudas', result: 'W', score: '7-0' },
       { opponent: 'Trinidad e Tobago', result: 'D', score: '1-1' },
-    ]
+    ],
+    coach: {
+      name: 'Fred Rutten',
+      nationality: 'Holandês',
+      age: 63,
+      tenure: '04 meses',
+      description: 'Treinador holandês experiente, assumiu o comando de Curaçau para a disputa da Copa do Mundo de 2026.'
+    },
+    players: [
+      { name: 'Leandro Bacuna', position: 'Meio-campista', club: 'FC Groningen', highlight: 'Capitão da equipe, fundamental na organização e liderança do elenco.' },
+      { name: 'Rangelo Janga', position: 'Atacante', club: 'Nea Salamis', highlight: 'Artilheiro que se destacou na campanha de classificação.' },
+      { name: 'Eloy Room', position: 'Goleiro', club: 'Vitesse', highlight: 'Goleiro experiente que trouxe segurança à defesa de Curaçau.' }
+    ],
+    historyStats: {
+      participations: 1,
+      totalMatches: 0,
+      wins: 0,
+      losses: 0,
+      draws: 0,
+      titles: 0,
+      bestCampaign: 'Primeira participação'
+    },
+    groupMatches: [
+      { opponent: 'Alemanha', date: '14 de junho', time: '14h00', stadium: 'Houston', country: 'EUA' },
+      { opponent: 'Equador', date: '20 de junho', time: '21h00', stadium: 'Kansas City', country: 'EUA' },
+      { opponent: 'Costa do Marfim', date: '25 de junho', time: '17h00', stadium: 'Filadélfia', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'Curaçau aposta em um jogo coletivo forte e na experiência de seus jogadores que atuam na Europa, buscando surpreender através de transições rápidas.'
   },
   'CIV': {
     history: `## COSTA DO MARFIM: O RETORNO DOS ELEFANTES! ✨🇨🇮
