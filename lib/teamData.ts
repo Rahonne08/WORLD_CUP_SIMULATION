@@ -733,7 +733,34 @@ A França chega como candidata ao título e quer fazer história com mais uma fi
       { opponent: 'Alemanha', result: 'L', score: '1-2' },
       { opponent: 'Itália', result: 'W', score: '2-0' },
       { opponent: 'Holanda', result: 'W', score: '4-0' },
-    ]
+    ],
+    coach: {
+      name: 'Didier Deschamps',
+      nationality: 'Francês',
+      age: 57,
+      tenure: '14 anos',
+      description: 'Campeão do mundo como jogador e treinador, Deschamps é o pilar da estabilidade e sucesso da França na última década.'
+    },
+    players: [
+      { name: 'Kylian Mbappé', position: 'Atacante', club: 'Real Madrid', highlight: 'Capitão e um dos melhores jogadores do mundo, principal esperança de gols dos Blues.' },
+      { name: 'Antoine Griezmann', position: 'Meia', club: 'Atlético Madrid', highlight: 'O motor criativo da equipe, essencial na ligação entre meio e ataque.' },
+      { name: 'Mike Maignan', position: 'Goleiro', club: 'Milan', highlight: 'Sucessor de Lloris, consolidou-se como um dos melhores goleiros do mundo.' }
+    ],
+    historyStats: {
+      participations: 17,
+      totalMatches: 73,
+      wins: 39,
+      losses: 20,
+      draws: 14,
+      titles: 2,
+      bestCampaign: 'Campeã (1998, 2018)'
+    },
+    groupMatches: [
+      { opponent: 'Senegal', date: '16 de junho', time: '16h00', stadium: 'MetLife Stadium', country: 'EUA' },
+      { opponent: 'Iraque', date: '22 de junho', time: '18h00', stadium: 'Lincoln Financial Field', country: 'EUA' },
+      { opponent: 'Noruega', date: '26 de junho', time: '16h00', stadium: 'Gillette Stadium', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A França de Deschamps equilibra solidez defensiva com um ataque explosivo, utilizando a velocidade de Mbappé e a inteligência tática de Griezmann.'
   },
   'IRQ': {
     history: `## 🇮🇶 Iraque na Copa do Mundo da FIFA: perfil e histórico da seleção
@@ -814,7 +841,34 @@ O Iraque chega como azarão, mas com espírito de luta forte para surpreender.`,
       { opponent: 'Argélia', result: 'L', score: '0-2' },
       { opponent: 'Sudão', result: 'W', score: '2-0' },
       { opponent: 'Bahrein', result: 'W', score: '2-1' },
-    ]
+    ],
+    coach: {
+      name: 'Graham Arnold',
+      nationality: 'Australiano',
+      age: 62,
+      tenure: '01 ano',
+      description: 'Experiente treinador que liderou o Iraque em uma campanha épica para garantir o retorno ao Mundial após 40 anos.'
+    },
+    players: [
+      { name: 'Aymen Hussein', position: 'Atacante', club: 'Al-Khor', highlight: 'Artilheiro nato e herói da classificação com gols decisivos.' },
+      { name: 'Ali Al-Hamadi', position: 'Atacante', club: 'Ipswich Town', highlight: 'Jovem talento que traz a experiência do futebol inglês para o ataque iraquiano.' },
+      { name: 'Zidane Iqbal', position: 'Meia', club: 'Utrecht', highlight: 'A grande promessa técnica do país, responsável pela criação no meio-campo.' }
+    ],
+    historyStats: {
+      participations: 2,
+      totalMatches: 3,
+      wins: 0,
+      losses: 3,
+      draws: 0,
+      titles: 0,
+      bestCampaign: 'Fase de grupos (1986)'
+    },
+    groupMatches: [
+      { opponent: 'Noruega', date: '16 de junho', time: '19h00', stadium: 'Gillette Stadium', country: 'EUA' },
+      { opponent: 'França', date: '22 de junho', time: '18h00', stadium: 'Lincoln Financial Field', country: 'EUA' },
+      { opponent: 'Senegal', date: '26 de junho', time: '16h00', stadium: 'BMO Field', country: 'Canadá' }
+    ],
+    tacticalAnalysis: 'O Iraque aposta em um espírito de luta incansável e uma defesa compacta, buscando surpreender em contra-ataques rápidos.'
   },
   'SEN': {
     history: `## 🇸🇳 Senegal na Copa do Mundo da FIFA: perfil e histórico da seleção
@@ -892,7 +946,34 @@ Senegal chega forte para brigar por vaga no mata-mata e repetir 2002.`,
       { opponent: 'Marrocos', result: 'L', score: '0-3' },
       { opponent: 'Egito', result: 'W', score: '1-0' },
       { opponent: 'Mali', result: 'L', score: '0-1' },
-    ]
+    ],
+    coach: {
+      name: 'Pape Thiaw',
+      nationality: 'Senegalês',
+      age: 45,
+      tenure: '01 ano',
+      description: 'Ex-jogador da histórica campanha de 2002, Thiaw assumiu o comando com a missão de manter Senegal no topo do futebol africano.'
+    },
+    players: [
+      { name: 'Sadio Mané', position: 'Atacante', club: 'Al-Nassr', highlight: 'O maior ídolo da história do país, líder técnico e espiritual da equipe.' },
+      { name: 'Kalidou Koulibaly', position: 'Zagueiro', club: 'Al-Hilal', highlight: 'Capitão e pilar defensivo, traz segurança e liderança para a zaga.' },
+      { name: 'Nicolas Jackson', position: 'Atacante', club: 'Chelsea', highlight: 'Jovem atacante em ascensão na Premier League, trazendo vigor físico ao ataque.' }
+    ],
+    historyStats: {
+      participations: 4,
+      totalMatches: 12,
+      wins: 5,
+      losses: 4,
+      draws: 3,
+      titles: 0,
+      bestCampaign: 'Quartas de final (2002)'
+    },
+    groupMatches: [
+      { opponent: 'França', date: '16 de junho', time: '16h00', stadium: 'MetLife Stadium', country: 'EUA' },
+      { opponent: 'Noruega', date: '22 de junho', time: '21h00', stadium: 'Gillette Stadium', country: 'EUA' },
+      { opponent: 'Iraque', date: '26 de junho', time: '16h00', stadium: 'BMO Field', country: 'Canadá' }
+    ],
+    tacticalAnalysis: 'Senegal combina força física com talento individual, sendo uma equipe muito perigosa em bolas paradas e jogadas de velocidade.'
   },
   'NOR': {
     history: `## 🇳🇴 Noruega na Copa do Mundo da FIFA: perfil e histórico da seleção
@@ -972,7 +1053,34 @@ Com uma “geração de ouro”, a Noruega chega como uma das seleções mais pe
       { opponent: 'Itália', result: 'W', score: '4-1' },
       { opponent: 'Estônia', result: 'W', score: '4-1' },
       { opponent: 'Nova Zelândia', result: 'D', score: '1-1' },
-    ]
+    ],
+    coach: {
+      name: 'Ståle Solbakken',
+      nationality: 'Norueguês',
+      age: 58,
+      tenure: '06 anos',
+      description: 'Ex-jogador da seleção, Solbakken liderou a Noruega de volta ao Mundial após quase três décadas de ausência.'
+    },
+    players: [
+      { name: 'Erling Haaland', position: 'Atacante', club: 'Manchester City', highlight: 'O maior artilheiro do mundo na atualidade, capaz de decidir qualquer jogo sozinho.' },
+      { name: 'Martin Ødegaard', position: 'Meia', club: 'Arsenal', highlight: 'Capitão e cérebro da equipe, responsável por ditar o ritmo e criar chances.' },
+      { name: 'Alexander Sørloth', position: 'Atacante', club: 'Atlético Madrid', highlight: 'Poder físico e presença de área, excelente complemento para Haaland no ataque.' }
+    ],
+    historyStats: {
+      participations: 4,
+      totalMatches: 8,
+      wins: 2,
+      losses: 3,
+      draws: 3,
+      titles: 0,
+      bestCampaign: 'Oitavas de final (1998)'
+    },
+    groupMatches: [
+      { opponent: 'Iraque', date: '16 de junho', time: '19h00', stadium: 'Gillette Stadium', country: 'EUA' },
+      { opponent: 'Senegal', date: '22 de junho', time: '21h00', stadium: 'Gillette Stadium', country: 'EUA' },
+      { opponent: 'França', date: '26 de junho', time: '16h00', stadium: 'Gillette Stadium', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Noruega aposta em sua "geração de ouro" ofensiva, buscando alimentar Haaland e Sørloth através da visão de jogo privilegiada de Ødegaard.'
   },
   'ESP': {
     history: `## 🇪🇸✨ ESPANHA: A FURIA CHEGA COM SEDE DE BICAMPEONATO! ✨🇪🇸
