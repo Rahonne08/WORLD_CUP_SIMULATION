@@ -3240,7 +3240,36 @@ A campanha nas eliminatórias asiáticas foi digna de um filme de ação:
       { opponent: 'Bolívia', result: 'W', score: '3-0' },
       { opponent: 'Gana', result: 'W', score: '2-0' },
       { opponent: 'Brasil', result: 'W', score: '3-2' },
-    ]
+    ],
+    coach: {
+      name: 'Hajime Moriyasu',
+      nationality: 'Japonês',
+      age: 57,
+      tenure: '08 anos',
+      description: 'Moriyasu fez história ao se tornar o primeiro técnico do Japão a ter o contrato renovado após um Mundial. Reconhecido por sua inteligência tática e gestão de elenco.'
+    },
+    players: [
+      { name: 'Ayase Ueda', position: 'Atacante', club: 'Feyenoord', highlight: 'Artilheiro nas eliminatórias, peça fundamental no ataque japonês.' },
+      { name: 'Takefusa Kubo', position: 'Meio-campista', club: 'Real Sociedad', highlight: 'Um dos jogadores mais talentosos e criativos da nova geração.' },
+      { name: 'Kaoru Mitoma', position: 'Atacante', club: 'Brighton', highlight: 'Conhecido por sua habilidade no drible e velocidade.' },
+      { name: 'Daichi Kamada', position: 'Meio-campista', club: 'Crystal Palace', highlight: 'Meia versátil com grande visão de jogo.' },
+      { name: 'Zion Suzuki', position: 'Goleiro', club: 'Parma', highlight: 'Jovem goleiro que assumiu a titularidade com segurança.' }
+    ],
+    historyStats: {
+      participations: 8,
+      totalMatches: 25,
+      wins: 7,
+      losses: 12,
+      draws: 6,
+      titles: 0,
+      bestCampaign: '2002, 2010, 2018, 2022 (oitavas de final)'
+    },
+    groupMatches: [
+      { opponent: 'Holanda', date: '14 de junho', time: '17h00', stadium: 'Dallas', country: 'EUA' },
+      { opponent: 'Tunísia', date: '20 de junho', time: '23h00', stadium: 'Monterrey', country: 'México' },
+      { opponent: 'Suécia', date: '25 de junho', time: '20h00', stadium: 'Dallas', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'O Japão de Moriyasu é conhecido por sua disciplina tática, transições rápidas e um elenco que equilibra experiência internacional com jovens talentos técnicos.'
   },
   'SWE': {
     history: `## 🇸🇪✨ SUÉCIA: A FORÇA VIKING ESTÁ DE VOLTA! ✨🇸🇪
