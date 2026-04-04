@@ -3715,7 +3715,7 @@ Acompanhe os All Whites no Grupo G! ⏰
 ⚔️ **Rodada 3**
 * **Jogo:** 🇳🇿 Nova Zelândia x Bélgica 🇧🇪
 * 📍 **Local:** Vancouver (Canadá) 🇨🇦
-* 🕒 **Data/Hora:** 26 de junho | 0h00 *(madrugada de 27/06 em Brasília)*
+* 🕒 **Data/Hora:** 27 de junho | 0h00 *(horário de Brasília)*
 
 ---
 
@@ -3726,7 +3726,7 @@ A força da Oceania no cenário global:
 * ⭐ **Melhores Campanhas:** 1982, 2010 (Fase de Grupos)
 * 🔙 **Primeira Copa:** Espanha 1982
 * 🔢 **Participações:** 3 (1982, 2010, 2026)
-* 📊 **Estatísticas:** 6 Jogos | 0 Vitórias ✅ | 3 Empates 🤝 | 3 Derrotas ❌`,
+* 📊 **Estatísticas:** 6 Jogos | 0 Vitórias ✅ | 3 Empates 🤝 | 3 Derrotas ❌ | 4 Gols Feitos | 14 Gols Sofridos`,
     qualification: `### 🛣️ Como a Nova Zelândia se classificou para 2026
 
 Pela primeira vez, a OFC contou com uma vaga direta para a Copa do Mundo, e a Nova Zelândia não deu chances aos adversários:
@@ -3740,7 +3740,33 @@ Pela primeira vez, a OFC contou com uma vaga direta para a Copa do Mundo, e a No
       { opponent: 'Equador', result: 'L', score: '0-2' },
       { opponent: 'Colômbia', result: 'L', score: '1-2' },
       { opponent: 'Noruega', result: 'D', score: '1-1' },
-    ]
+    ],
+    coach: {
+      name: 'Darren Bazeley',
+      nationality: 'Inglês',
+      age: 53,
+      tenure: '03 anos',
+      description: 'Darren Bazeley, ex-jogador com longa trajetória no futebol inglês e neozelandês, assumiu o desafio de liderar esta geração. Com um conhecimento profundo do futebol local, ele moldou uma equipe competitiva.'
+    },
+    players: [
+      { name: 'Mario Ilich', position: 'Meio-campista', club: 'Auckland City', highlight: 'Destaque no meio-campo.' },
+      { name: 'Elenco Base', position: 'Vários', club: 'Wellington Phoenix / Auckland FC', highlight: 'O elenco baseia-se em jogadores que atuam nos únicos clubes profissionais do país e talentos no exterior.' }
+    ],
+    historyStats: {
+      participations: 3,
+      totalMatches: 6,
+      wins: 0,
+      losses: 3,
+      draws: 3,
+      titles: 0,
+      bestCampaign: '1982, 2010 (fase de grupos)'
+    },
+    groupMatches: [
+      { opponent: 'Irã', date: '15 de junho', time: '22h00', stadium: 'Los Angeles', country: 'EUA' },
+      { opponent: 'Egito', date: '21 de junho', time: '22h00', stadium: 'Vancouver', country: 'Canadá' },
+      { opponent: 'Bélgica', date: '27 de junho', time: '00h00', stadium: 'Vancouver', country: 'Canadá' }
+    ],
+    tacticalAnalysis: 'A Nova Zelândia de Darren Bazeley busca a inédita primeira vitória em Mundiais, focando em uma organização sólida e no entrosamento da base que atua na Oceania.'
   }
 };
 
