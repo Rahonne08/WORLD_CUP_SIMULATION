@@ -3336,8 +3336,8 @@ A Tunísia carimbou seu passaporte para a sua 7ª Copa do Mundo da FIFA™! ✈�
 
 Agora, em 2026, o objetivo é um só: usar toda essa experiência acumulada para quebrar a barreira da primeira fase e avançar, pela primeira vez na história, para os mata-matas! 🚀🔥
 
-🧠📋 **O Comando de Sami Trabelsi**
-A chegada de Sami Trabelsi deu o impulso final que a equipe precisava. Com um trabalho focado em organização e disciplina tática, o técnico transformou a Tunísia em uma equipe extremamente difícil de ser batida, unindo o talento individual a um sistema coletivo sólido. 🛡️👔
+🧠📋 **O Comando de Sabri Lamouchi**
+A chegada de Sabri Lamouchi deu o impulso final que a equipe precisava. Com um trabalho focado em organização e disciplina tática, o técnico transformou a Tunísia em uma equipe extremamente difícil de ser batida, unindo o talento individual a um sistema coletivo sólido. 🛡️👔
 
 ---
 
@@ -3382,7 +3382,34 @@ A campanha nas eliminatórias africanas foi simplesmente impecável:
       { opponent: 'Mali', result: 'D', score: '1-1' },
       { opponent: 'Tanzânia', result: 'D', score: '1-1' },
       { opponent: 'Nigéria', result: 'L', score: '3-2' },
-    ]
+    ],
+    coach: {
+      name: 'Sabri Lamouchi',
+      nationality: 'Francês',
+      age: 54,
+      tenure: '06 meses',
+      description: 'Sabri Lamouchi assumiu o comando da Tunísia pouco antes do Mundial, trazendo sua experiência internacional para tentar levar as Águias do Cartago além da fase de grupos pela primeira vez.'
+    },
+    players: [
+      { name: 'Hannibal Mejbri', position: 'Meio-campista', club: 'Burnley', highlight: 'Considerado um dos principais talentos e camisa 10 da equipe, Mejbri é o pilar criativo da Tunísia no meio-campo.' },
+      { name: 'Naim Sliti', position: 'Atacante', club: 'Al-Ahli', highlight: 'Jogador experiente e ofensivo, essencial para a criação de jogadas e gols da equipe.' },
+      { name: 'Seifeddine Jaziri', position: 'Atacante', club: 'Zamalek', highlight: 'Atacante experiente, fundamental nas opções de ataque da seleção.' }
+    ],
+    historyStats: {
+      participations: 7,
+      totalMatches: 18,
+      wins: 3,
+      losses: 10,
+      draws: 5,
+      titles: 0,
+      bestCampaign: '1978, 1998, 2002, 2006, 2018, 2022, 2026 (fase de grupos)'
+    },
+    groupMatches: [
+      { opponent: 'Suécia', date: '14 de junho', time: '22h00', stadium: 'Monterrey', country: 'México' },
+      { opponent: 'Japão', date: '20 de junho', time: '23h00', stadium: 'Monterrey', country: 'México' },
+      { opponent: 'Holanda', date: '25 de junho', time: '20h00', stadium: 'Kansas City', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Tunísia de Sabri Lamouchi foca em uma organização defensiva sólida e transições rápidas, contando com a criatividade de Hannibal Mejbri para alimentar o ataque.'
   },
   'BEL': {
     history: `## 🇧🇪✨ BÉLGICA: OS DIABOS VERMELHOS EM BUSCA DA REDENÇÃO! ✨🇧🇪
