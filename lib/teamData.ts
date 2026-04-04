@@ -601,7 +601,34 @@ A Argentina chega como **atual campeã mundial** e uma das grandes favoritas ao 
       { opponent: 'Angola', result: 'W', score: '2-0' },
       { opponent: 'Porto Rico', result: 'W', score: '6-0' },
       { opponent: 'Venezuela', result: 'W', score: '1-0' },
-    ]
+    ],
+    coach: {
+      name: 'Lionel Scaloni',
+      nationality: 'Argentino',
+      age: 47,
+      tenure: '08 anos',
+      description: 'Arquiteto da "Scaloneta", levou a Argentina ao topo do mundo em 2022 e consolidou uma equipe competitiva e unida.'
+    },
+    players: [
+      { name: 'Lionel Messi', position: 'Atacante', club: 'Inter Miami', highlight: 'O maior da história, capitão e líder técnico em busca do seu segundo título mundial.' },
+      { name: 'Lautaro Martínez', position: 'Atacante', club: 'Inter Milan', highlight: 'Artilheiro implacável e peça fundamental no ataque da Albiceleste.' },
+      { name: 'Emiliano Martínez', position: 'Goleiro', club: 'Aston Villa', highlight: 'O "Dibu", herói em decisões por pênaltis e segurança máxima sob as traves.' }
+    ],
+    historyStats: {
+      participations: 19,
+      totalMatches: 88,
+      wins: 47,
+      losses: 24,
+      draws: 17,
+      titles: 3,
+      bestCampaign: 'Campeã (1978, 1986, 2022)'
+    },
+    groupMatches: [
+      { opponent: 'Jordânia', date: '14 de junho', time: '18h00', stadium: 'Dallas', country: 'EUA' },
+      { opponent: 'Argélia', date: '20 de junho', time: '22h00', stadium: 'Dallas', country: 'EUA' },
+      { opponent: 'Áustria', date: '25 de junho', time: '22h00', stadium: 'Kansas City', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Argentina de Scaloni preza pelo controle do meio-campo e pela criatividade de Messi, com uma defesa sólida e transições letais.'
   },
   'ALG': {
     history: `## 🇩🇿 Argélia na Copa do Mundo da FIFA 2026
@@ -619,7 +646,34 @@ A Argélia retorna à Copa após 12 anos e chega com ambição. Conhecida como *
       { opponent: 'Nigéria', result: 'L', score: '0-2' },
       { opponent: 'RD Congo', result: 'L', score: '0-2' },
       { opponent: 'Guiné Equatorial', result: 'W', score: '3-1' },
-    ]
+    ],
+    coach: {
+      name: 'Vladimir Petković',
+      nationality: 'Bósnio-Suíço',
+      age: 62,
+      tenure: '02 anos',
+      description: 'Treinador experiente que trouxe organização tática e mentalidade europeia para as Raposas do Deserto.'
+    },
+    players: [
+      { name: 'Riyad Mahrez', position: 'Atacante', club: 'Al-Ahli', highlight: 'Capitão e referência técnica, capaz de decidir jogos com sua habilidade individual.' },
+      { name: 'Mohamed Amoura', position: 'Atacante', club: 'Wolfsburg', highlight: 'Jovem artilheiro veloz que se tornou a principal arma ofensiva nas eliminatórias.' },
+      { name: 'Ismaël Bennacer', position: 'Meia', club: 'Milan', highlight: 'O motor do meio-campo, essencial na transição entre defesa e ataque.' }
+    ],
+    historyStats: {
+      participations: 5,
+      totalMatches: 13,
+      wins: 3,
+      losses: 7,
+      draws: 3,
+      titles: 0,
+      bestCampaign: 'Oitavas de final (2014)'
+    },
+    groupMatches: [
+      { opponent: 'Áustria', date: '14 de junho', time: '21h00', stadium: 'Dallas', country: 'EUA' },
+      { opponent: 'Argentina', date: '20 de junho', time: '22h00', stadium: 'Dallas', country: 'EUA' },
+      { opponent: 'Jordânia', date: '25 de junho', time: '22h00', stadium: 'Dallas', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Argélia aposta em uma defesa compacta e na velocidade de seus pontas para explorar os contra-ataques.'
   },
   'AUT': {
     history: `## 🇦🇹 Áustria na Copa do Mundo da FIFA 2026
@@ -637,7 +691,34 @@ A Áustria volta ao Mundial após **28 anos de ausência** e quer escrever um no
       { opponent: 'Bósnia', result: 'D', score: '1-1' },
       { opponent: 'Chipre', result: 'W', score: '2-0' },
       { opponent: 'Romênia', result: 'L', score: '0-1' },
-    ]
+    ],
+    coach: {
+      name: 'Ralf Rangnick',
+      nationality: 'Alemão',
+      age: 67,
+      tenure: '04 anos',
+      description: 'O "Professor" implementou o estilo de pressão alta e intensidade que transformou a Áustria em uma equipe competitiva.'
+    },
+    players: [
+      { name: 'Marcel Sabitzer', position: 'Meia', club: 'Borussia Dortmund', highlight: 'Líder técnico e motor do time, fundamental na criação e finalização.' },
+      { name: 'Konrad Laimer', position: 'Meia', club: 'Bayern Munich', highlight: 'Especialista em pressão e recuperação de bola, essencial no esquema de Rangnick.' },
+      { name: 'Christoph Baumgartner', position: 'Meia', club: 'RB Leipzig', highlight: 'Talento criativo que traz imprevisibilidade ao ataque austríaco.' }
+    ],
+    historyStats: {
+      participations: 8,
+      totalMatches: 29,
+      wins: 12,
+      losses: 13,
+      draws: 4,
+      titles: 0,
+      bestCampaign: '3º lugar (1954)'
+    },
+    groupMatches: [
+      { opponent: 'Argélia', date: '14 de junho', time: '21h00', stadium: 'Dallas', country: 'EUA' },
+      { opponent: 'Jordânia', date: '20 de junho', time: '19h00', stadium: 'Kansas City', country: 'EUA' },
+      { opponent: 'Argentina', date: '25 de junho', time: '22h00', stadium: 'Kansas City', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Áustria de Rangnick foca no Gegenpressing, buscando recuperar a bola no campo de ataque e finalizar rapidamente.'
   },
   'JOR': {
     history: `## 🇯🇴 Jordânia na Copa do Mundo da FIFA 2026
@@ -655,7 +736,34 @@ A Jordânia fará sua **estreia histórica em Copas do Mundo**, após anos de te
       { opponent: 'Marrocos', result: 'L', score: '2-3' },
       { opponent: 'Arábia Saudita', result: 'W', score: '1-0' },
       { opponent: 'Iraque', result: 'W', score: '1-0' },
-    ]
+    ],
+    coach: {
+      name: 'Jamal Sellami',
+      nationality: 'Marroquino',
+      age: 55,
+      tenure: '01 ano',
+      description: 'Treinador disciplinado que liderou a Jordânia em sua primeira classificação histórica para um Mundial.'
+    },
+    players: [
+      { name: 'Mousa Al-Tamari', position: 'Atacante', club: 'Montpellier', highlight: 'A estrela solitária que atua na Europa, principal arma de drible e velocidade.' },
+      { name: 'Yazan Al-Naimat', position: 'Atacante', club: 'Al-Ahli', highlight: 'Artilheiro oportunista que brilhou na campanha histórica da Copa da Ásia.' },
+      { name: 'Ali Olwan', position: 'Atacante', club: 'Selangor', highlight: 'Peça importante na dinâmica ofensiva e na pressão sobre a defesa adversária.' }
+    ],
+    historyStats: {
+      participations: 1,
+      totalMatches: 0,
+      wins: 0,
+      losses: 0,
+      draws: 0,
+      titles: 0,
+      bestCampaign: 'Estreia (2026)'
+    },
+    groupMatches: [
+      { opponent: 'Argentina', date: '14 de junho', time: '18h00', stadium: 'Dallas', country: 'EUA' },
+      { opponent: 'Áustria', date: '20 de junho', time: '19h00', stadium: 'Kansas City', country: 'EUA' },
+      { opponent: 'Argélia', date: '25 de junho', time: '22h00', stadium: 'Dallas', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Jordânia foca em uma defesa resiliente e na velocidade de Al-Tamari para tentar surpreender as potências do grupo.'
   },
   'FRA': {
     history: `## 🇫🇷 França na Copa do Mundo da FIFA: perfil e histórico da seleção
@@ -3983,6 +4091,166 @@ Pela primeira vez, a OFC contou com uma vaga direta para a Copa do Mundo, e a No
       { opponent: 'Bélgica', date: '27 de junho', time: '00h00', stadium: 'Vancouver', country: 'Canadá' }
     ],
     tacticalAnalysis: 'A Nova Zelândia de Darren Bazeley busca a inédita primeira vitória em Mundiais, focando em uma organização sólida e no entrosamento da base que atua na Oceania.'
+  },
+  'COD': {
+    history: `## 🇨🇩 RD Congo na Copa do Mundo da FIFA 2026
+    
+A República Democrática do Congo retorna ao Mundial após **52 anos** (sua única participação foi em 1974, como Zaire). Conhecidos como os **"Leopardos"**, a equipe vive um momento de ressurgimento no cenário africano.`,
+    qualification: 'Garantiu a vaga após uma campanha sólida nas eliminatórias da CAF, superando adversários tradicionais com um futebol físico e organizado.',
+    lastMatches: [
+      { opponent: 'Guiné', result: 'W', score: '1-0' },
+      { opponent: 'Etiópia', result: 'W', score: '2-0' },
+      { opponent: 'Tanzânia', result: 'D', score: '0-0' },
+      { opponent: 'Senegal', result: 'L', score: '0-1' },
+      { opponent: 'Togo', result: 'W', score: '1-0' },
+    ],
+    coach: {
+      name: 'Sébastien Desabre',
+      nationality: 'Francês',
+      age: 49,
+      tenure: '04 anos',
+      description: 'Estrategista que modernizou o futebol congolês, focando na disciplina tática e no aproveitamento de talentos da diáspora.'
+    },
+    players: [
+      { name: 'Chancel Mbemba', position: 'Zagueiro', club: 'Marseille', highlight: 'Líder e capitão, traz experiência e segurança para a defesa.' },
+      { name: 'Yoane Wissa', position: 'Atacante', club: 'Brentford', highlight: 'Velocidade e faro de gol, principal arma ofensiva na Premier League.' },
+      { name: 'Simon Banza', position: 'Atacante', club: 'Braga', highlight: 'Centroavante potente e excelente finalizador.' }
+    ],
+    historyStats: {
+      participations: 2,
+      totalMatches: 3,
+      wins: 0,
+      losses: 3,
+      draws: 0,
+      titles: 0,
+      bestCampaign: 'Fase de grupos (1974)'
+    },
+    groupMatches: [
+      { opponent: 'Portugal', date: '16 de junho', time: '16h00', stadium: 'San Francisco', country: 'EUA' },
+      { opponent: 'Uzbequistão', date: '22 de junho', time: '19h00', stadium: 'San Francisco', country: 'EUA' },
+      { opponent: 'Colômbia', date: '26 de junho', time: '16h00', stadium: 'San Francisco', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A RD Congo aposta em uma defesa física e transições rápidas, buscando surpreender adversários mais técnicos.'
+  },
+  'POR': {
+    history: `## 🇵🇹 Portugal na Copa do Mundo da FIFA 2026
+    
+Portugal chega à sua **9ª participação** em Mundiais com uma das gerações mais talentosas de sua história. Sob o comando de Roberto Martínez, a equipe busca o título inédito para coroar a carreira de Cristiano Ronaldo e consolidar seu status de potência global.`,
+    qualification: 'Campanha impecável nas eliminatórias da UEFA, com 100% de aproveitamento e um ataque avassalador.',
+    lastMatches: [
+      { opponent: 'Croácia', result: 'W', score: '2-1' },
+      { opponent: 'Escócia', result: 'W', score: '2-1' },
+      { opponent: 'Polônia', result: 'W', score: '3-1' },
+      { opponent: 'Irlanda', result: 'W', score: '3-0' },
+      { opponent: 'Eslovênia', result: 'D', score: '0-0' },
+    ],
+    coach: {
+      name: 'Roberto Martínez',
+      nationality: 'Espanhol',
+      age: 52,
+      tenure: '03 anos',
+      description: 'Treinador que trouxe uma mentalidade ofensiva e flexibilidade tática para a seleção portuguesa.'
+    },
+    players: [
+      { name: 'Cristiano Ronaldo', position: 'Atacante', club: 'Al-Nassr', highlight: 'O maior artilheiro da história das seleções, liderança e presença de área inigualáveis.' },
+      { name: 'Bruno Fernandes', position: 'Meia', club: 'Man United', highlight: 'O cérebro da equipe, responsável pela criação e passes decisivos.' },
+      { name: 'Bernardo Silva', position: 'Meia', club: 'Man City', highlight: 'Inteligência tática e controle de bola fundamentais para o ritmo de jogo.' }
+    ],
+    historyStats: {
+      participations: 9,
+      totalMatches: 35,
+      wins: 17,
+      losses: 12,
+      draws: 6,
+      titles: 0,
+      bestCampaign: '3º lugar (1966)'
+    },
+    groupMatches: [
+      { opponent: 'RD Congo', date: '16 de junho', time: '16h00', stadium: 'San Francisco', country: 'EUA' },
+      { opponent: 'Colômbia', date: '22 de junho', time: '21h00', stadium: 'San Francisco', country: 'EUA' },
+      { opponent: 'Uzbequistão', date: '26 de junho', time: '16h00', stadium: 'San Francisco', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'Portugal foca na posse de bola e na criatividade de seu meio-campo, com pontas velozes e a finalização letal de Ronaldo.'
+  },
+  'UZB': {
+    history: `## 🇺🇿 Uzbequistão na Copa do Mundo da FIFA 2026
+    
+O Uzbequistão faz sua **estreia histórica** em Copas do Mundo. Após bater na trave em várias eliminatórias, a seleção da Ásia Central finalmente garantiu seu lugar entre os melhores do mundo.`,
+    qualification: 'Classificação heroica nas eliminatórias da AFC, mostrando resiliência e um futebol coletivo muito forte.',
+    lastMatches: [
+      { opponent: 'Irã', result: 'D', score: '0-0' },
+      { opponent: 'Emirados Árabes', result: 'W', score: '1-0' },
+      { opponent: 'Coreia do Norte', result: 'W', score: '1-0' },
+      { opponent: 'Catar', result: 'L', score: '2-3' },
+      { opponent: 'Quirguistão', result: 'W', score: '3-2' },
+    ],
+    coach: {
+      name: 'Srečko Katanec',
+      nationality: 'Esloveno',
+      age: 62,
+      tenure: '05 anos',
+      description: 'Experiente treinador que deu a estabilidade defensiva e a confiança necessária para o Uzbequistão chegar ao Mundial.'
+    },
+    players: [
+      { name: 'Eldor Shomurodov', position: 'Atacante', club: 'Roma', highlight: 'Capitão e maior referência ofensiva, com vasta experiência no futebol europeu.' },
+      { name: 'Abbosbek Fayzullaev', position: 'Meia', club: 'CSKA Moscow', highlight: 'Jovem talento criativo e habilidoso, a grande promessa do país.' },
+      { name: 'Jaloliddin Masharipov', position: 'Meia', club: 'Esteghlal', highlight: 'Experiência e qualidade técnica na armação das jogadas.' }
+    ],
+    historyStats: {
+      participations: 1,
+      totalMatches: 0,
+      wins: 0,
+      losses: 0,
+      draws: 0,
+      titles: 0,
+      bestCampaign: 'Estreia (2026)'
+    },
+    groupMatches: [
+      { opponent: 'Colômbia', date: '16 de junho', time: '19h00', stadium: 'San Francisco', country: 'EUA' },
+      { opponent: 'RD Congo', date: '22 de junho', time: '19h00', stadium: 'San Francisco', country: 'EUA' },
+      { opponent: 'Portugal', date: '26 de junho', time: '16h00', stadium: 'San Francisco', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'O Uzbequistão preza pela organização defensiva e contra-ataques rápidos, explorando a velocidade de seus jovens talentos.'
+  },
+  'COL': {
+    history: `## 🇨🇴 Colômbia na Copa do Mundo da FIFA 2026
+    
+A Colômbia retorna ao Mundial com uma equipe renovada e cheia de talento. Sob o comando de Néstor Lorenzo, a "Tricolor" busca repetir a campanha histórica de 2014 e encantar o mundo com seu futebol alegre e ofensivo.`,
+    qualification: 'Campanha sólida nas eliminatórias da CONMEBOL, terminando entre os primeiros colocados com vitórias expressivas.',
+    lastMatches: [
+      { opponent: 'Brasil', result: 'W', score: '2-1' },
+      { opponent: 'Paraguai', result: 'W', score: '1-0' },
+      { opponent: 'Espanha', result: 'W', score: '1-0' },
+      { opponent: 'Romênia', result: 'W', score: '3-2' },
+      { opponent: 'Uruguai', result: 'L', score: '0-1' },
+    ],
+    coach: {
+      name: 'Néstor Lorenzo',
+      nationality: 'Argentino',
+      age: 59,
+      tenure: '04 anos',
+      description: 'Treinador que recuperou a confiança da seleção colombiana, implementando um estilo de jogo agressivo e equilibrado.'
+    },
+    players: [
+      { name: 'Luis Díaz', position: 'Atacante', club: 'Liverpool', highlight: 'Um dos melhores pontas do mundo, velocidade e drible que desequilibram qualquer defesa.' },
+      { name: 'James Rodríguez', position: 'Meia', club: 'Rayo Vallecano', highlight: 'O capitão e cérebro do time, com visão de jogo e passes magistrais.' },
+      { name: 'Jhon Durán', position: 'Atacante', club: 'Aston Villa', highlight: 'Jovem centroavante potente e em grande fase na Premier League.' }
+    ],
+    historyStats: {
+      participations: 7,
+      totalMatches: 22,
+      wins: 9,
+      losses: 10,
+      draws: 3,
+      titles: 0,
+      bestCampaign: 'Quartas de final (2014)'
+    },
+    groupMatches: [
+      { opponent: 'Uzbequistão', date: '16 de junho', time: '19h00', stadium: 'San Francisco', country: 'EUA' },
+      { opponent: 'Portugal', date: '22 de junho', time: '21h00', stadium: 'San Francisco', country: 'EUA' },
+      { opponent: 'RD Congo', date: '26 de junho', time: '16h00', stadium: 'San Francisco', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Colômbia foca na pressão alta e na criatividade de James Rodríguez para alimentar seus atacantes velozes.'
   }
 };
 
