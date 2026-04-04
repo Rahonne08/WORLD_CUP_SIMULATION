@@ -3074,7 +3074,34 @@ O segredo do sucesso equatoriano rumo a 2026 foi o "ferrolho" lá atrás:
       { opponent: 'Nova Zelândia', result: 'W', score: '2-0' },
       { opponent: 'Canadá', result: 'D', score: '0-0' },
       { opponent: 'México', result: 'D', score: '1-1' },
-    ]
+    ],
+    coach: {
+      name: 'Sebastian Beccacece',
+      nationality: 'Argentino',
+      age: 45,
+      tenure: '02 anos',
+      description: 'O técnico argentino assumiu o desafio após a Copa América e devolveu a personalidade ao time, tornando o Equador uma equipe extremamente resiliente e competitiva.'
+    },
+    players: [
+      { name: 'Moisés Caicedo', position: 'Volante', club: 'Chelsea', highlight: 'Pilar do meio-campo e um dos jogadores mais valiosos, com valor de mercado estimado em € 110 milhões.' },
+      { name: 'Piero Hincapié', position: 'Zagueiro', club: 'Bayer Leverkusen', highlight: 'Um dos defensores com maiores notas e valor de mercado.' },
+      { name: 'Willian Pacho', position: 'Zagueiro', club: 'Paris Saint-Germain', highlight: 'Destaque defensivo de alto valor, peça fundamental na zaga equatoriana.' }
+    ],
+    historyStats: {
+      participations: 5,
+      totalMatches: 13,
+      wins: 5,
+      losses: 6,
+      draws: 2,
+      titles: 0,
+      bestCampaign: '2006 (oitavas de final)'
+    },
+    groupMatches: [
+      { opponent: 'Costa do Marfim', date: '14 de junho', time: '20h00', stadium: 'Filadélfia', country: 'EUA' },
+      { opponent: 'Curaçau', date: '20 de junho', time: '21h00', stadium: 'Kansas City', country: 'EUA' },
+      { opponent: 'Alemanha', date: '25 de junho', time: '17h00', stadium: 'Nova York/Nova Jersey', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'O Equador de Beccacece se destaca por uma defesa sólida (apenas 2 gols sofridos em 12 jogos nas eliminatórias) e um meio-campo potente liderado por Moisés Caicedo.'
   },
   'NED': {
     history: `## 🇳🇱✨ HOLANDA: A BUSCA PELO TOPO DO MUNDO! ✨🇳🇱
