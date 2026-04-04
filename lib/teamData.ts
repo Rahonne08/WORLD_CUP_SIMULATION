@@ -946,7 +946,34 @@ A classificação para 2026 foi um verdadeiro passeio! A Espanha dominou o Grupo
       { opponent: 'Turquia', result: 'D', score: '2-2' },
       { opponent: 'Geórgia', result: 'W', score: '4-0' },
       { opponent: 'Bulgária', result: 'W', score: '4-0' },
-    ]
+    ],
+    coach: {
+      name: 'Luis de la Fuente',
+      nationality: 'Espanhol',
+      age: 64,
+      tenure: '03 anos e 06 meses',
+      description: 'Assumindo o desafio em dezembro de 2022, De la Fuente transformou a equipe, unindo a experiência de veteranos com a explosão de jovens talentos.'
+    },
+    players: [
+      { name: 'Lamine Yamal', position: 'Atacante', club: 'Barcelona', highlight: 'A grande joia do futebol mundial, peça fundamental na criatividade ofensiva da Roja.' },
+      { name: 'Rodri', position: 'Meio-campista', club: 'Manchester City', highlight: 'O cérebro e equilíbrio do meio-campo, essencial para o controle do jogo.' },
+      { name: 'Nico Williams', position: 'Atacante', club: 'Athletic Bilbao', highlight: 'Velocidade e drible pelas pontas que desequilibram qualquer defesa.' }
+    ],
+    historyStats: {
+      participations: 17,
+      totalMatches: 67,
+      wins: 31,
+      losses: 19,
+      draws: 17,
+      titles: 1,
+      bestCampaign: 'Campeã (2010)'
+    },
+    groupMatches: [
+      { opponent: 'Cabo Verde', date: '15 de junho', time: '13h00', stadium: 'Atlanta', country: 'EUA' },
+      { opponent: 'Arábia Saudita', date: '21 de junho', time: '21h00', stadium: 'Guadalajara', country: 'México' },
+      { opponent: 'Uruguai', date: '26 de junho', time: '22h00', stadium: 'Guadalajara', country: 'México' }
+    ],
+    tacticalAnalysis: 'A Espanha de De la Fuente mantém a essência da posse de bola, mas com uma verticalidade maior e foco no talento individual de seus pontas habilidosos.'
   },
   'GER': {
     history: `## 🇩🇪✨ **A MÁQUINA ALEMÃ NA COPA DO MUNDO 2026!** ✨🇩🇪
