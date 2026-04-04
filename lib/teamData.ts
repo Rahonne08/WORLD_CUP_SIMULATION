@@ -1731,7 +1731,34 @@ Uma seleção equilibrada, sólida e pronta para surpreender! 💪🇨🇭`,
       { opponent: 'Kosovo', result: 'D', score: '1-1' },
       { opponent: 'Suécia', result: 'W', score: '4-1' },
       { opponent: 'Eslovênia', result: 'D', score: '0-0' },
-    ]
+    ],
+    coach: {
+      name: 'Murat Yakin',
+      nationality: 'Suiço',
+      age: 51,
+      tenure: '05 anos',
+      description: 'Treinador experiente, focado em manter a organização tática e a competitividade da seleção.'
+    },
+    players: [
+      { name: 'Granit Xhaka', position: 'Meio-campista', club: 'Bayer Leverkusen', highlight: 'Líder técnico e emocional' },
+      { name: 'Manuel Akanji', position: 'Zagueiro', club: 'Manchester City', highlight: 'Pilar defensivo' },
+      { name: 'Yann Sommer / Gregor Kobel', position: 'Goleiro', club: 'Inter de Milão / Borussia Dortmund', highlight: 'Goleiros de elite' }
+    ],
+    historyStats: {
+      participations: 13,
+      totalMatches: 41,
+      wins: 14,
+      losses: 19,
+      draws: 8,
+      titles: 0,
+      bestCampaign: 'Quartas de final (1934, 1938, 1954)'
+    },
+    groupMatches: [
+      { opponent: 'Catar', date: '13 de junho', time: '16h00', stadium: 'Santa Clara', country: 'EUA' },
+      { opponent: 'Bósnia e Herzegovina', date: '18 de junho', time: '16h00', stadium: 'Los Angeles', country: 'EUA' },
+      { opponent: 'Canadá', date: '24 de junho', time: '16h00', stadium: 'Vancouver', country: 'Canadá' }
+    ],
+    tacticalAnalysis: 'A Suíça é conhecida por sua solidez defensiva, organização tática rigorosa e capacidade de transição, contando com jogadores de alto nível em todas as posições.'
   },
   'BIH': {
     history: `## 🇧🇦 Bósnia e Herzegovina na Copa do Mundo 2026
