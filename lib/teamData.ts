@@ -4251,6 +4251,166 @@ A Colômbia retorna ao Mundial com uma equipe renovada e cheia de talento. Sob o
       { opponent: 'RD Congo', date: '26 de junho', time: '16h00', stadium: 'San Francisco', country: 'EUA' }
     ],
     tacticalAnalysis: 'A Colômbia foca na pressão alta e na criatividade de James Rodríguez para alimentar seus atacantes velozes.'
+  },
+  'ENG': {
+    history: `## 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra na Copa do Mundo da FIFA 2026
+    
+A Inglaterra chega ao Mundial de 2026 com a missão de finalmente "trazer o futebol para casa". Sob o comando de Thomas Tuchel, os "Three Lions" ostentam um dos elencos mais valiosos e talentosos do planeta, combinando a experiência de Harry Kane com a genialidade jovem de Jude Bellingham e Phil Foden.`,
+    qualification: 'Liderou seu grupo nas eliminatórias da UEFA com autoridade, garantindo a vaga direta com uma campanha sólida e pouquíssimos gols sofridos.',
+    lastMatches: [
+      { opponent: 'Brasil', result: 'L', score: '0-1' },
+      { opponent: 'Bélgica', result: 'D', score: '2-2' },
+      { opponent: 'Islândia', result: 'L', score: '0-1' },
+      { opponent: 'Sérvia', result: 'W', score: '1-0' },
+      { opponent: 'Holanda', result: 'W', score: '2-1' },
+    ],
+    coach: {
+      name: 'Thomas Tuchel',
+      nationality: 'Alemão',
+      age: 52,
+      tenure: '01 ano',
+      description: 'Estrategista de elite mundial, Tuchel assumiu a Inglaterra com o objetivo claro de conquistar o bicampeonato mundial.'
+    },
+    players: [
+      { name: 'Harry Kane', position: 'Atacante', club: 'Bayern Munich', highlight: 'Capitão e maior artilheiro da história da seleção, referência absoluta no ataque.' },
+      { name: 'Jude Bellingham', position: 'Meia', club: 'Real Madrid', highlight: 'Um dos melhores jogadores do mundo, motor do meio-campo e decisivo no ataque.' },
+      { name: 'Phil Foden', position: 'Meia', club: 'Manchester City', highlight: 'Talento puro e criatividade, capaz de desequilibrar qualquer defesa com sua técnica.' }
+    ],
+    historyStats: {
+      participations: 17,
+      totalMatches: 74,
+      wins: 32,
+      losses: 20,
+      draws: 22,
+      titles: 1,
+      bestCampaign: 'Campeã (1966)'
+    },
+    groupMatches: [
+      { opponent: 'Panamá', date: '17 de junho', time: '16h00', stadium: 'Miami', country: 'EUA' },
+      { opponent: 'Gana', date: '23 de junho', time: '19h00', stadium: 'Orlando', country: 'EUA' },
+      { opponent: 'Croácia', date: '27 de junho', time: '21h00', stadium: 'Miami', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Inglaterra de Tuchel foca no equilíbrio tático e na exploração do talento individual de seus meias criativos para alimentar Kane.'
+  },
+  'CRO': {
+    history: `## 🇭🇷 Croácia na Copa do Mundo da FIFA 2026
+    
+A Croácia, pequena em território mas gigante em campo, chega para sua **7ª participação** em Mundiais. Conhecida por sua resiliência e meio-campo magistral, a seleção croata busca manter-se entre as melhores do mundo após o vice-campeonato em 2018 e o terceiro lugar em 2022.`,
+    qualification: 'Classificação garantida após uma disputa acirrada nas eliminatórias da UEFA, mostrando a habitual força mental da equipe.',
+    lastMatches: [
+      { opponent: 'Espanha', result: 'L', score: '0-3' },
+      { opponent: 'Albânia', result: 'D', score: '2-2' },
+      { opponent: 'Itália', result: 'D', score: '1-1' },
+      { opponent: 'Portugal', result: 'W', score: '2-1' },
+      { opponent: 'Egito', result: 'W', score: '4-2' },
+    ],
+    coach: {
+      name: 'Zlatko Dalić',
+      nationality: 'Croata',
+      age: 59,
+      tenure: '09 anos',
+      description: 'O técnico mais vitorioso da história da Croácia, responsável por levar o país ao topo do futebol mundial.'
+    },
+    players: [
+      { name: 'Luka Modrić', position: 'Meia', club: 'Real Madrid', highlight: 'Lenda viva e capitão, o cérebro que dita o ritmo de jogo com classe eterna.' },
+      { name: 'Joško Gvardiol', position: 'Zagueiro', club: 'Manchester City', highlight: 'Um dos melhores defensores do mundo, pilar da solidez defensiva croata.' },
+      { name: 'Mateo Kovačić', position: 'Meia', club: 'Manchester City', highlight: 'Dinamismo e qualidade técnica essenciais para o controle do meio-campo.' }
+    ],
+    historyStats: {
+      participations: 7,
+      totalMatches: 30,
+      wins: 13,
+      losses: 9,
+      draws: 8,
+      titles: 0,
+      bestCampaign: 'Vice-campeã (2018)'
+    },
+    groupMatches: [
+      { opponent: 'Gana', date: '17 de junho', time: '19h00', stadium: 'Orlando', country: 'EUA' },
+      { opponent: 'Panamá', date: '23 de junho', time: '21h00', stadium: 'Miami', country: 'EUA' },
+      { opponent: 'Inglaterra', date: '27 de junho', time: '21h00', stadium: 'Miami', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Croácia foca no controle do jogo através de seu meio-campo técnico e em uma defesa muito bem organizada e resiliente.'
+  },
+  'GHA': {
+    history: `## 🇬🇭 Gana na Copa do Mundo da FIFA 2026
+    
+Os "Black Stars" de Gana retornam ao Mundial com o objetivo de repetir a campanha histórica de 2010. Com uma mistura de veteranos experientes e jovens talentos que brilham na Europa, a seleção ganesa promete ser uma das equipes mais vibrantes do torneio.`,
+    qualification: 'Garantiu a vaga após liderar seu grupo nas eliminatórias da CAF com vitórias emocionantes e um futebol ofensivo.',
+    lastMatches: [
+      { opponent: 'Nigéria', result: 'L', score: '1-2' },
+      { opponent: 'Uganda', result: 'D', score: '2-2' },
+      { opponent: 'Mali', result: 'W', score: '2-1' },
+      { opponent: 'Rep. Centro-Africana', result: 'W', score: '4-3' },
+      { opponent: 'Angola', result: 'D', score: '1-1' },
+    ],
+    coach: {
+      name: 'Otto Addo',
+      nationality: 'Ganesa',
+      age: 50,
+      tenure: '02 anos',
+      description: 'Treinador que conhece profundamente a seleção e foca no desenvolvimento de jovens talentos e na união do grupo.'
+    },
+    players: [
+      { name: 'Mohammed Kudus', position: 'Meia', club: 'West Ham', highlight: 'A grande estrela da equipe, criatividade e habilidade que encantam a Premier League.' },
+      { name: 'Inaki Williams', position: 'Atacante', club: 'Athletic Bilbao', highlight: 'Velocidade e potência física, principal arma de contra-ataque dos Black Stars.' },
+      { name: 'Thomas Partey', position: 'Meia', club: 'Arsenal', highlight: 'Experiência e equilíbrio no meio-campo, fundamental para a transição defensiva.' }
+    ],
+    historyStats: {
+      participations: 5,
+      totalMatches: 15,
+      wins: 5,
+      losses: 7,
+      draws: 3,
+      titles: 0,
+      bestCampaign: 'Quartas de final (2010)'
+    },
+    groupMatches: [
+      { opponent: 'Croácia', date: '17 de junho', time: '19h00', stadium: 'Orlando', country: 'EUA' },
+      { opponent: 'Inglaterra', date: '23 de junho', time: '19h00', stadium: 'Orlando', country: 'EUA' },
+      { opponent: 'Panamá', date: '27 de junho', time: '18h00', stadium: 'Orlando', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'Gana aposta na força física e na velocidade de transição, utilizando o talento individual de Kudus para criar chances de gol.'
+  },
+  'PAN': {
+    history: `## 🇵🇦 Panamá na Copa do Mundo da FIFA 2026
+    
+O Panamá chega à sua **2ª participação** em Mundiais após uma campanha histórica nas eliminatórias da CONCACAF. Conhecidos como "Los Canaleros", a equipe busca sua primeira vitória em Copas e quer mostrar a evolução do futebol panamenho no cenário global.`,
+    qualification: 'Classificação histórica garantida após superar adversários tradicionais da CONCACAF com um futebol organizado e resiliente.',
+    lastMatches: [
+      { opponent: 'México', result: 'L', score: '0-3' },
+      { opponent: 'Jamaica', result: 'L', score: '0-1' },
+      { opponent: 'Guiana', result: 'W', score: '2-0' },
+      { opponent: 'Montserrat', result: 'W', score: '3-1' },
+      { opponent: 'Paraguai', result: 'L', score: '0-1' },
+    ],
+    coach: {
+      name: 'Thomas Christiansen',
+      nationality: 'Espanhol-Dinamarquês',
+      age: 53,
+      tenure: '06 anos',
+      description: 'Responsável pela modernização do futebol panamenho, implementando um estilo de jogo baseado na posse e organização.'
+    },
+    players: [
+      { name: 'Adalberto Carrasquilla', position: 'Meia', club: 'Houston Dynamo', highlight: 'O motor do time, visão de jogo e qualidade técnica acima da média.' },
+      { name: 'Michael Murillo', position: 'Lateral', club: 'Marseille', highlight: 'Experiência no futebol europeu, traz solidez defensiva e apoio constante ao ataque.' },
+      { name: 'José Córdoba', position: 'Zagueiro', club: 'Norwich City', highlight: 'Jovem promessa defensiva que se consolidou como pilar da zaga panamenha.' }
+    ],
+    historyStats: {
+      participations: 2,
+      totalMatches: 3,
+      wins: 0,
+      losses: 3,
+      draws: 0,
+      titles: 0,
+      bestCampaign: 'Fase de grupos (2018)'
+    },
+    groupMatches: [
+      { opponent: 'Inglaterra', date: '17 de junho', time: '16h00', stadium: 'Miami', country: 'EUA' },
+      { opponent: 'Croácia', date: '23 de junho', time: '21h00', stadium: 'Miami', country: 'EUA' },
+      { opponent: 'Gana', date: '27 de junho', time: '18h00', stadium: 'Orlando', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'O Panamá foca na organização defensiva e na posse de bola trabalhada, buscando espaços através da criatividade de Carrasquilla.'
   }
 };
 
