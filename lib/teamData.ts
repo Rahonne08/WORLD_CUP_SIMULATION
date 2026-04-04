@@ -1917,17 +1917,17 @@ O Marrocos chega à Copa de 2026 com o objetivo de provar que a campanha histór
 ### 📅 Jogos do Marrocos – Grupo C
 
 **Rodada 1**
-📍 13 de junho
+📍 13 de junho – 19h00
 Brasil x Marrocos
 Nova York/Nova Jersey (EUA)
 
 **Rodada 2**
-📍 19 de junho
+📍 19 de junho – 19h00
 Escócia x Marrocos
 Boston (EUA)
 
 **Rodada 3**
-📍 24 de junho
+📍 24 de junho – 19h00
 Marrocos x Haiti
 Atlanta (EUA)
 
@@ -1935,7 +1935,7 @@ Atlanta (EUA)
 
 ### 🧠 Técnico do Marrocos
 
-O atual treinador é Mohamed Ouahbi, que assumiu a equipe pouco antes do Mundial de 2026.
+O atual treinador é Mohmed Mohamed Ouahbi, que assumiu a equipe pouco antes do Mundial de 2026.
 
 * Nascido na Bélgica
 * Ganhou destaque ao conquistar a **Copa do Mundo Sub-20 de 2025** com o Marrocos
@@ -2038,7 +2038,35 @@ Os Leões do Atlas querem mais do que repetir 2022: o sonho agora é chegar à f
       { opponent: 'Senegal', result: 'W', score: '3-0' },
       { opponent: 'Nigéria', result: 'W', score: '0(4)-0(2)' },
       { opponent: 'Camarões', result: 'W', score: '2-0' },
-    ]
+    ],
+    coach: {
+      name: 'Mohmed Mohamed Ouahbi',
+      nationality: 'Marroquino',
+      age: 49,
+      tenure: '03 meses',
+      description: 'Assumiu o comando técnico para a Copa do Mundo após sucesso nas categorias de base, trazendo uma mentalidade ofensiva e moderna.'
+    },
+    players: [
+      { name: 'Achraf Hakimi', position: 'Lateral-Direito', club: 'PSG', highlight: 'Principal estrela, capitão e 6º na Bola de Ouro 2025' },
+      { name: 'Brahim Díaz', position: 'Meia/Atacante', club: 'Real Madrid', highlight: 'Grande destaque técnico e organizador ofensivo' },
+      { name: 'Yassine Bounou', position: 'Goleiro', club: 'Al-Hilal', highlight: 'Pilar de segurança defensiva e experiente' },
+      { name: 'Youssef En-Nesyri', position: 'Atacante', club: 'Fenerbahçe', highlight: 'Maior artilheiro marroquino em Copas' }
+    ],
+    historyStats: {
+      participations: 7,
+      totalMatches: 23,
+      wins: 5,
+      losses: 11,
+      draws: 7,
+      titles: 0,
+      bestCampaign: 'Semifinal (2022)'
+    },
+    groupMatches: [
+      { opponent: 'Brasil', date: '13 de junho', time: '19h00', stadium: 'Nova York/Nova Jersey', country: 'EUA' },
+      { opponent: 'Escócia', date: '19 de junho', time: '19h00', stadium: 'Boston', country: 'EUA' },
+      { opponent: 'Haiti', date: '24 de junho', time: '19h00', stadium: 'Atlanta', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'O Marrocos mantém sua identidade de transições rápidas e solidez defensiva, agora potencializada pela criatividade de Brahim Díaz e a liderança técnica de Hakimi.'
   },
   'HAI': {
     history: `## 🇭🇹 Haiti na Copa do Mundo da FIFA: perfil e histórico da seleção
