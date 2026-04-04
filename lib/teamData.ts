@@ -2776,14 +2776,14 @@ Graças a uma vitória suada e apertada por 1 a 0 sobre os kosovares 🇽🇰 na
 
 **Rodada 1**
 📍 Vancouver (Canadá) 🇨🇦
-🗓️ 13 de junho
-⏰ 1h00 (14/06 no horário de Brasília)
+🗓️ 14 de junho
+⏰ 01h00 (horário de Brasília)
 ⚔️ 🇦🇺 Austrália x 🇹🇷 Turquia
 
 **Rodada 2**
 📍 Santa Clara (EUA) 🇺🇸
-🗓️ 19 de junho
-⏰ 1h00 (horário de Brasília)
+🗓️ 20 de junho
+⏰ 00h00 (horário de Brasília)
 ⚔️ 🇹🇷 Turquia x 🇵🇾 Paraguai
 
 **Rodada 3**
@@ -2820,7 +2820,34 @@ Mas Montella não deixou a peteca cair! O comandante conduziu sua equipe com suc
       { opponent: 'Espanha', result: 'D', score: '2-2' },
       { opponent: 'Bulgária', result: 'W', score: '2-0' },
       { opponent: 'Geórgia', result: 'W', score: '4-1' },
-    ]
+    ],
+    coach: {
+      name: 'Vincenzo Montella',
+      nationality: 'Italiano',
+      age: 51,
+      tenure: '03 anos',
+      description: 'Ex-atacante de renome, Montella trouxe uma mentalidade competitiva e organização tática para a seleção turca, encerrando um jejum de 24 anos sem Copas.'
+    },
+    players: [
+      { name: 'Arda Güler', position: 'Meia/Atacante', club: 'Real Madrid', highlight: 'Considerado um dos jogadores mais valiosos e criativos da Europa.' },
+      { name: 'Kenan Yıldız', position: 'Atacante', club: 'Juventus', highlight: 'Estrela global que assumiu a camisa 10 da seleção.' },
+      { name: 'Hakan Çalhanoğlu', position: 'Volante', club: 'Inter de Milão', highlight: 'Maestro e capitão da equipe.' }
+    ],
+    historyStats: {
+      participations: 3,
+      totalMatches: 10,
+      wins: 5,
+      losses: 4,
+      draws: 1,
+      titles: 0,
+      bestCampaign: 'terceiro lugar (2002)'
+    },
+    groupMatches: [
+      { opponent: 'Austrália', date: '14 de junho', time: '01h00', stadium: 'Vancouver', country: 'Canadá' },
+      { opponent: 'Paraguai', date: '20 de junho', time: '00h00', stadium: 'Santa Clara', country: 'EUA' },
+      { opponent: 'Estados Unidos', date: '25 de junho', time: '23h00', stadium: 'Los Angeles', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Turquia de Montella equilibra a experiência de Çalhanoğlu com a irreverência de jovens como Arda Güler e Kenan Yıldız, focando em um jogo técnico e de transições rápidas.'
   },
   'CUW': {
     history: `## 🇨🇼✨ CURAÇAU: A HISTÓRICA ESTREIA DA "ONDA AZUL"! ✨🇨🇼
