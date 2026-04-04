@@ -2990,7 +2990,35 @@ A classificação veio com autoridade total! A Costa do Marfim garantiu sua vaga
       { opponent: 'Egito', result: 'L', score: '2-3' },
       { opponent: 'Burkina Faso', result: 'W', score: '3-0' },
       { opponent: 'Gabão', result: 'W', score: '3-2' },
-    ]
+    ],
+    coach: {
+      name: 'Emerse Faé',
+      nationality: 'Costa-marfinense',
+      age: 42,
+      tenure: '02 anos',
+      description: 'Emerse Faé assumiu o leme em janeiro de 2024 em um momento crítico e transformou a seleção, levando-a ao título continental e à classificação para o Mundial de 2026.'
+    },
+    players: [
+      { name: 'Franck Kessié', position: 'Meio-campista', club: 'Al-Ahli', highlight: 'Pilar do meio-campo, fundamental na transição e liderança da equipe.' },
+      { name: 'Seko Fofana', position: 'Meio-campista', club: 'FC Porto', highlight: 'Motor do time, conhecido por sua força física e chegada ao ataque.' },
+      { name: 'Ibrahim Sangaré', position: 'Volante', club: 'Nottingham Forest', highlight: 'Segurança defensiva e excelente capacidade de recuperação de bola.' },
+      { name: 'Amad Diallo', position: 'Atacante', club: 'Manchester United', highlight: 'Jovem talento com grande habilidade técnica e drible.' }
+    ],
+    historyStats: {
+      participations: 4,
+      totalMatches: 9,
+      wins: 3,
+      losses: 5,
+      draws: 1,
+      titles: 0,
+      bestCampaign: '2006, 2010, 2014 (fase de grupos)'
+    },
+    groupMatches: [
+      { opponent: 'Equador', date: '14 de junho', time: '20h00', stadium: 'Filadélfia', country: 'EUA' },
+      { opponent: 'Alemanha', date: '20 de junho', time: '17h00', stadium: 'Toronto', country: 'Canadá' },
+      { opponent: 'Curaçau', date: '25 de junho', time: '17h00', stadium: 'Filadélfia', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Costa do Marfim de Emerse Faé aposta em um meio-campo físico e técnico, com transições rápidas e uma defesa sólida que não sofreu gols nas eliminatórias.'
   },
   'ECU': {
     history: `## 🇪🇨✨ EQUADOR: A ASCENSÃO DA "LA TRI"! ✨🇪🇨
