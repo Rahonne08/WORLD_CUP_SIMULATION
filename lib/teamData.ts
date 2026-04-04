@@ -380,7 +380,7 @@ Mesmo em renovação, o Uruguai chega forte. Com jovens talentos e um treinador 
   'BRA': {
     history: `## 🇧🇷 Brasil na Copa do Mundo 2026
 
-A Brasil é simplesmente a maior potência da história do futebol mundial! 🌍⚽
+O Brasil é simplesmente a maior potência da história do futebol mundial! 🌍⚽
 Única seleção presente em **todas as edições** da Copa do Mundo FIFA, o Brasil chega para 2026 com o peso da tradição e o sonho do hexa! ⭐⭐⭐⭐⭐🔥
 
 ---
@@ -409,7 +409,7 @@ A Brasil é simplesmente a maior potência da história do futebol mundial! 🌍
 
 📍 Filadélfia (EUA)
 🗓️ 19 de junho
-⏰ 21h30 (Brasília)
+⏰ 16h (Brasília)
 ⚔️ 🇧🇷 Brasil x 🇭🇹 Haiti
 
 ### 🥉 Rodada 3
@@ -423,10 +423,10 @@ A Brasil é simplesmente a maior potência da história do futebol mundial! 🌍
 
 ## 📊 Desempenho geral
 
-* ⚽ Jogos: 109
-* ✅ Vitórias: 73
-* 🤝 Empates: 18
-* ❌ Derrotas: 18
+* ⚽ Jogos: 114
+* ✅ Vitórias: 76
+* 🤝 Empates: 19
+* ❌ Derrotas: 19
 * 🥅 Gols marcados: 237
 * 🚫 Gols sofridos: 108
 
@@ -474,7 +474,35 @@ O Brasil garantiu sua vaga nas Eliminatórias Sul-Americanas, terminando entre o
       { opponent: 'Tunísia', result: 'D', score: '1-1' },
       { opponent: 'Senegal', result: 'W', score: '2-0' },
       { opponent: 'Japão', result: 'L', score: '2-3' },
-    ]
+    ],
+    coach: {
+      name: 'Carlo Ancelotti',
+      nationality: 'Italiano',
+      age: 66,
+      tenure: '01 ano',
+      description: 'Um dos treinadores mais vitoriosos da história do futebol, assumiu o comando da Seleção Brasileira com a missão de conquistar o hexacampeonato.'
+    },
+    players: [
+      { name: 'Vini Jr.', position: 'Atacante', club: 'Real Madrid', highlight: 'Destaque mundial' },
+      { name: 'Raphinha', position: 'Atacante', club: 'Barcelona', highlight: 'Peça fundamental no ataque' },
+      { name: 'Gabriel Martinelli', position: 'Atacante', club: 'Arsenal', highlight: 'Velocidade e drible' },
+      { name: 'Matheus Cunha', position: 'Atacante', club: 'Wolverhampton', highlight: 'Versatilidade ofensiva' }
+    ],
+    historyStats: {
+      participations: 23,
+      totalMatches: 114,
+      wins: 76,
+      losses: 19,
+      draws: 19,
+      titles: 5,
+      bestCampaign: '1958, 1962, 1970, 1994 e 2002 (pentacampeão)'
+    },
+    groupMatches: [
+      { opponent: 'Marrocos', date: '13 de junho', time: '19h00', stadium: 'Nova York/Nova Jersey', country: 'EUA' },
+      { opponent: 'Haiti', date: '19 de junho', time: '16h00', stadium: 'Filadélfia', country: 'EUA' },
+      { opponent: 'Escócia', date: '24 de junho', time: '19h00', stadium: 'Miami', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'Sob o comando de Ancelotti, o Brasil busca um equilíbrio entre a criatividade ofensiva tradicional e uma organização tática sólida, característica do treinador italiano.'
   },
   'ARG': {
     history: `## 🇦🇷 Argentina na Copa do Mundo da FIFA 2026
