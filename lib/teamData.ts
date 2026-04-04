@@ -3326,7 +3326,34 @@ A jornada para 2026 foi um verdadeiro teste para o coração dos torcedores:
       { opponent: 'Eslovênia', result: 'D', score: '1-1' },
       { opponent: 'Suíça', result: 'L', score: '4-1' },
       { opponent: 'Kosovo', result: 'L', score: '0-1' },
-    ]
+    ],
+    coach: {
+      name: 'Graham Potter',
+      nationality: 'Inglês',
+      age: 50,
+      tenure: '08 meses',
+      description: 'O arquiteto da reconstrução é o inglês Graham Potter! Contratado em outubro de 2025, ele organizou a casa em tempo recorde, trazendo um futebol coletivo e dinâmico para a seleção sueca.'
+    },
+    players: [
+      { name: 'Viktor Gyökeres', position: 'Atacante', club: 'Sporting CP', highlight: 'Artilheiro e estrela da equipe, foi fundamental na repescagem para garantir a vaga no Mundial.' },
+      { name: 'Alexander Isak', position: 'Atacante', club: 'Newcastle', highlight: 'Atacante veloz e técnico, uma das principais ameaças ofensivas da Suécia.' },
+      { name: 'Lucas Bergvall', position: 'Meio-campista', club: 'Tottenham', highlight: 'Jovem talento criativo que traz dinamismo e visão de jogo ao meio-campo.' }
+    ],
+    historyStats: {
+      participations: 13,
+      totalMatches: 51,
+      wins: 19,
+      losses: 19,
+      draws: 13,
+      titles: 0,
+      bestCampaign: 'vice-campeã (1958)'
+    },
+    groupMatches: [
+      { opponent: 'Tunísia', date: '14 de junho', time: '23h00', stadium: 'Monterrey', country: 'México' },
+      { opponent: 'Holanda', date: '20 de junho', time: '14h00', stadium: 'Houston', country: 'EUA' },
+      { opponent: 'Japão', date: '25 de junho', time: '20h00', stadium: 'Dallas', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Suécia de Graham Potter aposta em um futebol coletivo, dinâmico e de alta pressão, abandonando a dependência de um único craque em favor de um conjunto forte e veloz.'
   },
   'TUN': {
     history: `## 🇹🇳✨ TUNÍSIA: AS ÁGUIAS DO CARTAGO QUEREM VOAR ALTO! ✨🇹🇳
