@@ -2087,17 +2087,17 @@ O retorno à Copa do Mundo marca um momento histórico para o futebol haitiano, 
 ### 📅 Jogos do Haiti – Grupo C
 
 **Rodada 1**
-📍 13 de junho
+📍 13 de junho – 22h00
 Haiti x Escócia
 Boston (EUA)
 
 **Rodada 2**
-📍 19 de junho
+📍 19 de junho – 22h00
 Brasil x Haiti
 Filadélfia (EUA)
 
 **Rodada 3**
-📍 24 de junho
+📍 24 de junho – 19h00
 Marrocos x Haiti
 Atlanta (EUA)
 
@@ -2206,7 +2206,34 @@ A classificação veio após:
       { opponent: 'Nicarágua', result: 'W', score: '2-0' },
       { opponent: 'Costa Rica', result: 'W', score: '1-0' },
       { opponent: 'Honduras', result: 'L', score: '0-3' },
-    ]
+    ],
+    coach: {
+      name: 'Sébastien Migné',
+      nationality: 'Francês',
+      age: 53,
+      tenure: '02 anos',
+      description: 'Treinador experiente com passagens por diversas seleções africanas, focado em organização e competitividade.'
+    },
+    players: [
+      { name: 'Ricardo Adé', position: 'Zagueiro Central', club: 'LDU (Equador)', highlight: 'Pilar da defesa e muito influente' },
+      { name: 'Johny Placide', position: 'Goleiro', club: 'Bastia', highlight: 'Capitão experiente' },
+      { name: 'Carlens Arcus', position: 'Lateral Direito', club: 'Angers (França)', highlight: 'Importante na ala direita' }
+    ],
+    historyStats: {
+      participations: 2,
+      totalMatches: 3,
+      wins: 0,
+      losses: 3,
+      draws: 0,
+      titles: 0,
+      bestCampaign: '1974 (fase de grupos)'
+    },
+    groupMatches: [
+      { opponent: 'Escócia', date: '13 de junho', time: '22h00', stadium: 'Boston', country: 'EUA' },
+      { opponent: 'Brasil', date: '19 de junho', time: '22h00', stadium: 'Filadélfia', country: 'EUA' },
+      { opponent: 'Marrocos', date: '24 de junho', time: '19h00', stadium: 'Atlanta', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'O Haiti aposta em uma defesa sólida liderada por Ricardo Adé e na experiência de seu capitão Johny Placide, buscando transições rápidas para surpreender seus adversários.'
   },
   'SCO': {
     history: `## 🏴 Escócia na Copa do Mundo da FIFA: perfil e histórico da seleção
