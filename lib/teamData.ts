@@ -3550,7 +3550,7 @@ Fique ligado nos horários dos Faraós! ⏰
 ⚔️ **Rodada 3**
 * **Jogo:** 🇪🇬 Egito x Irã 🇮🇷
 * 📍 **Local:** Seattle (EUA) 🇺🇸
-* 🕒 **Data/Hora:** 26 de junho | 0h00 *(madrugada de 27/06 em Brasília)*
+* 🕒 **Data/Hora:** 27 de junho | 0h00 *(horário de Brasília)*
 
 ---
 
@@ -3561,7 +3561,7 @@ Uma trajetória de persistência no cenário mundial:
 * ⭐ **Melhores Campanhas:** 1934, 1990, 2018 (Fase de Grupos)
 * 🔙 **Primeira Copa:** Itália 1934
 * 🔢 **Participações:** 4 (1934, 1990, 2018, 2026)
-* 📊 **Estatísticas:** 7 Jogos | 0 Vitórias ✅ | 2 Empates 🤝 | 5 Derrotas ❌`,
+* 📊 **Estatísticas:** 7 Jogos | 0 Vitórias ✅ | 2 Empates 🤝 | 5 Derrotas ❌ | 5 Gols Feitos | 12 Gols Sofridos`,
     qualification: `### 🛣️ Como o Egito se classificou para 2026
 
 O Egito assegurou sua vaga ao terminar na liderança do Grupo A das eliminatórias africanas, à frente de Burkina Faso, Serra Leoa, Guiné-Bissau, Etiópia e Djibuti.
@@ -3574,7 +3574,34 @@ O Egito assegurou sua vaga ao terminar na liderança do Grupo A das eliminatóri
       { opponent: 'Nigéria', result: 'D', score: '0-0' },
       { opponent: 'Senegal', result: 'L', score: '0-1' },
       { opponent: 'Costa do Marfim', result: 'W', score: '3-2' },
-    ]
+    ],
+    coach: {
+      name: 'Hossam Hassan',
+      nationality: 'Egípcio',
+      age: 59,
+      tenure: '02 anos',
+      description: 'Após uma carreira brilhante como jogador, Hossam Hassan consolidou seu nome não apenas como um dos maiores artilheiros da história do futebol egípcio, mas também como um dos principais treinadores do país.'
+    },
+    players: [
+      { name: 'Mohamed Salah', position: 'Atacante', club: 'Liverpool', highlight: 'A maior estrela e esperança da equipe, fundamental na classificação para a Copa do Mundo de 2026, marcando gols decisivos nas eliminatórias.' },
+      { name: 'Mohamed El Shenawy', position: 'Goleiro', club: 'Al Ahly', highlight: 'Goleiro experiente e titular frequente, um dos destaques defensivos.' },
+      { name: 'Mostafa Shobeir', position: 'Goleiro', club: 'Al Ahly', highlight: 'Goleiro promissor, também cotado para o elenco no ciclo 2026.' }
+    ],
+    historyStats: {
+      participations: 4,
+      totalMatches: 7,
+      wins: 0,
+      losses: 5,
+      draws: 2,
+      titles: 0,
+      bestCampaign: '1934, 1990, 2018 (fase de grupos)'
+    },
+    groupMatches: [
+      { opponent: 'Bélgica', date: '15 de junho', time: '16h00', stadium: 'Seattle', country: 'EUA' },
+      { opponent: 'Nova Zelândia', date: '21 de junho', time: '22h00', stadium: 'Vancouver', country: 'Canadá' },
+      { opponent: 'Irã', date: '27 de junho', time: '00h00', stadium: 'Seattle', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'O Egito de Hossam Hassan baseia seu jogo em uma defesa sólida e na genialidade de Mohamed Salah no ataque, buscando transições rápidas para surpreender os adversários.'
   },
   'IRN': {
     history: `## 🇮🇷✨ IRÃ: O "GENERAL" E A BUSCA PELO MATA-MATA INÉDITO! ✨🇮🇷
