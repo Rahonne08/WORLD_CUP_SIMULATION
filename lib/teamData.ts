@@ -230,7 +230,34 @@ Cabo Verde chega como grande surpresa do torneio. Com organização tática e es
       { opponent: 'Egito', result: 'D', score: '1-1' },
       { opponent: 'Irã', result: 'D', score: '0-0' },
       { opponent: 'Essuatíni', result: 'W', score: '3-0' },
-    ]
+    ],
+    coach: {
+      name: 'Bubista',
+      nationality: 'Cabo-verdiano',
+      age: 56,
+      tenure: '06 anos',
+      description: 'Ex-capitão da seleção e símbolo de liderança, Bubista construiu uma equipe equilibrada e competitiva, levando o país à sua primeira Copa do Mundo.'
+    },
+    players: [
+      { name: 'Ryan Mendes', position: 'Atacante', club: 'Karagümrük', highlight: 'Capitão e maior artilheiro da história da seleção, líder técnico em campo.' },
+      { name: 'Logan Costa', position: 'Zagueiro', club: 'Toulouse', highlight: 'Jovem pilar defensivo que atua em alto nível no futebol francês.' },
+      { name: 'Garry Rodrigues', position: 'Atacante', club: 'Ankaragücü', highlight: 'Experiência e velocidade pelas pontas, fundamental no esquema ofensivo.' }
+    ],
+    historyStats: {
+      participations: 1,
+      totalMatches: 0,
+      wins: 0,
+      losses: 0,
+      draws: 0,
+      titles: 0,
+      bestCampaign: 'Estreia (2026)'
+    },
+    groupMatches: [
+      { opponent: 'Espanha', date: '15 de junho', time: '14h00', stadium: 'Atlanta', country: 'EUA' },
+      { opponent: 'Uruguai', date: '21 de junho', time: '21h00', stadium: 'Miami', country: 'EUA' },
+      { opponent: 'Arábia Saudita', date: '26 de junho', time: '21h00', stadium: 'Houston', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'Cabo Verde aposta em um forte espírito coletivo e transições rápidas, utilizando a velocidade de seus atacantes para surpreender adversários mais tradicionais.'
   },
   'KSA': {
     history: `## Arábia Saudita na Copa do Mundo da FIFA: perfil e histórico da seleção
@@ -301,7 +328,34 @@ A meta é clara: voltar ao mata-mata, algo que não acontece desde 1994.`,
       { opponent: 'Jordânia', result: 'L', score: '0-1' },
       { opponent: 'Palestina', result: 'W', score: '2-1' },
       { opponent: 'Marrocos', result: 'L', score: '0-1' },
-    ]
+    ],
+    coach: {
+      name: 'Hervé Renard',
+      nationality: 'Francês',
+      age: 57,
+      tenure: '01 ano (retorno)',
+      description: 'Especialista em torneios curtos e com vasta experiência internacional, Renard retornou para liderar os Falcões Verdes em mais um Mundial.'
+    },
+    players: [
+      { name: 'Salem Al-Dawsari', position: 'Meia', club: 'Al-Hilal', highlight: 'A grande estrela da equipe, conhecido por gols decisivos em momentos cruciais.' },
+      { name: 'Firas Al-Buraikan', position: 'Atacante', club: 'Al-Ahli', highlight: 'Jovem artilheiro que se consolidou como a principal referência no ataque saudita.' },
+      { name: 'Saud Abdulhamid', position: 'Lateral', club: 'Roma', highlight: 'Primeiro saudita a atuar em uma das grandes ligas europeias, trazendo experiência internacional.' }
+    ],
+    historyStats: {
+      participations: 7,
+      totalMatches: 19,
+      wins: 4,
+      losses: 13,
+      draws: 2,
+      titles: 0,
+      bestCampaign: 'Oitavas de final (1994)'
+    },
+    groupMatches: [
+      { opponent: 'Uruguai', date: '15 de junho', time: '19h00', stadium: 'Miami', country: 'EUA' },
+      { opponent: 'Espanha', date: '21 de junho', time: '13h00', stadium: 'Atlanta', country: 'EUA' },
+      { opponent: 'Cabo Verde', date: '26 de junho', time: '21h00', stadium: 'Houston', country: 'EUA' }
+    ],
+    tacticalAnalysis: 'A Arábia Saudita de Renard foca na organização tática e na compactação defensiva, buscando explorar erros dos adversários com saídas rápidas.'
   },
   'URU': {
     history: `## Uruguai na Copa do Mundo da FIFA: perfil e histórico da seleção
@@ -375,7 +429,34 @@ Mesmo em renovação, o Uruguai chega forte. Com jovens talentos e um treinador 
       { opponent: 'EUA', result: 'L', score: '1-5' },
       { opponent: 'México', result: 'D', score: '0-0' },
       { opponent: 'Uzbequistão', result: 'W', score: '2-1' },
-    ]
+    ],
+    coach: {
+      name: 'Marcelo Bielsa',
+      nationality: 'Argentino',
+      age: 70,
+      tenure: '03 anos',
+      description: 'Um dos técnicos mais influentes do futebol moderno, Bielsa implementou um estilo ofensivo e intenso na Celeste Olímpica.'
+    },
+    players: [
+      { name: 'Federico Valverde', position: 'Meia', club: 'Real Madrid', highlight: 'O motor e líder da nova geração, essencial tanto na defesa quanto no ataque.' },
+      { name: 'Darwin Núñez', position: 'Atacante', club: 'Liverpool', highlight: 'Atacante potente e finalizador, principal esperança de gols da equipe.' },
+      { name: 'Ronald Araújo', position: 'Zagueiro', club: 'Barcelona', highlight: 'Um dos melhores defensores do mundo, pilar da solidez defensiva uruguaia.' }
+    ],
+    historyStats: {
+      participations: 15,
+      totalMatches: 59,
+      wins: 25,
+      losses: 21,
+      draws: 13,
+      titles: 2,
+      bestCampaign: 'Campeão (1930, 1950)'
+    },
+    groupMatches: [
+      { opponent: 'Arábia Saudita', date: '15 de junho', time: '19h00', stadium: 'Miami', country: 'EUA' },
+      { opponent: 'Cabo Verde', date: '21 de junho', time: '19h00', stadium: 'Miami', country: 'EUA' },
+      { opponent: 'Espanha', date: '26 de junho', time: '21h00', stadium: 'Guadalajara', country: 'México' }
+    ],
+    tacticalAnalysis: 'O Uruguai de Bielsa é marcado pela pressão alta e transições extremamente rápidas, buscando sufocar o adversário e dominar as ações ofensivas.'
   },
   'BRA': {
     history: `## 🇧🇷 Brasil na Copa do Mundo 2026
