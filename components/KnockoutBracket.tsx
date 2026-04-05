@@ -127,7 +127,12 @@ function MatchCard({ match, teams, selectWinner }: any) {
 
   return (
     <div className="bg-gray-900/90 border border-gray-700 rounded-xl p-3 flex flex-col gap-2 shadow-lg hover:border-gray-500 transition-colors relative z-10">
-      <div className="text-xs text-gray-500 text-center font-mono">{match.id}</div>
+      <div className="flex justify-between items-center mb-1">
+        <span className="text-[10px] text-gray-500 font-mono uppercase tracking-widest">{match.id}</span>
+        {match.winnerId && (
+          <span className="text-[10px] font-bold text-green-500 bg-green-500/10 px-1.5 py-0.5 rounded uppercase">Finalizado</span>
+        )}
+      </div>
       
       {/* Home Team */}
       <button
@@ -147,6 +152,11 @@ function MatchCard({ match, teams, selectWinner }: any) {
             <span className="text-sm text-gray-600 italic">A definir</span>
           )}
         </div>
+        {match.homeScore !== null && (
+          <span className={`text-sm font-bold ${match.winnerId === match.homeTeamId ? 'text-green-400' : 'text-gray-400'}`}>
+            {match.homeScore}
+          </span>
+        )}
       </button>
 
       {/* Away Team */}
@@ -167,7 +177,21 @@ function MatchCard({ match, teams, selectWinner }: any) {
             <span className="text-sm text-gray-600 italic">A definir</span>
           )}
         </div>
+        {match.awayScore !== null && (
+          <span className={`text-sm font-bold ${match.winnerId === match.awayTeamId ? 'text-green-400' : 'text-gray-400'}`}>
+            {match.awayScore}
+          </span>
+        )}
       </button>
+
+      {match.winnerId && (
+        <div className="mt-1 pt-2 border-t border-gray-800/50 flex justify-center items-center gap-2">
+          <span className="text-[10px] text-gray-500 uppercase tracking-tighter">Placar Final:</span>
+          <span className="text-xs font-black text-white bg-gray-800 px-2 py-0.5 rounded-md">
+            {match.homeScore} — {match.awayScore}
+          </span>
+        </div>
+      )}
     </div>
   );
 }

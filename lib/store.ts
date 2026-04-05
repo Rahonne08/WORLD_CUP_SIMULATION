@@ -35,6 +35,8 @@ export interface KnockoutMatch {
   round: 'R32' | 'R16' | 'QF' | 'SF' | 'F';
   homeTeamId: string | null;
   awayTeamId: string | null;
+  homeScore: number | null;
+  awayScore: number | null;
   winnerId: string | null;
   nextMatchId: string | null;
   isHomeNext: boolean;
@@ -132,7 +134,9 @@ export const generateInitialKnockout = (): KnockoutMatch[] => {
   for (let i = 1; i <= 16; i++) {
     matches.push({
       id: `R32-${i}`, round: 'R32',
-      homeTeamId: null, awayTeamId: null, winnerId: null,
+      homeTeamId: null, awayTeamId: null,
+      homeScore: null, awayScore: null,
+      winnerId: null,
       nextMatchId: `R16-${Math.ceil(i / 2)}`,
       isHomeNext: i % 2 !== 0
     });
@@ -142,7 +146,9 @@ export const generateInitialKnockout = (): KnockoutMatch[] => {
   for (let i = 1; i <= 8; i++) {
     matches.push({
       id: `R16-${i}`, round: 'R16',
-      homeTeamId: null, awayTeamId: null, winnerId: null,
+      homeTeamId: null, awayTeamId: null,
+      homeScore: null, awayScore: null,
+      winnerId: null,
       nextMatchId: `QF-${Math.ceil(i / 2)}`,
       isHomeNext: i % 2 !== 0
     });
@@ -152,7 +158,9 @@ export const generateInitialKnockout = (): KnockoutMatch[] => {
   for (let i = 1; i <= 4; i++) {
     matches.push({
       id: `QF-${i}`, round: 'QF',
-      homeTeamId: null, awayTeamId: null, winnerId: null,
+      homeTeamId: null, awayTeamId: null,
+      homeScore: null, awayScore: null,
+      winnerId: null,
       nextMatchId: `SF-${Math.ceil(i / 2)}`,
       isHomeNext: i % 2 !== 0
     });
@@ -162,7 +170,9 @@ export const generateInitialKnockout = (): KnockoutMatch[] => {
   for (let i = 1; i <= 2; i++) {
     matches.push({
       id: `SF-${i}`, round: 'SF',
-      homeTeamId: null, awayTeamId: null, winnerId: null,
+      homeTeamId: null, awayTeamId: null,
+      homeScore: null, awayScore: null,
+      winnerId: null,
       nextMatchId: `F-1`,
       isHomeNext: i % 2 !== 0
     });
@@ -171,7 +181,9 @@ export const generateInitialKnockout = (): KnockoutMatch[] => {
   // F (Final)
   matches.push({
     id: `F-1`, round: 'F',
-    homeTeamId: null, awayTeamId: null, winnerId: null,
+    homeTeamId: null, awayTeamId: null,
+    homeScore: null, awayScore: null,
+    winnerId: null,
     nextMatchId: null,
     isHomeNext: false
   });
@@ -205,7 +217,21 @@ export const useAppStore = create<AppState>((set, get) => ({
     const matchIndex = newMatches.findIndex(m => m.id === matchId);
     if (matchIndex === -1) return state;
 
-    const match = { ...newMatches[matchIndex], winnerId };
+    const oldMatch = newMatches[matchIndex];
+    
+    // Generate random scores if not already set or if winner changed
+    let homeScore = oldMatch.homeScore;
+    let awayScore = oldMatch.awayScore;
+    
+    if (winnerId === oldMatch.homeTeamId) {
+      homeScore = Math.floor(Math.random() * 3) + 1;
+      awayScore = Math.floor(Math.random() * homeScore);
+    } else {
+      awayScore = Math.floor(Math.random() * 3) + 1;
+      homeScore = Math.floor(Math.random() * awayScore);
+    }
+
+    const match = { ...oldMatch, winnerId, homeScore, awayScore };
     newMatches[matchIndex] = match;
 
     let championId = state.championId;
