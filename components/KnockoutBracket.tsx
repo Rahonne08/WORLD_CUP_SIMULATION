@@ -43,14 +43,43 @@ export function KnockoutBracket() {
           ))}
           <h2 className="text-3xl font-bold text-white mb-4 z-10">Campeão da Copa 2026!</h2>
           <motion.div
-            initial={{ scale: 0, rotate: -180 }}
-            animate={{ scale: 1, rotate: 0 }}
-            transition={{ type: 'spring', stiffness: 260, damping: 20 }}
-            className="z-10"
+            initial={{ scale: 0, rotate: -180, opacity: 0 }}
+            animate={{ 
+              scale: 1, 
+              rotate: 0, 
+              opacity: 1,
+              y: [0, -8, 0]
+            }}
+            transition={{ 
+              scale: { type: 'spring', stiffness: 260, damping: 20 },
+              rotate: { type: 'spring', stiffness: 260, damping: 20 },
+              opacity: { duration: 0.5 },
+              y: { 
+                duration: 3, 
+                repeat: Infinity, 
+                ease: "easeInOut" 
+              }
+            }}
+            className="z-10 relative group"
           >
-            <Image src={teams.find(t => t.id === championId)?.flagUrl || ''} alt="Campeão" width={200} height={120} className="rounded-lg shadow-2xl" referrerPolicy="no-referrer" />
+            <div className="absolute -inset-4 bg-green-500/20 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <Image 
+              src={teams.find(t => t.id === championId)?.flagUrl || ''} 
+              alt="Campeão" 
+              width={240} 
+              height={144} 
+              className="rounded-lg shadow-[0_0_50px_rgba(34,197,94,0.3)] border-2 border-green-500/30" 
+              referrerPolicy="no-referrer" 
+            />
           </motion.div>
-          <p className="text-xl font-bold text-green-400 mt-4 z-10">{teams.find(t => t.id === championId)?.name}</p>
+          <motion.p 
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6, duration: 0.5 }}
+            className="text-2xl font-black text-green-400 mt-6 z-10 tracking-wider uppercase drop-shadow-[0_0_10px_rgba(34,197,94,0.5)]"
+          >
+            {teams.find(t => t.id === championId)?.name}
+          </motion.p>
         </div>
       )}
       <div className="flex min-w-max p-4">
