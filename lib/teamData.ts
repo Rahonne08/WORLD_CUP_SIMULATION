@@ -1702,7 +1702,7 @@ Diferente de outras seleções, o Canadá garantiu vaga automaticamente por ser 
     },
     players: [
       { name: 'Alphonso Davies', position: 'Lateral', club: 'Bayern de Munique', highlight: 'Destaque mundial' },
-      { name: 'Jonathan David', position: 'Atacante', club: 'Lille', highlight: 'Artilheiro' }
+      { name: 'Jonathan David', position: 'Atacante', club: 'Juventus', highlight: 'Artilheiro' }
     ],
     historyStats: {
       participations: 3,
