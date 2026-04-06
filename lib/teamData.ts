@@ -3999,7 +3999,6 @@ A campanha foi marcada pelo domínio técnico e tático:
     players: [
       { name: 'Sardar Azmoun', position: 'Atacante', club: 'Shabab Al-Ahli Club', highlight: 'Um dos principais artilheiros da história da seleção, referência no ataque.' },
       { name: 'Mehdi Taremi', position: 'Atacante', club: 'Olympiacos', highlight: 'Atacante experiente e um dos maiores goleadores do país, mantendo alto nível na Europa.' },
-      { name: '"Novo Messi" Iraniano', position: 'Meio-campista', club: 'Vários', highlight: 'Citado como um dos grandes talentos da nova geração iraniana.' }
     ],
     historyStats: {
       participations: 7,
