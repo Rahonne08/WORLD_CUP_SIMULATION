@@ -1338,7 +1338,7 @@ A Alemanha busca apagar as últimas decepções e voltar ao topo do mundo com um
     },
     players: [
       { name: 'Jamal Musiala', position: 'Meia', club: 'Bayern de Munique', highlight: 'Talento puro e drible' },
-      { name: 'Florian Wirtz', position: 'Meia', club: 'Bayer Leverkusen', highlight: 'Visão de jogo e criatividade' },
+      { name: 'Florian Wirtz', position: 'Meia', club: 'Liverpool', highlight: 'Visão de jogo e criatividade' },
       { name: 'Kai Havertz', position: 'Atacante', club: 'Arsenal', highlight: 'Versatilidade ofensiva' },
       { name: 'Joshua Kimmich', position: 'Meio-campista', club: 'Bayern de Munique', highlight: 'Liderança e polivalência' }
     ],
