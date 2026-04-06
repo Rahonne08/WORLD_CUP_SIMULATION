@@ -102,33 +102,47 @@ export function TeamModal({ team, onClose }: TeamModalProps) {
             {/* 2. Histórico em Copas */}
             <div className="bg-gray-800 p-5 rounded-xl border border-gray-700">
               <h3 className="text-lg font-bold text-blue-400 mb-4 flex items-center gap-2">📊 Histórico em Copas</h3>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-gray-900/50 p-2 rounded-lg border border-gray-700/50">
-                  <p className="text-[10px] text-gray-500 uppercase tracking-wider">Participações</p>
-                  <p className="text-xl font-bold text-white">{details.historyStats.participations}</p>
+              <div className="grid grid-cols-2 gap-3">
+                {/* Top Row */}
+                <div className="bg-gray-900/50 p-3 rounded-lg border border-gray-700/50">
+                  <p className="text-[10px] text-gray-500 uppercase tracking-wider mb-1">Participações</p>
+                  <p className="text-2xl font-bold text-white">{details.historyStats.participations}</p>
                 </div>
-                <div className="bg-gray-900/50 p-2 rounded-lg border border-gray-700/50">
-                  <p className="text-[10px] text-gray-500 uppercase tracking-wider">Títulos</p>
-                  <div className="flex items-baseline gap-1">
-                    <p className="text-xl font-bold text-yellow-500">{details.historyStats.titles}</p>
+                <div className="bg-gray-900/50 p-3 rounded-lg border border-gray-700/50">
+                  <p className="text-[10px] text-gray-500 uppercase tracking-wider mb-1">Títulos</p>
+                  <div className="flex items-baseline gap-1.5">
+                    <p className="text-2xl font-bold text-yellow-500">{details.historyStats.titles}</p>
                     {details.historyStats.titleYears && (
-                      <p className="text-[9px] text-gray-400 font-mono truncate">({details.historyStats.titleYears.join(', ')})</p>
+                      <p className="text-[9px] text-gray-400 font-mono truncate max-w-[80px]">({details.historyStats.titleYears.join(', ')})</p>
                     )}
                   </div>
                 </div>
-                <div className="bg-gray-900/50 p-2 rounded-lg border border-gray-700/50">
-                  <p className="text-[10px] text-gray-500 uppercase tracking-wider">Vitórias</p>
-                  <p className="text-lg font-bold text-green-400">{details.historyStats.wins}</p>
+
+                {/* Middle Row */}
+                <div className="bg-gray-900/50 p-3 rounded-lg border border-gray-700/50">
+                  <p className="text-[10px] text-gray-500 uppercase tracking-wider mb-1">Jogos</p>
+                  <p className="text-xl font-bold text-gray-300">{details.historyStats.totalMatches}</p>
                 </div>
-                <div className="bg-gray-900/50 p-2 rounded-lg border border-gray-700/50">
-                  <p className="text-[10px] text-gray-500 uppercase tracking-wider">Melhor Campanha</p>
-                  <p className="text-sm font-bold text-blue-300 truncate">{details.historyStats.bestCampaign}</p>
+                <div className="bg-gray-900/50 p-3 rounded-lg border border-gray-700/50">
+                  <p className="text-[10px] text-gray-500 uppercase tracking-wider mb-1">Vitórias</p>
+                  <p className="text-xl font-bold text-green-400">{details.historyStats.wins}</p>
                 </div>
-              </div>
-              <div className="mt-4 flex justify-between text-xs text-gray-400 px-1">
-                <span>Jogos: {details.historyStats.totalMatches}</span>
-                <span>E: {details.historyStats.draws}</span>
-                <span>D: {details.historyStats.losses}</span>
+
+                {/* Bottom Row */}
+                <div className="bg-gray-900/50 p-3 rounded-lg border border-gray-700/50">
+                  <p className="text-[10px] text-gray-500 uppercase tracking-wider mb-1">Empates</p>
+                  <p className="text-xl font-bold text-blue-400/80">{details.historyStats.draws}</p>
+                </div>
+                <div className="bg-gray-900/50 p-3 rounded-lg border border-gray-700/50">
+                  <p className="text-[10px] text-gray-500 uppercase tracking-wider mb-1">Derrotas</p>
+                  <p className="text-xl font-bold text-red-400/80">{details.historyStats.losses}</p>
+                </div>
+
+                {/* Full Width Row */}
+                <div className="bg-gray-900/50 p-4 rounded-lg border border-gray-700/50 col-span-2">
+                  <p className="text-[10px] text-gray-500 uppercase tracking-wider mb-1">Melhor Campanha</p>
+                  <p className="text-base font-bold text-blue-300 leading-tight">{details.historyStats.bestCampaign}</p>
+                </div>
               </div>
             </div>
 
