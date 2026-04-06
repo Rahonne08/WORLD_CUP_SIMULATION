@@ -569,7 +569,7 @@ O Brasil garantiu sua vaga nas Eliminatórias Sul-Americanas, terminando entre o
       { name: 'Vini Jr.', position: 'Atacante', club: 'Real Madrid', highlight: 'Destaque mundial' },
       { name: 'Raphinha', position: 'Atacante', club: 'Barcelona', highlight: 'Peça fundamental no ataque' },
       { name: 'Gabriel Martinelli', position: 'Atacante', club: 'Arsenal', highlight: 'Velocidade e drible' },
-      { name: 'Matheus Cunha', position: 'Atacante', club: 'Wolverhampton', highlight: 'Versatilidade ofensiva' }
+      { name: 'Matheus Cunha', position: 'Atacante', club: 'Manchester United', highlight: 'Versatilidade ofensiva' }
     ],
     historyStats: {
       participations: 23,
