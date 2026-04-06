@@ -1485,7 +1485,7 @@ Com o apoio da torcida e a liderança de Pochettino, os americanos querem transf
     },
     players: [
       { name: 'Christian Pulisic', position: 'Atacante', club: 'AC Milan', highlight: 'Referência técnica e principal nome do ataque' },
-      { name: 'Gio Reyna', position: 'Meia-atacante', club: 'Borussia Dortmund/Nottingham Forest', highlight: 'Criativo e decisivo na Liga das Nações' },
+      { name: 'Gio Reyna', position: 'Meia-atacante', club: 'Borussia M gladbach', highlight: 'Criativo e decisivo na Liga das Nações' },
       { name: 'Weston McKennie', position: 'Meio-campista', club: 'Juventus', highlight: 'Motor do meio-campo com presença física' }
     ],
     historyStats: {
