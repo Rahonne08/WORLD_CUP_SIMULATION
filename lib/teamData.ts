@@ -4080,7 +4080,6 @@ Pela primeira vez, a OFC contou com uma vaga direta para a Copa do Mundo, e a No
     },
     players: [
       { name: 'Mario Ilich', position: 'Meio-campista', club: 'Auckland City', highlight: 'Destaque no meio-campo.' },
-      { name: 'Elenco Base', position: 'Vários', club: 'Wellington Phoenix / Auckland FC', highlight: 'O elenco baseia-se em jogadores que atuam nos únicos clubes profissionais do país e talentos no exterior.' }
     ],
     historyStats: {
       participations: 3,
