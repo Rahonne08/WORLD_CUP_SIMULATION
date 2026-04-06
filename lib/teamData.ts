@@ -4118,7 +4118,7 @@ A República Democrática do Congo retorna ao Mundial após **52 anos** (sua ún
     },
     players: [
       { name: 'Chancel Mbemba', position: 'Zagueiro', club: 'Lille', highlight: 'Líder e capitão, traz experiência e segurança para a defesa.' },
-      { name: 'Yoane Wissa', position: 'Atacante', club: 'Brentford', highlight: 'Velocidade e faro de gol, principal arma ofensiva na Premier League.' },
+      { name: 'Yoane Wissa', position: 'Atacante', club: 'Newcastle United', highlight: 'Velocidade e faro de gol, principal arma ofensiva na Premier League.' },
       { name: 'Simon Banza', position: 'Atacante', club: 'Braga', highlight: 'Centroavante potente e excelente finalizador.' }
     ],
     historyStats: {
