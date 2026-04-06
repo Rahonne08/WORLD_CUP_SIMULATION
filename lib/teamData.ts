@@ -2142,7 +2142,7 @@ Uma seleção equilibrada, sólida e pronta para surpreender! 💪🇨🇭`,
     players: [
       { name: 'Granit Xhaka', position: 'Meio-campista', club: 'Sunderland', highlight: 'Líder técnico e emocional' },
       { name: 'Manuel Akanji', position: 'Zagueiro', club: 'Inter de Milão', highlight: 'Pilar defensivo' },
-      { name: 'Yann Sommer / Gregor Kobel', position: 'Goleiro', club: 'Inter de Milão / Borussia Dortmund', highlight: 'Goleiros de elite' }
+      { name: 'Yann Sommer', position: 'Goleiro', club: 'Inter de Milão', highlight: 'Goleiros de elite' }
     ],
     historyStats: {
       participations: 13,
