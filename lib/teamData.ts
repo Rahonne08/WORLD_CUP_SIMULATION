@@ -27,6 +27,7 @@ export interface WorldCupHistory {
   draws: number;
   titles: number;
   bestCampaign: string;
+  titleYears?: number[];
 }
 
 export interface Match {
@@ -449,7 +450,8 @@ Mesmo em renovação, o Uruguai chega forte. Com jovens talentos e um treinador 
       losses: 21,
       draws: 13,
       titles: 2,
-      bestCampaign: 'Campeão (1930, 1950)'
+      bestCampaign: 'Campeão (1930, 1950)',
+      titleYears: [1930, 1950]
     },
     groupMatches: [
       { opponent: 'Arábia Saudita', date: '15 de junho', time: '19h00', stadium: 'Miami', country: 'EUA' },
@@ -576,7 +578,8 @@ O Brasil garantiu sua vaga nas Eliminatórias Sul-Americanas, terminando entre o
       losses: 19,
       draws: 19,
       titles: 5,
-      bestCampaign: '1958, 1962, 1970, 1994 e 2002 (pentacampeão)'
+      bestCampaign: '1958, 1962, 1970, 1994 e 2002 (pentacampeão)',
+      titleYears: [1958, 1962, 1970, 1994, 2002]
     },
     groupMatches: [
       { opponent: 'Marrocos', date: '13 de junho', time: '19h00', stadium: 'Nova York/Nova Jersey', country: 'EUA' },
@@ -621,7 +624,8 @@ A Argentina chega como **atual campeã mundial** e uma das grandes favoritas ao 
       losses: 24,
       draws: 17,
       titles: 3,
-      bestCampaign: 'Campeã (1978, 1986, 2022)'
+      bestCampaign: 'Campeã (1978, 1986, 2022)',
+      titleYears: [1978, 1986, 2022]
     },
     groupMatches: [
       { opponent: 'Jordânia', date: '14 de junho', time: '18h00', stadium: 'Dallas', country: 'EUA' },
@@ -861,7 +865,8 @@ A França chega como candidata ao título e quer fazer história com mais uma fi
       losses: 20,
       draws: 14,
       titles: 2,
-      bestCampaign: 'Campeã (1998, 2018)'
+      bestCampaign: 'Campeã (1998, 2018)',
+      titleYears: [1998, 2018]
     },
     groupMatches: [
       { opponent: 'Senegal', date: '16 de junho', time: '16h00', stadium: 'MetLife Stadium', country: 'EUA' },
@@ -1263,7 +1268,8 @@ A classificação para 2026 foi um verdadeiro passeio! A Espanha dominou o Grupo
       losses: 19,
       draws: 17,
       titles: 1,
-      bestCampaign: 'Campeã (2010)'
+      bestCampaign: 'Campeã (2010)',
+      titleYears: [2010]
     },
     groupMatches: [
       { opponent: 'Cabo Verde', date: '15 de junho', time: '13h00', stadium: 'Atlanta', country: 'EUA' },
@@ -1343,7 +1349,8 @@ A Alemanha busca apagar as últimas decepções e voltar ao topo do mundo com um
       losses: 23,
       draws: 21,
       titles: 4,
-      bestCampaign: 'Campeã (1954, 1974, 1990, 2014)'
+      bestCampaign: 'Campeã (1954, 1974, 1990, 2014)',
+      titleYears: [1954, 1974, 1990, 2014]
     },
     groupMatches: [
       { opponent: 'Curaçau', date: '14 de junho', time: '14h00', stadium: 'Houston', country: 'EUA' },
@@ -4283,7 +4290,8 @@ A Inglaterra chega ao Mundial de 2026 com a missão de finalmente "trazer o fute
       losses: 20,
       draws: 22,
       titles: 1,
-      bestCampaign: 'Campeã (1966)'
+      bestCampaign: 'Campeã (1966)',
+      titleYears: [1966]
     },
     groupMatches: [
       { opponent: 'Panamá', date: '17 de junho', time: '16h00', stadium: 'Miami', country: 'EUA' },
