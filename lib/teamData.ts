@@ -3415,7 +3415,7 @@ O segredo do sucesso equatoriano rumo a 2026 foi o "ferrolho" lá atrás:
     },
     players: [
       { name: 'Moisés Caicedo', position: 'Volante', club: 'Chelsea', highlight: 'Pilar do meio-campo e um dos jogadores mais valiosos, com valor de mercado estimado em € 110 milhões.' },
-      { name: 'Piero Hincapié', position: 'Zagueiro', club: 'Bayer Leverkusen', highlight: 'Um dos defensores com maiores notas e valor de mercado.' },
+      { name: 'Piero Hincapié', position: 'Zagueiro', club: 'Arsenal', highlight: 'Um dos defensores com maiores notas e valor de mercado.' },
       { name: 'Willian Pacho', position: 'Zagueiro', club: 'Paris Saint-Germain', highlight: 'Destaque defensivo de alto valor, peça fundamental na zaga equatoriana.' }
     ],
     historyStats: {
