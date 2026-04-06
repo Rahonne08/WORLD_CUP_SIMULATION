@@ -440,7 +440,7 @@ Mesmo em renovação, o Uruguai chega forte. Com jovens talentos e um treinador 
     },
     players: [
       { name: 'Federico Valverde', position: 'Meia', club: 'Real Madrid', highlight: 'O motor e líder da nova geração, essencial tanto na defesa quanto no ataque.' },
-      { name: 'Darwin Núñez', position: 'Atacante', club: 'Liverpool', highlight: 'Atacante potente e finalizador, principal esperança de gols da equipe.' },
+      { name: 'Darwin Núñez', position: 'Atacante', club: 'Al-Hilal', highlight: 'Atacante potente e finalizador, principal esperança de gols da equipe.' },
       { name: 'Ronald Araújo', position: 'Zagueiro', club: 'Barcelona', highlight: 'Um dos melhores defensores do mundo, pilar da solidez defensiva uruguaia.' }
     ],
     historyStats: {
