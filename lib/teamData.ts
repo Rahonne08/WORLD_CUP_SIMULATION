@@ -2250,8 +2250,8 @@ Agora, retorna ao Mundial com mais experiência e ambição! 💪🇧🇦`,
       description: 'Ídolo nacional e agora treinador, Barbarez busca levar a Bósnia a um novo patamar competitivo.'
     },
     players: [
-      { name: 'Edin Džeko', position: 'Atacante', club: 'Schalke 04 (2026)', highlight: 'Líder técnico e referência' },
-      { name: 'Esmir Bajraktarevic', position: 'Atacante', club: 'PSV / MLS', highlight: 'Jovem talento decisivo' },
+      { name: 'Edin Džeko', position: 'Atacante', club: 'Schalke 04', highlight: 'Líder técnico e referência' },
+      { name: 'Esmir Bajraktarevic', position: 'Atacante', club: 'PSV', highlight: 'Jovem talento decisivo' },
       { name: 'Ermedin Demirović', position: 'Atacante', club: 'Stuttgart', highlight: 'Peça chave no ataque' }
     ],
     historyStats: {
