@@ -963,7 +963,7 @@ O Iraque chega como azarão, mas com espírito de luta forte para surpreender.`,
       description: 'Experiente treinador que liderou o Iraque em uma campanha épica para garantir o retorno ao Mundial após 40 anos.'
     },
     players: [
-      { name: 'Aymen Hussein', position: 'Atacante', club: 'Al-Khor', highlight: 'Artilheiro nato e herói da classificação com gols decisivos.' },
+      { name: 'Aymen Hussein', position: 'Atacante', club: 'Al Karma SC', highlight: 'Artilheiro nato e herói da classificação com gols decisivos.' },
       { name: 'Ali Al-Hamadi', position: 'Atacante', club: 'Ipswich Town', highlight: 'Jovem talento que traz a experiência do futebol inglês para o ataque iraquiano.' },
       { name: 'Zidane Iqbal', position: 'Meia', club: 'Utrecht', highlight: 'A grande promessa técnica do país, responsável pela criação no meio-campo.' }
     ],
