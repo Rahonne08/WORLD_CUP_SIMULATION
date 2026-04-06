@@ -4237,7 +4237,7 @@ A Colômbia retorna ao Mundial com uma equipe renovada e cheia de talento. Sob o
       description: 'Treinador que recuperou a confiança da seleção colombiana, implementando um estilo de jogo agressivo e equilibrado.'
     },
     players: [
-      { name: 'Luis Díaz', position: 'Atacante', club: 'Liverpool', highlight: 'Um dos melhores pontas do mundo, velocidade e drible que desequilibram qualquer defesa.' },
+      { name: 'Luis Díaz', position: 'Atacante', club: 'Bayern München', highlight: 'Um dos melhores pontas do mundo, velocidade e drible que desequilibram qualquer defesa.' },
       { name: 'James Rodríguez', position: 'Meia', club: 'Rayo Vallecano', highlight: 'O capitão e cérebro do time, com visão de jogo e passes magistrais.' },
       { name: 'Jhon Durán', position: 'Atacante', club: 'Aston Villa', highlight: 'Jovem centroavante potente e em grande fase na Premier League.' }
     ],
