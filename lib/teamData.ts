@@ -3074,7 +3074,7 @@ A partir daí, a equipe reagiu:
     players: [
       { name: 'Nestory Irankunda', position: 'Atacante', club: 'Watford', highlight: 'Considerado uma das maiores promessas do futebol australiano, destaca-se por sua velocidade e capacidade de finalização.' },
       { name: 'Jackson Irvine', position: 'Meio-campista', club: 'St. Pauli', highlight: 'Um pilar no meio-campo, reconhecido por sua liderança e capacidade física.' },
-      { name: 'Mathew Ryan', position: 'Goleiro', club: 'Roma', highlight: 'Experiente goleiro e capitão, continua sendo uma figura central de segurança defensiva.' }
+      { name: 'Mathew Ryan', position: 'Goleiro', club: 'Levante', highlight: 'Experiente goleiro e capitão, continua sendo uma figura central de segurança defensiva.' }
     ],
     historyStats: {
       participations: 7,
