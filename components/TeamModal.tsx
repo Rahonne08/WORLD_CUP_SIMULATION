@@ -85,8 +85,18 @@ export function TeamModal({ team, onClose }: TeamModalProps) {
             <div className="bg-gray-800 p-5 rounded-xl border border-gray-700">
               <h3 className="text-lg font-bold text-purple-400 mb-4 flex items-center gap-2">🧑‍🏫 Técnico</h3>
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-purple-500/10 flex items-center justify-center text-2xl">
-                  👔
+                <div className="w-16 h-16 rounded-full bg-purple-500/10 flex items-center justify-center text-2xl overflow-hidden border border-purple-500/20 relative">
+                  {details.coach.image ? (
+                    <Image
+                      src={details.coach.image}
+                      alt={details.coach.name}
+                      fill
+                      className="object-cover"
+                      referrerPolicy="no-referrer"
+                    />
+                  ) : (
+                    "👔"
+                  )}
                 </div>
                 <div>
                   <p className="text-white font-bold text-lg">{details.coach.name}</p>

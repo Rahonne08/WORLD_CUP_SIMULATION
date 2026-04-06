@@ -17,6 +17,7 @@ export interface Coach {
   age: number;
   tenure: string;
   description: string;
+  image?: string;
 }
 
 export interface WorldCupHistory {
@@ -1592,7 +1593,8 @@ A meta é clara: superar a "maldição das oitavas" e buscar uma semifinal inéd
       nationality: 'Mexicano',
       age: 67,
       tenure: '2 anos',
-      description: 'Experiente treinador, conhecido por sua garra e conhecimento tático, busca levar o México ao topo em casa.'
+      description: 'Experiente treinador, conhecido por sua garra e conhecimento tático, busca levar o México ao topo em casa.',
+      image: 'https://img.sofascore.com/api/v1/manager/784504/image'
     },
     players: [
       { name: 'Julián Quiñones', position: 'Atacante', club: 'Al-Qadsiah', highlight: 'Destaque ofensivo' },

@@ -23,6 +23,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'img.sofascore.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
   output: 'standalone',
