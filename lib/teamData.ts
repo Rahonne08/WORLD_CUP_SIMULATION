@@ -242,7 +242,7 @@ Cabo Verde chega como grande surpresa do torneio. Com organização tática e es
     players: [
       { name: 'Ryan Mendes', position: 'Atacante', club: 'Iğdır FK', highlight: 'Capitão e maior artilheiro da história da seleção, líder técnico em campo.' },
       { name: 'Logan Costa', position: 'Zagueiro', club: 'Villarreal', highlight: 'Jovem pilar defensivo que atua em alto nível no futebol francês.' },
-      { name: 'Garry Rodrigues', position: 'Atacante', club: 'Ankaragücü', highlight: 'Experiência e velocidade pelas pontas, fundamental no esquema ofensivo.' }
+      { name: 'Garry Rodrigues', position: 'Atacante', club: 'Apollon Limassol', highlight: 'Experiência e velocidade pelas pontas, fundamental no esquema ofensivo.' }
     ],
     historyStats: {
       participations: 1,
