@@ -3250,7 +3250,7 @@ A campanha rumo a 2026 foi avassaladora! Curaçau não deu chances aos rivais:
     players: [
       { name: 'Leandro Bacuna', position: 'Meio-campista', club: 'Iğdır FK', highlight: 'Capitão da equipe, fundamental na organização e liderança do elenco.' },
       { name: 'Rangelo Janga', position: 'Atacante', club: 'FC Eindhoven', highlight: 'Artilheiro que se destacou na campanha de classificação.' },
-      { name: 'Eloy Room', position: 'Goleiro', club: 'Vitesse', highlight: 'Goleiro experiente que trouxe segurança à defesa de Curaçau.' }
+      { name: 'Eloy Room', position: 'Goleiro', club: 'Miami FC', highlight: 'Goleiro experiente que trouxe segurança à defesa de Curaçau.' }
     ],
     historyStats: {
       participations: 1,
