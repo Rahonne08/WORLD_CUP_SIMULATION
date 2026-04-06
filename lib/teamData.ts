@@ -1070,7 +1070,7 @@ Senegal chega forte para brigar por vaga no mata-mata e repetir 2002.`,
     players: [
       { name: 'Sadio Mané', position: 'Atacante', club: 'Al-Nassr', highlight: 'O maior ídolo da história do país, líder técnico e espiritual da equipe.' },
       { name: 'Kalidou Koulibaly', position: 'Zagueiro', club: 'Al-Hilal', highlight: 'Capitão e pilar defensivo, traz segurança e liderança para a zaga.' },
-      { name: 'Nicolas Jackson', position: 'Atacante', club: 'Chelsea', highlight: 'Jovem atacante em ascensão na Premier League, trazendo vigor físico ao ataque.' }
+      { name: 'Nicolas Jackson', position: 'Atacante', club: 'Bayern München', highlight: 'Jovem atacante em ascensão na Premier League, trazendo vigor físico ao ataque.' }
     ],
     historyStats: {
       participations: 4,
