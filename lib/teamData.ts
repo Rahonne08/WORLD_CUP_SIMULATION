@@ -2922,7 +2922,7 @@ Destaques:
       description: 'Assumiu em 2024 em momento delicado, recuperou a equipe nas eliminatórias e é conhecido por seu estilo tático organizado e competitivo.'
     },
     players: [
-      { name: 'Miguel Almirón', position: 'Atacante', club: 'Newcastle', highlight: 'Principal nome ofensivo e criativo.' },
+      { name: 'Miguel Almirón', position: 'Atacante', club: 'Atlanta United', highlight: 'Principal nome ofensivo e criativo.' },
       { name: 'Julio Enciso', position: 'Atacante', club: 'Brighton', highlight: 'Jovem promessa com grande capacidade técnica.' },
       { name: 'Gustavo Gómez', position: 'Zagueiro', club: 'Palmeiras', highlight: 'Liderança e segurança na zaga, pilar da defesa.' }
     ],
