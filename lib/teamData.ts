@@ -1597,7 +1597,7 @@ A meta é clara: superar a "maldição das oitavas" e buscar uma semifinal inéd
     players: [
       { name: 'Julián Quiñones', position: 'Atacante', club: 'Al-Qadsiah', highlight: 'Destaque ofensivo' },
       { name: 'Santiago Giménez', position: 'Atacante', club: 'Milan', highlight: 'Artilheiro' },
-      { name: 'Guillermo Ochoa', position: 'Goleiro', club: 'Livre', highlight: 'Líder e experiente' }
+      { name: 'Guillermo Ochoa', position: 'Goleiro', club: 'AEL Limassol', highlight: 'Líder e experiente' }
     ],
     historyStats: {
       participations: 18,
