@@ -4198,7 +4198,7 @@ O Uzbequistão faz sua **estreia histórica** em Copas do Mundo. Após bater na 
     },
     players: [
       { name: 'Eldor Shomurodov', position: 'Atacante', club: 'Başakşehir FK', highlight: 'Capitão e maior referência ofensiva, com vasta experiência no futebol europeu.' },
-      { name: 'Abbosbek Fayzullaev', position: 'Meia', club: 'CSKA Moscow', highlight: 'Jovem talento criativo e habilidoso, a grande promessa do país.' },
+      { name: 'Abbosbek Fayzullaev', position: 'Meia', club: 'Başakşehir FK', highlight: 'Jovem talento criativo e habilidoso, a grande promessa do país.' },
       { name: 'Jaloliddin Masharipov', position: 'Meia', club: 'Esteghlal', highlight: 'Experiência e qualidade técnica na armação das jogadas.' }
     ],
     historyStats: {
