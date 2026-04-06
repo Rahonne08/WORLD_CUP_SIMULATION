@@ -3500,7 +3500,7 @@ A classificação foi garantida com autoridade e emoção! A Holanda terminou as
       { name: 'Xavi Simons', position: 'Meia/Atacante', club: 'Tottenham', highlight: 'Jovem talento extremamente criativo e versátil, peça central na renovação da seleção.' },
       { name: 'Cody Gakpo', position: 'Atacante', club: 'Liverpool', highlight: 'Destaque ofensivo com grande capacidade de finalização e drible.' },
       { name: 'Ryan Gravenberch', position: 'Meio-campista', club: 'Liverpool', highlight: 'Motor do meio-campo com excelente visão de jogo e passe.' },
-      { name: 'Tijjani Reijnders', position: 'Meio-campista', club: 'AC Milan', highlight: 'Meio-campista dinâmico com grande capacidade de condução e chute de fora da área.' }
+      { name: 'Tijjani Reijnders', position: 'Meio-campista', club: 'Manchester City', highlight: 'Meio-campista dinâmico com grande capacidade de condução e chute de fora da área.' }
     ],
     historyStats: {
       participations: 12,
