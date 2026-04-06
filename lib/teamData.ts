@@ -4318,7 +4318,7 @@ A Croácia, pequena em território mas gigante em campo, chega para sua **7ª pa
       description: 'O técnico mais vitorioso da história da Croácia, responsável por levar o país ao topo do futebol mundial.'
     },
     players: [
-      { name: 'Luka Modrić', position: 'Meia', club: 'Real Madrid', highlight: 'Lenda viva e capitão, o cérebro que dita o ritmo de jogo com classe eterna.' },
+      { name: 'Luka Modrić', position: 'Meia', club: 'Milan', highlight: 'Lenda viva e capitão, o cérebro que dita o ritmo de jogo com classe eterna.' },
       { name: 'Joško Gvardiol', position: 'Zagueiro', club: 'Manchester City', highlight: 'Um dos melhores defensores do mundo, pilar da solidez defensiva croata.' },
       { name: 'Mateo Kovačić', position: 'Meia', club: 'Manchester City', highlight: 'Dinamismo e qualidade técnica essenciais para o controle do meio-campo.' }
     ],
