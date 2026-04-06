@@ -3667,7 +3667,7 @@ A jornada para 2026 foi um verdadeiro teste para o coração dos torcedores:
     },
     players: [
       { name: 'Viktor Gyökeres', position: 'Atacante', club: 'Arsenal', highlight: 'Artilheiro e estrela da equipe, foi fundamental na repescagem para garantir a vaga no Mundial.' },
-      { name: 'Alexander Isak', position: 'Atacante', club: 'Newcastle', highlight: 'Atacante veloz e técnico, uma das principais ameaças ofensivas da Suécia.' },
+      { name: 'Alexander Isak', position: 'Atacante', club: 'Liverpool', highlight: 'Atacante veloz e técnico, uma das principais ameaças ofensivas da Suécia.' },
       { name: 'Lucas Bergvall', position: 'Meio-campista', club: 'Tottenham', highlight: 'Jovem talento criativo que traz dinamismo e visão de jogo ao meio-campo.' }
     ],
     historyStats: {
