@@ -3072,7 +3072,7 @@ A partir daí, a equipe reagiu:
       description: 'Ex-zagueiro da seleção com mais de 50 jogos internacionais. Assumiu em 2024 e é conhecido por sua disciplina tática e organização defensiva.'
     },
     players: [
-      { name: 'Nestory Irankunda', position: 'Atacante', club: 'Bayern de Munique', highlight: 'Considerado uma das maiores promessas do futebol australiano, destaca-se por sua velocidade e capacidade de finalização.' },
+      { name: 'Nestory Irankunda', position: 'Atacante', club: 'Watford', highlight: 'Considerado uma das maiores promessas do futebol australiano, destaca-se por sua velocidade e capacidade de finalização.' },
       { name: 'Jackson Irvine', position: 'Meio-campista', club: 'St. Pauli', highlight: 'Um pilar no meio-campo, reconhecido por sua liderança e capacidade física.' },
       { name: 'Mathew Ryan', position: 'Goleiro', club: 'Roma', highlight: 'Experiente goleiro e capitão, continua sendo uma figura central de segurança defensiva.' }
     ],
