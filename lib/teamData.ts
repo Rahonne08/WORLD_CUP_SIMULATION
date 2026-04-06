@@ -2421,8 +2421,8 @@ Os Leões do Atlas querem mais do que repetir 2022: o sonho agora é chegar à f
     players: [
       { name: 'Achraf Hakimi', position: 'Lateral-Direito', club: 'PSG', highlight: 'Principal estrela, capitão e 6º na Bola de Ouro 2025' },
       { name: 'Brahim Díaz', position: 'Meia/Atacante', club: 'Real Madrid', highlight: 'Grande destaque técnico e organizador ofensivo' },
-      { name: 'Yassine Bounou', position: 'Goleiro', club: 'Al-Hilal', highlight: 'Pilar de segurança defensiva e experiente' },
-      { name: 'Youssef En-Nesyri', position: 'Atacante', club: 'Fenerbahçe', highlight: 'Maior artilheiro marroquino em Copas' }
+      { name: 'Yassine Bounou', position: 'Goleiro', club: 'S.S.V. Naturns', highlight: 'Pilar de segurança defensiva e experiente' },
+      { name: 'Youssef En-Nesyri', position: 'Atacante', club: 'Al-Ittihad', highlight: 'Maior artilheiro marroquino em Copas' }
     ],
     historyStats: {
       participations: 7,
