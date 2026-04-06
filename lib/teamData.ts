@@ -240,8 +240,8 @@ Cabo Verde chega como grande surpresa do torneio. Com organização tática e es
       description: 'Ex-capitão da seleção e símbolo de liderança, Bubista construiu uma equipe equilibrada e competitiva, levando o país à sua primeira Copa do Mundo.'
     },
     players: [
-      { name: 'Ryan Mendes', position: 'Atacante', club: 'Karagümrük', highlight: 'Capitão e maior artilheiro da história da seleção, líder técnico em campo.' },
-      { name: 'Logan Costa', position: 'Zagueiro', club: 'Toulouse', highlight: 'Jovem pilar defensivo que atua em alto nível no futebol francês.' },
+      { name: 'Ryan Mendes', position: 'Atacante', club: 'Iğdır FK', highlight: 'Capitão e maior artilheiro da história da seleção, líder técnico em campo.' },
+      { name: 'Logan Costa', position: 'Zagueiro', club: 'Villarreal', highlight: 'Jovem pilar defensivo que atua em alto nível no futebol francês.' },
       { name: 'Garry Rodrigues', position: 'Atacante', club: 'Ankaragücü', highlight: 'Experiência e velocidade pelas pontas, fundamental no esquema ofensivo.' }
     ],
     historyStats: {
