@@ -2923,7 +2923,7 @@ Destaques:
     },
     players: [
       { name: 'Miguel Almirón', position: 'Atacante', club: 'Atlanta United', highlight: 'Principal nome ofensivo e criativo.' },
-      { name: 'Julio Enciso', position: 'Atacante', club: 'Brighton', highlight: 'Jovem promessa com grande capacidade técnica.' },
+      { name: 'Julio Enciso', position: 'Atacante', club: 'RC Strasbourg', highlight: 'Jovem promessa com grande capacidade técnica.' },
       { name: 'Gustavo Gómez', position: 'Zagueiro', club: 'Palmeiras', highlight: 'Liderança e segurança na zaga, pilar da defesa.' }
     ],
     historyStats: {
