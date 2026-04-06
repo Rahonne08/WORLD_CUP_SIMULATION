@@ -3248,7 +3248,7 @@ A campanha rumo a 2026 foi avassaladora! Curaçau não deu chances aos rivais:
       description: 'Treinador holandês experiente, assumiu o comando de Curaçau para a disputa da Copa do Mundo de 2026.'
     },
     players: [
-      { name: 'Leandro Bacuna', position: 'Meio-campista', club: 'FC Groningen', highlight: 'Capitão da equipe, fundamental na organização e liderança do elenco.' },
+      { name: 'Leandro Bacuna', position: 'Meio-campista', club: 'Iğdır FK', highlight: 'Capitão da equipe, fundamental na organização e liderança do elenco.' },
       { name: 'Rangelo Janga', position: 'Atacante', club: 'Nea Salamis', highlight: 'Artilheiro que se destacou na campanha de classificação.' },
       { name: 'Eloy Room', position: 'Goleiro', club: 'Vitesse', highlight: 'Goleiro experiente que trouxe segurança à defesa de Curaçau.' }
     ],
