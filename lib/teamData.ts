@@ -3497,7 +3497,7 @@ A classificação foi garantida com autoridade e emoção! A Holanda terminou as
       description: 'Ídolo como jogador e agora em sua segunda passagem como técnico, Ronald Koeman assumiu o comando em 2023. Com passagens por gigantes como Barcelona e Ajax, o ex-zagueiro artilheiro traz toda sua experiência para guiar a nova geração holandesa rumo à glória!'
     },
     players: [
-      { name: 'Xavi Simons', position: 'Meia/Atacante', club: 'RB Leipzig', highlight: 'Jovem talento extremamente criativo e versátil, peça central na renovação da seleção.' },
+      { name: 'Xavi Simons', position: 'Meia/Atacante', club: 'Tottenham', highlight: 'Jovem talento extremamente criativo e versátil, peça central na renovação da seleção.' },
       { name: 'Cody Gakpo', position: 'Atacante', club: 'Liverpool', highlight: 'Destaque ofensivo com grande capacidade de finalização e drible.' },
       { name: 'Ryan Gravenberch', position: 'Meio-campista', club: 'Liverpool', highlight: 'Motor do meio-campo com excelente visão de jogo e passe.' },
       { name: 'Tijjani Reijnders', position: 'Meio-campista', club: 'AC Milan', highlight: 'Meio-campista dinâmico com grande capacidade de condução e chute de fora da área.' }
