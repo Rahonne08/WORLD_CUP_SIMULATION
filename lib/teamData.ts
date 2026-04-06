@@ -4398,7 +4398,7 @@ O Panamá chega à sua **2ª participação** em Mundiais após uma campanha his
       description: 'Responsável pela modernização do futebol panamenho, implementando um estilo de jogo baseado na posse e organização.'
     },
     players: [
-      { name: 'Adalberto Carrasquilla', position: 'Meia', club: 'Houston Dynamo', highlight: 'O motor do time, visão de jogo e qualidade técnica acima da média.' },
+      { name: 'Adalberto Carrasquilla', position: 'Meia', club: 'Pumas UNAM', highlight: 'O motor do time, visão de jogo e qualidade técnica acima da média.' },
       { name: 'Michael Murillo', position: 'Lateral', club: 'Marseille', highlight: 'Experiência no futebol europeu, traz solidez defensiva e apoio constante ao ataque.' },
       { name: 'José Córdoba', position: 'Zagueiro', club: 'Norwich City', highlight: 'Jovem promessa defensiva que se consolidou como pilar da zaga panamenha.' }
     ],
