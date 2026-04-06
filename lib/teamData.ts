@@ -2779,7 +2779,7 @@ Gols de:
       { name: 'Andrew Robertson', position: 'Lateral-esquerdo', club: 'Liverpool', highlight: 'Líder da equipe e um dos melhores da Europa' },
       { name: 'Scott McTominay', position: 'Meio-campista', club: 'Napoli', highlight: 'Principal goleador e motor do meio-campo' },
       { name: 'John McGinn', position: 'Meio-campista', club: 'Aston Villa', highlight: 'Intensidade e criatividade nas transições' },
-      { name: 'Kieran Tierney', position: 'Zagueiro/Ala', club: 'Arsenal', highlight: 'Versatilidade defensiva' }
+      { name: 'Kieran Tierney', position: 'Zagueiro/Ala', club: 'Celtic', highlight: 'Versatilidade defensiva' }
     ],
     historyStats: {
       participations: 9,
