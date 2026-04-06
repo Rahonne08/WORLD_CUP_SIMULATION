@@ -2140,7 +2140,7 @@ Uma seleção equilibrada, sólida e pronta para surpreender! 💪🇨🇭`,
       description: 'Treinador experiente, focado em manter a organização tática e a competitividade da seleção.'
     },
     players: [
-      { name: 'Granit Xhaka', position: 'Meio-campista', club: 'Bayer Leverkusen', highlight: 'Líder técnico e emocional' },
+      { name: 'Granit Xhaka', position: 'Meio-campista', club: 'Sunderland', highlight: 'Líder técnico e emocional' },
       { name: 'Manuel Akanji', position: 'Zagueiro', club: 'Manchester City', highlight: 'Pilar defensivo' },
       { name: 'Yann Sommer / Gregor Kobel', position: 'Goleiro', club: 'Inter de Milão / Borussia Dortmund', highlight: 'Goleiros de elite' }
     ],
