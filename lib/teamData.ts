@@ -964,7 +964,7 @@ O Iraque chega como azarão, mas com espírito de luta forte para surpreender.`,
     },
     players: [
       { name: 'Aymen Hussein', position: 'Atacante', club: 'Al Karma SC', highlight: 'Artilheiro nato e herói da classificação com gols decisivos.' },
-      { name: 'Ali Al-Hamadi', position: 'Atacante', club: 'Ipswich Town', highlight: 'Jovem talento que traz a experiência do futebol inglês para o ataque iraquiano.' },
+      { name: 'Ali Al-Hamadi', position: 'Atacante', club: 'Luton Town', highlight: 'Jovem talento que traz a experiência do futebol inglês para o ataque iraquiano.' },
       { name: 'Zidane Iqbal', position: 'Meia', club: 'Utrecht', highlight: 'A grande promessa técnica do país, responsável pela criação no meio-campo.' }
     ],
     historyStats: {
