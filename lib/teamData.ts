@@ -4358,7 +4358,7 @@ Os "Black Stars" de Gana retornam ao Mundial com o objetivo de repetir a campanh
       description: 'Treinador que conhece profundamente a seleção e foca no desenvolvimento de jovens talentos e na união do grupo.'
     },
     players: [
-      { name: 'Mohammed Kudus', position: 'Meia', club: 'West Ham', highlight: 'A grande estrela da equipe, criatividade e habilidade que encantam a Premier League.' },
+      { name: 'Mohammed Kudus', position: 'Meia', club: 'Tottenham', highlight: 'A grande estrela da equipe, criatividade e habilidade que encantam a Premier League.' },
       { name: 'Inaki Williams', position: 'Atacante', club: 'Athletic Bilbao', highlight: 'Velocidade e potência física, principal arma de contra-ataque dos Black Stars.' },
       { name: 'Thomas Partey', position: 'Meia', club: 'Arsenal', highlight: 'Experiência e equilíbrio no meio-campo, fundamental para a transição defensiva.' }
     ],
