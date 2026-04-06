@@ -3832,7 +3832,7 @@ A classificação foi selada com autoridade nas eliminatórias europeias:
       description: 'Rudi Garcia assumiu o leme em janeiro de 2025 com uma missão clara: trazer estabilidade e reerguer a moral da equipe. Com passagens por grandes clubes europeus, o técnico francês busca extrair o melhor do talento belga.'
     },
     players: [
-      { name: 'Kevin De Bruyne', position: 'Meia', club: 'Manchester City', highlight: 'Continua sendo o maestro da equipe e líder em campo, definindo o ritmo ofensivo.' },
+      { name: 'Kevin De Bruyne', position: 'Meia', club: 'Napoli', highlight: 'Continua sendo o maestro da equipe e líder em campo, definindo o ritmo ofensivo.' },
       { name: 'Romelu Lukaku', position: 'Atacante', club: 'Napoli', highlight: 'Maior artilheiro da história da seleção, segue como referência no ataque.' },
       { name: 'Youri Tielemans', position: 'Meia', club: 'Aston Villa', highlight: 'Assumiu um papel de liderança, sendo apontado como um dos capitães na caminhada para o Mundial.' }
     ],
