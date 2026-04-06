@@ -4197,7 +4197,7 @@ O Uzbequistão faz sua **estreia histórica** em Copas do Mundo. Após bater na 
       description: 'Experiente treinador que deu a estabilidade defensiva e a confiança necessária para o Uzbequistão chegar ao Mundial.'
     },
     players: [
-      { name: 'Eldor Shomurodov', position: 'Atacante', club: 'Roma', highlight: 'Capitão e maior referência ofensiva, com vasta experiência no futebol europeu.' },
+      { name: 'Eldor Shomurodov', position: 'Atacante', club: 'Başakşehir FK', highlight: 'Capitão e maior referência ofensiva, com vasta experiência no futebol europeu.' },
       { name: 'Abbosbek Fayzullaev', position: 'Meia', club: 'CSKA Moscow', highlight: 'Jovem talento criativo e habilidoso, a grande promessa do país.' },
       { name: 'Jaloliddin Masharipov', position: 'Meia', club: 'Esteghlal', highlight: 'Experiência e qualidade técnica na armação das jogadas.' }
     ],
