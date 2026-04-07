@@ -3854,7 +3854,8 @@ A classificação foi selada com autoridade nas eliminatórias europeias:
       nationality: 'Francês',
       age: 62,
       tenure: '01 ano',
-      description: 'Rudi Garcia assumiu o leme em janeiro de 2025 com uma missão clara: trazer estabilidade e reerguer a moral da equipe. Com passagens por grandes clubes europeus, o técnico francês busca extrair o melhor do talento belga.'
+      description: 'Rudi Garcia assumiu o leme em janeiro de 2025 com uma missão clara: trazer estabilidade e reerguer a moral da equipe. Com passagens por grandes clubes europeus, o técnico francês busca extrair o melhor do talento belga.',
+      image: 'https://img.sofascore.com/api/v1/manager/53059/image'
     },
     players: [
       { name: 'Kevin De Bruyne', position: 'Meia', club: 'Napoli', highlight: 'Continua sendo o maestro da equipe e líder em campo, definindo o ritmo ofensivo.' },
@@ -3936,7 +3937,8 @@ O Egito assegurou sua vaga ao terminar na liderança do Grupo A das eliminatóri
       nationality: 'Egípcio',
       age: 59,
       tenure: '02 anos',
-      description: 'Após uma carreira brilhante como jogador, Hossam Hassan consolidou seu nome não apenas como um dos maiores artilheiros da história do futebol egípcio, mas também como um dos principais treinadores do país.'
+      description: 'Após uma carreira brilhante como jogador, Hossam Hassan consolidou seu nome não apenas como um dos maiores artilheiros da história do futebol egípcio, mas também como um dos principais treinadores do país.',
+      image: 'https://img.sofascore.com/api/v1/manager/790139/image'
     },
     players: [
       { name: 'Mohamed Salah', position: 'Atacante', club: 'Liverpool', highlight: 'A maior estrela e esperança da equipe, fundamental na classificação para a Copa do Mundo de 2026, marcando gols decisivos nas eliminatórias.' },
@@ -4019,7 +4021,8 @@ A campanha foi marcada pelo domínio técnico e tático:
       nationality: 'Iraniano',
       age: 62,
       tenure: '03 anos',
-      description: 'Em sua segunda passagem pelo comando, o experiente Ghalenoei é um dos treinadores mais conceituados de seu país. Conhecido como "General" nos tempos de jogador.'
+      description: 'Em sua segunda passagem pelo comando, o experiente Ghalenoei é um dos treinadores mais conceituados de seu país. Conhecido como "General" nos tempos de jogador.',
+      image: 'https://img.sofascore.com/api/v1/manager/785362/image'
     },
     players: [
       { name: 'Sardar Azmoun', position: 'Atacante', club: 'Shabab Al-Ahli Club', highlight: 'Um dos principais artilheiros da história da seleção, referência no ataque.' },
@@ -4101,7 +4104,8 @@ Pela primeira vez, a OFC contou com uma vaga direta para a Copa do Mundo, e a No
       nationality: 'Inglês',
       age: 53,
       tenure: '03 anos',
-      description: 'Darren Bazeley, ex-jogador com longa trajetória no futebol inglês e neozelandês, assumiu o desafio de liderar esta geração. Com um conhecimento profundo do futebol local, ele moldou uma equipe competitiva.'
+      description: 'Darren Bazeley, ex-jogador com longa trajetória no futebol inglês e neozelandês, assumiu o desafio de liderar esta geração. Com um conhecimento profundo do futebol local, ele moldou uma equipe competitiva.',
+      image: 'https://img.sofascore.com/api/v1/manager/784912/image'
     },
     players: [
       { name: 'Mario Ilich', position: 'Meio-campista', club: 'Auckland City', highlight: 'Destaque no meio-campo.' },
