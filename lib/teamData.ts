@@ -1337,7 +1337,8 @@ A Alemanha busca apagar as últimas decepções e voltar ao topo do mundo com um
       nationality: 'Alemão',
       age: 38,
       tenure: '02 anos',
-      description: 'Um dos técnicos mais promissores do mundo, Nagelsmann trouxe modernidade e intensidade para a Nationalmannschaft.'
+      description: 'Um dos técnicos mais promissores do mundo, Nagelsmann trouxe modernidade e intensidade para a Nationalmannschaft.',
+      image: 'https://img.sofascore.com/api/v1/manager/786670/image'
     },
     players: [
       { name: 'Jamal Musiala', position: 'Meia', club: 'Bayern de Munique', highlight: 'Talento puro e drible' },
@@ -3262,7 +3263,8 @@ A campanha rumo a 2026 foi avassaladora! Curaçau não deu chances aos rivais:
       nationality: 'Holandês',
       age: 63,
       tenure: '04 meses',
-      description: 'Treinador holandês experiente, assumiu o comando de Curaçau para a disputa da Copa do Mundo de 2026.'
+      description: 'Treinador holandês experiente, assumiu o comando de Curaçau para a disputa da Copa do Mundo de 2026.',
+      image: 'https://img.sofascore.com/api/v1/manager/53437/image'
     },
     players: [
       { name: 'Leandro Bacuna', position: 'Meio-campista', club: 'Iğdır FK', highlight: 'Capitão da equipe, fundamental na organização e liderança do elenco.' },
@@ -3344,7 +3346,8 @@ A classificação veio com autoridade total! A Costa do Marfim garantiu sua vaga
       nationality: 'Costa-marfinense',
       age: 42,
       tenure: '02 anos',
-      description: 'Emerse Faé assumiu o leme em janeiro de 2024 em um momento crítico e transformou a seleção, levando-a ao título continental e à classificação para o Mundial de 2026.'
+      description: 'Emerse Faé assumiu o leme em janeiro de 2024 em um momento crítico e transformou a seleção, levando-a ao título continental e à classificação para o Mundial de 2026.',
+      image: 'https://img.sofascore.com/api/v1/manager/803796/image'
     },
     players: [
       { name: 'Franck Kessié', position: 'Meio-campista', club: 'Al-Ahli', highlight: 'Pilar do meio-campo, fundamental na transição e liderança da equipe.' },
@@ -3428,7 +3431,8 @@ O segredo do sucesso equatoriano rumo a 2026 foi o "ferrolho" lá atrás:
       nationality: 'Argentino',
       age: 45,
       tenure: '02 anos',
-      description: 'O técnico argentino assumiu o desafio após a Copa América e devolveu a personalidade ao time, tornando o Equador uma equipe extremamente resiliente e competitiva.'
+      description: 'O técnico argentino assumiu o desafio após a Copa América e devolveu a personalidade ao time, tornando o Equador uma equipe extremamente resiliente e competitiva.',
+      image: 'https://img.sofascore.com/api/v1/manager/786550/image'
     },
     players: [
       { name: 'Moisés Caicedo', position: 'Volante', club: 'Chelsea', highlight: 'Pilar do meio-campo e um dos jogadores mais valiosos, com valor de mercado estimado em € 110 milhões.' },
