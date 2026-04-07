@@ -222,7 +222,13 @@ function MatchCard({ match, teams, selectWinner, simulateFromMatch }: any) {
             </button>
           )}
           {match.winnerId && (
-            <span className="text-[10px] font-bold text-green-500 bg-green-500/10 px-1.5 py-0.5 rounded uppercase tracking-tighter">Finalizado</span>
+            <motion.span 
+              initial={{ opacity: 0, x: 10 }}
+              animate={{ opacity: 1, x: 0 }}
+              className="text-[10px] font-bold text-green-500 bg-green-500/10 px-1.5 py-0.5 rounded uppercase tracking-tighter"
+            >
+              Finalizado
+            </motion.span>
           )}
         </div>
       </div>
@@ -246,9 +252,15 @@ function MatchCard({ match, teams, selectWinner, simulateFromMatch }: any) {
           )}
         </div>
         {match.homeScore !== null && (
-          <span className={`text-sm font-black ${match.winnerId === match.homeTeamId ? 'text-green-400' : 'text-gray-400'}`}>
+          <motion.span 
+            key={`${match.id}-home-${match.homeScore}`}
+            initial={{ scale: 1.5, color: '#4ade80' }}
+            animate={{ scale: 1, color: match.winnerId === match.homeTeamId ? '#4ade80' : '#9ca3af' }}
+            transition={{ type: 'spring', stiffness: 300, damping: 15 }}
+            className="text-sm font-black"
+          >
             {match.homeScore}
-          </span>
+          </motion.span>
         )}
       </button>
 
@@ -271,19 +283,29 @@ function MatchCard({ match, teams, selectWinner, simulateFromMatch }: any) {
           )}
         </div>
         {match.awayScore !== null && (
-          <span className={`text-sm font-black ${match.winnerId === match.awayTeamId ? 'text-green-400' : 'text-gray-400'}`}>
+          <motion.span 
+            key={`${match.id}-away-${match.awayScore}`}
+            initial={{ scale: 1.5, color: '#4ade80' }}
+            animate={{ scale: 1, color: match.winnerId === match.awayTeamId ? '#4ade80' : '#9ca3af' }}
+            transition={{ type: 'spring', stiffness: 300, damping: 15 }}
+            className="text-sm font-black"
+          >
             {match.awayScore}
-          </span>
+          </motion.span>
         )}
       </button>
 
       {match.winnerId && (
-        <div className="mt-1 pt-2 border-t border-gray-800/50 flex justify-center items-center gap-2">
+        <motion.div 
+          initial={{ opacity: 0, y: 5 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="mt-1 pt-2 border-t border-gray-800/50 flex justify-center items-center gap-2"
+        >
           <span className="text-[10px] text-gray-500 uppercase tracking-tighter">Placar Final:</span>
           <span className="text-xs font-black text-white bg-gray-800 px-2 py-0.5 rounded-md">
             {match.homeScore} — {match.awayScore}
           </span>
-        </div>
+        </motion.div>
       )}
     </div>
   );
