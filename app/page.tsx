@@ -6,14 +6,30 @@ import { useEffect, useState } from 'react';
 import { useAppStore } from '@/lib/store';
 
 export default function Home() {
-  const [daysLeft, setDaysLeft] = useState(0);
+  const [timeLeft, setTimeLeft] = useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0
+  });
 
   useEffect(() => {
-    const targetDate = new Date('2026-06-11T00:00:00Z'); // Data estimada de início
+    const targetDate = new Date('2026-06-11T16:00:00');
     const interval = setInterval(() => {
       const now = new Date();
       const difference = targetDate.getTime() - now.getTime();
-      setDaysLeft(Math.ceil(difference / (1000 * 3600 * 24)));
+      
+      if (difference > 0) {
+        setTimeLeft({
+          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+          minutes: Math.floor((difference / 1000 / 60) % 60),
+          seconds: Math.floor((difference / 1000) % 60)
+        });
+      } else {
+        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+        clearInterval(interval);
+      }
     }, 1000);
     return () => clearInterval(interval);
   }, []);
@@ -34,12 +50,37 @@ export default function Home() {
             Acompanhe, simule e viva a emoção do maior torneio de futebol do mundo.
           </p>
           
-          <div className="flex flex-col items-center gap-2 mt-4 bg-black/30 backdrop-blur-md rounded-2xl p-6 border border-white/10">
-            <span className="text-sm uppercase tracking-widest text-green-300 font-semibold">Faltam</span>
-            <div className="text-5xl md:text-7xl font-black text-white tabular-nums tracking-tighter">
-              {daysLeft > 0 ? daysLeft : 0}
+          <div className="flex flex-col items-center gap-4 mt-4 bg-black/30 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-white/10">
+            <span className="text-sm uppercase tracking-widest text-green-300 font-semibold">A Copa começa em</span>
+            <div className="flex gap-4 md:gap-8">
+              <div className="flex flex-col items-center">
+                <div className="text-3xl md:text-5xl font-black text-white tabular-nums tracking-tighter">
+                  {timeLeft.days}
+                </div>
+                <span className="text-[10px] uppercase tracking-widest text-green-400/70 font-bold">Dias</span>
+              </div>
+              <div className="text-3xl md:text-5xl font-light text-white/20">:</div>
+              <div className="flex flex-col items-center">
+                <div className="text-3xl md:text-5xl font-black text-white tabular-nums tracking-tighter">
+                  {String(timeLeft.hours).padStart(2, '0')}
+                </div>
+                <span className="text-[10px] uppercase tracking-widest text-green-400/70 font-bold">Horas</span>
+              </div>
+              <div className="text-3xl md:text-5xl font-light text-white/20">:</div>
+              <div className="flex flex-col items-center">
+                <div className="text-3xl md:text-5xl font-black text-white tabular-nums tracking-tighter">
+                  {String(timeLeft.minutes).padStart(2, '0')}
+                </div>
+                <span className="text-[10px] uppercase tracking-widest text-green-400/70 font-bold">Min</span>
+              </div>
+              <div className="text-3xl md:text-5xl font-light text-white/20">:</div>
+              <div className="flex flex-col items-center">
+                <div className="text-3xl md:text-5xl font-black text-green-400 tabular-nums tracking-tighter">
+                  {String(timeLeft.seconds).padStart(2, '0')}
+                </div>
+                <span className="text-[10px] uppercase tracking-widest text-green-400/70 font-bold">Seg</span>
+              </div>
             </div>
-            <span className="text-sm uppercase tracking-widest text-green-300 font-semibold">Dias</span>
           </div>
 
           <div className="flex flex-wrap justify-center gap-4 mt-8">
