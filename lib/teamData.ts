@@ -4319,7 +4319,8 @@ A Inglaterra chega ao Mundial de 2026 com a missão de finalmente "trazer o fute
       nationality: 'Alemão',
       age: 52,
       tenure: '01 ano',
-      description: 'Estrategista de elite mundial, Tuchel assumiu a Inglaterra com o objetivo claro de conquistar o bicampeonato mundial.'
+      description: 'Estrategista de elite mundial, Tuchel assumiu a Inglaterra com o objetivo claro de conquistar o bicampeonato mundial.',
+      image: 'https://img.sofascore.com/api/v1/manager/785186/image'
     },
     players: [
       { name: 'Harry Kane', position: 'Atacante', club: 'Bayern Munich', highlight: 'Capitão e maior artilheiro da história da seleção, referência absoluta no ataque.' },
@@ -4360,7 +4361,8 @@ A Croácia, pequena em território mas gigante em campo, chega para sua **7ª pa
       nationality: 'Croata',
       age: 59,
       tenure: '09 anos',
-      description: 'O técnico mais vitorioso da história da Croácia, responsável por levar o país ao topo do futebol mundial.'
+      description: 'O técnico mais vitorioso da história da Croácia, responsável por levar o país ao topo do futebol mundial.',
+      image: 'https://img.sofascore.com/api/v1/manager/784902/image'
     },
     players: [
       { name: 'Luka Modrić', position: 'Meia', club: 'Milan', highlight: 'Lenda viva e capitão, o cérebro que dita o ritmo de jogo com classe eterna.' },
@@ -4400,7 +4402,8 @@ Os "Black Stars" de Gana retornam ao Mundial com o objetivo de repetir a campanh
       nationality: 'Ganesa',
       age: 50,
       tenure: '02 anos',
-      description: 'Treinador que conhece profundamente a seleção e foca no desenvolvimento de jovens talentos e na união do grupo.'
+      description: 'Treinador que conhece profundamente a seleção e foca no desenvolvimento de jovens talentos e na união do grupo.',
+      image: 'https://img.sofascore.com/api/v1/manager/797395/image'
     },
     players: [
       { name: 'Mohammed Kudus', position: 'Meia', club: 'Tottenham', highlight: 'A grande estrela da equipe, criatividade e habilidade que encantam a Premier League.' },
@@ -4440,7 +4443,8 @@ O Panamá chega à sua **2ª participação** em Mundiais após uma campanha his
       nationality: 'Espanhol-Dinamarquês',
       age: 53,
       tenure: '06 anos',
-      description: 'Responsável pela modernização do futebol panamenho, implementando um estilo de jogo baseado na posse e organização.'
+      description: 'Responsável pela modernização do futebol panamenho, implementando um estilo de jogo baseado na posse e organização.',
+      image: 'https://img.sofascore.com/api/v1/manager/396/image'
     },
     players: [
       { name: 'Adalberto Carrasquilla', position: 'Meia', club: 'Pumas UNAM', highlight: 'O motor do time, visão de jogo e qualidade técnica acima da média.' },
