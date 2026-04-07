@@ -201,6 +201,7 @@ interface AppState {
   generateKnockoutStage: () => void;
   resetSimulation: () => void;
   randomizeGroupMatches: () => void;
+  simulateFromMatch: (matchId: string) => void;
   getGroupStats: (group: string) => TeamStats[];
 }
 
@@ -305,6 +306,29 @@ export const useAppStore = create<AppState>((set, get) => ({
     }));
     return { matches: newMatches };
   }),
+  simulateFromMatch: (matchId) => {
+    const state = get();
+    const { knockoutMatches, selectKnockoutWinner } = state;
+    
+    const simulateRecursive = (id: string) => {
+      const match = knockoutMatches.find(m => m.id === id);
+      if (!match || !match.homeTeamId || !match.awayTeamId) return;
+
+      // Simulate current match if not already has a winner
+      const winnerId = Math.random() > 0.5 ? match.homeTeamId : match.awayTeamId;
+      selectKnockoutWinner(id, winnerId);
+
+      // Get updated state after selection
+      const updatedState = get();
+      const updatedMatch = updatedState.knockoutMatches.find(m => m.id === id);
+      
+      if (updatedMatch?.nextMatchId) {
+        simulateRecursive(updatedMatch.nextMatchId);
+      }
+    };
+
+    simulateRecursive(matchId);
+  },
   getGroupStats: (group: string) => {
     const { teams, matches } = get();
     const groupTeams = teams.filter(t => t.group === group);

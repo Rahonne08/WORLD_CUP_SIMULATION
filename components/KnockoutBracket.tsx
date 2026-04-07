@@ -4,6 +4,7 @@ import { useAppStore } from '@/lib/store';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'motion/react';
 import { useMemo } from 'react';
+import { Dices } from 'lucide-react';
 
 const generateConfetti = () => [...Array(20)].map(() => ({
   x: (Math.random() - 0.5) * 400,
@@ -11,7 +12,7 @@ const generateConfetti = () => [...Array(20)].map(() => ({
 }));
 
 export function KnockoutBracket() {
-  const { knockoutMatches, teams, selectKnockoutWinner, championId } = useAppStore();
+  const { knockoutMatches, teams, selectKnockoutWinner, simulateFromMatch, championId } = useAppStore();
 
   const rounds = [
     { id: 'R32', name: '16-avos de Final' },
@@ -93,7 +94,12 @@ export function KnockoutBracket() {
               <div className="flex flex-col flex-1">
                 {roundMatches.map((match, index) => (
                   <div key={match.id} className="relative px-6 py-2 flex-1 flex flex-col justify-center min-h-[110px]">
-                    <MatchCard match={match} teams={teams} selectWinner={selectKnockoutWinner} />
+                    <MatchCard 
+                      match={match} 
+                      teams={teams} 
+                      selectWinner={selectKnockoutWinner} 
+                      simulateFromMatch={simulateFromMatch}
+                    />
                     
                     {/* Lines to the right (next round) */}
                     {roundIndex < rounds.length - 1 && (
@@ -121,7 +127,7 @@ export function KnockoutBracket() {
   );
 }
 
-function MatchCard({ match, teams, selectWinner }: any) {
+function MatchCard({ match, teams, selectWinner, simulateFromMatch }: any) {
   const homeTeam = teams.find((t: any) => t.id === match.homeTeamId);
   const awayTeam = teams.find((t: any) => t.id === match.awayTeamId);
 
@@ -129,9 +135,21 @@ function MatchCard({ match, teams, selectWinner }: any) {
     <div className="bg-gray-900/90 border border-gray-700 rounded-xl p-3 flex flex-col gap-2 shadow-lg hover:border-gray-500 transition-colors relative z-10">
       <div className="flex justify-between items-center mb-1">
         <span className="text-[10px] text-gray-500 font-mono uppercase tracking-widest">{match.id}</span>
-        {match.winnerId && (
-          <span className="text-[10px] font-bold text-green-500 bg-green-500/10 px-1.5 py-0.5 rounded uppercase">Finalizado</span>
-        )}
+        <div className="flex items-center gap-2">
+          {match.homeTeamId && match.awayTeamId && (
+            <button
+              onClick={() => simulateFromMatch(match.id)}
+              className="text-[10px] flex items-center gap-1 font-bold text-blue-400 hover:text-blue-300 transition-colors"
+              title="Simular a partir daqui"
+            >
+              <Dices className="h-3 w-3" />
+              Simular
+            </button>
+          )}
+          {match.winnerId && (
+            <span className="text-[10px] font-bold text-green-500 bg-green-500/10 px-1.5 py-0.5 rounded uppercase">Finalizado</span>
+          )}
+        </div>
       </div>
       
       {/* Home Team */}
