@@ -3515,7 +3515,8 @@ A classificação foi garantida com autoridade e emoção! A Holanda terminou as
       nationality: 'Holandês',
       age: 63,
       tenure: '04 anos',
-      description: 'Ídolo como jogador e agora em sua segunda passagem como técnico, Ronald Koeman assumiu o comando em 2023. Com passagens por gigantes como Barcelona e Ajax, o ex-zagueiro artilheiro traz toda sua experiência para guiar a nova geração holandesa rumo à glória!'
+      description: 'Ídolo como jogador e agora em sua segunda passagem como técnico, Ronald Koeman assumiu o comando em 2023. Com passagens por gigantes como Barcelona e Ajax, o ex-zagueiro artilheiro traz toda sua experiência para guiar a nova geração holandesa rumo à glória!',
+      image: 'https://img.sofascore.com/api/v1/manager/52985/image'
     },
     players: [
       { name: 'Xavi Simons', position: 'Meia/Atacante', club: 'Tottenham', highlight: 'Jovem talento extremamente criativo e versátil, peça central na renovação da seleção.' },
@@ -3598,7 +3599,8 @@ A campanha nas eliminatórias asiáticas foi digna de um filme de ação:
       nationality: 'Japonês',
       age: 57,
       tenure: '08 anos',
-      description: 'Moriyasu fez história ao se tornar o primeiro técnico do Japão a ter o contrato renovado após um Mundial. Reconhecido por sua inteligência tática e gestão de elenco.'
+      description: 'Moriyasu fez história ao se tornar o primeiro técnico do Japão a ter o contrato renovado após um Mundial. Reconhecido por sua inteligência tática e gestão de elenco.',
+      image: 'https://img.sofascore.com/api/v1/manager/156178/image'
     },
     players: [
       { name: 'Ayase Ueda', position: 'Atacante', club: 'Feyenoord', highlight: 'Artilheiro nas eliminatórias, peça fundamental no ataque japonês.' },
@@ -3684,7 +3686,8 @@ A jornada para 2026 foi um verdadeiro teste para o coração dos torcedores:
       nationality: 'Inglês',
       age: 50,
       tenure: '08 meses',
-      description: 'O arquiteto da reconstrução é o inglês Graham Potter! Contratado em outubro de 2025, ele organizou a casa em tempo recorde, trazendo um futebol coletivo e dinâmico para a seleção sueca.'
+      description: 'O arquiteto da reconstrução é o inglês Graham Potter! Contratado em outubro de 2025, ele organizou a casa em tempo recorde, trazendo um futebol coletivo e dinâmico para a seleção sueca.',
+      image: 'https://img.sofascore.com/api/v1/manager/309534/image'
     },
     players: [
       { name: 'Viktor Gyökeres', position: 'Atacante', club: 'Arsenal', highlight: 'Artilheiro e estrela da equipe, foi fundamental na repescagem para garantir a vaga no Mundial.' },
@@ -3767,7 +3770,8 @@ A campanha nas eliminatórias africanas foi simplesmente impecável:
       nationality: 'Francês',
       age: 54,
       tenure: '06 meses',
-      description: 'Sabri Lamouchi assumiu o comando da Tunísia pouco antes do Mundial, trazendo sua experiência internacional para tentar levar as Águias do Cartago além da fase de grupos pela primeira vez.'
+      description: 'Sabri Lamouchi assumiu o comando da Tunísia pouco antes do Mundial, trazendo sua experiência internacional para tentar levar as Águias do Cartago além da fase de grupos pela primeira vez.',
+      image: 'https://img.sofascore.com/api/v1/manager/9062/image'
     },
     players: [
       { name: 'Hannibal Mejbri', position: 'Meio-campista', club: 'Burnley', highlight: 'Considerado um dos principais talentos e camisa 10 da equipe, Mejbri é o pilar criativo da Tunísia no meio-campo.' },
