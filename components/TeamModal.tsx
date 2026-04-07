@@ -172,9 +172,21 @@ export function TeamModal({ team, onClose }: TeamModalProps) {
                         className="w-full max-w-lg bg-gray-900/50 border border-gray-700 p-6 rounded-2xl shadow-xl"
                       >
                         <div className="flex items-center gap-4 mb-6">
-                          <div className="w-14 h-14 rounded-full bg-yellow-500/10 flex items-center justify-center text-yellow-500 font-bold text-2xl border border-yellow-500/20">
-                            {activePlayerIdx === 0 ? '🥇' : activePlayerIdx === 1 ? '🥈' : '🥉'}
-                          </div>
+                          {currentPlayer?.image ? (
+                            <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-yellow-500/30 shrink-0">
+                              <Image 
+                                src={currentPlayer.image} 
+                                alt={currentPlayer.name} 
+                                fill 
+                                className="object-cover"
+                                referrerPolicy="no-referrer"
+                              />
+                            </div>
+                          ) : (
+                            <div className="w-14 h-14 rounded-full bg-yellow-500/10 flex items-center justify-center text-yellow-500 font-bold text-2xl border border-yellow-500/20 shrink-0">
+                              {activePlayerIdx === 0 ? '🥇' : activePlayerIdx === 1 ? '🥈' : '🥉'}
+                            </div>
+                          )}
                           <div>
                             <p className="font-black text-white text-xl tracking-tight">{currentPlayer?.name}</p>
                             <p className="text-xs text-gray-500 uppercase tracking-widest font-mono font-bold">{currentPlayer?.position}</p>

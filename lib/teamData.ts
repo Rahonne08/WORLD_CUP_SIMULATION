@@ -9,6 +9,7 @@ export interface Player {
   position: string;
   club: string;
   highlight: string;
+  image?: string;
 }
 
 export interface Coach {
@@ -1613,9 +1614,9 @@ A meta é clara: superar a "maldição das oitavas" e buscar uma semifinal inéd
       image: 'https://img.sofascore.com/api/v1/manager/784504/image'
     },
     players: [
-      { name: 'Julián Quiñones', position: 'Atacante', club: 'Al-Qadsiah', highlight: 'Destaque ofensivo' },
-      { name: 'Santiago Giménez', position: 'Atacante', club: 'Milan', highlight: 'Artilheiro' },
-      { name: 'Guillermo Ochoa', position: 'Goleiro', club: 'AEL Limassol', highlight: 'Líder e experiente' }
+      { name: 'Julián Quiñones', position: 'Atacante', club: 'Al-Qadsiah', highlight: 'Destaque ofensivo', image: 'https://img.sofascore.com/api/v1/player/843114/image' },
+      { name: 'Santiago Giménez', position: 'Atacante', club: 'Milan', highlight: 'Artilheiro', image: 'https://img.sofascore.com/api/v1/player/892141/image' },
+      { name: 'Guillermo Ochoa', position: 'Goleiro', club: 'AEL Limassol', highlight: 'Líder e experiente', image: 'https://img.sofascore.com/api/v1/player/15497/image' }
     ],
     historyStats: {
       participations: 18,
