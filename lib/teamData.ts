@@ -144,7 +144,8 @@ A classificação foi emocionante até o último minuto! 😮🔥🔥
       nationality: 'Belga',
       age: 73,
       tenure: '5 anos',
-      description: 'Experiente treinador belga, com passagens por diversas seleções e clubes, focado em organização e disciplina tática.'
+      description: 'Experiente treinador belga, com passagens por diversas seleções e clubes, focado em organização e disciplina tática.',
+      image: 'https://img.sofascore.com/api/v1/manager/786568/image'
     },
     players: [
       { name: 'Ronwen Williams', position: 'Goleiro', club: 'Mamelodi Sundowns', highlight: 'Destaque da Copa Africana 2024' },
@@ -1700,7 +1701,8 @@ Diferente de outras seleções, o Canadá garantiu vaga automaticamente por ser 
       nationality: 'Norte-americano',
       age: 52,
       tenure: '2 anos',
-      description: 'Treinador com experiência internacional, focado em implementar um estilo de jogo intenso e agressivo.'
+      description: 'Treinador com experiência internacional, focado em implementar um estilo de jogo intenso e agressivo.',
+      image: 'https://img.sofascore.com/api/v1/manager/784568/image'
     },
     players: [
       { name: 'Alphonso Davies', position: 'Lateral', club: 'Bayern de Munique', highlight: 'Destaque mundial' },
@@ -1802,7 +1804,8 @@ A campanha da Coreia do Sul foi marcada por consistência e força no cenário a
       nationality: 'Sul-Coreano',
       age: 57,
       tenure: '2 anos',
-      description: 'Ídolo nacional, busca implementar um futebol organizado e competitivo.'
+      description: 'Ídolo nacional, busca implementar um futebol organizado e competitivo.',
+      image: 'https://img.sofascore.com/api/v1/manager/786586/image'
     },
     players: [
       { name: 'Son Heung-min', position: 'Atacante', club: 'Los Angeles FC', highlight: 'Frequentemente eleito o melhor da Ásia' },
@@ -1905,7 +1908,8 @@ A jornada até a Copa foi marcada por **emoção e nervos de aço** 😮🔥`,
       nationality: 'Checo',
       age: 74,
       tenure: '07 meses',
-      description: 'Experiente treinador checo, assumiu o desafio de comandar a seleção na Copa do Mundo.'
+      description: 'Experiente treinador checo, assumiu o desafio de comandar a seleção na Copa do Mundo.',
+      image: 'https://img.sofascore.com/api/v1/manager/68799/image'
     },
     players: [
       { name: 'Patrik Schick', position: 'Atacante', club: 'Bayer Leverkusen', highlight: 'Destaque ofensivo' },
@@ -2022,7 +2026,8 @@ Mesmo sem classificação direta, o Catar mostrou **força mental e evolução c
       nationality: 'Espanhol',
       age: 59,
       tenure: '01 ano',
-      description: 'Experiente treinador espanhol, traz bagagem tática europeia para elevar o nível competitivo da seleção.'
+      description: 'Experiente treinador espanhol, traz bagagem tática europeia para elevar o nível competitivo da seleção.',
+      image: 'https://img.sofascore.com/api/v1/manager/138570/image'
     },
     players: [
       { name: 'Almoez Ali', position: 'Atacante', club: 'Al-Duhail SC', highlight: 'Um dos maiores artilheiros da história da seleção' },
@@ -2139,7 +2144,8 @@ Uma seleção equilibrada, sólida e pronta para surpreender! 💪🇨🇭`,
       nationality: 'Suiço',
       age: 51,
       tenure: '05 anos',
-      description: 'Treinador experiente, focado em manter a organização tática e a competitividade da seleção.'
+      description: 'Treinador experiente, focado em manter a organização tática e a competitividade da seleção.',
+      image: 'https://img.sofascore.com/api/v1/manager/67424/image'
     },
     players: [
       { name: 'Granit Xhaka', position: 'Meio-campista', club: 'Sunderland', highlight: 'Líder técnico e emocional' },
@@ -2249,7 +2255,8 @@ Agora, retorna ao Mundial com mais experiência e ambição! 💪🇧🇦`,
       nationality: 'Bósnio',
       age: 54,
       tenure: '02 anos',
-      description: 'Ídolo nacional e agora treinador, Barbarez busca levar a Bósnia a um novo patamar competitivo.'
+      description: 'Ídolo nacional e agora treinador, Barbarez busca levar a Bósnia a um novo patamar competitivo.',
+      image: 'https://img.sofascore.com/api/v1/manager/804862/image'
     },
     players: [
       { name: 'Edin Džeko', position: 'Atacante', club: 'Schalke 04', highlight: 'Líder técnico e referência' },
