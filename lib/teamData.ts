@@ -565,7 +565,8 @@ O Brasil garantiu sua vaga nas Eliminatórias Sul-Americanas, terminando entre o
       nationality: 'Italiano',
       age: 66,
       tenure: '01 ano',
-      description: 'Um dos treinadores mais vitoriosos da história do futebol, assumiu o comando da Seleção Brasileira com a missão de conquistar o hexacampeonato.'
+      description: 'Um dos treinadores mais vitoriosos da história do futebol, assumiu o comando da Seleção Brasileira com a missão de conquistar o hexacampeonato.',
+      image: 'https://img.sofascore.com/api/v1/manager/52965/image'
     },
     players: [
       { name: 'Vini Jr.', position: 'Atacante', club: 'Real Madrid', highlight: 'Destaque mundial' },
@@ -2425,7 +2426,8 @@ Os Leões do Atlas querem mais do que repetir 2022: o sonho agora é chegar à f
       nationality: 'Marroquino',
       age: 49,
       tenure: '03 meses',
-      description: 'Assumiu o comando técnico para a Copa do Mundo após sucesso nas categorias de base, trazendo uma mentalidade ofensiva e moderna.'
+      description: 'Assumiu o comando técnico para a Copa do Mundo após sucesso nas categorias de base, trazendo uma mentalidade ofensiva e moderna.',
+      image: 'https://img.sofascore.com/api/v1/manager/807706/image'
     },
     players: [
       { name: 'Achraf Hakimi', position: 'Lateral-Direito', club: 'PSG', highlight: 'Principal estrela, capitão e 6º na Bola de Ouro 2025' },
@@ -2593,7 +2595,8 @@ A classificação veio após:
       nationality: 'Francês',
       age: 53,
       tenure: '02 anos',
-      description: 'Treinador experiente com passagens por diversas seleções africanas, focado em organização e competitividade.'
+      description: 'Treinador experiente com passagens por diversas seleções africanas, focado em organização e competitividade.',
+      image: 'https://img.sofascore.com/api/v1/manager/790200/image'
     },
     players: [
       { name: 'Ricardo Adé', position: 'Zagueiro Central', club: 'LDU (Equador)', highlight: 'Pilar da defesa e muito influente' },
@@ -2782,7 +2785,8 @@ Gols de:
       nationality: 'Escocês',
       age: 62,
       tenure: '07 anos',
-      description: 'Responsável por levar a seleção a 3 grandes torneios, considerado um dos maiores técnicos da história do país.'
+      description: 'Responsável por levar a seleção a 3 grandes torneios, considerado um dos maiores técnicos da história do país.',
+      image: 'https://img.sofascore.com/api/v1/manager/784471/image'
     },
     players: [
       { name: 'Andrew Robertson', position: 'Lateral-esquerdo', club: 'Liverpool', highlight: 'Líder da equipe e um dos melhores da Europa' },
