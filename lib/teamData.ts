@@ -4155,7 +4155,8 @@ A República Democrática do Congo retorna ao Mundial após **52 anos** (sua ún
       nationality: 'Francês',
       age: 49,
       tenure: '04 anos',
-      description: 'Estrategista que modernizou o futebol congolês, focando na disciplina tática e no aproveitamento de talentos da diáspora.'
+      description: 'Estrategista que modernizou o futebol congolês, focando na disciplina tática e no aproveitamento de talentos da diáspora.',
+      image: 'https://img.sofascore.com/api/v1/manager/793874/image'
     },
     players: [
       { name: 'Chancel Mbemba', position: 'Zagueiro', club: 'Lille', highlight: 'Líder e capitão, traz experiência e segurança para a defesa.' },
@@ -4195,7 +4196,8 @@ Portugal chega à sua **9ª participação** em Mundiais com uma das gerações 
       nationality: 'Espanhol',
       age: 52,
       tenure: '03 anos',
-      description: 'Treinador que trouxe uma mentalidade ofensiva e flexibilidade tática para a seleção portuguesa.'
+      description: 'Treinador que trouxe uma mentalidade ofensiva e flexibilidade tática para a seleção portuguesa.',
+      image: 'https://img.sofascore.com/api/v1/manager/19518/image'
     },
     players: [
       { name: 'Cristiano Ronaldo', position: 'Atacante', club: 'Al-Nassr', highlight: 'O maior artilheiro da história das seleções, liderança e presença de área inigualáveis.' },
@@ -4231,11 +4233,12 @@ O Uzbequistão faz sua **estreia histórica** em Copas do Mundo. Após bater na 
       { opponent: 'Irã', result: 'D', score: '0-0' },
     ],
     coach: {
-      name: 'Srečko Katanec',
-      nationality: 'Esloveno',
-      age: 62,
-      tenure: '05 anos',
-      description: 'Experiente treinador que deu a estabilidade defensiva e a confiança necessária para o Uzbequistão chegar ao Mundial.'
+      name: 'Fabio Cannavaro',
+      nationality: 'Italiano',
+      age: 52,
+      tenure: '01 ano',
+      description: 'Lenda do futebol mundial e capitão do tetra da Itália em 2006, Fabio Cannavaro assumiu o comando do Uzbequistão com a missão de liderar a seleção em sua estreia histórica em Mundiais.',
+      image: 'https://img.sofascore.com/api/v1/manager/784893/image'
     },
     players: [
       { name: 'Eldor Shomurodov', position: 'Atacante', club: 'Başakşehir FK', highlight: 'Capitão e maior referência ofensiva, com vasta experiência no futebol europeu.' },
@@ -4275,7 +4278,8 @@ A Colômbia retorna ao Mundial com uma equipe renovada e cheia de talento. Sob o
       nationality: 'Argentino',
       age: 59,
       tenure: '04 anos',
-      description: 'Treinador que recuperou a confiança da seleção colombiana, implementando um estilo de jogo agressivo e equilibrado.'
+      description: 'Treinador que recuperou a confiança da seleção colombiana, implementando um estilo de jogo agressivo e equilibrado.',
+      image: 'https://img.sofascore.com/api/v1/manager/795312/image'
     },
     players: [
       { name: 'Luis Díaz', position: 'Atacante', club: 'Bayern München', highlight: 'Um dos melhores pontas do mundo, velocidade e drible que desequilibram qualquer defesa.' },
