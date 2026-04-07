@@ -3,8 +3,8 @@
 import { useAppStore } from '@/lib/store';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'motion/react';
-import { useMemo } from 'react';
-import { Dices } from 'lucide-react';
+import { useMemo, useRef, useState } from 'react';
+import { Dices, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const generateConfetti = () => [...Array(20)].map(() => ({
   x: (Math.random() - 0.5) * 400,
@@ -13,6 +13,10 @@ const generateConfetti = () => [...Array(20)].map(() => ({
 
 export function KnockoutBracket() {
   const { knockoutMatches, teams, selectKnockoutWinner, simulateFromMatch, championId } = useAppStore();
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [isDragging, setIsDragging] = useState(false);
+  const [startX, setStartX] = useState(0);
+  const [scrollLeft, setScrollLeft] = useState(0);
 
   const rounds = [
     { id: 'R32', name: '16-avos de Final' },
@@ -24,8 +28,66 @@ export function KnockoutBracket() {
 
   const confetti = useMemo(() => generateConfetti(), []);
 
+  const handleMouseDown = (e: React.MouseEvent) => {
+    if (!scrollRef.current) return;
+    setIsDragging(true);
+    setStartX(e.pageX - scrollRef.current.offsetLeft);
+    setScrollLeft(scrollRef.current.scrollLeft);
+  };
+
+  const handleMouseLeave = () => {
+    setIsDragging(false);
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (!isDragging || !scrollRef.current) return;
+    e.preventDefault();
+    const x = e.pageX - scrollRef.current.offsetLeft;
+    const walk = (x - startX) * 2; // Scroll speed
+    scrollRef.current.scrollLeft = scrollLeft - walk;
+  };
+
+  const scroll = (direction: 'left' | 'right') => {
+    if (!scrollRef.current) return;
+    const scrollAmount = 320; // Width of a round
+    scrollRef.current.scrollBy({
+      left: direction === 'left' ? -scrollAmount : scrollAmount,
+      behavior: 'smooth'
+    });
+  };
+
   return (
-    <div className="overflow-x-auto pb-8 w-full">
+    <div className="relative group/bracket">
+      {/* Scroll Controls (Desktop) */}
+      <div className="absolute left-0 top-1/2 -translate-y-1/2 z-20 hidden md:group-hover/bracket:flex">
+        <button 
+          onClick={() => scroll('left')}
+          className="p-2 bg-gray-900/80 border border-gray-700 rounded-full text-white hover:bg-gray-800 transition-all ml-2 shadow-xl"
+        >
+          <ChevronLeft className="h-6 w-6" />
+        </button>
+      </div>
+      <div className="absolute right-0 top-1/2 -translate-y-1/2 z-20 hidden md:group-hover/bracket:flex">
+        <button 
+          onClick={() => scroll('right')}
+          className="p-2 bg-gray-900/80 border border-gray-700 rounded-full text-white hover:bg-gray-800 transition-all mr-2 shadow-xl"
+        >
+          <ChevronRight className="h-6 w-6" />
+        </button>
+      </div>
+
+      <div 
+        ref={scrollRef}
+        onMouseDown={handleMouseDown}
+        onMouseLeave={handleMouseLeave}
+        onMouseUp={handleMouseUp}
+        onMouseMove={handleMouseMove}
+        className={`overflow-x-auto pb-8 w-full scroll-smooth select-none snap-x snap-mandatory ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
+      >
       {championId && (
         <div className="flex flex-col items-center justify-center mb-8 p-6 bg-gray-900/50 border border-green-500/50 rounded-2xl relative overflow-hidden">
           {/* Confetti-like motion elements */}
@@ -87,7 +149,7 @@ export function KnockoutBracket() {
         {rounds.map((round, roundIndex) => {
           const roundMatches = knockoutMatches.filter(m => m.round === round.id);
           return (
-            <div key={round.id} className="flex flex-col w-80 shrink-0 relative">
+            <div key={round.id} className="flex flex-col w-80 shrink-0 relative snap-center">
               <h3 className="text-center font-bold text-green-400 mb-8 bg-gray-900/80 py-2 rounded-lg border border-gray-800 mx-4 h-10 shrink-0 sticky left-0">
                 {round.name}
               </h3>
@@ -124,6 +186,7 @@ export function KnockoutBracket() {
         })}
       </div>
     </div>
+  </div>
   );
 }
 
