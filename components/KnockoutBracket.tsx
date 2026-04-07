@@ -86,9 +86,17 @@ export function KnockoutBracket() {
         onMouseLeave={handleMouseLeave}
         onMouseUp={handleMouseUp}
         onMouseMove={handleMouseMove}
-        className={`overflow-x-auto pb-8 w-full scroll-smooth select-none snap-x snap-mandatory ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
+        className={`overflow-x-auto pb-8 w-full scroll-smooth select-none snap-x snap-mandatory relative ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
       >
-      {championId && (
+        {/* Background Grid Pattern */}
+        <div className="absolute inset-0 z-0 opacity-10 pointer-events-none" 
+             style={{ 
+               backgroundImage: 'radial-gradient(circle, #374151 1px, transparent 1px)', 
+               backgroundSize: '40px 40px' 
+             }} 
+        />
+        
+        {championId && (
         <div className="flex flex-col items-center justify-center mb-8 p-6 bg-gray-900/50 border border-green-500/50 rounded-2xl relative overflow-hidden">
           {/* Confetti-like motion elements */}
           {confetti.map((pos, i) => (
@@ -165,18 +173,22 @@ export function KnockoutBracket() {
                     
                     {/* Lines to the right (next round) */}
                     {roundIndex < rounds.length - 1 && (
-                      <div className="absolute right-2 top-1/2 w-4 border-t-2 border-gray-700"></div>
-                    )}
-                    {roundIndex < rounds.length - 1 && index % 2 === 0 && (
-                      <div className="absolute right-2 top-1/2 h-[50%] border-r-2 border-gray-700 translate-y-[1px] rounded-tr-lg"></div>
-                    )}
-                    {roundIndex < rounds.length - 1 && index % 2 === 1 && (
-                      <div className="absolute right-2 bottom-1/2 h-[50%] border-r-2 border-gray-700 -translate-y-[1px] rounded-br-lg"></div>
+                      <>
+                        {/* Horizontal exit line */}
+                        <div className={`absolute right-0 top-1/2 w-6 border-t-2 transition-all duration-500 z-0 ${match.winnerId ? 'border-green-500 shadow-[0_0_10px_rgba(34,197,94,0.3)]' : 'border-gray-700'}`}></div>
+                        
+                        {/* Vertical connector */}
+                        {index % 2 === 0 ? (
+                          <div className={`absolute right-0 top-1/2 h-[50.5%] border-r-2 transition-all duration-500 rounded-tr-xl z-0 ${match.winnerId ? 'border-green-500 shadow-[4px_0_10px_rgba(34,197,94,0.2)]' : 'border-gray-700'}`}></div>
+                        ) : (
+                          <div className={`absolute right-0 bottom-1/2 h-[50.5%] border-r-2 transition-all duration-500 rounded-br-xl z-0 ${match.winnerId ? 'border-green-500 shadow-[4px_0_10px_rgba(34,197,94,0.2)]' : 'border-gray-700'}`}></div>
+                        )}
+                      </>
                     )}
 
                     {/* Lines to the left (previous round) */}
                     {roundIndex > 0 && (
-                      <div className="absolute left-2 top-1/2 w-4 border-t-2 border-gray-700"></div>
+                      <div className={`absolute left-0 top-1/2 w-6 border-t-2 transition-all duration-500 z-0 ${(match.homeTeamId || match.awayTeamId) ? 'border-gray-600' : 'border-gray-800'}`}></div>
                     )}
                   </div>
                 ))}
@@ -195,14 +207,14 @@ function MatchCard({ match, teams, selectWinner, simulateFromMatch }: any) {
   const awayTeam = teams.find((t: any) => t.id === match.awayTeamId);
 
   return (
-    <div className="bg-gray-900/90 border border-gray-700 rounded-xl p-3 flex flex-col gap-2 shadow-lg hover:border-gray-500 transition-colors relative z-10">
+    <div className={`bg-gray-900/90 border rounded-xl p-3 flex flex-col gap-2 shadow-lg transition-all relative z-10 ${match.winnerId ? 'border-gray-700' : 'border-gray-800 hover:border-gray-600'}`}>
       <div className="flex justify-between items-center mb-1">
         <span className="text-[10px] text-gray-500 font-mono uppercase tracking-widest">{match.id}</span>
         <div className="flex items-center gap-2">
-          {match.homeTeamId && match.awayTeamId && (
+          {match.homeTeamId && match.awayTeamId && !match.winnerId && (
             <button
               onClick={() => simulateFromMatch(match.id)}
-              className="text-[10px] flex items-center gap-1 font-bold text-blue-400 hover:text-blue-300 transition-colors"
+              className="text-[10px] flex items-center gap-1 font-bold text-blue-400 hover:text-blue-300 transition-colors bg-blue-500/10 px-2 py-0.5 rounded-full"
               title="Simular a partir daqui"
             >
               <Dices className="h-3 w-3" />
@@ -210,7 +222,7 @@ function MatchCard({ match, teams, selectWinner, simulateFromMatch }: any) {
             </button>
           )}
           {match.winnerId && (
-            <span className="text-[10px] font-bold text-green-500 bg-green-500/10 px-1.5 py-0.5 rounded uppercase">Finalizado</span>
+            <span className="text-[10px] font-bold text-green-500 bg-green-500/10 px-1.5 py-0.5 rounded uppercase tracking-tighter">Finalizado</span>
           )}
         </div>
       </div>
@@ -219,22 +231,22 @@ function MatchCard({ match, teams, selectWinner, simulateFromMatch }: any) {
       <button
         onClick={() => match.homeTeamId && selectWinner(match.id, match.homeTeamId)}
         disabled={!match.homeTeamId}
-        className={`flex items-center justify-between gap-2 p-2 rounded-lg transition-colors ${match.winnerId === match.homeTeamId ? 'bg-green-900/50 border border-green-500' : 'hover:bg-gray-800'}`}
+        className={`flex items-center justify-between gap-2 p-2 rounded-lg transition-all ${match.winnerId === match.homeTeamId ? 'bg-green-500/10 border border-green-500/50 shadow-[0_0_15px_rgba(34,197,94,0.1)]' : 'hover:bg-gray-800 border border-transparent'}`}
       >
         <div className="flex items-center gap-2 flex-1">
           {homeTeam ? (
             <>
-              <div className="relative w-6 h-4 rounded-sm overflow-hidden shrink-0">
+              <div className="relative w-6 h-4 rounded-sm overflow-hidden shrink-0 shadow-sm">
                 <Image src={homeTeam.flagUrl} alt={homeTeam.name} fill className="object-cover" referrerPolicy="no-referrer" />
               </div>
-              <span className="text-sm font-medium text-gray-200 truncate">{homeTeam.name}</span>
+              <span className={`text-sm font-medium truncate ${match.winnerId === match.homeTeamId ? 'text-white' : 'text-gray-300'}`}>{homeTeam.name}</span>
             </>
           ) : (
             <span className="text-sm text-gray-600 italic">A definir</span>
           )}
         </div>
         {match.homeScore !== null && (
-          <span className={`text-sm font-bold ${match.winnerId === match.homeTeamId ? 'text-green-400' : 'text-gray-400'}`}>
+          <span className={`text-sm font-black ${match.winnerId === match.homeTeamId ? 'text-green-400' : 'text-gray-400'}`}>
             {match.homeScore}
           </span>
         )}
@@ -244,22 +256,22 @@ function MatchCard({ match, teams, selectWinner, simulateFromMatch }: any) {
       <button
         onClick={() => match.awayTeamId && selectWinner(match.id, match.awayTeamId)}
         disabled={!match.awayTeamId}
-        className={`flex items-center justify-between gap-2 p-2 rounded-lg transition-colors ${match.winnerId === match.awayTeamId ? 'bg-green-900/50 border border-green-500' : 'hover:bg-gray-800'}`}
+        className={`flex items-center justify-between gap-2 p-2 rounded-lg transition-all ${match.winnerId === match.awayTeamId ? 'bg-green-500/10 border border-green-500/50 shadow-[0_0_15px_rgba(34,197,94,0.1)]' : 'hover:bg-gray-800 border border-transparent'}`}
       >
         <div className="flex items-center gap-2 flex-1">
           {awayTeam ? (
             <>
-              <div className="relative w-6 h-4 rounded-sm overflow-hidden shrink-0">
+              <div className="relative w-6 h-4 rounded-sm overflow-hidden shrink-0 shadow-sm">
                 <Image src={awayTeam.flagUrl} alt={awayTeam.name} fill className="object-cover" referrerPolicy="no-referrer" />
               </div>
-              <span className="text-sm font-medium text-gray-200 truncate">{awayTeam.name}</span>
+              <span className={`text-sm font-medium truncate ${match.winnerId === match.awayTeamId ? 'text-white' : 'text-gray-300'}`}>{awayTeam.name}</span>
             </>
           ) : (
             <span className="text-sm text-gray-600 italic">A definir</span>
           )}
         </div>
         {match.awayScore !== null && (
-          <span className={`text-sm font-bold ${match.winnerId === match.awayTeamId ? 'text-green-400' : 'text-gray-400'}`}>
+          <span className={`text-sm font-black ${match.winnerId === match.awayTeamId ? 'text-green-400' : 'text-gray-400'}`}>
             {match.awayScore}
           </span>
         )}
