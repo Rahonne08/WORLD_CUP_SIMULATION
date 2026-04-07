@@ -857,7 +857,8 @@ A França chega como candidata ao título e quer fazer história com mais uma fi
       nationality: 'Francês',
       age: 57,
       tenure: '14 anos',
-      description: 'Campeão do mundo como jogador e treinador, Deschamps é o pilar da estabilidade e sucesso da França na última década.'
+      description: 'Campeão do mundo como jogador e treinador, Deschamps é o pilar da estabilidade e sucesso da França na última década.',
+      image: 'https://img.sofascore.com/api/v1/manager/69075/image'
     },
     players: [
       { name: 'Kylian Mbappé', position: 'Atacante', club: 'Real Madrid', highlight: 'Capitão e um dos melhores jogadores do mundo, principal esperança de gols dos Blues.' },
@@ -966,7 +967,8 @@ O Iraque chega como azarão, mas com espírito de luta forte para surpreender.`,
       nationality: 'Australiano',
       age: 62,
       tenure: '01 ano',
-      description: 'Experiente treinador que liderou o Iraque em uma campanha épica para garantir o retorno ao Mundial após 40 anos.'
+      description: 'Experiente treinador que liderou o Iraque em uma campanha épica para garantir o retorno ao Mundial após 40 anos.',
+      image: 'https://img.sofascore.com/api/v1/manager/53524/image'
     },
     players: [
       { name: 'Aymen Hussein', position: 'Atacante', club: 'Al Karma SC', highlight: 'Artilheiro nato e herói da classificação com gols decisivos.' },
@@ -1071,7 +1073,8 @@ Senegal chega forte para brigar por vaga no mata-mata e repetir 2002.`,
       nationality: 'Senegalês',
       age: 45,
       tenure: '01 ano',
-      description: 'Ex-jogador da histórica campanha de 2002, Thiaw assumiu o comando com a missão de manter Senegal no topo do futebol africano.'
+      description: 'Ex-jogador da histórica campanha de 2002, Thiaw assumiu o comando com a missão de manter Senegal no topo do futebol africano.',
+      image: 'https://img.sofascore.com/api/v1/manager/798718/image'
     },
     players: [
       { name: 'Sadio Mané', position: 'Atacante', club: 'Al-Nassr', highlight: 'O maior ídolo da história do país, líder técnico e espiritual da equipe.' },
@@ -1178,7 +1181,8 @@ Com uma “geração de ouro”, a Noruega chega como uma das seleções mais pe
       nationality: 'Norueguês',
       age: 58,
       tenure: '06 anos',
-      description: 'Ex-jogador da seleção, Solbakken liderou a Noruega de volta ao Mundial após quase três décadas de ausência.'
+      description: 'Ex-jogador da seleção, Solbakken liderou a Noruega de volta ao Mundial após quase três décadas de ausência.',
+      image: 'https://img.sofascore.com/api/v1/manager/53102/image'
     },
     players: [
       { name: 'Erling Haaland', position: 'Atacante', club: 'Manchester City', highlight: 'O maior artilheiro do mundo na atualidade, capaz de decidir qualquer jogo sozinho.' },
