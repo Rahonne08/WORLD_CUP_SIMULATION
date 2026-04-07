@@ -1484,7 +1484,8 @@ Com o apoio da torcida e a liderança de Pochettino, os americanos querem transf
       nationality: 'Argentino',
       age: 54,
       tenure: '02 anos',
-      description: 'Treinador de renome internacional com passagens por grandes clubes europeus, focado em desenvolver a talentosa geração americana.'
+      description: 'Treinador de renome internacional com passagens por grandes clubes europeus, focado em desenvolver a talentosa geração americana.',
+      image: 'https://img.sofascore.com/api/v1/manager/3377/image'
     },
     players: [
       { name: 'Christian Pulisic', position: 'Atacante', club: 'AC Milan', highlight: 'Referência técnica e principal nome do ataque' },
@@ -2932,7 +2933,8 @@ Destaques:
       nationality: 'Argentino',
       age: 63,
       tenure: '02 anos',
-      description: 'Assumiu em 2024 em momento delicado, recuperou a equipe nas eliminatórias e é conhecido por seu estilo tático organizado e competitivo.'
+      description: 'Assumiu em 2024 em momento delicado, recuperou a equipe nas eliminatórias e é conhecido por seu estilo tático organizado e competitivo.',
+      image: 'https://img.sofascore.com/api/v1/manager/53366/image'
     },
     players: [
       { name: 'Miguel Almirón', position: 'Atacante', club: 'Atlanta United', highlight: 'Principal nome ofensivo e criativo.' },
@@ -3082,7 +3084,8 @@ A partir daí, a equipe reagiu:
       nationality: 'Australiano',
       age: 52,
       tenure: '02 anos',
-      description: 'Ex-zagueiro da seleção com mais de 50 jogos internacionais. Assumiu em 2024 e é conhecido por sua disciplina tática e organização defensiva.'
+      description: 'Ex-zagueiro da seleção com mais de 50 jogos internacionais. Assumiu em 2024 e é conhecido por sua disciplina tática e organização defensiva.',
+      image: 'https://img.sofascore.com/api/v1/manager/635/image'
     },
     players: [
       { name: 'Nestory Irankunda', position: 'Atacante', club: 'Watford', highlight: 'Considerado uma das maiores promessas do futebol australiano, destaca-se por sua velocidade e capacidade de finalização.' },
@@ -3170,7 +3173,8 @@ Mas Montella não deixou a peteca cair! O comandante conduziu sua equipe com suc
       nationality: 'Italiano',
       age: 51,
       tenure: '03 anos',
-      description: 'Ex-atacante de renome, Montella trouxe uma mentalidade competitiva e organização tática para a seleção turca, encerrando um jejum de 24 anos sem Copas.'
+      description: 'Ex-atacante de renome, Montella trouxe uma mentalidade competitiva e organização tática para a seleção turca, encerrando um jejum de 24 anos sem Copas.',
+      image: 'https://img.sofascore.com/api/v1/manager/1774/image'
     },
     players: [
       { name: 'Arda Güler', position: 'Meia/Atacante', club: 'Real Madrid', highlight: 'Considerado um dos jogadores mais valiosos e criativos da Europa.' },
