@@ -616,7 +616,8 @@ A Argentina chega como **atual campeã mundial** e uma das grandes favoritas ao 
       nationality: 'Argentino',
       age: 47,
       tenure: '08 anos',
-      description: 'Arquiteto da "Scaloneta", levou a Argentina ao topo do mundo em 2022 e consolidou uma equipe competitiva e unida.'
+      description: 'Arquiteto da "Scaloneta", levou a Argentina ao topo do mundo em 2022 e consolidou uma equipe competitiva e unida.',
+      image: 'https://img.sofascore.com/api/v1/manager/790728/image'
     },
     players: [
       { name: 'Lionel Messi', position: 'Atacante', club: 'Inter Miami', highlight: 'O maior da história, capitão e líder técnico em busca do seu segundo título mundial.' },
@@ -662,7 +663,8 @@ A Argélia retorna à Copa após 12 anos e chega com ambição. Conhecida como *
       nationality: 'Bósnio-Suíço',
       age: 62,
       tenure: '02 anos',
-      description: 'Treinador experiente que trouxe organização tática e mentalidade europeia para as Raposas do Deserto.'
+      description: 'Treinador experiente que trouxe organização tática e mentalidade europeia para as Raposas do Deserto.',
+      image: 'https://img.sofascore.com/api/v1/manager/52898/image'
     },
     players: [
       { name: 'Riyad Mahrez', position: 'Atacante', club: 'Al-Ahli', highlight: 'Capitão e referência técnica, capaz de decidir jogos com sua habilidade individual.' },
@@ -707,7 +709,8 @@ A Áustria volta ao Mundial após **28 anos de ausência** e quer escrever um no
       nationality: 'Alemão',
       age: 67,
       tenure: '04 anos',
-      description: 'O "Professor" implementou o estilo de pressão alta e intensidade que transformou a Áustria em uma equipe competitiva.'
+      description: 'O "Professor" implementou o estilo de pressão alta e intensidade que transformou a Áustria em uma equipe competitiva.',
+      image: 'https://img.sofascore.com/api/v1/manager/785379/image'
     },
     players: [
       { name: 'Marcel Sabitzer', position: 'Meia', club: 'Borussia Dortmund', highlight: 'Líder técnico e motor do time, fundamental na criação e finalização.' },
@@ -752,7 +755,8 @@ A Jordânia fará sua **estreia histórica em Copas do Mundo**, após anos de te
       nationality: 'Marroquino',
       age: 55,
       tenure: '01 ano',
-      description: 'Treinador disciplinado que liderou a Jordânia em sua primeira classificação histórica para um Mundial.'
+      description: 'Treinador disciplinado que liderou a Jordânia em sua primeira classificação histórica para um Mundial.',
+      image: 'https://img.sofascore.com/api/v1/manager/793874/image'
     },
     players: [
       { name: 'Mousa Al-Tamari', position: 'Atacante', club: 'Montpellier', highlight: 'A estrela solitária que atua na Europa, principal arma de drible e velocidade.' },
