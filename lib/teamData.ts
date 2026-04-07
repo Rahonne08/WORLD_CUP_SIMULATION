@@ -239,7 +239,8 @@ Cabo Verde chega como grande surpresa do torneio. Com organização tática e es
       nationality: 'Cabo-verdiano',
       age: 56,
       tenure: '06 anos',
-      description: 'Ex-capitão da seleção e símbolo de liderança, Bubista construiu uma equipe equilibrada e competitiva, levando o país à sua primeira Copa do Mundo.'
+      description: 'Ex-capitão da seleção e símbolo de liderança, Bubista construiu uma equipe equilibrada e competitiva, levando o país à sua primeira Copa do Mundo.',
+      image: 'https://img.sofascore.com/api/v1/manager/794980/image'
     },
     players: [
       { name: 'Ryan Mendes', position: 'Atacante', club: 'Iğdır FK', highlight: 'Capitão e maior artilheiro da história da seleção, líder técnico em campo.' },
@@ -337,7 +338,8 @@ A meta é clara: voltar ao mata-mata, algo que não acontece desde 1994.`,
       nationality: 'Francês',
       age: 57,
       tenure: '01 ano (retorno)',
-      description: 'Especialista em torneios curtos e com vasta experiência internacional, Renard retornou para liderar os Falcões Verdes em mais um Mundial.'
+      description: 'Especialista em torneios curtos e com vasta experiência internacional, Renard retornou para liderar os Falcões Verdes em mais um Mundial.',
+      image: 'https://img.sofascore.com/api/v1/manager/784460/image'
     },
     players: [
       { name: 'Salem Al-Dawsari', position: 'Meia', club: 'Al-Hilal', highlight: 'A grande estrela da equipe, conhecido por gols decisivos em momentos cruciais.' },
@@ -438,7 +440,8 @@ Mesmo em renovação, o Uruguai chega forte. Com jovens talentos e um treinador 
       nationality: 'Argentino',
       age: 70,
       tenure: '03 anos',
-      description: 'Um dos técnicos mais influentes do futebol moderno, Bielsa implementou um estilo ofensivo e intenso na Celeste Olímpica.'
+      description: 'Um dos técnicos mais influentes do futebol moderno, Bielsa implementou um estilo ofensivo e intenso na Celeste Olímpica.',
+      image: 'https://img.sofascore.com/api/v1/manager/53560/image'
     },
     players: [
       { name: 'Federico Valverde', position: 'Meia', club: 'Real Madrid', highlight: 'O motor e líder da nova geração, essencial tanto na defesa quanto no ataque.' },
@@ -1257,7 +1260,8 @@ A classificação para 2026 foi um verdadeiro passeio! A Espanha dominou o Grupo
       nationality: 'Espanhol',
       age: 64,
       tenure: '03 anos e 06 meses',
-      description: 'Assumindo o desafio em dezembro de 2022, De la Fuente transformou a equipe, unindo a experiência de veteranos com a explosão de jovens talentos.'
+      description: 'Assumindo o desafio em dezembro de 2022, De la Fuente transformou a equipe, unindo a experiência de veteranos com a explosão de jovens talentos.',
+      image: 'https://img.sofascore.com/api/v1/manager/331371/image'
     },
     players: [
       { name: 'Lamine Yamal', position: 'Atacante', club: 'Barcelona', highlight: 'A grande joia do futebol mundial, peça fundamental na criatividade ofensiva da Roja.' },
