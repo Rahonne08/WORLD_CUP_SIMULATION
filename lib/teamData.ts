@@ -149,9 +149,9 @@ A classificação foi emocionante até o último minuto! 😮🔥🔥
       image: 'https://img.sofascore.com/api/v1/manager/786568/image'
     },
     players: [
-      { name: 'Ronwen Williams', position: 'Goleiro', club: 'Mamelodi Sundowns', highlight: 'Destaque da Copa Africana 2024' },
-      { name: 'Teboho Mokoena', position: 'Meio-campista', club: 'Mamelodi Sundowns', highlight: 'Destaque do time' },
-      { name: 'Lyle Foster', position: 'Atacante', club: 'Burnley', highlight: 'Destaque do time' }
+      { name: 'Ronwen Williams', position: 'Goleiro', club: 'Mamelodi Sundowns', highlight: 'Destaque da Copa Africana 2024', image: 'https://img.sofascore.com/api/v1/player/539792/image' },
+      { name: 'Teboho Mokoena', position: 'Meio-campista', club: 'Mamelodi Sundowns', highlight: 'Destaque do time', image: 'https://img.sofascore.com/api/v1/player/881117/image' },
+      { name: 'Lyle Foster', position: 'Atacante', club: 'Burnley', highlight: 'Destaque do time', image: 'https://img.sofascore.com/api/v1/player/901907/image' }
     ],
     historyStats: {
       participations: 4,
