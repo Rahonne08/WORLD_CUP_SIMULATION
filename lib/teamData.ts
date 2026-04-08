@@ -3532,10 +3532,10 @@ A classificação foi garantida com autoridade e emoção! A Holanda terminou as
       image: 'https://img.sofascore.com/api/v1/manager/52985/image'
     },
     players: [
-      { name: 'Xavi Simons', position: 'Meia/Atacante', club: 'Tottenham', highlight: 'Jovem talento extremamente criativo e versátil, peça central na renovação da seleção.' },
-      { name: 'Cody Gakpo', position: 'Atacante', club: 'Liverpool', highlight: 'Destaque ofensivo com grande capacidade de finalização e drible.' },
-      { name: 'Ryan Gravenberch', position: 'Meio-campista', club: 'Liverpool', highlight: 'Motor do meio-campo com excelente visão de jogo e passe.' },
-      { name: 'Tijjani Reijnders', position: 'Meio-campista', club: 'Manchester City', highlight: 'Meio-campista dinâmico com grande capacidade de condução e chute de fora da área.' }
+      { name: 'Xavi Simons', position: 'Meia/Atacante', club: 'Tottenham', highlight: 'Jovem talento extremamente criativo e versátil, peça central na renovação da seleção.', image: 'https://img.sofascore.com/api/v1/player/997183/image' },
+      { name: 'Cody Gakpo', position: 'Atacante', club: 'Liverpool', highlight: 'Destaque ofensivo com grande capacidade de finalização e drible.', image: 'https://img.sofascore.com/api/v1/player/862967/image' },
+      { name: 'Ryan Gravenberch', position: 'Meio-campista', club: 'Liverpool', highlight: 'Motor do meio-campo with excelente visão de jogo e passe.', image: 'https://img.sofascore.com/api/v1/player/904897/image' },
+      { name: 'Tijjani Reijnders', position: 'Meio-campista', club: 'Manchester City', highlight: 'Meio-campista dinâmico com grande capacidade de condução e chute de fora da área.', image: 'https://img.sofascore.com/api/v1/player/893549/image' }
     ],
     historyStats: {
       participations: 12,
