@@ -3954,9 +3954,9 @@ O Egito assegurou sua vaga ao terminar na liderança do Grupo A das eliminatóri
       image: 'https://img.sofascore.com/api/v1/manager/790139/image'
     },
     players: [
-      { name: 'Mohamed Salah', position: 'Atacante', club: 'Liverpool', highlight: 'A maior estrela e esperança da equipe, fundamental na classificação para a Copa do Mundo de 2026, marcando gols decisivos nas eliminatórias.' },
-      { name: 'Mohamed El Shenawy', position: 'Goleiro', club: 'Al Ahly', highlight: 'Goleiro experiente e titular frequente, um dos destaques defensivos.' },
-      { name: 'Mostafa Shobeir', position: 'Goleiro', club: 'Al Ahly', highlight: 'Goleiro promissor, também cotado para o elenco no ciclo 2026.' }
+      { name: 'Mohamed Salah', position: 'Atacante', club: 'Liverpool', highlight: 'A maior estrela e esperança da equipe, fundamental na classificação para a Copa do Mundo de 2026, marcando gols decisivos nas eliminatórias.', image: 'https://img.sofascore.com/api/v1/player/159665/image' },
+      { name: 'Mohamed El Shenawy', position: 'Goleiro', club: 'Al Ahly', highlight: 'Goleiro experiente e titular frequente, um dos destaques defensivos.', image: 'https://img.sofascore.com/api/v1/player/871735/image' },
+      { name: 'Mostafa Shobeir', position: 'Goleiro', club: 'Al Ahly', highlight: 'Goleiro promissor, também cotado para o elenco no ciclo 2026.', image: 'https://img.sofascore.com/api/v1/player/1048378/image' }
     ],
     historyStats: {
       participations: 4,
