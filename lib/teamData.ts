@@ -760,9 +760,8 @@ A Jordânia fará sua **estreia histórica em Copas do Mundo**, após anos de te
       image: 'https://img.sofascore.com/api/v1/manager/793874/image'
     },
     players: [
-      { name: 'Mousa Al-Tamari', position: 'Atacante', club: 'Montpellier', highlight: 'A estrela solitária que atua na Europa, principal arma de drible e velocidade.' },
-      { name: 'Yazan Al-Naimat', position: 'Atacante', club: 'Al-Arabi SC', highlight: 'Artilheiro oportunista que brilhou na campanha histórica da Copa da Ásia.' },
-      { name: 'Ali Olwan', position: 'Atacante', club: 'Al-Sailiya', highlight: 'Peça importante na dinâmica ofensiva e na pressão sobre a defesa adversária.' }
+      { name: 'Yazan Al-Naimat', position: 'Atacante', club: 'Al-Arabi SC', highlight: 'Artilheiro oportunista que brilhou na campanha histórica da Copa da Ásia.', image:'https://img.sofascore.com/api/v1/player/1016001/image' },
+      { name: 'Ali Olwan', position: 'Atacante', club: 'Al-Sailiya', highlight: 'Peça importante na dinâmica ofensiva e na pressão sobre a defesa adversária.', image:'https://img.sofascore.com/api/v1/player/980728/image' }
     ],
     historyStats: {
       participations: 1,
