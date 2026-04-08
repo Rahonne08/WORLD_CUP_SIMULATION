@@ -866,9 +866,9 @@ A França chega como candidata ao título e quer fazer história com mais uma fi
       image: 'https://img.sofascore.com/api/v1/manager/69075/image'
     },
     players: [
-      { name: 'Kylian Mbappé', position: 'Atacante', club: 'Real Madrid', highlight: 'Capitão e um dos melhores jogadores do mundo, principal esperança de gols dos Blues.' },
-      { name: 'Antoine Griezmann', position: 'Meia', club: 'Atlético Madrid', highlight: 'O motor criativo da equipe, essencial na ligação entre meio e ataque.' },
-      { name: 'Mike Maignan', position: 'Goleiro', club: 'Milan', highlight: 'Sucessor de Lloris, consolidou-se como um dos melhores goleiros do mundo.' }
+      { name: 'Kylian Mbappé', position: 'Atacante', club: 'Real Madrid', highlight: 'Capitão e um dos melhores jogadores do mundo, principal esperança de gols dos Blues.', image:'https://img.sofascore.com/api/v1/player/826643/image' },
+      { name: 'Antoine Griezmann', position: 'Meia', club: 'Atlético Madrid', highlight: 'O motor criativo da equipe, essencial na ligação entre meio e ataque.', image:'https://img.sofascore.com/api/v1/player/85859/image' },
+      { name: 'Mike Maignan', position: 'Goleiro', club: 'Milan', highlight: 'Sucessor de Lloris, consolidou-se como um dos melhores goleiros do mundo.', image:'https://img.sofascore.com/api/v1/player/191210/image' }
     ],
     historyStats: {
       participations: 17,
