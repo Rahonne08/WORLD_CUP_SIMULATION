@@ -1354,10 +1354,10 @@ A Alemanha busca apagar as últimas decepções e voltar ao topo do mundo com um
       image: 'https://img.sofascore.com/api/v1/manager/786670/image'
     },
     players: [
-      { name: 'Jamal Musiala', position: 'Meia', club: 'Bayern de Munique', highlight: 'Talento puro e drible' },
-      { name: 'Florian Wirtz', position: 'Meia', club: 'Liverpool', highlight: 'Visão de jogo e criatividade' },
-      { name: 'Kai Havertz', position: 'Atacante', club: 'Arsenal', highlight: 'Versatilidade ofensiva' },
-      { name: 'Joshua Kimmich', position: 'Meio-campista', club: 'Bayern de Munique', highlight: 'Liderança e polivalência' }
+      { name: 'Jamal Musiala', position: 'Meia', club: 'Bayern de Munique', highlight: 'Talento puro e drible', image: 'https://img.sofascore.com/api/v1/player/1010231/image' },
+      { name: 'Florian Wirtz', position: 'Meia', club: 'Liverpool', highlight: 'Visão de jogo e criatividade', image: 'https://img.sofascore.com/api/v1/player/1019322/image' },
+      { name: 'Kai Havertz', position: 'Atacante', club: 'Arsenal', highlight: 'Versatilidade ofensiva', image: 'https://img.sofascore.com/api/v1/player/836705/image' },
+      { name: 'Joshua Kimmich', position: 'Meio-campista', club: 'Bayern de Munique', highlight: 'Liderança e polivalência', image: 'https://img.sofascore.com/api/v1/player/259117/image' }
     ],
     historyStats: {
       participations: 21,
