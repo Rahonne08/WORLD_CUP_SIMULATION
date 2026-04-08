@@ -3102,9 +3102,9 @@ A partir daí, a equipe reagiu:
       image: 'https://img.sofascore.com/api/v1/manager/635/image'
     },
     players: [
-      { name: 'Nestory Irankunda', position: 'Atacante', club: 'Watford', highlight: 'Considerado uma das maiores promessas do futebol australiano, destaca-se por sua velocidade e capacidade de finalização.' },
-      { name: 'Jackson Irvine', position: 'Meio-campista', club: 'St. Pauli', highlight: 'Um pilar no meio-campo, reconhecido por sua liderança e capacidade física.' },
-      { name: 'Mathew Ryan', position: 'Goleiro', club: 'Levante', highlight: 'Experiente goleiro e capitão, continua sendo uma figura central de segurança defensiva.' }
+      { name: 'Nestory Irankunda', position: 'Atacante', club: 'Watford', highlight: 'Considerado uma das maiores promessas do futebol australiano, destaca-se por sua velocidade e capacidade de finalização.', image: 'https://img.sofascore.com/api/v1/player/1144687/image' },
+      { name: 'Jackson Irvine', position: 'Meio-campista', club: 'St. Pauli', highlight: 'Um pilar no meio-campo, reconhecido por sua liderança e capacidade física.', image: 'https://img.sofascore.com/api/v1/player/181581/image' },
+      { name: 'Mathew Ryan', position: 'Goleiro', club: 'Levante', highlight: 'Experiente goleiro e capitão, continua sendo uma figura central de segurança defensiva.', image: 'https://img.sofascore.com/api/v1/player/134029/image' }
     ],
     historyStats: {
       participations: 7,
