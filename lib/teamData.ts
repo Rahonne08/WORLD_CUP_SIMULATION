@@ -573,10 +573,10 @@ O Brasil garantiu sua vaga nas Eliminatórias Sul-Americanas, terminando entre o
       image: 'https://img.sofascore.com/api/v1/manager/52965/image'
     },
     players: [
-      { name: 'Vini Jr.', position: 'Atacante', club: 'Real Madrid', highlight: 'Destaque mundial' },
-      { name: 'Raphinha', position: 'Atacante', club: 'Barcelona', highlight: 'Peça fundamental no ataque' },
-      { name: 'Gabriel Martinelli', position: 'Atacante', club: 'Arsenal', highlight: 'Velocidade e drible' },
-      { name: 'Matheus Cunha', position: 'Atacante', club: 'Manchester United', highlight: 'Versatilidade ofensiva' }
+      { name: 'Vini Jr.', position: 'Atacante', club: 'Real Madrid', highlight: 'Destaque mundial', image: 'https://img.sofascore.com/api/v1/player/868812/image' },
+      { name: 'Raphinha', position: 'Atacante', club: 'Barcelona', highlight: 'Peça fundamental no ataque', image: 'https://img.sofascore.com/api/v1/player/831005/image' },
+      { name: 'Gabriel Martinelli', position: 'Atacante', club: 'Arsenal', highlight: 'Velocidade e drible', image: 'https://img.sofascore.com/api/v1/player/922573/image' },
+      { name: 'Matheus Cunha', position: 'Atacante', club: 'Manchester United', highlight: 'Versatilidade ofensiva', image: 'https://img.sofascore.com/api/v1/player/886363/image' }
     ],
     historyStats: {
       participations: 23,
