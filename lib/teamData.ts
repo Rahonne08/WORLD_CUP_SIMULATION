@@ -4323,7 +4323,7 @@ A Inglaterra chega ao Mundial de 2026 com a missão de finalmente "trazer o fute
       image: 'https://img.sofascore.com/api/v1/manager/785186/image'
     },
     players: [
-      { name: 'Harry Kane', position: 'Atacante', club: 'Bayern Munich', highlight: 'Capitão e maior artilheiro da história da seleção, referência absoluta no ataque.' },
+      { name: 'Harry Kane', position: 'Atacante', club: 'Bayern Munich', highlight: 'Capitão e maior artilheiro da história da seleção, referência absoluta no ataque.', image:'https://img.sofascore.com/api/v1/player/108579/image' },
       { name: 'Jude Bellingham', position: 'Meia', club: 'Real Madrid', highlight: 'Um dos melhores jogadores do mundo, motor do meio-campo e decisivo no ataque.' },
       { name: 'Phil Foden', position: 'Meia', club: 'Manchester City', highlight: 'Talento puro e criatividade, capaz de desequilibrar qualquer defesa com sua técnica.' }
     ],
