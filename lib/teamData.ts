@@ -3871,9 +3871,9 @@ A classificação foi selada com autoridade nas eliminatórias europeias:
       image: 'https://img.sofascore.com/api/v1/manager/53059/image'
     },
     players: [
-      { name: 'Kevin De Bruyne', position: 'Meia', club: 'Napoli', highlight: 'Continua sendo o maestro da equipe e líder em campo, definindo o ritmo ofensivo.' },
-      { name: 'Romelu Lukaku', position: 'Atacante', club: 'Napoli', highlight: 'Maior artilheiro da história da seleção, segue como referência no ataque.' },
-      { name: 'Youri Tielemans', position: 'Meia', club: 'Aston Villa', highlight: 'Assumiu um papel de liderança, sendo apontado como um dos capitães na caminhada para o Mundial.' }
+      { name: 'Kevin De Bruyne', position: 'Meia', club: 'Napoli', highlight: 'Continua sendo o maestro da equipe e líder em campo, definindo o ritmo ofensivo.', image: 'https://img.sofascore.com/api/v1/player/70996/image' },
+      { name: 'Romelu Lukaku', position: 'Atacante', club: 'Napoli', highlight: 'Maior artilheiro da história da seleção, segue como referência no ataque.', image: 'https://img.sofascore.com/api/v1/player/78893/image' },
+      { name: 'Youri Tielemans', position: 'Meia', club: 'Aston Villa', highlight: 'Assumiu um papel de liderança, sendo apontado como um dos capitães na caminhada para o Mundial.', image: 'https://img.sofascore.com/api/v1/player/331737/image' }
     ],
     historyStats: {
       participations: 15,
