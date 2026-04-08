@@ -3616,11 +3616,11 @@ A campanha nas eliminatórias asiáticas foi digna de um filme de ação:
       image: 'https://img.sofascore.com/api/v1/manager/156178/image'
     },
     players: [
-      { name: 'Ayase Ueda', position: 'Atacante', club: 'Feyenoord', highlight: 'Artilheiro nas eliminatórias, peça fundamental no ataque japonês.' },
-      { name: 'Takefusa Kubo', position: 'Meio-campista', club: 'Real Sociedad', highlight: 'Um dos jogadores mais talentosos e criativos da nova geração.' },
-      { name: 'Kaoru Mitoma', position: 'Atacante', club: 'Brighton', highlight: 'Conhecido por sua habilidade no drible e velocidade.' },
-      { name: 'Daichi Kamada', position: 'Meio-campista', club: 'Crystal Palace', highlight: 'Meia versátil com grande visão de jogo.' },
-      { name: 'Zion Suzuki', position: 'Goleiro', club: 'Parma', highlight: 'Jovem goleiro que assumiu a titularidade com segurança.' }
+      { name: 'Ayase Ueda', position: 'Atacante', club: 'Feyenoord', highlight: 'Artilheiro nas eliminatórias, peça fundamental no ataque japonês.', image: 'https://img.sofascore.com/api/v1/player/985823/image' },
+      { name: 'Takefusa Kubo', position: 'Meio-campista', club: 'Real Sociedad', highlight: 'Um dos jogadores mais talentosos e criativos da nova geração.', image: 'https://img.sofascore.com/api/v1/player/880218/image' },
+      { name: 'Kaoru Mitoma', position: 'Atacante', club: 'Brighton', highlight: 'Conhecido por sua habilidade no drible e velocidade.', image: 'https://img.sofascore.com/api/v1/player/936849/image' },
+      { name: 'Daichi Kamada', position: 'Meio-campista', club: 'Crystal Palace', highlight: 'Meia versátil com grande visão de jogo.', image: 'https://img.sofascore.com/api/v1/player/794338/image' },
+      { name: 'Zion Suzuki', position: 'Goleiro', club: 'Parma', highlight: 'Jovem goleiro que assumiu a titularidade com segurança.', image: 'https://img.sofascore.com/api/v1/player/905351/image' }
     ],
     historyStats: {
       participations: 8,
