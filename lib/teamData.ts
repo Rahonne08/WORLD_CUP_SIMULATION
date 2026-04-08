@@ -1502,9 +1502,9 @@ Com o apoio da torcida e a liderança de Pochettino, os americanos querem transf
       image: 'https://img.sofascore.com/api/v1/manager/3377/image'
     },
     players: [
-      { name: 'Christian Pulisic', position: 'Atacante', club: 'AC Milan', highlight: 'Referência técnica e principal nome do ataque' },
-      { name: 'Gio Reyna', position: 'Meia-atacante', club: 'Borussia M gladbach', highlight: 'Criativo e decisivo na Liga das Nações' },
-      { name: 'Weston McKennie', position: 'Meio-campista', club: 'Juventus', highlight: 'Motor do meio-campo com presença física' }
+      { name: 'Christian Pulisic', position: 'Atacante', club: 'AC Milan', highlight: 'Referência técnica e principal nome do ataque', image: 'https://img.sofascore.com/api/v1/player/817957/image' },
+      { name: 'Gio Reyna', position: 'Meia-atacante', club: 'Borussia M gladbach', highlight: 'Criativo e decisivo na Liga das Nações', image: 'https://img.sofascore.com/api/v1/player/989056/image' },
+      { name: 'Weston McKennie', position: 'Meio-campista', club: 'Juventus', highlight: 'Motor do meio-campo com presença física', image: 'https://img.sofascore.com/api/v1/player/881931/image' }
     ],
     historyStats: {
       participations: 12,
