@@ -3448,9 +3448,9 @@ O segredo do sucesso equatoriano rumo a 2026 foi o "ferrolho" lá atrás:
       image: 'https://img.sofascore.com/api/v1/manager/786550/image'
     },
     players: [
-      { name: 'Moisés Caicedo', position: 'Volante', club: 'Chelsea', highlight: 'Pilar do meio-campo e um dos jogadores mais valiosos, com valor de mercado estimado em € 110 milhões.' },
-      { name: 'Piero Hincapié', position: 'Zagueiro', club: 'Arsenal', highlight: 'Um dos defensores com maiores notas e valor de mercado.' },
-      { name: 'Willian Pacho', position: 'Zagueiro', club: 'Paris Saint-Germain', highlight: 'Destaque defensivo de alto valor, peça fundamental na zaga equatoriana.' }
+      { name: 'Moisés Caicedo', position: 'Volante', club: 'Chelsea', highlight: 'Pilar do meio-campo e um dos jogadores mais valiosos, com valor de mercado estimado em € 110 milhões.', image: 'https://img.sofascore.com/api/v1/player/987650/image' },
+      { name: 'Piero Hincapié', position: 'Zagueiro', club: 'Arsenal', highlight: 'Um dos defensores com maiores notas e valor de mercado.', image: 'https://img.sofascore.com/api/v1/player/1002837/image' },
+      { name: 'Willian Pacho', position: 'Zagueiro', club: 'Paris Saint-Germain', highlight: 'Destaque defensivo de alto valor, peça fundamental na zaga equatoriana.', image: 'https://img.sofascore.com/api/v1/player/979480/image' }
     ],
     historyStats: {
       participations: 5,
