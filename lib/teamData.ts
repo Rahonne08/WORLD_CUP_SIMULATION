@@ -1721,8 +1721,8 @@ Diferente de outras seleções, o Canadá garantiu vaga automaticamente por ser 
       image: 'https://img.sofascore.com/api/v1/manager/784568/image'
     },
     players: [
-      { name: 'Alphonso Davies', position: 'Lateral', club: 'Bayern de Munique', highlight: 'Destaque mundial' },
-      { name: 'Jonathan David', position: 'Atacante', club: 'Juventus', highlight: 'Artilheiro' }
+      { name: 'Alphonso Davies', position: 'Lateral', club: 'Bayern de Munique', highlight: 'Destaque mundial', image: 'https://img.sofascore.com/api/v1/player/843665/image' },
+      { name: 'Jonathan David', position: 'Atacante', club: 'Juventus', highlight: 'Artilheiro', image: 'https://img.sofascore.com/api/v1/player/935564/image' }
     ],
     historyStats: {
       participations: 3,
