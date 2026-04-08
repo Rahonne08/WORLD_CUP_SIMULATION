@@ -3787,9 +3787,9 @@ A campanha nas eliminatórias africanas foi simplesmente impecável:
       image: 'https://img.sofascore.com/api/v1/manager/9062/image'
     },
     players: [
-      { name: 'Hannibal Mejbri', position: 'Meio-campista', club: 'Burnley', highlight: 'Considerado um dos principais talentos e camisa 10 da equipe, Mejbri é o pilar criativo da Tunísia no meio-campo.' },
-      { name: 'Naim Sliti', position: 'Atacante', club: 'Al Shamal SC', highlight: 'Jogador experiente e ofensivo, essencial para a criação de jogadas e gols da equipe.' },
-      { name: 'Seifeddine Jaziri', position: 'Atacante', club: 'Zamalek', highlight: 'Atacante experiente, fundamental nas opções de ataque da seleção.' }
+      { name: 'Hannibal Mejbri', position: 'Meio-campista', club: 'Burnley', highlight: 'Considerado um dos principais talentos e camisa 10 da equipe, Mejbri é o pilar criativo da Tunísia no meio-campo.', image: 'https://img.sofascore.com/api/v1/player/1009386/image' },
+      { name: 'Naim Sliti', position: 'Atacante', club: 'Al Shamal SC', highlight: 'Jogador experiente e ofensivo, essencial para a criação de jogadas e gols da equipe.', image: 'https://img.sofascore.com/api/v1/player/153158/image' },
+      { name: 'Seifeddine Jaziri', position: 'Atacante', club: 'Zamalek', highlight: 'Atacante experiente, fundamental nas opções de ataque da seleção.', image: 'https://img.sofascore.com/api/v1/player/918996/image' }
     ],
     historyStats: {
       participations: 7,
