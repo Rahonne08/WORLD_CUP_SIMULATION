@@ -4200,7 +4200,7 @@ Portugal chega à sua **9ª participação** em Mundiais com uma das gerações 
       image: 'https://img.sofascore.com/api/v1/manager/19518/image'
     },
     players: [
-      { name: 'Cristiano Ronaldo', position: 'Atacante', club: 'Al-Nassr', highlight: 'O maior artilheiro da história das seleções, liderança e presença de área inigualáveis.' },
+      { name: 'Cristiano Ronaldo', position: 'Atacante', club: 'Al-Nassr', highlight: 'O maior artilheiro da história das seleções, liderança e presença de área inigualáveis.', image:'https://img.sofascore.com/api/v1/player/750/image' },
       { name: 'Bruno Fernandes', position: 'Meia', club: 'Man United', highlight: 'O cérebro da equipe, responsável pela criação e passes decisivos.' },
       { name: 'Bernardo Silva', position: 'Meia', club: 'Man City', highlight: 'Inteligência tática e controle de bola fundamentais para o ritmo de jogo.' }
     ],
