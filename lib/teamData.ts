@@ -4121,7 +4121,7 @@ Pela primeira vez, a OFC contou com uma vaga direta para a Copa do Mundo, e a No
       image: 'https://img.sofascore.com/api/v1/manager/784912/image'
     },
     players: [
-      { name: 'Mario Ilich', position: 'Meio-campista', club: 'Auckland City', highlight: 'Destaque no meio-campo.' },
+      { name: 'Mario Ilich', position: 'Meio-campista', club: 'Auckland City', highlight: 'Destaque no meio-campo.', image: 'https://img.sofascore.com/api/v1/player/966686/image' },
     ],
     historyStats: {
       participations: 3,
