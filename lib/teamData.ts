@@ -446,8 +446,8 @@ Mesmo em renovação, o Uruguai chega forte. Com jovens talentos e um treinador 
     },
     players: [
       { name: 'Federico Valverde', position: 'Meia', club: 'Real Madrid', highlight: 'O motor e líder da nova geração, essencial tanto na defesa quanto no ataque.', image:'https://img.sofascore.com/api/v1/player/831808/image' },
-      { name: 'Darwin Núñez', position: 'Atacante', club: 'Al-Hilal', highlight: 'Atacante potente e finalizador, principal esperança de gols da equipe.' },
-      { name: 'Ronald Araújo', position: 'Zagueiro', club: 'Barcelona', highlight: 'Um dos melhores defensores do mundo, pilar da solidez defensiva uruguaia.' }
+      { name: 'Darwin Núñez', position: 'Atacante', club: 'Al-Hilal', highlight: 'Atacante potente e finalizador, principal esperança de gols da equipe.', image:'https://img.sofascore.com/api/v1/player/924871/image' },
+      { name: 'Ronald Araújo', position: 'Zagueiro', club: 'Barcelona', highlight: 'Um dos melhores defensores do mundo, pilar da solidez defensiva uruguaia.', image:'https://img.sofascore.com/api/v1/player/925097/image' }
     ],
     historyStats: {
       participations: 15,
