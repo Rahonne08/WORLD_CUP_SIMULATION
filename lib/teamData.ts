@@ -4159,7 +4159,7 @@ A República Democrática do Congo retorna ao Mundial após **52 anos** (sua ún
       image: 'https://img.sofascore.com/api/v1/manager/793874/image'
     },
     players: [
-      { name: 'Chancel Mbemba', position: 'Zagueiro', club: 'Lille', highlight: 'Líder e capitão, traz experiência e segurança para a defesa.' },
+      { name: 'Chancel Mbemba', position: 'Zagueiro', club: 'Lille', highlight: 'Líder e capitão, traz experiência e segurança para a defesa.', image:'https://img.sofascore.com/api/v1/player/238612/image' },
       { name: 'Yoane Wissa', position: 'Atacante', club: 'Newcastle United', highlight: 'Velocidade e faro de gol, principal arma ofensiva na Premier League.' },
       { name: 'Simon Banza', position: 'Atacante', club: 'Al-Jazira', highlight: 'Centroavante potente e excelente finalizador.' }
     ],
