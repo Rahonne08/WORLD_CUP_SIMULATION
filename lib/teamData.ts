@@ -2275,9 +2275,9 @@ Agora, retorna ao Mundial com mais experiência e ambição! 💪🇧🇦`,
       image: 'https://img.sofascore.com/api/v1/manager/804862/image'
     },
     players: [
-      { name: 'Edin Džeko', position: 'Atacante', club: 'Schalke 04', highlight: 'Líder técnico e referência' },
-      { name: 'Esmir Bajraktarevic', position: 'Atacante', club: 'PSV', highlight: 'Jovem talento decisivo' },
-      { name: 'Ermedin Demirović', position: 'Atacante', club: 'Stuttgart', highlight: 'Peça chave no ataque' }
+      { name: 'Edin Džeko', position: 'Atacante', club: 'Schalke 04', highlight: 'Líder técnico e referência', image: 'https://img.sofascore.com/api/v1/player/14990/image' },
+      { name: 'Esmir Bajraktarevic', position: 'Atacante', club: 'PSV', highlight: 'Jovem talento decisivo', image: 'https://img.sofascore.com/api/v1/player/1136110/image' },
+      { name: 'Ermedin Demirović', position: 'Atacante', club: 'Stuttgart', highlight: 'Peça chave no ataque', image: 'https://img.sofascore.com/api/v1/player/878081/image' }
     ],
     historyStats: {
       participations: 2,
