@@ -2804,10 +2804,10 @@ Gols de:
       image: 'https://img.sofascore.com/api/v1/manager/784471/image'
     },
     players: [
-      { name: 'Andrew Robertson', position: 'Lateral-esquerdo', club: 'Liverpool', highlight: 'Líder da equipe e um dos melhores da Europa' },
-      { name: 'Scott McTominay', position: 'Meio-campista', club: 'Napoli', highlight: 'Principal goleador e motor do meio-campo' },
-      { name: 'John McGinn', position: 'Meio-campista', club: 'Aston Villa', highlight: 'Intensidade e criatividade nas transições' },
-      { name: 'Kieran Tierney', position: 'Zagueiro/Ala', club: 'Celtic', highlight: 'Versatilidade defensiva' }
+      { name: 'Andrew Robertson', position: 'Lateral-esquerdo', club: 'Liverpool', highlight: 'Líder da equipe e um dos melhores da Europa', image: 'https://img.sofascore.com/api/v1/player/262911/image' },
+      { name: 'Scott McTominay', position: 'Meio-campista', club: 'Napoli', highlight: 'Principal goleador e motor do meio-campo', image: 'https://img.sofascore.com/api/v1/player/879346/image' },
+      { name: 'John McGinn', position: 'Meio-campista', club: 'Aston Villa', highlight: 'Intensidade e criatividade nas transições', image: 'https://img.sofascore.com/api/v1/player/250223/image' },
+      { name: 'Kieran Tierney', position: 'Zagueiro/Ala', club: 'Celtic', highlight: 'Versatilidade defensiva', image: 'https://img.sofascore.com/api/v1/player/366592/image' }
     ],
     historyStats: {
       participations: 9,
