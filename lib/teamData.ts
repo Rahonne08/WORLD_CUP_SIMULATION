@@ -716,7 +716,7 @@ A Áustria volta ao Mundial após **28 anos de ausência** e quer escrever um no
     players: [
       { name: 'Marcel Sabitzer', position: 'Meia', club: 'Borussia Dortmund', highlight: 'Líder técnico e motor do time, fundamental na criação e finalização.', image:'https://img.sofascore.com/api/v1/player/133908/image' },
       { name: 'Konrad Laimer', position: 'Meia', club: 'Bayern Munich', highlight: 'Especialista em pressão e recuperação de bola, essencial no esquema de Rangnick.', image:'https://img.sofascore.com/api/v1/player/355492/image' },
-      { name: 'Christoph Baumgartner', position: 'Meia', club: 'RB Leipzig', highlight: 'Talento criativo que traz imprevisibilidade ao ataque austríaco.' }
+      { name: 'Christoph Baumgartner', position: 'Meia', club: 'RB Leipzig', highlight: 'Talento criativo que traz imprevisibilidade ao ataque austríaco.', image:'https://img.sofascore.com/api/v1/player/825956/image' }
     ],
     historyStats: {
       participations: 8,
