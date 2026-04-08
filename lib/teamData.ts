@@ -2164,9 +2164,9 @@ Uma seleção equilibrada, sólida e pronta para surpreender! 💪🇨🇭`,
       image: 'https://img.sofascore.com/api/v1/manager/67424/image'
     },
     players: [
-      { name: 'Granit Xhaka', position: 'Meio-campista', club: 'Sunderland', highlight: 'Líder técnico e emocional' },
-      { name: 'Manuel Akanji', position: 'Zagueiro', club: 'Inter de Milão', highlight: 'Pilar defensivo' },
-      { name: 'Yann Sommer', position: 'Goleiro', club: 'Inter de Milão', highlight: 'Goleiros de elite' }
+      { name: 'Granit Xhaka', position: 'Meio-campista', club: 'Sunderland', highlight: 'Líder técnico e emocional', image: 'https://img.sofascore.com/api/v1/player/117777/image' },
+      { name: 'Manuel Akanji', position: 'Zagueiro', club: 'Inter de Milão', highlight: 'Pilar defensivo', image: 'https://img.sofascore.com/api/v1/player/383560/image' },
+      { name: 'Yann Sommer', position: 'Goleiro', club: 'Inter de Milão', highlight: 'Goleiros de elite', image: 'https://img.sofascore.com/api/v1/player/16206/image' }
     ],
     historyStats: {
       participations: 13,
