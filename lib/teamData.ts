@@ -4448,7 +4448,7 @@ O Panamá chega à sua **2ª participação** em Mundiais após uma campanha his
     },
     players: [
       { name: 'Adalberto Carrasquilla', position: 'Meia', club: 'Pumas UNAM', highlight: 'O motor do time, visão de jogo e qualidade técnica acima da média.', image:'https://img.sofascore.com/api/v1/player/796330/image' },
-      { name: 'Michael Murillo', position: 'Lateral', club: 'Beşiktaş JK', highlight: 'Experiência no futebol europeu, traz solidez defensiva e apoio constante ao ataque.' },
+      { name: 'Michael Murillo', position: 'Lateral', club: 'Beşiktaş JK', highlight: 'Experiência no futebol europeu, traz solidez defensiva e apoio constante ao ataque.', image:'https://img.sofascore.com/api/v1/player/839493/image' },
       { name: 'José Córdoba', position: 'Zagueiro', club: 'Norwich City', highlight: 'Jovem promessa defensiva que se consolidou como pilar da zaga panamenha.' }
     ],
     historyStats: {
