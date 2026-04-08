@@ -1190,8 +1190,8 @@ Com uma “geração de ouro”, a Noruega chega como uma das seleções mais pe
       image: 'https://img.sofascore.com/api/v1/manager/53102/image'
     },
     players: [
-      { name: 'Erling Haaland', position: 'Atacante', club: 'Manchester City', highlight: 'O maior artilheiro do mundo na atualidade, capaz de decidir qualquer jogo sozinho.' },
-      { name: 'Martin Ødegaard', position: 'Meia', club: 'Arsenal', highlight: 'Capitão e cérebro da equipe, responsável por ditar o ritmo e criar chances.' },
+      { name: 'Erling Haaland', position: 'Atacante', club: 'Manchester City', highlight: 'O maior artilheiro do mundo na atualidade, capaz de decidir qualquer jogo sozinho.', image:'https://img.sofascore.com/api/v1/player/839956/image' },
+      { name: 'Martin Ødegaard', position: 'Meia', club: 'Arsenal', highlight: 'Capitão e cérebro da equipe, responsável por ditar o ritmo e criar chances.', image:'' },
       { name: 'Alexander Sørloth', position: 'Atacante', club: 'Atlético Madrid', highlight: 'Poder físico e presença de área, excelente complemento para Haaland no ataque.' }
     ],
     historyStats: {
