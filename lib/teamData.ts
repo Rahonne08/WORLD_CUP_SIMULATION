@@ -976,9 +976,9 @@ O Iraque chega como azarão, mas com espírito de luta forte para surpreender.`,
       image: 'https://img.sofascore.com/api/v1/manager/53524/image'
     },
     players: [
-      { name: 'Aymen Hussein', position: 'Atacante', club: 'Al Karma SC', highlight: 'Artilheiro nato e herói da classificação com gols decisivos.' },
-      { name: 'Ali Al-Hamadi', position: 'Atacante', club: 'Luton Town', highlight: 'Jovem talento que traz a experiência do futebol inglês para o ataque iraquiano.' },
-      { name: 'Zidane Iqbal', position: 'Meia', club: 'Utrecht', highlight: 'A grande promessa técnica do país, responsável pela criação no meio-campo.' }
+      { name: 'Aymen Hussein', position: 'Atacante', club: 'Al Karma SC', highlight: 'Artilheiro nato e herói da classificação com gols decisivos.', image:'https://img.sofascore.com/api/v1/player/812999/image' },
+      { name: 'Ali Al-Hamadi', position: 'Atacante', club: 'Luton Town', highlight: 'Jovem talento que traz a experiência do futebol inglês para o ataque iraquiano.', image:'https://img.sofascore.com/api/v1/player/1010010/image' },
+      { name: 'Zidane Iqbal', position: 'Meia', club: 'Utrecht', highlight: 'A grande promessa técnica do país, responsável pela criação no meio-campo.', image:'https://img.sofascore.com/api/v1/player/1014225/image' }
     ],
     historyStats: {
       participations: 2,
