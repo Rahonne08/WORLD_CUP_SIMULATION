@@ -4283,7 +4283,7 @@ A Colômbia retorna ao Mundial com uma equipe renovada e cheia de talento. Sob o
     },
     players: [
       { name: 'Luis Díaz', position: 'Atacante', club: 'Bayern München', highlight: 'Um dos melhores pontas do mundo, velocidade e drible que desequilibram qualquer defesa.', image:'https://img.sofascore.com/api/v1/player/883537/image' },
-      { name: 'James Rodríguez', position: 'Meia', club: 'Minnesota United', highlight: 'O capitão e cérebro do time, com visão de jogo e passes magistrais.' },
+      { name: 'James Rodríguez', position: 'Meia', club: 'Minnesota United', highlight: 'O capitão e cérebro do time, com visão de jogo e passes magistrais.', image:'https://img.sofascore.com/api/v1/player/107414/image' },
       { name: 'Jhon Durán', position: 'Atacante', club: 'Zenit', highlight: 'Jovem centroavante potente e em grande fase na Premier League.' }
     ],
     historyStats: {
