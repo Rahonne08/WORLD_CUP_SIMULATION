@@ -244,9 +244,9 @@ Cabo Verde chega como grande surpresa do torneio. Com organização tática e es
       image: 'https://img.sofascore.com/api/v1/manager/794980/image'
     },
     players: [
-      { name: 'Ryan Mendes', position: 'Atacante', club: 'Iğdır FK', highlight: 'Capitão e maior artilheiro da história da seleção, líder técnico em campo.' },
-      { name: 'Logan Costa', position: 'Zagueiro', club: 'Villarreal', highlight: 'Jovem pilar defensivo que atua em alto nível no futebol francês.' },
-      { name: 'Garry Rodrigues', position: 'Atacante', club: 'Apollon Limassol', highlight: 'Experiência e velocidade pelas pontas, fundamental no esquema ofensivo.' }
+      { name: 'Ryan Mendes', position: 'Atacante', club: 'Iğdır FK', highlight: 'Capitão e maior artilheiro da história da seleção, líder técnico em campo.', image: 'https://img.sofascore.com/api/v1/player/52797/image' },
+      { name: 'Logan Costa', position: 'Zagueiro', club: 'Villarreal', highlight: 'Jovem pilar defensivo que atua em alto nível no futebol francês.', image: 'https://img.sofascore.com/api/v1/player/911853/image' },
+      { name: 'Garry Rodrigues', position: 'Atacante', club: 'Apollon Limassol', highlight: 'Experiência e velocidade pelas pontas, fundamental no esquema ofensivo.', image: 'https://img.sofascore.com/api/v1/player/787429/image' }
     ],
     historyStats: {
       participations: 1,
