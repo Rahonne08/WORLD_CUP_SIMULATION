@@ -1273,9 +1273,9 @@ A classificação para 2026 foi um verdadeiro passeio! A Espanha dominou o Grupo
       image: 'https://img.sofascore.com/api/v1/manager/331371/image'
     },
     players: [
-      { name: 'Lamine Yamal', position: 'Atacante', club: 'Barcelona', highlight: 'A grande joia do futebol mundial, peça fundamental na criatividade ofensiva da Roja.' },
-      { name: 'Rodri', position: 'Meio-campista', club: 'Manchester City', highlight: 'O cérebro e equilíbrio do meio-campo, essencial para o controle do jogo.' },
-      { name: 'Nico Williams', position: 'Atacante', club: 'Athletic Bilbao', highlight: 'Velocidade e drible pelas pontas que desequilibram qualquer defesa.' }
+      { name: 'Lamine Yamal', position: 'Atacante', club: 'Barcelona', highlight: 'A grande joia do futebol mundial, peça fundamental na criatividade ofensiva da Roja.', image: 'https://img.sofascore.com/api/v1/player/1402912/image' },
+      { name: 'Rodri', position: 'Meio-campista', club: 'Manchester City', highlight: 'O cérebro e equilíbrio do meio-campo, essencial para o controle do jogo.', image: 'https://img.sofascore.com/api/v1/player/827606/image' },
+      { name: 'Nico Williams', position: 'Atacante', club: 'Athletic Bilbao', highlight: 'Velocidade e drible pelas pontas que desequilibram qualquer defesa.', image: 'https://img.sofascore.com/api/v1/player/1085400/image' }
     ],
     historyStats: {
       participations: 17,
