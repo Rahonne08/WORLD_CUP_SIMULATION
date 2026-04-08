@@ -3280,9 +3280,9 @@ A campanha rumo a 2026 foi avassaladora! Curaçau não deu chances aos rivais:
       image: 'https://img.sofascore.com/api/v1/manager/53437/image'
     },
     players: [
-      { name: 'Leandro Bacuna', position: 'Meio-campista', club: 'Iğdır FK', highlight: 'Capitão da equipe, fundamental na organização e liderança do elenco.' },
-      { name: 'Rangelo Janga', position: 'Atacante', club: 'FC Eindhoven', highlight: 'Artilheiro que se destacou na campanha de classificação.' },
-      { name: 'Eloy Room', position: 'Goleiro', club: 'Miami FC', highlight: 'Goleiro experiente que trouxe segurança à defesa de Curaçau.' }
+      { name: 'Leandro Bacuna', position: 'Meio-campista', club: 'Iğdır FK', highlight: 'Capitão da equipe, fundamental na organização e liderança do elenco.', image: 'https://img.sofascore.com/api/v1/player/74545/image' },
+      { name: 'Rangelo Janga', position: 'Atacante', club: 'FC Eindhoven', highlight: 'Artilheiro que se destacou na campanha de classificação.', image: 'https://img.sofascore.com/api/v1/player/128791/image' },
+      { name: 'Eloy Room', position: 'Goleiro', club: 'Miami FC', highlight: 'Goleiro experiente que trouxe segurança à defesa de Curaçau.', image: 'https://img.sofascore.com/api/v1/player/40859/image' }
     ],
     historyStats: {
       participations: 1,
@@ -3363,10 +3363,10 @@ A classificação veio com autoridade total! A Costa do Marfim garantiu sua vaga
       image: 'https://img.sofascore.com/api/v1/manager/803796/image'
     },
     players: [
-      { name: 'Franck Kessié', position: 'Meio-campista', club: 'Al-Ahli', highlight: 'Pilar do meio-campo, fundamental na transição e liderança da equipe.' },
-      { name: 'Seko Fofana', position: 'Meio-campista', club: 'FC Porto', highlight: 'Motor do time, conhecido por sua força física e chegada ao ataque.' },
-      { name: 'Ibrahim Sangaré', position: 'Volante', club: 'Nottingham Forest', highlight: 'Segurança defensiva e excelente capacidade de recuperação de bola.' },
-      { name: 'Amad Diallo', position: 'Atacante', club: 'Manchester United', highlight: 'Jovem talento com grande habilidade técnica e drible.' }
+      { name: 'Franck Kessié', position: 'Meio-campista', club: 'Al-Ahli', highlight: 'Pilar do meio-campo, fundamental na transição e liderança da equipe.', image: 'https://img.sofascore.com/api/v1/player/359226/image' },
+      { name: 'Seko Fofana', position: 'Meio-campista', club: 'FC Porto', highlight: 'Motor do time, conhecido por sua força física e chegada ao ataque.', image: 'https://img.sofascore.com/api/v1/player/191188/image' },
+      { name: 'Ibrahim Sangaré', position: 'Volante', club: 'Nottingham Forest', highlight: 'Segurança defensiva e excelente capacidade de recuperação de bola.', image: 'https://img.sofascore.com/api/v1/player/843754/image' },
+      { name: 'Amad Diallo', position: 'Atacante', club: 'Manchester United', highlight: 'Jovem talento com grande habilidade técnica e drible.', image: 'https://img.sofascore.com/api/v1/player/971037/image' }
     ],
     historyStats: {
       participations: 4,
