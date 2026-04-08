@@ -4367,7 +4367,7 @@ A Croácia, pequena em território mas gigante em campo, chega para sua **7ª pa
     players: [
       { name: 'Luka Modrić', position: 'Meia', club: 'Milan', highlight: 'Lenda viva e capitão, o cérebro que dita o ritmo de jogo com classe eterna.', image:'https://img.sofascore.com/api/v1/player/15466/image' },
       { name: 'Joško Gvardiol', position: 'Zagueiro', club: 'Manchester City', highlight: 'Um dos melhores defensores do mundo, pilar da solidez defensiva croata.', image:'https://img.sofascore.com/api/v1/player/964994/image' },
-      { name: 'Mateo Kovačić', position: 'Meia', club: 'Manchester City', highlight: 'Dinamismo e qualidade técnica essenciais para o controle do meio-campo.' }
+      { name: 'Mateo Kovačić', position: 'Meia', club: 'Manchester City', highlight: 'Dinamismo e qualidade técnica essenciais para o controle do meio-campo.', image:'https://img.sofascore.com/api/v1/player/136710/image' }
     ],
     historyStats: {
       participations: 7,
