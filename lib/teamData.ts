@@ -1824,9 +1824,9 @@ A campanha da Coreia do Sul foi marcada por consistência e força no cenário a
       image: 'https://img.sofascore.com/api/v1/manager/786586/image'
     },
     players: [
-      { name: 'Son Heung-min', position: 'Atacante', club: 'Los Angeles FC', highlight: 'Frequentemente eleito o melhor da Ásia' },
-      { name: 'Kim Min-jae', position: 'Zagueiro', club: 'Bayern de Munique', highlight: 'Pilar defensivo' },
-      { name: 'Lee Kang-in', position: 'Meia', club: 'PSG', highlight: 'Criatividade' }
+      { name: 'Son Heung-min', position: 'Atacante', club: 'Los Angeles FC', highlight: 'Frequentemente eleito o melhor da Ásia', image: 'https://img.sofascore.com/api/v1/player/111505/image' },
+      { name: 'Kim Min-jae', position: 'Zagueiro', club: 'Bayern de Munique', highlight: 'Pilar defensivo', image: 'https://img.sofascore.com/api/v1/player/896569/image' },
+      { name: 'Lee Kang-in', position: 'Meia', club: 'PSG', highlight: 'Criatividade', image: 'https://img.sofascore.com/api/v1/player/917087/image' }
     ],
     historyStats: {
       participations: 12,
@@ -1928,8 +1928,8 @@ A jornada até a Copa foi marcada por **emoção e nervos de aço** 😮🔥`,
       image: 'https://img.sofascore.com/api/v1/manager/68799/image'
     },
     players: [
-      { name: 'Patrik Schick', position: 'Atacante', club: 'Bayer Leverkusen', highlight: 'Destaque ofensivo' },
-      { name: 'Tomáš Souček', position: 'Meio-campista', club: 'West Ham', highlight: 'Líder e motor do meio-campo' }
+      { name: 'Patrik Schick', position: 'Atacante', club: 'Bayer Leverkusen', highlight: 'Destaque ofensivo', image: 'https://img.sofascore.com/api/v1/player/280609/image' },
+      { name: 'Tomáš Souček', position: 'Meio-campista', club: 'West Ham', highlight: 'Líder e motor do meio-campo', image: 'https://img.sofascore.com/api/v1/player/799041/image' }
     ],
     historyStats: {
       participations: 10,

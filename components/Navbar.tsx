@@ -16,6 +16,9 @@ export function Navbar() {
           <Link href="/teams" className="hover:text-green-400 transition-colors flex items-center gap-2">
             <Users className="h-4 w-4" /> Seleções
           </Link>
+          <Link href="/players" className="hover:text-green-400 transition-colors flex items-center gap-2">
+            <Trophy className="h-4 w-4" /> Jogadores
+          </Link>
           <Link href="/groups" className="hover:text-green-400 transition-colors flex items-center gap-2">
             <LayoutGrid className="h-4 w-4" /> Grupos
           </Link>
@@ -35,6 +38,9 @@ export function Navbar() {
         </Link>
         <Link href="/teams" className="flex flex-col items-center gap-1 text-xs text-gray-400 hover:text-green-400">
           <Users className="h-5 w-5" /> Seleções
+        </Link>
+        <Link href="/players" className="flex flex-col items-center gap-1 text-xs text-gray-400 hover:text-green-400">
+          <Trophy className="h-5 w-5" /> Jogadores
         </Link>
         <Link href="/groups" className="flex flex-col items-center gap-1 text-xs text-gray-400 hover:text-green-400">
           <LayoutGrid className="h-5 w-5" /> Grupos

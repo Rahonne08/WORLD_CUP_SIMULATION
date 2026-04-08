@@ -88,6 +88,10 @@ export default function Home() {
               <Users className="h-5 w-5" />
               Ver Grupos
             </Link>
+            <Link href="/players" className="inline-flex items-center gap-2 rounded-full bg-yellow-500 px-8 py-4 text-sm font-bold text-gray-950 hover:bg-yellow-400 transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(234,179,8,0.4)]">
+              <Trophy className="h-5 w-5" />
+              Explorar Jogadores
+            </Link>
             <Link href="/simulator" className="inline-flex items-center gap-2 rounded-full bg-gray-900/80 backdrop-blur px-8 py-4 text-sm font-bold text-white hover:bg-gray-800 transition-all border border-gray-700 hover:border-gray-500 hover:scale-105 active:scale-95">
               <Calculator className="h-5 w-5" />
               Simular Copa
