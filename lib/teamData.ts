@@ -621,7 +621,7 @@ A Argentina chega como **atual campeã mundial** e uma das grandes favoritas ao 
       image: 'https://img.sofascore.com/api/v1/manager/790728/image'
     },
     players: [
-      { name: 'Lionel Messi', position: 'Atacante', club: 'Inter Miami', highlight: 'O maior da história, capitão e líder técnico em busca do seu segundo título mundial.' },
+      { name: 'Lionel Messi', position: 'Atacante', club: 'Inter Miami', highlight: 'O maior da história, capitão e líder técnico em busca do seu segundo título mundial.', image:'https://img.sofascore.com/api/v1/player/12994/image' },
       { name: 'Lautaro Martínez', position: 'Atacante', club: 'Inter Milan', highlight: 'Artilheiro implacável e peça fundamental no ataque da Albiceleste.' },
       { name: 'Emiliano Martínez', position: 'Goleiro', club: 'Aston Villa', highlight: 'O "Dibu", herói em decisões por pênaltis e segurança máxima sob as traves.' }
     ],
