@@ -2046,10 +2046,10 @@ Mesmo sem classificação direta, o Catar mostrou **força mental e evolução c
       image: 'https://img.sofascore.com/api/v1/manager/138570/image'
     },
     players: [
-      { name: 'Almoez Ali', position: 'Atacante', club: 'Al-Duhail SC', highlight: 'Um dos maiores artilheiros da história da seleção' },
-      { name: 'Akram Afif', position: 'Atacante', club: 'Al-Sadd SC', highlight: 'Atacante decisivo e criativo' },
-      { name: 'Hasan Al-Haydos', position: 'Meio-campista', club: 'Al-Sadd SC', highlight: 'Veterano e líder' },
-      { name: 'Sebastián Soria', position: 'Atacante', club: 'Qatar SC', highlight: 'Experiente e relevante' }
+      { name: 'Almoez Ali', position: 'Atacante', club: 'Al-Duhail SC', highlight: 'Um dos maiores artilheiros da história da seleção', image: 'https://img.sofascore.com/api/v1/player/796501/image' },
+      { name: 'Akram Afif', position: 'Atacante', club: 'Al-Sadd SC', highlight: 'Atacante decisivo e criativo', image: 'https://img.sofascore.com/api/v1/player/794541/image' },
+      { name: 'Hasan Al-Haydos', position: 'Meio-campista', club: 'Al-Sadd SC', highlight: 'Veterano e líder', image: 'https://img.sofascore.com/api/v1/player/93953/image' },
+      { name: 'Sebastián Soria', position: 'Atacante', club: 'Qatar SC', highlight: 'Experiente e relevante', image: 'https://img.sofascore.com/api/v1/player/95242/image' }
     ],
     historyStats: {
       participations: 2,
