@@ -2951,9 +2951,9 @@ Destaques:
       image: 'https://img.sofascore.com/api/v1/manager/53366/image'
     },
     players: [
-      { name: 'Miguel Almirón', position: 'Atacante', club: 'Atlanta United', highlight: 'Principal nome ofensivo e criativo.' },
-      { name: 'Julio Enciso', position: 'Atacante', club: 'RC Strasbourg', highlight: 'Jovem promessa com grande capacidade técnica.' },
-      { name: 'Gustavo Gómez', position: 'Zagueiro', club: 'Palmeiras', highlight: 'Liderança e segurança na zaga, pilar da defesa.' }
+      { name: 'Miguel Almirón', position: 'Atacante', club: 'Atlanta United', highlight: 'Principal nome ofensivo e criativo.', image: 'https://img.sofascore.com/api/v1/player/333373/image' },
+      { name: 'Julio Enciso', position: 'Atacante', club: 'RC Strasbourg', highlight: 'Jovem promessa com grande capacidade técnica.', image: 'https://img.sofascore.com/api/v1/player/973556/image' },
+      { name: 'Gustavo Gómez', position: 'Zagueiro', club: 'Palmeiras', highlight: 'Liderança e segurança na zaga, pilar da defesa.', image: 'https://img.sofascore.com/api/v1/player/220833/image' }
     ],
     historyStats: {
       participations: 9,
