@@ -343,7 +343,7 @@ A meta é clara: voltar ao mata-mata, algo que não acontece desde 1994.`,
       image: 'https://img.sofascore.com/api/v1/manager/784460/image'
     },
     players: [
-      { name: 'Salem Al-Dawsari', position: 'Meia', club: 'Al-Hilal', highlight: 'A grande estrela da equipe, conhecido por gols decisivos em momentos cruciais.' },
+      { name: 'Salem Al-Dawsari', position: 'Meia', club: 'Al-Hilal', highlight: 'A grande estrela da equipe, conhecido por gols decisivos em momentos cruciais.', image: 'https://img.sofascore.com/api/v1/player/160893/image' },
       { name: 'Firas Al-Buraikan', position: 'Atacante', club: 'Al-Ahli', highlight: 'Jovem artilheiro que se consolidou como a principal referência no ataque saudita.' },
       { name: 'Saud Abdulhamid', position: 'Lateral', club: 'RC Lens', highlight: 'Primeiro saudita a atuar em uma das grandes ligas europeias, trazendo experiência internacional.' }
     ],
