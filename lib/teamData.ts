@@ -2445,10 +2445,10 @@ Os Leões do Atlas querem mais do que repetir 2022: o sonho agora é chegar à f
       image: 'https://img.sofascore.com/api/v1/manager/807706/image'
     },
     players: [
-      { name: 'Achraf Hakimi', position: 'Lateral-Direito', club: 'PSG', highlight: 'Principal estrela, capitão e 6º na Bola de Ouro 2025' },
-      { name: 'Brahim Díaz', position: 'Meia/Atacante', club: 'Real Madrid', highlight: 'Grande destaque técnico e organizador ofensivo' },
-      { name: 'Yassine Bounou', position: 'Goleiro', club: 'S.S.V. Naturns', highlight: 'Pilar de segurança defensiva e experiente' },
-      { name: 'Youssef En-Nesyri', position: 'Atacante', club: 'Al-Ittihad', highlight: 'Maior artilheiro marroquino em Copas' }
+      { name: 'Achraf Hakimi', position: 'Lateral-Direito', club: 'PSG', highlight: 'Principal estrela, capitão e 6º na Bola de Ouro 2025', image: 'https://img.sofascore.com/api/v1/player/814594/image' },
+      { name: 'Brahim Díaz', position: 'Meia/Atacante', club: 'Real Madrid', highlight: 'Grande destaque técnico e organizador ofensivo', image: 'https://img.sofascore.com/api/v1/player/835485/image' },
+      { name: 'Yassine Bounou', position: 'Goleiro', club: 'S.S.V. Naturns', highlight: 'Pilar de segurança defensiva e experiente', image: 'https://img.sofascore.com/api/v1/player/970576/image' },
+      { name: 'Youssef En-Nesyri', position: 'Atacante', club: 'Al-Ittihad', highlight: 'Maior artilheiro marroquino em Copas', image: 'https://img.sofascore.com/api/v1/player/846470/image' }
     ],
     historyStats: {
       participations: 7,
