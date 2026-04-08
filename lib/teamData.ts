@@ -3191,9 +3191,9 @@ Mas Montella não deixou a peteca cair! O comandante conduziu sua equipe com suc
       image: 'https://img.sofascore.com/api/v1/manager/1774/image'
     },
     players: [
-      { name: 'Arda Güler', position: 'Meia/Atacante', club: 'Real Madrid', highlight: 'Considerado um dos jogadores mais valiosos e criativos da Europa.' },
-      { name: 'Kenan Yıldız', position: 'Atacante', club: 'Juventus', highlight: 'Estrela global que assumiu a camisa 10 da seleção.' },
-      { name: 'Hakan Çalhanoğlu', position: 'Volante', club: 'Inter de Milão', highlight: 'Maestro e capitão da equipe.' }
+      { name: 'Arda Güler', position: 'Meia/Atacante', club: 'Real Madrid', highlight: 'Considerado um dos jogadores mais valiosos e criativos da Europa.', image: 'https://img.sofascore.com/api/v1/player/1091116/image' },
+      { name: 'Kenan Yıldız', position: 'Atacante', club: 'Juventus', highlight: 'Estrela global que assumiu a camisa 10 da seleção.', image: 'https://img.sofascore.com/api/v1/player/1149011/image' },
+      { name: 'Hakan Çalhanoğlu', position: 'Volante', club: 'Inter de Milão', highlight: 'Maestro e capitão da equipe.', image: 'https://img.sofascore.com/api/v1/player/135700/image' }
     ],
     historyStats: {
       participations: 3,
