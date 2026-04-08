@@ -4406,7 +4406,7 @@ Os "Black Stars" de Gana retornam ao Mundial com o objetivo de repetir a campanh
       image: 'https://img.sofascore.com/api/v1/manager/797395/image'
     },
     players: [
-      { name: 'Mohammed Kudus', position: 'Meia', club: 'Tottenham', highlight: 'A grande estrela da equipe, criatividade e habilidade que encantam a Premier League.' },
+      { name: 'Mohammed Kudus', position: 'Meia', club: 'Tottenham', highlight: 'A grande estrela da equipe, criatividade e habilidade que encantam a Premier League.', image:'https://img.sofascore.com/api/v1/player/905163/image' },
       { name: 'Inaki Williams', position: 'Atacante', club: 'Athletic Bilbao', highlight: 'Velocidade e potência física, principal arma de contra-ataque dos Black Stars.' },
       { name: 'Thomas Partey', position: 'Meia', club: 'Villarreal', highlight: 'Experiência e equilíbrio no meio-campo, fundamental para a transição defensiva.' }
     ],
