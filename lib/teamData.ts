@@ -4038,8 +4038,8 @@ A campanha foi marcada pelo domínio técnico e tático:
       image: 'https://img.sofascore.com/api/v1/manager/785362/image'
     },
     players: [
-      { name: 'Sardar Azmoun', position: 'Atacante', club: 'Shabab Al-Ahli Club', highlight: 'Um dos principais artilheiros da história da seleção, referência no ataque.' },
-      { name: 'Mehdi Taremi', position: 'Atacante', club: 'Olympiacos', highlight: 'Atacante experiente e um dos maiores goleadores do país, mantendo alto nível na Europa.' },
+      { name: 'Sardar Azmoun', position: 'Atacante', club: 'Shabab Al-Ahli Club', highlight: 'Um dos principais artilheiros da história da seleção, referência no ataque.', image: 'https://img.sofascore.com/api/v1/player/150998/image' },
+      { name: 'Mehdi Taremi', position: 'Atacante', club: 'Olympiacos', highlight: 'Atacante experiente e um dos maiores goleadores do país, mantendo alto nível na Europa.', image: 'https://img.sofascore.com/api/v1/player/812533/image' },
     ],
     historyStats: {
       participations: 7,
