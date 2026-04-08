@@ -2614,9 +2614,9 @@ A classificação veio após:
       image: 'https://img.sofascore.com/api/v1/manager/790200/image'
     },
     players: [
-      { name: 'Ricardo Adé', position: 'Zagueiro Central', club: 'LDU (Equador)', highlight: 'Pilar da defesa e muito influente' },
-      { name: 'Johny Placide', position: 'Goleiro', club: 'Bastia', highlight: 'Capitão experiente' },
-      { name: 'Carlens Arcus', position: 'Lateral Direito', club: 'Angers (França)', highlight: 'Importante na ala direita' }
+      { name: 'Ricardo Adé', position: 'Zagueiro Central', club: 'LDU (Equador)', highlight: 'Pilar da defesa e muito influente', image: 'https://img.sofascore.com/api/v1/player/839638/image' },
+      { name: 'Johny Placide', position: 'Goleiro', club: 'Bastia', highlight: 'Capitão experiente', image: 'https://img.sofascore.com/api/v1/player/37224/image' },
+      { name: 'Carlens Arcus', position: 'Lateral Direito', club: 'Angers (França)', highlight: 'Importante na ala direita', image: 'https://img.sofascore.com/api/v1/player/794373/image' }
     ],
     historyStats: {
       participations: 2,
