@@ -670,7 +670,7 @@ A Argélia retorna à Copa após 12 anos e chega com ambição. Conhecida como *
     players: [
       { name: 'Riyad Mahrez', position: 'Atacante', club: 'Al-Ahli', highlight: 'Capitão e referência técnica, capaz de decidir jogos com sua habilidade individual.', image:'https://img.sofascore.com/api/v1/player/158213/image' },
       { name: 'Mohamed Amoura', position: 'Atacante', club: 'Wolfsburg', highlight: 'Jovem artilheiro veloz que se tornou a principal arma ofensiva nas eliminatórias.', image:'https://img.sofascore.com/api/v1/player/1107591/image' },
-      { name: 'Ismaël Bennacer', position: 'Meia', club: 'Dinamo Zagreb', highlight: 'O motor do meio-campo, essencial na transição entre defesa e ataque.' }
+      { name: 'Ismaël Bennacer', position: 'Meia', club: 'Dinamo Zagreb', highlight: 'O motor do meio-campo, essencial na transição entre defesa e ataque.', image:'https://img.sofascore.com/api/v1/player/823733/image' }
     ],
     historyStats: {
       participations: 5,
