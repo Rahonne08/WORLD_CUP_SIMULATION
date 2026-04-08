@@ -3703,9 +3703,9 @@ A jornada para 2026 foi um verdadeiro teste para o coração dos torcedores:
       image: 'https://img.sofascore.com/api/v1/manager/309534/image'
     },
     players: [
-      { name: 'Viktor Gyökeres', position: 'Atacante', club: 'Arsenal', highlight: 'Artilheiro e estrela da equipe, foi fundamental na repescagem para garantir a vaga no Mundial.' },
-      { name: 'Alexander Isak', position: 'Atacante', club: 'Liverpool', highlight: 'Atacante veloz e técnico, uma das principais ameaças ofensivas da Suécia.' },
-      { name: 'Lucas Bergvall', position: 'Meio-campista', club: 'Tottenham', highlight: 'Jovem talento criativo que traz dinamismo e visão de jogo ao meio-campo.' }
+      { name: 'Viktor Gyökeres', position: 'Atacante', club: 'Arsenal', highlight: 'Artilheiro e estrela da equipe, foi fundamental na repescagem para garantir a vaga no Mundial.', image: 'https://img.sofascore.com/api/v1/player/804508/image' },
+      { name: 'Alexander Isak', position: 'Atacante', club: 'Liverpool', highlight: 'Atacante veloz e técnico, uma das principais ameaças ofensivas da Suécia.', image: 'https://img.sofascore.com/api/v1/player/823941/image' },
+      { name: 'Lucas Bergvall', position: 'Meio-campista', club: 'Tottenham', highlight: 'Jovem talento criativo que traz dinamismo e visão de jogo ao meio-campo.', image: 'https://img.sofascore.com/api/v1/player/1391251/image' }
     ],
     historyStats: {
       participations: 13,
