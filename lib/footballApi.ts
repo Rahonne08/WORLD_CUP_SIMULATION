@@ -1,64 +1,119 @@
 /**
- * Serviço de API para integração com API-Football
+ * Cliente centralizado para a API Football-Data.org.
+ * Comunica-se com o proxy em '/api/football-data' para manter a chave de API segura
+ * e aproveitar o cache robusto do servidor.
  */
 
-const BASE_URL = 'https://v3.football.api-sports.io';
-const API_KEY = process.env.NEXT_PUBLIC_FOOTBALL_API_KEY;
+export interface TeamDetails {
+  id: string;
+  name: string;
+  code: string;
+  crest: string;
+}
 
-/**
- * Headers padrão para todas as requisições
- */
-const headers = {
-  'x-apisports-key': API_KEY || '',
-  'x-rapidapi-host': 'v3.football.api-sports.io'
-};
+export interface StandingTableEntry {
+  position: number;
+  team: TeamDetails;
+  playedGames: number;
+  won: number;
+  draw: number;
+  lost: number;
+  points: number;
+  goalsFor: number;
+  goalsAgainst: number;
+  goalDifference: number;
+}
 
-/**
- * Busca jogadores de uma seleção específica
- * @param {number} teamId - ID da seleção na API-Football
- * @param {number} season - Temporada (ex: 2024 para dados atuais)
- */
-export async function getPlayersByTeam(teamId: number, season: number = 2024) {
-  if (!API_KEY) {
-    throw new Error('API Key da API-Football não configurada no .env');
-  }
+export interface StandingGroup {
+  stage: string;
+  type: string;
+  group: string;
+  table: StandingTableEntry[];
+}
 
-  try {
-    const response = await fetch(`${BASE_URL}/players?team=${teamId}&season=${season}`, {
-      method: 'GET',
-      headers: headers,
-    });
+export interface StandingsResponse {
+  standings: StandingGroup[];
+}
 
-    if (!response.ok) {
-      throw new Error(`Erro na API: ${response.statusText}`);
-    }
+export interface MatchScore {
+  winner: string | null;
+  duration: 'REGULAR' | 'EXTRA_TIME' | 'PENALTY_SHOOTOUT';
+  fullTime: {
+    home: number | null;
+    away: number | null;
+  };
+}
 
-    const data = await response.json();
-    
-    if (data.errors && Object.keys(data.errors).length > 0) {
-      throw new Error(`Erro da API: ${JSON.stringify(data.errors)}`);
-    }
+export interface MatchEntry {
+  id: number;
+  utcDate: string;
+  status: 'SCHEDULED' | 'TIMED' | 'LIVE' | 'IN_PLAY' | 'PAUSED' | 'FINISHED' | 'POSTPONED' | 'CANCELLED';
+  matchday: number | null;
+  stage: string;
+  group: string | null;
+  homeTeam: TeamDetails;
+  awayTeam: TeamDetails;
+  score: MatchScore;
+  venue?: string;
+}
 
-    return data.response; // Retorna a lista de jogadores com estatísticas
-  } catch (error) {
-    console.error('Erro ao buscar jogadores:', error);
-    throw error;
-  }
+export interface MatchesResponse {
+  matches: MatchEntry[];
+}
+
+export interface TelemetryResponse {
+  apiStatus: 'Ativo' | 'Não Configurado' | 'Erro Externo' | 'Limite Excedido';
+  lastUpdate: string;
+  requestsCount: number;
+  requestsLimit: number;
+  requestsRemaining: number;
+  usingMock: boolean;
 }
 
 /**
- * Lista de IDs de algumas seleções principais na API-Football (exemplo)
- * Brasil: 6, Argentina: 26, França: 2, Alemanha: 25, Portugal: 27, México: 16
+ * Busca os detalhes gerais da competição Copa do Mundo
  */
-export const WORLD_CUP_TEAMS = [
-  { id: 6, name: 'Brasil', flag: 'https://flagcdn.com/br.svg' },
-  { id: 26, name: 'Argentina', flag: 'https://flagcdn.com/ar.svg' },
-  { id: 2, name: 'França', flag: 'https://flagcdn.com/fr.svg' },
-  { id: 25, name: 'Alemanha', flag: 'https://flagcdn.com/de.svg' },
-  { id: 27, name: 'Portugal', flag: 'https://flagcdn.com/pt.svg' },
-  { id: 16, name: 'México', flag: 'https://flagcdn.com/mx.svg' },
-  { id: 9, name: 'Espanha', flag: 'https://flagcdn.com/es.svg' },
-  { id: 10, name: 'Inglaterra', flag: 'https://flagcdn.com/gb-eng.svg' },
-  { id: 15, name: 'Uruguai', flag: 'https://flagcdn.com/uy.svg' },
-  { id: 24, name: 'Bélgica', flag: 'https://flagcdn.com/be.svg' },
-];
+export async function getCompetitionDetails(forceRefresh: boolean = false): Promise<any> {
+  const url = `/api/football-data?endpoint=competition${forceRefresh ? '&refresh=true' : ''}`;
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error('Falha ao obter detalhes da competição');
+  }
+  return response.json();
+}
+
+/**
+ * Busca a classificação dos grupos em tempo real
+ */
+export async function getStandings(forceRefresh: boolean = false): Promise<StandingsResponse> {
+  const url = `/api/football-data?endpoint=standings${forceRefresh ? '&refresh=true' : ''}`;
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error('Falha ao obter classificação de grupos');
+  }
+  return response.json();
+}
+
+/**
+ * Busca a lista de jogos e resultados (eliminatórios e fase de grupos)
+ */
+export async function getMatches(forceRefresh: boolean = false): Promise<MatchesResponse> {
+  const url = `/api/football-data?endpoint=matches${forceRefresh ? '&refresh=true' : ''}`;
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error('Falha ao obter lista de partidas');
+  }
+  return response.json();
+}
+
+/**
+ * Busca a telemetria e integridade da API para o painel de depuração
+ */
+export async function getTelemetry(): Promise<TelemetryResponse> {
+  const url = `/api/football-data?endpoint=telemetry`;
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error('Falha ao obter telemetria de depuração');
+  }
+  return response.json();
+}

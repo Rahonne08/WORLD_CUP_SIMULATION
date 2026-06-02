@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Trophy, Home, Users, LayoutGrid, Calculator, BookOpen } from 'lucide-react';
+import { Trophy, Home, Users, LayoutGrid, Calculator, BookOpen, Calendar } from 'lucide-react';
 import { LoginButton } from './LoginButton';
 
 export function Navbar() {
@@ -16,6 +16,9 @@ export function Navbar() {
           </Link>
           <Link href="/teams" className="hover:text-green-400 transition-colors flex items-center gap-2">
             <Users className="h-4 w-4" /> Seleções
+          </Link>
+          <Link href="/matches" className="hover:text-green-400 transition-colors flex items-center gap-2">
+            <Calendar className="h-4 w-4" /> Jogos
           </Link>
           <Link href="/groups" className="hover:text-green-400 transition-colors flex items-center gap-2">
             <LayoutGrid className="h-4 w-4" /> Grupos
@@ -38,6 +41,9 @@ export function Navbar() {
         </Link>
         <Link href="/teams" className="flex flex-col items-center gap-1 text-xs text-gray-400 hover:text-green-400">
           <Users className="h-5 w-5" /> Seleções
+        </Link>
+        <Link href="/matches" className="flex flex-col items-center gap-1 text-xs text-gray-400 hover:text-green-400">
+          <Calendar className="h-5 w-5" /> Jogos
         </Link>
         <Link href="/groups" className="flex flex-col items-center gap-1 text-xs text-gray-400 hover:text-green-400">
           <LayoutGrid className="h-5 w-5" /> Grupos
