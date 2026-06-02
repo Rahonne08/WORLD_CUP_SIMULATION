@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Trophy, Home, Users, LayoutGrid, Calculator, BookOpen } from 'lucide-react';
+import { LoginButton } from './LoginButton';
 
 export function Navbar() {
   return (
@@ -26,7 +27,9 @@ export function Navbar() {
             <BookOpen className="h-4 w-4" /> Regulamento
           </Link>
         </div>
-        {/* Mobile menu could be added here */}
+        <div className="flex items-center">
+          <LoginButton />
+        </div>
       </div>
       {/* Mobile Bottom Nav */}
       <div className="md:hidden fixed bottom-0 left-0 right-0 border-t border-gray-800 bg-gray-950 flex justify-around items-center h-16 px-2 z-50">

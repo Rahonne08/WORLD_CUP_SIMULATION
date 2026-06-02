@@ -2,14 +2,20 @@
 
 import { useAppStore } from '@/lib/store';
 import Image from 'next/image';
-import { RefreshCw, Play, Dices } from 'lucide-react';
+import { RefreshCw, Play, Dices, Save, CloudDownload } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { KnockoutBracket } from '@/components/KnockoutBracket';
+import { useAuth } from '@/components/AuthProvider';
+import { handleFirestoreError, OperationType, db } from '@/lib/firebase';
+import { doc, setDoc, getDoc, serverTimestamp } from 'firebase/firestore';
 
 export default function SimulatorPage() {
-  const { matches, knockoutMatches, teams, updateMatchScore, resetSimulation, getGroupStats, generateKnockoutStage, randomizeGroupMatches } = useAppStore();
+  const { matches, knockoutMatches, championId, teams, updateMatchScore, resetSimulation, getGroupStats, generateKnockoutStage, randomizeGroupMatches, loadSimulation } = useAppStore();
   const groups = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];
   const [activeTab, setActiveTab] = useState<'groups' | 'knockout'>('groups');
+  const { user } = useAuth();
+  const [isSaving, setIsSaving] = useState(false);
+  const [isLoadingFromCloud, setIsLoadingFromCloud] = useState(false);
 
   // Automatically generate knockout stage when all group matches are played
   useEffect(() => {
@@ -31,6 +37,60 @@ export default function SimulatorPage() {
     }
   };
 
+  const handleLoadSimulation = async () => {
+    if (!user) return;
+    setIsLoadingFromCloud(true);
+    try {
+      const docRef = doc(db, 'simulations', `${user.uid}-latest`);
+      const docSnap = await getDoc(docRef);
+      if (docSnap.exists()) {
+        const data = docSnap.data();
+        const state = JSON.parse(data.state);
+        loadSimulation(state);
+      } else {
+        alert("Nenhuma simulação salva encontrada.");
+      }
+    } catch (error) {
+      handleFirestoreError(error, OperationType.GET, 'simulations');
+      alert("Erro ao carregar simulação.");
+    } finally {
+      setIsLoadingFromCloud(false);
+    }
+  };
+
+  const handleSaveSimulation = async () => {
+    if (!user) {
+      alert("Você precisa estar logado para salvar a simulação.");
+      return;
+    }
+
+    setIsSaving(true);
+    try {
+      const stateToSave = {
+        matches,
+        knockoutMatches,
+        championId
+      };
+      
+      const simulationId = `${user.uid}-latest`;
+      const docRef = doc(db, 'simulations', simulationId);
+      
+      await setDoc(docRef, {
+        userId: user.uid,
+        state: JSON.stringify(stateToSave),
+        createdAt: serverTimestamp(),
+        updatedAt: serverTimestamp()
+      }, { merge: true });
+      
+      alert("Simulação salva com sucesso!");
+    } catch (error) {
+      handleFirestoreError(error, OperationType.WRITE, 'simulations');
+      alert("Erro ao salvar simulação.");
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
   return (
     <div className="flex flex-col gap-8">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
@@ -38,7 +98,7 @@ export default function SimulatorPage() {
           <h1 className="text-3xl font-bold text-white mb-2">Simulador de Partidas</h1>
           <p className="text-gray-400">Insira os resultados e veja a tabela atualizar em tempo real.</p>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 flex-wrap">
           <button 
             onClick={randomizeGroupMatches}
             className="flex items-center gap-2 px-4 py-2 bg-blue-900/50 text-blue-400 border border-blue-800 rounded-lg hover:bg-blue-800/50 transition-colors"
@@ -54,6 +114,26 @@ export default function SimulatorPage() {
             <RefreshCw className="h-4 w-4" />
             <span className="hidden sm:inline">Resetar</span>
           </button>
+          {user && (
+            <>
+              <button 
+                onClick={handleLoadSimulation}
+                disabled={isLoadingFromCloud}
+                className={`flex items-center gap-2 px-4 py-2 bg-indigo-900/50 text-indigo-400 border border-indigo-800 rounded-lg transition-colors ${isLoadingFromCloud ? 'opacity-50 cursor-not-allowed' : 'hover:bg-indigo-800/50'}`}
+              >
+                <CloudDownload className="h-4 w-4" />
+                <span className="hidden sm:inline">{isLoadingFromCloud ? 'Carregando...' : 'Carregar'}</span>
+              </button>
+              <button 
+                onClick={handleSaveSimulation}
+                disabled={isSaving}
+                className={`flex items-center gap-2 px-4 py-2 bg-amber-900/50 text-amber-400 border border-amber-800 rounded-lg transition-colors ${isSaving ? 'opacity-50 cursor-not-allowed' : 'hover:bg-amber-800/50'}`}
+              >
+                <Save className="h-4 w-4" />
+                <span className="hidden sm:inline">{isSaving ? 'Salvando...' : 'Salvar'}</span>
+              </button>
+            </>
+          )}
           {activeTab === 'groups' && (
             <button 
               onClick={() => {

@@ -156,87 +156,55 @@ export function TeamModal({ team, onClose }: TeamModalProps) {
               </div>
             </div>
 
-            {/* 3. Melhores Jogadores (Carousel) */}
+            {/* 3. Convocados (Sem fotos) */}
             <div className="bg-gray-800 p-6 rounded-xl border border-gray-700 md:col-span-2 relative">
-              <h3 className="text-xl font-bold text-yellow-400 mb-6 flex items-center gap-2">⭐ Principais Jogadores</h3>
+              <h3 className="text-xl font-bold text-yellow-400 mb-6 flex items-center gap-2">⭐ Convocados</h3>
               {details.players.length > 0 ? (
-                <div className="relative overflow-hidden px-12">
-                  <div className="flex justify-center">
-                    <AnimatePresence mode="wait">
-                      <motion.div
-                        key={activePlayerIdx}
-                        initial={{ opacity: 0, x: 50 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        exit={{ opacity: 0, x: -50 }}
-                        transition={{ duration: 0.3 }}
-                        className="w-full max-w-lg bg-gray-900/50 border border-gray-700 p-6 rounded-2xl shadow-xl"
-                      >
-                        <div className="flex items-center gap-4 mb-6">
-                          {currentPlayer?.image ? (
-                            <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-yellow-500/30 shrink-0">
-                              <Image 
-                                src={currentPlayer.image} 
-                                alt={currentPlayer.name} 
-                                fill 
-                                className="object-cover"
-                                referrerPolicy="no-referrer"
-                              />
+                <div className="space-y-6">
+                  {['Goleiro', 'Defensor', 'Meio-campista', 'Meia/Atacante', 'Atacante'].map(pos => {
+                    const posPlayers = details.players.filter(p => {
+                      if (pos === 'Goleiro') return p.position === 'Goleiro' || p.position === 'Goleiros';
+                      if (pos === 'Defensor') return p.position === 'Defensor' || p.position === 'Defensores' || p.position === 'Zagueiro' || p.position === 'Lateral';
+                      if (pos === 'Meio-campista') return p.position === 'Meio-campista' || p.position === 'Meio-campistas' || p.position === 'Meia';
+                      if (pos === 'Meia/Atacante') return p.position === 'Meia/Atacante' || p.position === 'Meias/Atacantes' || p.position === 'Meias/Atacante';
+                      if (pos === 'Atacante') return p.position === 'Atacante' || p.position === 'Atacantes';
+                      return false;
+                    });
+                    
+                    if (posPlayers.length === 0) return null;
+                    
+                    return (
+                      <div key={pos}>
+                        <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-3 border-b border-gray-700 pb-1">{pos}s</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {posPlayers.map((player, idx) => (
+                            <div key={idx} className="bg-gray-900/50 px-3 py-1.5 rounded-lg border border-gray-700/50 flex items-center">
+                              <span className="text-sm font-bold text-gray-200">{player.name}</span>
                             </div>
-                          ) : (
-                            <div className="w-14 h-14 rounded-full bg-yellow-500/10 flex items-center justify-center text-yellow-500 font-bold text-2xl border border-yellow-500/20 shrink-0">
-                              {activePlayerIdx === 0 ? '🥇' : activePlayerIdx === 1 ? '🥈' : '🥉'}
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })}
+                  
+                  {/* Any players without a matching category */}
+                  {details.players.filter(p => !p.position || !['Goleiro', 'Goleiros', 'Defensor', 'Defensores', 'Zagueiro', 'Lateral', 'Meio-campista', 'Meio-campistas', 'Meia', 'Meia/Atacante', 'Meias/Atacantes', 'Meias/Atacante', 'Atacante', 'Atacantes'].includes(p.position)).length > 0 && (
+                     <div>
+                        <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-3 border-b border-gray-700 pb-1">Outros</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {details.players.filter(p => !p.position || !['Goleiro', 'Goleiros', 'Defensor', 'Defensores', 'Zagueiro', 'Lateral', 'Meio-campista', 'Meio-campistas', 'Meia', 'Meia/Atacante', 'Meias/Atacantes', 'Meias/Atacante', 'Atacante', 'Atacantes'].includes(p.position)).map((player, idx) => (
+                            <div key={idx} className="bg-gray-900/50 px-3 py-1.5 rounded-lg border border-gray-700/50 flex items-center gap-2">
+                              <span className="text-sm font-bold text-gray-200">{player.name}</span>
+                              {player.position && <span className="text-xs text-gray-500 font-mono">{player.position}</span>}
                             </div>
-                          )}
-                          <div>
-                            <p className="font-black text-white text-xl tracking-tight">{currentPlayer?.name}</p>
-                            <p className="text-xs text-gray-500 uppercase tracking-widest font-mono font-bold">{currentPlayer?.position}</p>
-                          </div>
+                          ))}
                         </div>
-                        <div className="space-y-4">
-                          <div className="flex items-center gap-3 text-sm">
-                            <span className="text-gray-500 font-medium">Clube Atual:</span>
-                            <span className="text-gray-200 font-bold bg-gray-800 px-2.5 py-1 rounded-lg border border-gray-700">{currentPlayer?.club}</span>
-                          </div>
-                          <div className="bg-gray-800/80 p-4 rounded-xl border border-gray-700/50 relative">
-                            <span className="absolute -top-3 left-4 text-2xl text-yellow-500/20 font-serif">“</span>
-                            <p className="text-sm text-gray-300 leading-relaxed italic">
-                              {currentPlayer?.highlight}
-                            </p>
-                            <span className="absolute -bottom-6 right-4 text-2xl text-yellow-500/20 font-serif">”</span>
-                          </div>
-                        </div>
-                      </motion.div>
-                    </AnimatePresence>
-                  </div>
-
-                  {/* Navigation Buttons */}
-                  <button
-                    onClick={prevPlayer}
-                    className="absolute left-0 top-1/2 -translate-y-1/2 p-3 text-gray-400 hover:text-yellow-400 hover:bg-gray-700/50 rounded-full transition-all border border-transparent hover:border-yellow-500/30"
-                  >
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" /></svg>
-                  </button>
-                  <button
-                    onClick={nextPlayer}
-                    className="absolute right-0 top-1/2 -translate-y-1/2 p-3 text-gray-400 hover:text-yellow-400 hover:bg-gray-700/50 rounded-full transition-all border border-transparent hover:border-yellow-500/30"
-                  >
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-                  </button>
-
-                  {/* Indicators */}
-                  <div className="flex justify-center gap-2 mt-6">
-                    {details.players.map((_, i) => (
-                      <button
-                        key={i}
-                        onClick={() => setActivePlayerIdx(i)}
-                        className={`h-1.5 rounded-full transition-all ${i === activePlayerIdx ? 'w-8 bg-yellow-500' : 'w-2 bg-gray-700'}`}
-                      />
-                    ))}
-                  </div>
+                     </div>
+                  )}
                 </div>
               ) : (
                 <div className="text-center py-8 bg-gray-900/30 rounded-xl border border-dashed border-gray-700">
-                  <p className="text-gray-500 text-sm italic">Informações dos jogadores em breve.</p>
+                  <p className="text-gray-500 text-sm italic">Lista de convocados em breve.</p>
                 </div>
               )}
             </div>

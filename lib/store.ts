@@ -200,6 +200,7 @@ interface AppState {
   selectKnockoutWinner: (matchId: string, winnerId: string) => void;
   generateKnockoutStage: () => void;
   resetSimulation: () => void;
+  loadSimulation: (data: { matches: Match[], knockoutMatches: KnockoutMatch[], championId: string | null }) => void;
   randomizeGroupMatches: () => void;
   simulateFromMatch: (matchId: string) => void;
   getGroupStats: (group: string) => TeamStats[];
@@ -298,6 +299,7 @@ export const useAppStore = create<AppState>((set, get) => ({
     return { knockoutMatches: newKnockout, championId: null };
   }),
   resetSimulation: () => set({ matches: generateInitialMatches(), knockoutMatches: generateInitialKnockout(), championId: null }),
+  loadSimulation: (data) => set({ matches: data.matches, knockoutMatches: data.knockoutMatches, championId: data.championId }),
   randomizeGroupMatches: () => set((state) => {
     const newMatches = state.matches.map(m => ({
       ...m,
