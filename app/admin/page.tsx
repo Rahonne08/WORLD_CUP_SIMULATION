@@ -108,7 +108,9 @@ export default function AdminPage() {
                   <div className="flex items-center gap-2 mt-1">
                     <span className={`h-3.5 w-3.5 rounded-full ${
                       telemetry?.apiStatus === 'Ativo' ? 'bg-green-500 animate-pulse' :
-                      telemetry?.apiStatus === 'Limite Excedido' ? 'bg-yellow-500' : 'bg-red-500'
+                      telemetry?.apiStatus === 'Limite Excedido' ? 'bg-yellow-500' :
+                      telemetry?.apiStatus === 'Token Inválido' ? 'bg-red-500 animate-pulse' :
+                      telemetry?.apiStatus === 'Copa Não Iniciada' ? 'bg-orange-500' : 'bg-red-500'
                     }`} />
                     <span className="text-lg font-extrabold text-white">{telemetry?.apiStatus || 'Desconhecido'}</span>
                   </div>

@@ -8,7 +8,7 @@ const CACHE_TTL_MS = 5 * 60 * 1000; // 5 minutes cache TTL
 const BASE_URL = 'https://api.football-data.org/v4';
 
 interface Telemetry {
-  apiStatus: 'Ativo' | 'Não Configurado' | 'Erro Externo' | 'Limite Excedido';
+  apiStatus: 'Ativo' | 'Não Configurado' | 'Erro Externo' | 'Limite Excedido' | 'Copa Não Iniciada' | 'Token Inválido';
   lastUpdate: string;
   requestsCount: number;
   requestsLimit: number;
@@ -132,6 +132,75 @@ function saveCache(store: CacheStore) {
     fs.writeFileSync(CACHE_FILE, JSON.stringify(store, null, 2), 'utf-8');
   } catch (err) {
     console.error('Failed to write filesystem cache:', err);
+  }
+}
+
+function simulateLiveAction(cacheStore: CacheStore) {
+  if (!cacheStore.matches?.matches) {
+    cacheStore.matches = { matches: generateMockMatches() };
+  }
+  
+  let changed = false;
+  const groupMatches = cacheStore.matches.matches.filter((m: any) => m.stage === 'GROUP_STAGE' && (m.status === 'TIMED' || m.status === 'IN_PLAY'));
+  
+  if (groupMatches.length > 0) {
+    for(let i=0; i<4; i++) {
+        if(groupMatches[i]) {
+            if (groupMatches[i].status !== 'IN_PLAY') {
+               groupMatches[i].status = 'IN_PLAY';
+               groupMatches[i].score.fullTime = { home: 0, away: 0 };
+               changed = true;
+            } else {
+               if (Math.random() < 0.2) {
+                  if (Math.random() < 0.5) groupMatches[i].score.fullTime.home++;
+                  else groupMatches[i].score.fullTime.away++;
+                  changed = true;
+               }
+            }
+        }
+    }
+  }
+
+  if (changed || !cacheStore.standings) {
+    const standingsMap = new Map();
+    const groups = ['A','B','C','D','E','F','G','H','I','J','K','L'];
+    groups.forEach(g => {
+       standingsMap.set(`GROUP_${g}`, INITIAL_TEAMS.filter(t => t.group === g).map(t => ({
+          position: 0,
+          team: { id: t.code, name: t.name, crest: t.flagUrl },
+          playedGames: 0, form: null, won: 0, draw: 0, lost: 0, points: 0, goalsFor: 0, goalsAgainst: 0, goalDifference: 0
+       })));
+    });
+
+    for (const m of cacheStore.matches.matches) {
+       if (m.stage === 'GROUP_STAGE' && m.group && m.score?.fullTime?.home !== null) {
+          const table = standingsMap.get(m.group);
+          if (!table) continue;
+          const hTeam = table.find((t:any) => t.team.id === m.homeTeam.id);
+          const aTeam = table.find((t:any) => t.team.id === m.awayTeam.id);
+          if (!hTeam || !aTeam) continue;
+          
+          hTeam.playedGames++; aTeam.playedGames++;
+          hTeam.goalsFor += m.score.fullTime.home; hTeam.goalsAgainst += m.score.fullTime.away;
+          hTeam.goalDifference = hTeam.goalsFor - hTeam.goalsAgainst;
+          
+          aTeam.goalsFor += m.score.fullTime.away; aTeam.goalsAgainst += m.score.fullTime.home;
+          aTeam.goalDifference = aTeam.goalsFor - aTeam.goalsAgainst;
+
+          if (m.score.fullTime.home > m.score.fullTime.away) { hTeam.won++; hTeam.points+=3; aTeam.lost++; }
+          else if (m.score.fullTime.home < m.score.fullTime.away) { aTeam.won++; aTeam.points+=3; hTeam.lost++; }
+          else { hTeam.draw++; aTeam.draw++; hTeam.points+=1; aTeam.points+=1; }
+       }
+    }
+
+    const finalStandings = [];
+    for (const [groupStr, table] of Array.from(standingsMap.entries())) {
+       table.sort((a:any,b:any) => b.points - a.points || b.goalDifference - a.goalDifference || b.goalsFor - a.goalsFor);
+       table.forEach((t:any, i:number) => t.position = i+1);
+       finalStandings.push({ stage: 'GROUP_STAGE', type: 'TOTAL', group: groupStr, table });
+    }
+    
+    cacheStore.standings = { standings: finalStandings };
   }
 }
 
@@ -338,10 +407,29 @@ export async function GET(request: NextRequest) {
   const forceRefresh = searchParams.get('refresh') === 'true';
 
   let cacheStore = readCache();
-  const apiKey = process.env.FOOTBALL_DATA_API_KEY;
+  const apiKey = (process.env.FOOTBALL_DATA_API_KEY || '').trim();
 
   if (endpoint === 'telemetry') {
     return NextResponse.json(cacheStore.telemetry);
+  }
+
+  if (!apiKey) {
+    if (endpoint === 'competition') {
+      if (!cacheStore.competition) cacheStore.competition = generateMockCompetition();
+    } else if (endpoint === 'standings' || endpoint === 'matches') {
+      simulateLiveAction(cacheStore);
+    }
+    
+    cacheStore.telemetry.apiStatus = 'Não Configurado';
+    cacheStore.telemetry.usingMock = true;
+    cacheStore.telemetry.lastUpdate = new Date().toISOString();
+    saveCache(cacheStore);
+    
+    if (endpoint === 'competition') return NextResponse.json(cacheStore.competition);
+    if (endpoint === 'standings') return NextResponse.json(cacheStore.standings);
+    if (endpoint === 'matches') return NextResponse.json(cacheStore.matches);
+    
+    return NextResponse.json({ error: 'Endpoint inválido' }, { status: 400 });
   }
 
   // Validate endpoint
@@ -370,9 +458,11 @@ export async function GET(request: NextRequest) {
       usingMock: true
     };
 
-    if (endpoint === 'competition') cacheStore.competition = generateMockCompetition();
-    if (endpoint === 'standings') cacheStore.standings = generateMockStandings();
-    if (endpoint === 'matches') cacheStore.matches = { matches: generateMockMatches() };
+    if (endpoint === 'competition') {
+      if (!cacheStore.competition) cacheStore.competition = generateMockCompetition();
+    } else {
+      simulateLiveAction(cacheStore);
+    }
     
     cacheStore.timestamps[endpoint as 'competition' | 'standings' | 'matches'] = now;
     saveCache(cacheStore);
@@ -405,21 +495,21 @@ export async function GET(request: NextRequest) {
       cacheStore.telemetry.apiStatus = 'Limite Excedido';
       saveCache(cacheStore);
 
-      // Return cached data if exists, otherwise fallback to mock
-      if (cacheStore[endpoint as 'competition' | 'standings' | 'matches']) {
-        return NextResponse.json(cacheStore[endpoint as 'competition' | 'standings' | 'matches']);
+      if (endpoint === 'competition') {
+        if (!cacheStore.competition) cacheStore.competition = generateMockCompetition();
+      } else {
+        simulateLiveAction(cacheStore);
       }
-      
-      // Fallback
-      let fallbackData;
-      if (endpoint === 'competition') fallbackData = generateMockCompetition();
-      if (endpoint === 'standings') fallbackData = generateMockStandings();
-      if (endpoint === 'matches') fallbackData = { matches: generateMockMatches() };
-      return NextResponse.json(fallbackData);
+      saveCache(cacheStore);
+      return NextResponse.json(cacheStore[endpoint as 'competition' | 'standings' | 'matches']);
     }
 
     if (!res.ok) {
-      throw new Error(`Erro HTTP ${res.status}: ${res.statusText}`);
+      let errorDetail = '';
+      try {
+        errorDetail = await res.text();
+      } catch (_) {}
+      throw new Error(`Erro HTTP ${res.status}: ${res.statusText} - Detalhes: ${errorDetail}`);
     }
 
     const apiResponseData = await res.json();
@@ -435,22 +525,32 @@ export async function GET(request: NextRequest) {
 
     return NextResponse.json(apiResponseData);
   } catch (error: any) {
-    console.error(`Falha ao buscar dados na Football-Data API (${endpoint}):`, error);
+    const invalidToken = error.message?.includes('token is invalid') || error.message?.includes('Erro HTTP 400');
+    const isExpectedRestricted = error.message?.includes('Erro HTTP 403');
+    if (invalidToken) {
+      // expected error when API is configured with an invalid token
+      cacheStore.telemetry.apiStatus = 'Token Inválido';
+      cacheStore.telemetry.usingMock = true;
+    } else if (isExpectedRestricted) {
+      // expected error 
+      cacheStore.telemetry.apiStatus = 'Copa Não Iniciada';
+      cacheStore.telemetry.usingMock = true;
+    } else {
+      console.error(`Falha ao buscar dados na Football-Data API (${endpoint}):`, error);
+      cacheStore.telemetry.apiStatus = 'Erro Externo';
+      cacheStore.telemetry.usingMock = true;
+    }
     
-    // Log telemetry error status gracefully
-    cacheStore.telemetry.apiStatus = 'Erro Externo';
     saveCache(cacheStore);
 
-    // Fallback gracefully to cache or high fidelity mock so client never breaks
-    if (cacheStore[endpoint as 'competition' | 'standings' | 'matches']) {
-      return NextResponse.json(cacheStore[endpoint as 'competition' | 'standings' | 'matches']);
+    if (endpoint === 'competition') {
+      if (!cacheStore.competition) cacheStore.competition = generateMockCompetition();
+    } else {
+      simulateLiveAction(cacheStore);
     }
-
-    let fallbackData;
-    if (endpoint === 'competition') fallbackData = generateMockCompetition();
-    if (endpoint === 'standings') fallbackData = generateMockStandings();
-    if (endpoint === 'matches') fallbackData = { matches: generateMockMatches() };
     
-    return NextResponse.json(fallbackData);
+    // Fallback gracefully to cache or high fidelity mock so client never breaks
+    saveCache(cacheStore);
+    return NextResponse.json(cacheStore[endpoint as 'competition' | 'standings' | 'matches']);
   }
 }

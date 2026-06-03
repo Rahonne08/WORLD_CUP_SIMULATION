@@ -84,20 +84,7 @@ export function TeamModal({ team, onClose }: TeamModalProps) {
             {/* 1. Técnico */}
             <div className="bg-gray-800 p-5 rounded-xl border border-gray-700">
               <h3 className="text-lg font-bold text-purple-400 mb-4 flex items-center gap-2">🧑‍🏫 Técnico</h3>
-              <div className="flex items-start gap-4">
-                <div className="w-16 h-16 rounded-full bg-purple-500/10 flex items-center justify-center text-2xl overflow-hidden border border-purple-500/20 relative">
-                  {details.coach.image ? (
-                    <Image
-                      src={details.coach.image}
-                      alt={details.coach.name}
-                      fill
-                      className="object-cover"
-                      referrerPolicy="no-referrer"
-                    />
-                  ) : (
-                    "👔"
-                  )}
-                </div>
+              <div className="flex flex-col gap-2">
                 <div>
                   <p className="text-white font-bold text-lg">{details.coach.name}</p>
                   <p className="text-gray-400 text-sm">{details.coach.nationality} • {details.coach.age} anos</p>
@@ -176,10 +163,11 @@ export function TeamModal({ team, onClose }: TeamModalProps) {
                     return (
                       <div key={pos}>
                         <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-3 border-b border-gray-700 pb-1">{pos}s</h4>
-                        <div className="flex flex-wrap gap-2">
+                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                           {posPlayers.map((player, idx) => (
-                            <div key={idx} className="bg-gray-900/50 px-3 py-1.5 rounded-lg border border-gray-700/50 flex items-center">
-                              <span className="text-sm font-bold text-gray-200">{player.name}</span>
+                            <div key={idx} className="bg-gray-900/80 p-4 rounded-xl border border-gray-700 hover:border-gray-500 transition-all shadow-sm flex flex-col justify-center">
+                              <span className="text-sm font-bold text-gray-100 truncate">{player.name}</span>
+                              <span className="text-[10px] text-gray-500 font-mono mt-1 uppercase tracking-wider">{pos}</span>
                             </div>
                           ))}
                         </div>
@@ -191,11 +179,11 @@ export function TeamModal({ team, onClose }: TeamModalProps) {
                   {details.players.filter(p => !p.position || !['Goleiro', 'Goleiros', 'Defensor', 'Defensores', 'Zagueiro', 'Lateral', 'Meio-campista', 'Meio-campistas', 'Meia', 'Meia/Atacante', 'Meias/Atacantes', 'Meias/Atacante', 'Atacante', 'Atacantes'].includes(p.position)).length > 0 && (
                      <div>
                         <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-3 border-b border-gray-700 pb-1">Outros</h4>
-                        <div className="flex flex-wrap gap-2">
+                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
                           {details.players.filter(p => !p.position || !['Goleiro', 'Goleiros', 'Defensor', 'Defensores', 'Zagueiro', 'Lateral', 'Meio-campista', 'Meio-campistas', 'Meia', 'Meia/Atacante', 'Meias/Atacantes', 'Meias/Atacante', 'Atacante', 'Atacantes'].includes(p.position)).map((player, idx) => (
-                            <div key={idx} className="bg-gray-900/50 px-3 py-1.5 rounded-lg border border-gray-700/50 flex items-center gap-2">
-                              <span className="text-sm font-bold text-gray-200">{player.name}</span>
-                              {player.position && <span className="text-xs text-gray-500 font-mono">{player.position}</span>}
+                            <div key={idx} className="bg-gray-900/80 p-4 rounded-xl border border-gray-700 hover:border-gray-500 transition-all shadow-sm flex flex-col justify-center">
+                              <span className="text-sm font-bold text-gray-100 truncate">{player.name}</span>
+                              <span className="text-[10px] text-gray-500 font-mono mt-1 uppercase tracking-wider">{player.position || 'Outro'}</span>
                             </div>
                           ))}
                         </div>

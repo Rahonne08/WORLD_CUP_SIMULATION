@@ -62,7 +62,7 @@ export interface MatchesResponse {
 }
 
 export interface TelemetryResponse {
-  apiStatus: 'Ativo' | 'Não Configurado' | 'Erro Externo' | 'Limite Excedido';
+  apiStatus: 'Ativo' | 'Não Configurado' | 'Erro Externo' | 'Limite Excedido' | 'Token Inválido' | 'Copa Não Iniciada';
   lastUpdate: string;
   requestsCount: number;
   requestsLimit: number;
